@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wechseljahre Farben</title>
+  <style>
+    :root {
+      --blue-central: #7DABD8;
+      --blue-bright: #ABDCF4;
+      --blue-box: #75A4D2;
+      --blue-link: #7DABD8;
+
+      --brown-logo: #BA9586;
+      --brown-box: #B9A587;
+      --brown-heading: #B9A587;
+      --brown-link: #B9A587;
+    }
+
+    body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      color: #333;
+    }
+
+    .container {
+      box-sizing: content-box;
+      margin-inline: auto;
+      max-inline-size: 900px;
+    }
+    .stripe {
+      background-color: var(--blue-central);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo-container {
+      display: flex;
+    }
+    .logo-container h1 {
+      color: var(--blue-central);
+    }
+    .margin-bottom {
+      margin-bottom: 40px;
+    }
+    .article h2 {
+      color: var(--brown-heading);
+    }
+    .article li {
+      color: var(--blue-link);
+      text-decoration: underline;
+    }
+    .link-blue {
+      color: var(--blue-link);
+    }
+    .link-brown {
+      color: var(--brown-link);
+    }
+    .teaser-text h3 {
+      color: var(--blue-central);
+    }
+    .teaser-diff span {
+      background-color: var(--blue-central);
+      color: white;
+      padding: 7px;
+    }
+    .box-q {
+      background-color: var(--brown-box);
+      padding: 10px;
+    }
+    .box-q h3 {
+      color: white;
+    }
+    .box-f {
+      background-color: var(--blue-box);
+      padding: 10px;
+    }
+    .box-f h3 {
+      color: white;
+    }
+    .switcher {
+      background-color: black;;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 40px;
+    }
+    .switcher button {
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="switcher">
+  <button id="standard">Bisheriges Farbschema</button><button id="new">Neues Farbschema</button>
+</div>
+
+<div class="container">
+  <div class="stripe">Text White</div>
+  <div class="logo-container">
+    <svg width="100px" height="100px" viewBox="0 0 350 350">
+      <circle cx="240.149" cy="94.245" r="65.847" fill="var(--blue-bright)"/>
+      <circle cx="183.586" cy="230.992" r="65.847" fill="var(--brown-logo)"/>
+      <circle cx="104.085" cy="144.231" r="65.847" fill="var(--blue-central)"/>
+    </svg>
+    <h1>WECHSELJAHRE</h1>
+  </div>
+  <div class="article margin-bottom">
+    <h2>H2 Heading - Überschrift für Artikel</h2>
+    <p>Lorem ipsum dolor sit amet, <a class="link-blue" href="#">consetetur sadipscing elitr (LINK)</a>, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+    <ul>
+      <li>Link 1</li>
+      <li>Link 2</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, <a class="link-brown" href="#">consetetur sadipscing elitr (LINK)</a>, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+  </div>
+  <div class="teaser-text margin-bottom">
+    <h3>Teaser Text - Verlinkung zu anderem Artikel</h3>
+    <p>Lorem ipsum dolor sit amet</p>
+  </div>
+  <div class="teaser-diff margin-bottom">
+    <h3>Anderer Teaser</h3>
+    <span>Kategorie Box</span>
+  </div>
+  <div class="box-q margin-bottom">
+    <h3>Frage Box</h3>
+    <p>Lorem ipsum dolor sit amet</p>
+
+  </div>
+  <div class="box-f margin-bottom">
+    <h3>Forum Box</h3>
+    <p>Lorem ipsum dolor sit amet</p>
+
+  </div>
+</div>
+
+
+
+<script>
+  const root = document.documentElement;
+  document.getElementById("new").addEventListener("click", () => {
+    root.style.setProperty("--blue-central", "#2E5780");
+    root.style.setProperty("--blue-bright", "#ABDCF4");
+    root.style.setProperty("--blue-box", "#3070B0");
+    root.style.setProperty("--blue-link", "#3070B0");
+
+    // 8F6C4E = Farbton aus Marken-Dokument
+    root.style.setProperty("--brown-logo", "#8F6C4E");
+    root.style.setProperty("--brown-box", "#8F6C4E");
+    root.style.setProperty("--brown-heading", "#8F6C4E");
+    root.style.setProperty("--brown-link", "#8F6C4E");
+
+  });
+  document.getElementById("standard").addEventListener("click", () => {
+    root.style.setProperty("--blue-central", "#7DABD8");
+    root.style.setProperty("--blue-bright", "#ABDCF4");
+    root.style.setProperty("--blue-box", "#75A4D2");
+    root.style.setProperty("--blue-link", "#7DABD8");
+
+    root.style.setProperty("--brown-logo", "#BA9586");
+    root.style.setProperty("--brown-box", "#B9A587");
+    root.style.setProperty("--brown-heading", "#B9A587");
+    root.style.setProperty("--brown-link", "#B9A587");
+
+  });
+</script>
+</body>
+</html>
