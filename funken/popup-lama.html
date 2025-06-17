@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Lama</title>
+</head>
+
+<body>
+
+    <style>
+        #dbn_fm_modal {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.4rem;
+            max-width: 500px;
+            width: 90%;
+            padding: 1.3rem;
+            min-height: 250px;
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4vmin;
+            z-index: 5004000;
+            text-align: center;
+        }
+
+        #dbn_fm_button {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            padding: 0.06rem 0.06rem;
+            background: #00777a;
+            color: white;
+            border-radius: 50%;
+            cursor: pointer;
+            border: none;
+            font-weight: 600;
+            height: 2rem;
+            width: 2rem;
+            font-size: 1.2rem;
+            box-sizing: content-box;
+        }
+
+        #dbn_fm_overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(3px);
+            z-index: 5003000;
+        }
+
+        .dbn_fm_hidden {
+            display: none !important;
+        }
+    </style>
+    <div id="dbn_fm_modal" class="dbn_fm_hidden">
+        <h3>Liebe Nutzer*innen,</h3>
+        <p>unser Forum zieht momentan um.</p>
+        <p>Wir haben uns bemüht, das Forum noch schöner und besser für euch zu machen und alles bestmöglich
+            vorzubereiten.
+            <br />Dennoch kann es in nächster Zeit in dem ein oder anderen Bereich zu Verzögerungen, technischen
+            Problemen oder Fehlern kommen.
+            <br />Wir arbeiten mit Hochdruck daran.
+        </p>
+        <p>Danke im Voraus für eure Geduld.</p>
+        <p>Für alle aufkommenden Fragen von eurer Seite haben wir nach dem Umzug ein extra "Support&nbsp;Forum"
+            eingerichtet.
+        </p>
+        <p><strong>Das Schreiben und Kommentieren von Beiträgen wird am Freitag wieder möglich sein.</strong></p>
+        <!--
+  <p>danke, dass du so fleißig in unserem Forum unterwegs bist.</p>
+  <p>Um dir hier weiterhin eine gute Zeit bescheren zu können, wird unser Forum in den nächsten Wochen auf eine neue Software umgezogen.<br/>Leider kann es aktuell aufgrund der technischen Arbeiten dazu kommen, dass das System an der einen oder anderen Stelle hakt.</p><p>Wir bitten dies zu entschuldigen und arbeiten an einer Lösung.</p>
+-->
+        <!--
+  <p>Das Gofeminin-Forum zieht momentan um.</p>
+  <p>Das Forum wird im Laufe des Donnerstags wieder geöffnet.</p>
+   -->
+        <button id="dbn_fm_button">&#x2716;</button>
+    </div>
+    <div id="dbn_fm_overlay" class="dbn_fm_hidden"></div>
+    <script type="text/javascript">
+        (function () {
+            var modal = document.getElementById('dbn_fm_modal');
+            var overlay = document.getElementById('dbn_fm_overlay');
+            var button = document.getElementById('dbn_fm_button');
+
+            function showModal() {
+                modal.classList.remove('dbn_fm_hidden');
+                overlay.classList.remove('dbn_fm_hidden');
+            }
+
+            function hideModal() {
+                modal.classList.add('dbn_fm_hidden');
+                overlay.classList.add('dbn_fm_hidden');
+            }
+
+            function setCookie() {
+                var cookieName = 'dbn_fm_dv';
+                var cookieValue = 'true';
+                var expirationTime = 43200; // time for the cookie to expire - 12h = 43200s
+                // var expirationTime = 20;
+                expirationTime = expirationTime * 1000;
+                var date = new Date();
+                var dateTimeNow = date.getTime();
+
+                date.setTime(dateTimeNow + expirationTime);
+                var date = date.toUTCString();
+                console.log('1.0');
+                console.log(location.hostname.replace(/^www\./i, ''));
+                document.cookie = cookieName + '=' + cookieValue + '; SameSite=None; Secure; expires=' + date + '; path=/; domain=.gofeminin.de'; // exchange with current domain
+            }
+
+            function getCookie() {
+                var dc = document.cookie;
+                var prefix = 'dbn_fm_dv=';
+                var begin = dc.indexOf('; ' + prefix);
+                if (begin == -1) {
+                    begin = dc.indexOf(prefix);
+                    if (begin != 0) return null;
+                }
+                else {
+                    begin += 2;
+                    var end = document.cookie.indexOf(';', begin);
+                    if (end == -1) {
+                        end = dc.length;
+                    }
+                }
+                return decodeURI(dc.substring(begin + prefix.length, end));
+            }
+
+            button.addEventListener('click', hideModal);
+
+            if (!getCookie()) {
+                showModal();
+                setCookie();
+            }
+        })();
+    </script>
+
+
+
+</body>
+
+</html>
