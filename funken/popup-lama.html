@@ -106,7 +106,7 @@
             function setCookie() {
                 var cookieName = 'dbn_fm_dv';
                 var cookieValue = 'true';
-                var expirationTime = 43200; // time for the cookie to expire - 12h = 43200s
+                var expirationTime = 86400; // time for the cookie to expire - 12h = 43200s
                 // var expirationTime = 20;
                 expirationTime = expirationTime * 1000;
                 var date = new Date();
@@ -116,7 +116,7 @@
                 var date = date.toUTCString();
                 console.log('1.0');
                 console.log(location.hostname.replace(/^www\./i, ''));
-                document.cookie = cookieName + '=' + cookieValue + '; SameSite=None; Secure; expires=' + date + '; path=/; domain=.gofeminin.de'; // exchange with current domain
+                document.cookie = cookieName + '=' + cookieValue + '; SameSite=None; Secure; expires=' + date + '; path=/; domain=.hoerzu.de'; // exchange with current domain
             }
 
             function getCookie() {
@@ -140,8 +140,10 @@
             button.addEventListener('click', hideModal);
 
             if (!getCookie()) {
-                showModal();
-                setCookie();
+                setTimeout(function () {
+                    showModal();
+                    setCookie();
+                }, 15000); // 15 Sekunden
             }
         })();
     </script>
