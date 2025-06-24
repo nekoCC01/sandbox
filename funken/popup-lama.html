@@ -9,7 +9,7 @@
 
 <body>
 
-    <style>
+     <style>
         #dbn_fm_modal {
             display: flex;
             flex-direction: column;
@@ -73,6 +73,12 @@
             text-transform: uppercase;
             border-radius: 10px;
         }
+        #dbn_fm_anzeige {
+            position: absolute;
+            top: 20px; 
+            left: 20px;
+            font-size: smaller;
+        }
     </style>
     <div id="dbn_fm_modal" class="dbn_fm_hidden">
         <h3>Deine Meinung ist gefragt!</h3>
@@ -82,8 +88,9 @@
         <p>Mit dem Start dieser Umfrage willigst du ein, dass im Rahmen der Umfrage erhobene Daten in anonymisierter
             Form gespeichert werden. Diese Umfrage wird vollständig anonym durchgeführt, es werden keine
             personenbezogenen Daten erhoben, die eine Identifizierung deiner Person ermöglichen.</p><br>
-        <a id="dbn_fm_link_button" href="https://survey.lamapoll.de/Hanse-Merkur-Befragung-YWC-Kampagne-2025/">Hier
+        <a id="dbn_fm_link_button" href="https://survey.lamapoll.de/Hanse-Merkur-Befragung-YWC-Kampagne-2025/" target="_blank">Hier
             teilnehmen</a>
+            <div id="dbn_fm_anzeige">ANZEIGE</div>
         <button id="dbn_fm_button">&#x2716;</button>
     </div>
     <div id="dbn_fm_overlay" class="dbn_fm_hidden"></div>
