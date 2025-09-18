@@ -56,6 +56,9 @@
             font-size: 1.2rem;
             box-sizing: content-box;
         }
+        #dbn_fm_button:hover {
+            background-color: #1a9578;
+        }
 
         #dbn_fm_overlay {
             position: fixed;
@@ -113,6 +116,10 @@
             var modal = document.getElementById('dbn_fm_modal');
             var overlay = document.getElementById('dbn_fm_overlay');
             var button = document.getElementById('dbn_fm_button');
+            var linkButton = document.getElementById('dbn_fm_link_button');
+            var cookieName = 'dbn_fm_dv';
+            var fourWeeksInSeconds = 60 * 60 * 24 * 28;
+            var blockedExpiration = 60 * 60 * 24 * 365 * 10; // keep the block effectively permanent
 
             function showModal() {
                 modal.classList.remove('dbn_fm_hidden');
@@ -124,53 +131,36 @@
                 overlay.classList.add('dbn_fm_hidden');
             }
 
-            function setCookie() {
-                var cookieName = 'dbn_fm_dv';
-                var cookieValue = 'true';
-                var expirationTime = 86400; // time for the cookie to expire - 12h = 43200s
-                // var expirationTime = 20;
-                expirationTime = expirationTime * 1000;
+            function setCookie(cookieValue, expirationSeconds) {
                 var date = new Date();
-                var dateTimeNow = date.getTime();
-
-                date.setTime(dateTimeNow + expirationTime);
-                var date = date.toUTCString();
-                console.log('1.0');
-                console.log(location.hostname.replace(/^www\./i, ''));
-                document.cookie = cookieName + '=' + cookieValue + '; SameSite=None; Secure; expires=' + date + '; path=/; domain=.hoerzu.de'; // exchange with current domain
+                date.setTime(date.getTime() + expirationSeconds * 1000);
+                var expiresAt = date.toUTCString();
+                document.cookie = cookieName + '=' + encodeURIComponent(cookieValue) + '; SameSite=None; Secure; expires=' + expiresAt + '; path=/; domain=.hoerzu.de'; // exchange with current domain
             }
 
             function getCookie() {
-                var dc = document.cookie;
-                var prefix = 'dbn_fm_dv=';
-                var begin = dc.indexOf('; ' + prefix);
-                if (begin == -1) {
-                    begin = dc.indexOf(prefix);
-                    if (begin != 0) return null;
-                }
-                else {
-                    begin += 2;
-                    var end = document.cookie.indexOf(';', begin);
-                    if (end == -1) {
-                        end = dc.length;
-                    }
-                }
-                return decodeURI(dc.substring(begin + prefix.length, end));
+                var match = document.cookie.match(new RegExp('(?:^|; )' + cookieName + '=([^;]*)'));
+                return match ? decodeURIComponent(match[1]) : null;
             }
 
-            button.addEventListener('click', hideModal);
+            button.addEventListener('click', function () {
+                setCookie('blocked', blockedExpiration);
+                hideModal();
+            });
+
+            if (linkButton) {
+                linkButton.addEventListener('click', function () {
+                    setCookie('participated', fourWeeksInSeconds);
+                });
+            }
 
             if (!getCookie()) {
                 setTimeout(function () {
                     showModal();
-                    setCookie();
                 }, 1); // 15 Sekunden
             }
         })();
     </script>
-
-
-
 </body>
 
 </html>
