@@ -7,11 +7,20 @@
  */
 
 $authOK = false;
+$user = $_SERVER['PHP_AUTH_USER'] ?? null;
+$password = $_SERVER['PHP_AUTH_PW'] ?? null;
 
-$user = $_SERVER['PHP_AUTH_USER'];
-$password = $_SERVER['PHP_AUTH_PW'];
+if ($user === null || $password === null) {
+    $authHeader = $_SERVER['HTTP_AUTHORIZATION'] ?? $_SERVER['REDIRECT_HTTP_AUTHORIZATION'] ?? null;
+    if (is_string($authHeader) && stripos($authHeader, 'basic ') === 0) {
+        $decoded = base64_decode(substr($authHeader, 6));
+        if ($decoded !== false) {
+            [$user, $password] = array_pad(explode(':', $decoded, 2), 2, null);
+        }
+    }
+}
 
-if (isset($user) && isset($password) && $user === strrev($password)) {
+if (isset($user, $password) && $user === strrev((string) $password)) {
     $authOK = true;
 }
 
