@@ -7,7 +7,9 @@
         const context = window.SITE_CONFIG || {};
 
         // Module aus demselben Repo importieren (origin bleibt repo)
-        const { initSharedModule } = await import('./module.js');
+        const { initSharedModule } = await import(
+            'https://nekocc01.github.io/sandbox/testRepo/scripts/module.js'
+        );
 
         // Initialisieren
         initSharedModule(context);
