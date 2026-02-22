@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan Reise</title>
+    <style>
+        body {
+            font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+            font-weight: normal;
+        }
+
+        .center {
+            box-sizing: content-box;
+            margin-inline: auto;
+            max-inline-size: 700px;
+        }
+
+        .stack {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .stack>* {
+            margin-block: 0;
+        }
+
+        .stack>*+* {
+            margin-block-start: var(--space, 1.5rem);
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        img.border {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="center">
+        <h1>Reiseplan</h1>
+        <img src="reiseplan.png" alt="">
+        <h1 style="margin-top: 30px;">Übernachtungen</h1>
+        <section class="stack">
+            <a href="https://www.booking.com/hotel/jp/shintomi-tei.de.html" target="_blank">
+                <img class="border" src="matsushima.png" alt="">
+            </a>
+            <a href="https://www.booking.com/hotel/jp/azumaso.de.html" target="_blank">
+                <img class="border" src="yamadera.png" alt="">
+            </a>
+            <a href="https://www.booking.com/hotel/jp/da-sheng-fang.de.html" target="_blank">
+                <img class="border" src="sanzan.png" alt="">
+            </a>
+            <a href="https://www.takimikan.jp/lg_en/" target="_blank">
+                <div style="border: 1px solid black; padding: 10px;">
+                    <img src="ginzan.png" alt="">
+                </div>
+            </a>
+        </section>
+    </main>
+</body>
+
+</html>
