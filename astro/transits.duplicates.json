@@ -1,0 +1,9572 @@
+[
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in quintile with natal Ascendant",
+      "startDate": "1982-05-09",
+      "endDate": "1982-08-27",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0066",
+      "transit-0071"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Sun",
+      "startDate": "1982-05-23",
+      "endDate": "1982-08-01",
+      "exactHits": [
+        {
+          "date": "1982-06-05",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1982-07-20",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0067",
+      "transit-0072"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Sun",
+      "startDate": "1982-06-03",
+      "endDate": "1982-10-11",
+      "exactHits": [
+        {
+          "date": "1982-06-30",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1982-09-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0068",
+      "transit-0073"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in opposition with natal Uranus",
+      "startDate": "1982-06-18",
+      "endDate": "1982-07-29",
+      "exactHits": [
+        {
+          "date": "1982-07-06",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0069",
+      "transit-0074"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Fifth House",
+      "startDate": "1982-12-30",
+      "endDate": "1984-04-02",
+      "exactHits": [
+        {
+          "date": "1983-01-04",
+          "motion": "direct"
+        },
+        {
+          "date": "1983-07-07",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1983-08-20",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0111",
+      "transit-0140"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in opposition with natal Moon",
+      "startDate": "1983-05-16",
+      "endDate": "1983-08-15",
+      "exactHits": [
+        {
+          "date": "1983-06-02",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1983-07-29",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0127",
+      "transit-0141"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in semi-sextile with natal Uranus",
+      "startDate": "1983-05-29",
+      "endDate": "1983-08-13",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0130",
+      "transit-0142"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in sextile with natal Sun",
+      "startDate": "1983-06-24",
+      "endDate": "1983-08-01",
+      "exactHits": [
+        {
+          "date": "1983-07-11",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0134",
+      "transit-0143"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Jupiter",
+      "startDate": "1983-06-28",
+      "endDate": "1983-09-28",
+      "exactHits": [
+        {
+          "date": "1983-08-14",
+          "motion": "stationing_direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0135",
+      "transit-0144"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Saturn",
+      "startDate": "1983-06-28",
+      "endDate": "1983-09-28",
+      "exactHits": [
+        {
+          "date": "1983-08-14",
+          "motion": "stationing_direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0136",
+      "transit-0145"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in trine with natal Sun",
+      "startDate": "1983-07-01",
+      "endDate": "1983-08-25",
+      "exactHits": [
+        {
+          "date": "1983-07-20",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1983-08-06",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0137",
+      "transit-0146"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron into natal Eleventh House",
+      "startDate": "1983-07-04",
+      "endDate": "1983-11-14",
+      "exactHits": [
+        {
+          "date": "1983-07-23",
+          "motion": "direct"
+        },
+        {
+          "date": "1983-10-25",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0138",
+      "transit-0147"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in semi-sextile with natal Uranus",
+      "startDate": "1983-07-19",
+      "endDate": "1983-10-27",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0139",
+      "transit-0148"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in sextile with natal Venus",
+      "startDate": "1984-04-28",
+      "endDate": "1984-09-14",
+      "exactHits": [
+        {
+          "date": "1984-06-11",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1984-08-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0198",
+      "transit-0211"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Venus",
+      "startDate": "1984-06-03",
+      "endDate": "1984-12-06",
+      "exactHits": [
+        {
+          "date": "1984-07-10",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1984-11-05",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0204",
+      "transit-0212"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in opposition with natal Moon",
+      "startDate": "1984-06-27",
+      "endDate": "1984-07-20",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0207",
+      "transit-0213"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Jupiter",
+      "startDate": "1984-07-17",
+      "endDate": "1984-08-07",
+      "exactHits": [
+        {
+          "date": "1984-07-26",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0208",
+      "transit-0214"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Saturn",
+      "startDate": "1984-07-17",
+      "endDate": "1984-08-07",
+      "exactHits": [
+        {
+          "date": "1984-07-26",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0209",
+      "transit-0215"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Moon",
+      "startDate": "1984-07-18",
+      "endDate": "1984-10-31",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0210",
+      "transit-0216"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Mars",
+      "startDate": "1984-11-15",
+      "endDate": "1985-11-02",
+      "exactHits": [
+        {
+          "date": "1984-12-14",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0228",
+      "transit-0278"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in semi-sextile with natal Jupiter",
+      "startDate": "1984-12-15",
+      "endDate": "1985-11-29",
+      "exactHits": [
+        {
+          "date": "1985-02-05",
+          "motion": "stationing_retrograde"
+        },
+        {
+          "date": "1985-11-03",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0238",
+      "transit-0279"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in semi-sextile with natal Saturn",
+      "startDate": "1984-12-15",
+      "endDate": "1985-11-29",
+      "exactHits": [
+        {
+          "date": "1985-02-05",
+          "motion": "stationing_retrograde"
+        },
+        {
+          "date": "1985-11-03",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0239",
+      "transit-0280"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Seventh House",
+      "startDate": "1985-03-31",
+      "endDate": "1985-08-13",
+      "exactHits": [
+        {
+          "date": "1985-04-07",
+          "motion": "direct"
+        },
+        {
+          "date": "1985-08-05",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0262",
+      "transit-0281"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in opposition with natal Chiron",
+      "startDate": "1985-06-06",
+      "endDate": "1985-09-11",
+      "exactHits": [
+        {
+          "date": "1985-06-22",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1985-08-26",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0270",
+      "transit-0282"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Sun",
+      "startDate": "1985-06-10",
+      "endDate": "1985-08-12",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0271",
+      "transit-0283"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in semi-sextile with natal Pluto",
+      "startDate": "1985-06-15",
+      "endDate": "1985-09-02",
+      "exactHits": [
+        {
+          "date": "1985-07-09",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1985-08-10",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0272",
+      "transit-0284"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Midheaven",
+      "startDate": "1985-06-25",
+      "endDate": "1985-08-23",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0273",
+      "transit-0285"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Sun",
+      "startDate": "1985-06-26",
+      "endDate": "1985-11-23",
+      "exactHits": [
+        {
+          "date": "1985-08-06",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1985-10-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0274",
+      "transit-0286"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in sextile with natal Ascendant",
+      "startDate": "1985-06-26",
+      "endDate": "1985-07-26",
+      "exactHits": [
+        {
+          "date": "1985-07-10",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0275",
+      "transit-0287"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in inconjunct with natal Mercury",
+      "startDate": "1985-07-03",
+      "endDate": "1985-10-10",
+      "exactHits": [
+        {
+          "date": "1985-08-23",
+          "motion": "stationing_direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0276",
+      "transit-0288"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Mercury",
+      "startDate": "1985-07-11",
+      "endDate": "1985-07-28",
+      "exactHits": [
+        {
+          "date": "1985-07-20",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0277",
+      "transit-0289"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in semi-sextile with natal Jupiter",
+      "startDate": "1986-04-28",
+      "endDate": "1986-09-25",
+      "exactHits": [
+        {
+          "date": "1986-06-05",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1986-08-21",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0337",
+      "transit-0352"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in semi-sextile with natal Saturn",
+      "startDate": "1986-04-28",
+      "endDate": "1986-09-25",
+      "exactHits": [
+        {
+          "date": "1986-06-05",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1986-08-21",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0338",
+      "transit-0353"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Ninth House",
+      "startDate": "1986-05-26",
+      "endDate": "1986-08-29",
+      "exactHits": [
+        {
+          "date": "1986-06-03",
+          "motion": "direct"
+        },
+        {
+          "date": "1986-08-21",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0340",
+      "transit-0354"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Mars",
+      "startDate": "1986-06-06",
+      "endDate": "1986-08-20",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0345",
+      "transit-0355"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in opposition with natal Mars",
+      "startDate": "1986-06-07",
+      "endDate": "1986-12-11",
+      "exactHits": [
+        {
+          "date": "1986-07-15",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1986-11-11",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0346",
+      "transit-0356"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Chiron",
+      "startDate": "1986-06-10",
+      "endDate": "1986-08-13",
+      "exactHits": [
+        {
+          "date": "1986-06-23",
+          "motion": "direct"
+        },
+        {
+          "date": "1986-07-31",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0347",
+      "transit-0357"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Neptune",
+      "startDate": "1986-06-13",
+      "endDate": "1986-08-10",
+      "exactHits": [
+        {
+          "date": "1986-06-28",
+          "motion": "direct"
+        },
+        {
+          "date": "1986-07-27",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0348",
+      "transit-0358"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in quintile with natal Pluto",
+      "startDate": "1986-06-17",
+      "endDate": "1986-12-04",
+      "exactHits": [
+        {
+          "date": "1986-07-25",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1986-11-02",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0349",
+      "transit-0359"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Mars",
+      "startDate": "1986-06-18",
+      "endDate": "1986-09-25",
+      "exactHits": [
+        {
+          "date": "1986-07-04",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1986-09-08",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0350",
+      "transit-0360"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Venus",
+      "startDate": "1986-06-22",
+      "endDate": "1986-07-18",
+      "exactHits": [
+        {
+          "date": "1986-07-05",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0351",
+      "transit-0361"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Tenth House",
+      "startDate": "1987-05-28",
+      "endDate": "1987-11-30",
+      "exactHits": [
+        {
+          "date": "1987-06-02",
+          "motion": "direct"
+        },
+        {
+          "date": "1987-11-15",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0401",
+      "transit-0414"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in conjunction with natal Moon",
+      "startDate": "1987-07-11",
+      "endDate": "1987-08-04",
+      "exactHits": [
+        {
+          "date": "1987-07-21",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0412",
+      "transit-0415"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in conjunction with natal Neptune",
+      "startDate": "1987-07-17",
+      "endDate": "1987-10-15",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0413",
+      "transit-0416"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Moon",
+      "startDate": "1988-06-12",
+      "endDate": "1988-08-08",
+      "exactHits": [
+        {
+          "date": "1988-07-06",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0479",
+      "transit-0486"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Moon",
+      "startDate": "1988-06-19",
+      "endDate": "1988-07-16",
+      "exactHits": [
+        {
+          "date": "1988-07-01",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0480",
+      "transit-0487"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Sun",
+      "startDate": "1988-06-23",
+      "endDate": "1988-07-15",
+      "exactHits": [
+        {
+          "date": "1988-07-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0481",
+      "transit-0488"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in semi-sextile with natal Moon",
+      "startDate": "1988-07-07",
+      "endDate": "1988-07-18",
+      "exactHits": [
+        {
+          "date": "1988-07-12",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0483",
+      "transit-0489"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Venus",
+      "startDate": "1988-07-13",
+      "endDate": "1988-07-25",
+      "exactHits": [
+        {
+          "date": "1988-07-19",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0484",
+      "transit-0490"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Midheaven",
+      "startDate": "1988-07-14",
+      "endDate": "1988-08-07",
+      "exactHits": [
+        {
+          "date": "1988-07-26",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0485",
+      "transit-0491"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in opposition with natal Mercury",
+      "startDate": "1989-03-19",
+      "endDate": "1989-12-26",
+      "exactHits": [
+        {
+          "date": "1989-04-22",
+          "motion": "stationing_retrograde"
+        },
+        {
+          "date": "1989-12-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0543",
+      "transit-0565"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Ascendant",
+      "startDate": "1989-06-06",
+      "endDate": "1989-09-05",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0557",
+      "transit-0566"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in quintile with natal Venus",
+      "startDate": "1989-06-29",
+      "endDate": "1989-08-14",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0562",
+      "transit-0567"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Moon",
+      "startDate": "1989-07-06",
+      "endDate": "1989-07-26",
+      "exactHits": [
+        {
+          "date": "1989-07-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0563",
+      "transit-0568"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Uranus",
+      "startDate": "1989-07-08",
+      "endDate": "1989-07-17",
+      "exactHits": [
+        {
+          "date": "1989-07-12",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0564",
+      "transit-0569"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune into natal Sixth House",
+      "startDate": "1989-11-28",
+      "endDate": "2003-03-06",
+      "exactHits": [
+        {
+          "date": "1989-12-26",
+          "motion": "direct"
+        },
+        {
+          "date": "1990-09-16",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1990-09-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0588",
+      "transit-0627"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in opposition with natal Mercury",
+      "startDate": "1990-01-25",
+      "endDate": "1990-07-14",
+      "exactHits": [
+        {
+          "date": "1990-02-27",
+          "motion": "direct"
+        },
+        {
+          "date": "1990-06-05",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0599",
+      "transit-0628"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in semi-sextile with natal Neptune",
+      "startDate": "1990-06-23",
+      "endDate": "1990-07-20",
+      "exactHits": [
+        {
+          "date": "1990-07-08",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0617",
+      "transit-0629"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Chiron",
+      "startDate": "1990-06-27",
+      "endDate": "1990-07-23",
+      "exactHits": [
+        {
+          "date": "1990-07-11",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0618",
+      "transit-0630"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Midheaven",
+      "startDate": "1990-07-04",
+      "endDate": "1990-07-13",
+      "exactHits": [
+        {
+          "date": "1990-07-09",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0619",
+      "transit-0631"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Pluto",
+      "startDate": "1990-07-05",
+      "endDate": "1990-08-01",
+      "exactHits": [
+        {
+          "date": "1990-07-19",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0620",
+      "transit-0632"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Pluto",
+      "startDate": "1990-07-07",
+      "endDate": "1990-07-16",
+      "exactHits": [
+        {
+          "date": "1990-07-11",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0621",
+      "transit-0633"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Chiron",
+      "startDate": "1990-07-09",
+      "endDate": "1990-07-18",
+      "exactHits": [
+        {
+          "date": "1990-07-14",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0622",
+      "transit-0634"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Neptune",
+      "startDate": "1990-07-10",
+      "endDate": "1990-07-19",
+      "exactHits": [
+        {
+          "date": "1990-07-15",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0623",
+      "transit-0635"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Jupiter",
+      "startDate": "1990-07-12",
+      "endDate": "1990-07-21",
+      "exactHits": [
+        {
+          "date": "1990-07-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0624",
+      "transit-0636"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Saturn",
+      "startDate": "1990-07-12",
+      "endDate": "1990-07-21",
+      "exactHits": [
+        {
+          "date": "1990-07-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0625",
+      "transit-0637"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Midheaven",
+      "startDate": "1990-07-13",
+      "endDate": "1990-08-09",
+      "exactHits": [
+        {
+          "date": "1990-07-25",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0626",
+      "transit-0638"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus into natal Sixth House",
+      "startDate": "1991-01-19",
+      "endDate": "1991-07-29",
+      "exactHits": [
+        {
+          "date": "1991-02-06",
+          "motion": "direct"
+        },
+        {
+          "date": "1991-07-03",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0671",
+      "transit-0707"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in inconjunct with natal Ascendant",
+      "startDate": "1991-06-06",
+      "endDate": "1991-07-26",
+      "exactHits": [
+        {
+          "date": "1991-07-01",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0697",
+      "transit-0708"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Jupiter",
+      "startDate": "1991-06-20",
+      "endDate": "1991-07-21",
+      "exactHits": [
+        {
+          "date": "1991-07-07",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0701",
+      "transit-0709"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Saturn",
+      "startDate": "1991-06-20",
+      "endDate": "1991-07-21",
+      "exactHits": [
+        {
+          "date": "1991-07-07",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0702",
+      "transit-0710"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in square with natal Moon",
+      "startDate": "1991-06-28",
+      "endDate": "1991-07-16",
+      "exactHits": [
+        {
+          "date": "1991-07-07",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0704",
+      "transit-0711"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Mars",
+      "startDate": "1991-07-07",
+      "endDate": "1991-08-04",
+      "exactHits": [
+        {
+          "date": "1991-07-21",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0705",
+      "transit-0712"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Venus",
+      "startDate": "1991-07-08",
+      "endDate": "1991-07-26",
+      "exactHits": [
+        {
+          "date": "1991-07-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0706",
+      "transit-0713"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn into natal Seventh House",
+      "startDate": "1992-02-13",
+      "endDate": "1993-04-23",
+      "exactHits": [
+        {
+          "date": "1992-02-21",
+          "motion": "direct"
+        },
+        {
+          "date": "1992-10-04",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1992-10-26",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0753",
+      "transit-0769"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Midheaven",
+      "startDate": "1992-04-21",
+      "endDate": "1992-10-27",
+      "exactHits": [
+        {
+          "date": "1992-05-26",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1992-09-29",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0763",
+      "transit-0770"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Pluto",
+      "startDate": "1992-06-27",
+      "endDate": "1992-07-15",
+      "exactHits": [
+        {
+          "date": "1992-07-06",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0766",
+      "transit-0771"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in quintile with natal Moon",
+      "startDate": "1992-07-06",
+      "endDate": "1992-08-04",
+      "exactHits": [
+        {
+          "date": "1992-07-21",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0767",
+      "transit-0772"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in semi-sextile with natal Ascendant",
+      "startDate": "1992-07-08",
+      "endDate": "1992-07-20",
+      "exactHits": [
+        {
+          "date": "1992-07-14",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0768",
+      "transit-0773"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn into natal Eighth House",
+      "startDate": "1993-04-11",
+      "endDate": "1993-08-12",
+      "exactHits": [
+        {
+          "date": "1993-04-23",
+          "motion": "direct"
+        },
+        {
+          "date": "1993-07-29",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0829",
+      "transit-0842"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in opposition with natal Venus",
+      "startDate": "1993-04-23",
+      "endDate": "1993-07-29",
+      "exactHits": [
+        {
+          "date": "1993-05-09",
+          "motion": "direct"
+        },
+        {
+          "date": "1993-07-12",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0830",
+      "transit-0843"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Midheaven",
+      "startDate": "1993-05-07",
+      "endDate": "1993-07-13",
+      "exactHits": [
+        {
+          "date": "1993-06-18",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0833",
+      "transit-0844"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in semi-sextile with natal Neptune",
+      "startDate": "1993-06-07",
+      "endDate": "1993-09-25",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0836",
+      "transit-0845"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in opposition with natal Chiron",
+      "startDate": "1993-06-16",
+      "endDate": "1993-09-16",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0838",
+      "transit-0846"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in sextile with natal Pluto",
+      "startDate": "1993-06-20",
+      "endDate": "1993-07-09",
+      "exactHits": [
+        {
+          "date": "1993-06-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0839",
+      "transit-0847"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in square with natal Chiron",
+      "startDate": "1993-06-26",
+      "endDate": "1993-07-14",
+      "exactHits": [
+        {
+          "date": "1993-07-05",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0840",
+      "transit-0848"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in trine with natal Neptune",
+      "startDate": "1993-06-28",
+      "endDate": "1993-07-16",
+      "exactHits": [
+        {
+          "date": "1993-07-07",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0841",
+      "transit-0849"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in semi-sextile with natal Neptune",
+      "startDate": "1994-01-29",
+      "endDate": "1994-07-30",
+      "exactHits": [
+        {
+          "date": "1994-02-28",
+          "motion": "direct"
+        },
+        {
+          "date": "1994-06-23",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0893",
+      "transit-0917"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in conjunction with natal Uranus",
+      "startDate": "1994-05-02",
+      "endDate": "1994-10-29",
+      "exactHits": [
+        {
+          "date": "1994-06-07",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1994-09-29",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0906",
+      "transit-0918"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Ascendant",
+      "startDate": "1994-05-11",
+      "endDate": "1994-08-06",
+      "exactHits": [
+        {
+          "date": "1994-05-29",
+          "motion": "direct"
+        },
+        {
+          "date": "1994-07-17",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0908",
+      "transit-0919"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Chiron",
+      "startDate": "1994-05-12",
+      "endDate": "1994-08-09",
+      "exactHits": [
+        {
+          "date": "1994-07-03",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0909",
+      "transit-0920"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in semi-sextile with natal Jupiter",
+      "startDate": "1994-06-03",
+      "endDate": "1994-07-30",
+      "exactHits": [
+        {
+          "date": "1994-06-21",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1994-07-12",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0910",
+      "transit-0921"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in semi-sextile with natal Saturn",
+      "startDate": "1994-06-03",
+      "endDate": "1994-07-30",
+      "exactHits": [
+        {
+          "date": "1994-06-21",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1994-07-12",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0911",
+      "transit-0922"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in square with natal Pluto",
+      "startDate": "1994-06-16",
+      "endDate": "1994-09-12",
+      "exactHits": [
+        {
+          "date": "1994-07-25",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0914",
+      "transit-0923"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in trine with natal Mars",
+      "startDate": "1994-06-21",
+      "endDate": "1994-07-11",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-0915",
+      "transit-0924"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in square with natal Midheaven",
+      "startDate": "1994-07-07",
+      "endDate": "1994-12-20",
+      "exactHits": [
+        {
+          "date": "1994-08-15",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1994-11-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0916",
+      "transit-0925"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in inconjunct with natal Venus",
+      "startDate": "1995-02-23",
+      "endDate": "1995-07-20",
+      "exactHits": [
+        {
+          "date": "1995-03-17",
+          "motion": "direct"
+        },
+        {
+          "date": "1995-06-25",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0971",
+      "transit-0992"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn into natal Ninth House",
+      "startDate": "1995-04-12",
+      "endDate": "1995-10-09",
+      "exactHits": [
+        {
+          "date": "1995-04-22",
+          "motion": "direct"
+        },
+        {
+          "date": "1995-09-25",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0979",
+      "transit-0993"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Moon",
+      "startDate": "1995-05-16",
+      "endDate": "1995-10-24",
+      "exactHits": [
+        {
+          "date": "1995-06-23",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1995-09-21",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0986",
+      "transit-0994"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Pluto",
+      "startDate": "1995-06-14",
+      "endDate": "1995-07-12",
+      "exactHits": [
+        {
+          "date": "1995-06-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0988",
+      "transit-0995"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in trine with natal Chiron",
+      "startDate": "1995-06-24",
+      "endDate": "1995-07-18",
+      "exactHits": [
+        {
+          "date": "1995-07-07",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0989",
+      "transit-0996"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in square with natal Neptune",
+      "startDate": "1995-06-28",
+      "endDate": "1995-07-20",
+      "exactHits": [
+        {
+          "date": "1995-07-10",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0990",
+      "transit-0997"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Moon",
+      "startDate": "1995-06-29",
+      "endDate": "1995-08-20",
+      "exactHits": [
+        {
+          "date": "1995-07-24",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-0991",
+      "transit-0998"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Sixth House",
+      "startDate": "1996-02-24",
+      "endDate": "1996-07-20",
+      "exactHits": [
+        {
+          "date": "1996-03-01",
+          "motion": "direct"
+        },
+        {
+          "date": "1996-07-11",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1050",
+      "transit-1070"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in inconjunct with natal Mars",
+      "startDate": "1996-03-04",
+      "endDate": "1996-07-17",
+      "exactHits": [
+        {
+          "date": "1996-03-29",
+          "motion": "direct"
+        },
+        {
+          "date": "1996-06-19",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1053",
+      "transit-1071"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Sun",
+      "startDate": "1996-05-06",
+      "endDate": "1996-11-04",
+      "exactHits": [
+        {
+          "date": "1996-06-11",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1996-10-05",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1064",
+      "transit-1072"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in sextile with natal Uranus",
+      "startDate": "1996-06-19",
+      "endDate": "1996-09-14",
+      "exactHits": [
+        {
+          "date": "1996-07-28",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1068",
+      "transit-1073"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Ascendant",
+      "startDate": "1996-07-03",
+      "endDate": "1996-07-19",
+      "exactHits": [
+        {
+          "date": "1996-07-11",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1069",
+      "transit-1074"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Venus",
+      "startDate": "1997-02-15",
+      "endDate": "1997-07-23",
+      "exactHits": [
+        {
+          "date": "1997-03-22",
+          "motion": "direct"
+        },
+        {
+          "date": "1997-06-12",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1121",
+      "transit-1141"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Seventh House",
+      "startDate": "1997-03-10",
+      "endDate": "1998-01-29",
+      "exactHits": [
+        {
+          "date": "1997-03-15",
+          "motion": "direct"
+        },
+        {
+          "date": "1997-10-08",
+          "motion": "stationing_direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1124",
+      "transit-1142"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in quintile with natal Uranus",
+      "startDate": "1997-03-10",
+      "endDate": "1997-07-19",
+      "exactHits": [
+        {
+          "date": "1997-04-05",
+          "motion": "direct"
+        },
+        {
+          "date": "1997-06-20",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1126",
+      "transit-1143"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Mars",
+      "startDate": "1997-04-29",
+      "endDate": "1997-07-26",
+      "exactHits": [
+        {
+          "date": "1997-06-05",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1134",
+      "transit-1144"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Midheaven",
+      "startDate": "1997-05-06",
+      "endDate": "1997-07-14",
+      "exactHits": [
+        {
+          "date": "1997-05-18",
+          "motion": "direct"
+        },
+        {
+          "date": "1997-07-02",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1135",
+      "transit-1145"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in trine with natal Pluto",
+      "startDate": "1997-05-12",
+      "endDate": "1997-07-08",
+      "exactHits": [
+        {
+          "date": "1997-05-28",
+          "motion": "direct"
+        },
+        {
+          "date": "1997-06-23",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1136",
+      "transit-1146"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Uranus",
+      "startDate": "1997-05-13",
+      "endDate": "1997-08-02",
+      "exactHits": [
+        {
+          "date": "1997-05-31",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1997-07-15",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1137",
+      "transit-1147"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in square with natal Moon",
+      "startDate": "1997-06-20",
+      "endDate": "1997-09-13",
+      "exactHits": [
+        {
+          "date": "1997-07-29",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1140",
+      "transit-1148"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in opposition with natal Sun",
+      "startDate": "1998-02-03",
+      "endDate": "1998-08-14",
+      "exactHits": [
+        {
+          "date": "1998-03-04",
+          "motion": "direct"
+        },
+        {
+          "date": "1998-07-08",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1184",
+      "transit-1218"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus into natal Seventh House",
+      "startDate": "1998-03-09",
+      "endDate": "1998-07-29",
+      "exactHits": [
+        {
+          "date": "1998-04-02",
+          "motion": "direct"
+        },
+        {
+          "date": "1998-07-03",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1190",
+      "transit-1219"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in opposition with natal Ascendant",
+      "startDate": "1998-03-09",
+      "endDate": "1998-07-29",
+      "exactHits": [
+        {
+          "date": "1998-04-02",
+          "motion": "direct"
+        },
+        {
+          "date": "1998-07-03",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1191",
+      "transit-1220"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Ninth House",
+      "startDate": "1998-04-30",
+      "endDate": "1998-10-16",
+      "exactHits": [
+        {
+          "date": "1998-05-06",
+          "motion": "direct"
+        },
+        {
+          "date": "1998-10-06",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1202",
+      "transit-1221"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Sun",
+      "startDate": "1998-06-11",
+      "endDate": "1998-07-05",
+      "exactHits": [
+        {
+          "date": "1998-06-22",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1211",
+      "transit-1222"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in square with natal Ascendant",
+      "startDate": "1998-06-17",
+      "endDate": "1998-08-04",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1212",
+      "transit-1223"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in quintile with natal Mercury",
+      "startDate": "1998-06-19",
+      "endDate": "1998-07-18",
+      "exactHits": [
+        {
+          "date": "1998-07-01",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1213",
+      "transit-1224"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in sextile with natal Jupiter",
+      "startDate": "1998-06-26",
+      "endDate": "1998-10-03",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1214",
+      "transit-1225"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in sextile with natal Saturn",
+      "startDate": "1998-06-26",
+      "endDate": "1998-10-03",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1215",
+      "transit-1226"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in semi-sextile with natal Moon",
+      "startDate": "1998-06-27",
+      "endDate": "1998-08-08",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1216",
+      "transit-1227"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Venus",
+      "startDate": "1998-06-30",
+      "endDate": "1998-07-22",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1217",
+      "transit-1228"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus into natal Seventh House",
+      "startDate": "1998-12-31",
+      "endDate": "2002-05-06",
+      "exactHits": [
+        {
+          "date": "1999-01-18",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1257",
+      "transit-1298"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Mars",
+      "startDate": "1999-02-20",
+      "endDate": "1999-07-28",
+      "exactHits": [
+        {
+          "date": "1999-03-26",
+          "motion": "direct"
+        },
+        {
+          "date": "1999-06-18",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1269",
+      "transit-1299"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in quintile with natal Moon",
+      "startDate": "1999-03-22",
+      "endDate": "1999-07-25",
+      "exactHits": [
+        {
+          "date": "1999-04-19",
+          "motion": "direct"
+        },
+        {
+          "date": "1999-06-24",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1275",
+      "transit-1300"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in inconjunct with natal Moon",
+      "startDate": "1999-06-10",
+      "endDate": "1999-09-13",
+      "exactHits": [
+        {
+          "date": "1999-06-27",
+          "motion": "retrograde"
+        },
+        {
+          "date": "1999-08-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1293",
+      "transit-1301"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in sextile with natal Mercury",
+      "startDate": "1999-06-18",
+      "endDate": "1999-07-09",
+      "exactHits": [
+        {
+          "date": "1999-06-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1295",
+      "transit-1302"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Sun",
+      "startDate": "1999-06-29",
+      "endDate": "1999-07-13",
+      "exactHits": [
+        {
+          "date": "1999-07-06",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1297",
+      "transit-1303"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Midheaven",
+      "startDate": "2000-04-14",
+      "endDate": "2000-07-06",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1346",
+      "transit-1368"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in opposition with natal Uranus",
+      "startDate": "2000-06-17",
+      "endDate": "2000-07-05",
+      "exactHits": [
+        {
+          "date": "2000-06-26",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1361",
+      "transit-1369"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in trine with natal Ascendant",
+      "startDate": "2000-06-22",
+      "endDate": "2000-10-01",
+      "exactHits": [
+        {
+          "date": "2000-07-08",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2000-09-15",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1363",
+      "transit-1370"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Venus",
+      "startDate": "2000-06-23",
+      "endDate": "2000-07-02",
+      "exactHits": [
+        {
+          "date": "2000-06-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1364",
+      "transit-1371"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Ascendant",
+      "startDate": "2000-06-25",
+      "endDate": "2000-07-04",
+      "exactHits": [
+        {
+          "date": "2000-06-29",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1365",
+      "transit-1372"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Jupiter",
+      "startDate": "2000-06-28",
+      "endDate": "2000-09-21",
+      "exactHits": [
+        {
+          "date": "2000-08-05",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1366",
+      "transit-1373"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Saturn",
+      "startDate": "2000-06-28",
+      "endDate": "2000-09-21",
+      "exactHits": [
+        {
+          "date": "2000-08-05",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1367",
+      "transit-1374"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in quintile with natal Uranus",
+      "startDate": "2001-02-17",
+      "endDate": "2001-08-09",
+      "exactHits": [
+        {
+          "date": "2001-03-21",
+          "motion": "direct"
+        },
+        {
+          "date": "2001-07-02",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1411",
+      "transit-1438"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in quintile with natal Midheaven",
+      "startDate": "2001-03-23",
+      "endDate": "2001-06-30",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1419",
+      "transit-1439"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Mercury",
+      "startDate": "2001-04-22",
+      "endDate": "2001-07-14",
+      "exactHits": [
+        {
+          "date": "2001-06-03",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1425",
+      "transit-1440"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Uranus",
+      "startDate": "2001-06-21",
+      "endDate": "2001-06-30",
+      "exactHits": [
+        {
+          "date": "2001-06-25",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1437",
+      "transit-1441"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Moon",
+      "startDate": "2002-04-02",
+      "endDate": "2002-08-07",
+      "exactHits": [
+        {
+          "date": "2002-04-29",
+          "motion": "direct"
+        },
+        {
+          "date": "2002-07-08",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1485",
+      "transit-1505"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus into natal Eighth House",
+      "startDate": "2002-04-06",
+      "endDate": "2002-08-02",
+      "exactHits": [
+        {
+          "date": "2002-05-06",
+          "motion": "direct"
+        },
+        {
+          "date": "2002-06-30",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1487",
+      "transit-1506"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in opposition with natal Venus",
+      "startDate": "2002-05-05",
+      "endDate": "2002-07-01",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1494",
+      "transit-1507"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Pluto",
+      "startDate": "2002-06-20",
+      "endDate": "2002-06-29",
+      "exactHits": [
+        {
+          "date": "2002-06-25",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1498",
+      "transit-1508"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in sextile with natal Midheaven",
+      "startDate": "2002-06-22",
+      "endDate": "2002-07-08",
+      "exactHits": [
+        {
+          "date": "2002-06-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1499",
+      "transit-1509"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Chiron",
+      "startDate": "2002-06-23",
+      "endDate": "2002-07-02",
+      "exactHits": [
+        {
+          "date": "2002-06-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1500",
+      "transit-1510"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Neptune",
+      "startDate": "2002-06-24",
+      "endDate": "2002-07-03",
+      "exactHits": [
+        {
+          "date": "2002-06-29",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1501",
+      "transit-1511"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Jupiter",
+      "startDate": "2002-06-26",
+      "endDate": "2002-07-05",
+      "exactHits": [
+        {
+          "date": "2002-07-01",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1502",
+      "transit-1512"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Saturn",
+      "startDate": "2002-06-26",
+      "endDate": "2002-07-05",
+      "exactHits": [
+        {
+          "date": "2002-07-01",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1503",
+      "transit-1513"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Pluto",
+      "startDate": "2002-06-26",
+      "endDate": "2002-07-12",
+      "exactHits": [
+        {
+          "date": "2002-07-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1504",
+      "transit-1514"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron into natal Sixth House",
+      "startDate": "2003-01-01",
+      "endDate": "2007-02-22",
+      "exactHits": [
+        {
+          "date": "2003-01-11",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1546",
+      "transit-1574"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus into natal Eighth House",
+      "startDate": "2003-01-26",
+      "endDate": "2008-04-11",
+      "exactHits": [
+        {
+          "date": "2003-02-13",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1553",
+      "transit-1575"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune into natal Seventh House",
+      "startDate": "2003-02-06",
+      "endDate": "2003-09-07",
+      "exactHits": [
+        {
+          "date": "2003-03-06",
+          "motion": "direct"
+        },
+        {
+          "date": "2003-07-31",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1556",
+      "transit-1576"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in opposition with natal Ascendant",
+      "startDate": "2003-06-17",
+      "endDate": "2003-09-07",
+      "exactHits": [
+        {
+          "date": "2003-07-31",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1571",
+      "transit-1577"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in quintile with natal Midheaven",
+      "startDate": "2003-06-20",
+      "endDate": "2003-07-06",
+      "exactHits": [
+        {
+          "date": "2003-06-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1572",
+      "transit-1578"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in conjunction with natal Mars",
+      "startDate": "2003-06-26",
+      "endDate": "2003-07-12",
+      "exactHits": [
+        {
+          "date": "2003-07-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1573",
+      "transit-1579"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune into natal Seventh House",
+      "startDate": "2003-12-05",
+      "endDate": "2010-05-06",
+      "exactHits": [
+        {
+          "date": "2004-01-07",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1611",
+      "transit-1640"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Midheaven",
+      "startDate": "2004-04-13",
+      "endDate": "2004-07-11",
+      "exactHits": [
+        {
+          "date": "2004-06-02",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1633",
+      "transit-1641"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in semi-sextile with natal Ascendant",
+      "startDate": "2004-06-11",
+      "endDate": "2004-06-27",
+      "exactHits": [
+        {
+          "date": "2004-06-20",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1639",
+      "transit-1642"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in quintile with natal Chiron",
+      "startDate": "2005-04-13",
+      "endDate": "2005-08-19",
+      "exactHits": [
+        {
+          "date": "2005-05-10",
+          "motion": "direct"
+        },
+        {
+          "date": "2005-07-20",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1708",
+      "transit-1721"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in conjunction with natal Neptune",
+      "startDate": "2005-06-01",
+      "endDate": "2005-11-24",
+      "exactHits": [
+        {
+          "date": "2005-07-09",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2005-10-23",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1715",
+      "transit-1722"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Chiron",
+      "startDate": "2005-06-10",
+      "endDate": "2005-11-17",
+      "exactHits": [
+        {
+          "date": "2005-07-20",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2005-10-13",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1717",
+      "transit-1723"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in quintile with natal Moon",
+      "startDate": "2005-06-20",
+      "endDate": "2005-09-10",
+      "exactHits": [
+        {
+          "date": "2005-08-03",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1718",
+      "transit-1724"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in opposition with natal Sun",
+      "startDate": "2005-06-22",
+      "endDate": "2005-07-28",
+      "exactHits": [
+        {
+          "date": "2005-07-11",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1719",
+      "transit-1725"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Neptune",
+      "startDate": "2005-06-25",
+      "endDate": "2005-07-18",
+      "exactHits": [
+        {
+          "date": "2005-07-08",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1720",
+      "transit-1726"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in semi-sextile with natal Uranus",
+      "startDate": "2006-01-07",
+      "endDate": "2006-06-28",
+      "exactHits": [
+        {
+          "date": "2006-02-08",
+          "motion": "direct"
+        },
+        {
+          "date": "2006-05-20",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1765",
+      "transit-1783"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Midheaven",
+      "startDate": "2006-03-22",
+      "endDate": "2006-07-10",
+      "exactHits": [
+        {
+          "date": "2006-04-12",
+          "motion": "direct"
+        },
+        {
+          "date": "2006-06-17",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1776",
+      "transit-1784"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Mercury",
+      "startDate": "2006-04-11",
+      "endDate": "2006-08-30",
+      "exactHits": [
+        {
+          "date": "2006-05-05",
+          "motion": "direct"
+        },
+        {
+          "date": "2006-08-04",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1777",
+      "transit-1785"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in quintile with natal Pluto",
+      "startDate": "2006-06-17",
+      "endDate": "2006-07-05",
+      "exactHits": [
+        {
+          "date": "2006-06-26",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1781",
+      "transit-1786"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Uranus",
+      "startDate": "2006-06-19",
+      "endDate": "2006-07-28",
+      "exactHits": [
+        {
+          "date": "2006-07-11",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1782",
+      "transit-1787"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Moon",
+      "startDate": "2007-01-10",
+      "endDate": "2007-06-30",
+      "exactHits": [
+        {
+          "date": "2007-02-11",
+          "motion": "direct"
+        },
+        {
+          "date": "2007-05-21",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1820",
+      "transit-1847"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron into natal Seventh House",
+      "startDate": "2007-02-10",
+      "endDate": "2007-09-20",
+      "exactHits": [
+        {
+          "date": "2007-02-22",
+          "motion": "direct"
+        },
+        {
+          "date": "2007-08-26",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1828",
+      "transit-1848"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in sextile with natal Midheaven",
+      "startDate": "2007-02-25",
+      "endDate": "2007-08-31",
+      "exactHits": [
+        {
+          "date": "2007-03-27",
+          "motion": "direct"
+        },
+        {
+          "date": "2007-07-25",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1833",
+      "transit-1849"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Pluto",
+      "startDate": "2007-03-13",
+      "endDate": "2007-08-12",
+      "exactHits": [
+        {
+          "date": "2007-04-18",
+          "motion": "direct"
+        },
+        {
+          "date": "2007-07-01",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1835",
+      "transit-1850"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in square with natal Chiron",
+      "startDate": "2007-04-01",
+      "endDate": "2007-07-20",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1836",
+      "transit-1851"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in sextile with natal Neptune",
+      "startDate": "2007-04-10",
+      "endDate": "2007-07-09",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1837",
+      "transit-1852"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Midheaven",
+      "startDate": "2007-06-07",
+      "endDate": "2007-06-29",
+      "exactHits": [
+        {
+          "date": "2007-06-19",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1842",
+      "transit-1853"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in sextile with natal Pluto",
+      "startDate": "2007-06-13",
+      "endDate": "2007-07-04",
+      "exactHits": [
+        {
+          "date": "2007-06-24",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1843",
+      "transit-1854"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Chiron",
+      "startDate": "2007-06-20",
+      "endDate": "2007-07-09",
+      "exactHits": [
+        {
+          "date": "2007-06-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1844",
+      "transit-1855"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in trine with natal Ascendant",
+      "startDate": "2007-06-22",
+      "endDate": "2007-07-12",
+      "exactHits": [
+        {
+          "date": "2007-07-01",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1845",
+      "transit-1856"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Neptune",
+      "startDate": "2007-06-23",
+      "endDate": "2007-07-12",
+      "exactHits": [
+        {
+          "date": "2007-07-02",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1846",
+      "transit-1857"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Sixth House",
+      "startDate": "2008-02-05",
+      "endDate": "2009-02-25",
+      "exactHits": [
+        {
+          "date": "2008-02-10",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1896",
+      "transit-1918"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus into natal Ninth House",
+      "startDate": "2008-03-23",
+      "endDate": "2008-10-14",
+      "exactHits": [
+        {
+          "date": "2008-04-11",
+          "motion": "direct"
+        },
+        {
+          "date": "2008-09-17",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1903",
+      "transit-1919"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in sextile with natal Midheaven",
+      "startDate": "2008-04-11",
+      "endDate": "2008-07-09",
+      "exactHits": [
+        {
+          "date": "2008-05-24",
+          "motion": "direct"
+        },
+        {
+          "date": "2008-05-29",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1908",
+      "transit-1920"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in inconjunct with natal Pluto",
+      "startDate": "2008-04-14",
+      "endDate": "2009-03-14",
+      "exactHits": [
+        {
+          "date": "2008-05-07",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1910",
+      "transit-1921"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in trine with natal Pluto",
+      "startDate": "2008-04-25",
+      "endDate": "2008-06-24",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-1912",
+      "transit-1922"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Chiron",
+      "startDate": "2008-04-27",
+      "endDate": "2008-08-28",
+      "exactHits": [
+        {
+          "date": "2008-05-27",
+          "motion": "direct"
+        },
+        {
+          "date": "2008-07-28",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1913",
+      "transit-1923"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Neptune",
+      "startDate": "2008-05-03",
+      "endDate": "2008-08-22",
+      "exactHits": [
+        {
+          "date": "2008-06-08",
+          "motion": "direct"
+        },
+        {
+          "date": "2008-07-16",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1914",
+      "transit-1924"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Venus",
+      "startDate": "2008-05-23",
+      "endDate": "2008-08-31",
+      "exactHits": [
+        {
+          "date": "2008-07-02",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1916",
+      "transit-1925"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in sextile with natal Mars",
+      "startDate": "2008-06-10",
+      "endDate": "2008-07-05",
+      "exactHits": [
+        {
+          "date": "2008-06-23",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1917",
+      "transit-1926"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in square with natal Uranus",
+      "startDate": "2009-03-16",
+      "endDate": "2009-08-16",
+      "exactHits": [
+        {
+          "date": "2009-04-21",
+          "motion": "direct"
+        },
+        {
+          "date": "2009-07-06",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1978",
+      "transit-1990"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in quintile with natal Mars",
+      "startDate": "2009-03-27",
+      "endDate": "2009-07-05",
+      "exactHits": [
+        {
+          "date": "2009-04-11",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2009-06-20",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1979",
+      "transit-1991"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in square with natal Uranus",
+      "startDate": "2009-04-13",
+      "endDate": "2009-07-18",
+      "exactHits": [
+        {
+          "date": "2009-05-14",
+          "motion": "direct"
+        },
+        {
+          "date": "2009-06-15",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1983",
+      "transit-1992"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Uranus",
+      "startDate": "2009-04-29",
+      "endDate": "2009-09-05",
+      "exactHits": [
+        {
+          "date": "2009-05-26",
+          "motion": "direct"
+        },
+        {
+          "date": "2009-08-06",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1985",
+      "transit-1993"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Uranus",
+      "startDate": "2009-05-11",
+      "endDate": "2009-07-20",
+      "exactHits": [
+        {
+          "date": "2009-05-22",
+          "motion": "direct"
+        },
+        {
+          "date": "2009-07-09",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1988",
+      "transit-1994"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Sun",
+      "startDate": "2009-06-15",
+      "endDate": "2009-11-30",
+      "exactHits": [
+        {
+          "date": "2009-07-25",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2009-10-26",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-1989",
+      "transit-1995"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Jupiter",
+      "startDate": "2010-01-18",
+      "endDate": "2010-07-02",
+      "exactHits": [
+        {
+          "date": "2010-02-22",
+          "motion": "direct"
+        },
+        {
+          "date": "2010-05-22",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2034",
+      "transit-2069"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Saturn",
+      "startDate": "2010-01-18",
+      "endDate": "2010-07-02",
+      "exactHits": [
+        {
+          "date": "2010-02-22",
+          "motion": "direct"
+        },
+        {
+          "date": "2010-05-22",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2035",
+      "transit-2070"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron into natal Eighth House",
+      "startDate": "2010-03-07",
+      "endDate": "2010-09-09",
+      "exactHits": [
+        {
+          "date": "2010-03-23",
+          "motion": "direct"
+        },
+        {
+          "date": "2010-08-19",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2045",
+      "transit-2071"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in sextile with natal Moon",
+      "startDate": "2010-03-19",
+      "endDate": "2010-08-18",
+      "exactHits": [
+        {
+          "date": "2010-04-25",
+          "motion": "direct"
+        },
+        {
+          "date": "2010-07-07",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2048",
+      "transit-2072"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune into natal Eighth House",
+      "startDate": "2010-03-25",
+      "endDate": "2010-08-11",
+      "exactHits": [
+        {
+          "date": "2010-05-06",
+          "motion": "direct"
+        },
+        {
+          "date": "2010-06-26",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2050",
+      "transit-2073"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Moon",
+      "startDate": "2010-04-17",
+      "endDate": "2010-07-12",
+      "exactHits": [
+        {
+          "date": "2010-05-04",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2010-06-24",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2056",
+      "transit-2074"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in inconjunct with natal Venus",
+      "startDate": "2010-04-21",
+      "endDate": "2010-06-21",
+      "exactHits": [
+        {
+          "date": "2010-05-13",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2059",
+      "transit-2075"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in inconjunct with natal Sun",
+      "startDate": "2010-04-24",
+      "endDate": "2010-07-15",
+      "exactHits": [
+        {
+          "date": "2010-06-04",
+          "motion": "stationing_retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2060",
+      "transit-2076"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in opposition with natal Venus",
+      "startDate": "2010-05-05",
+      "endDate": "2010-06-27",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2061",
+      "transit-2077"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in opposition with natal Mars",
+      "startDate": "2010-05-23",
+      "endDate": "2010-08-22",
+      "exactHits": [
+        {
+          "date": "2010-07-03",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2064",
+      "transit-2078"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Sun",
+      "startDate": "2010-06-03",
+      "endDate": "2010-08-07",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2066",
+      "transit-2079"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in quintile with natal Pluto",
+      "startDate": "2010-06-03",
+      "endDate": "2010-12-13",
+      "exactHits": [
+        {
+          "date": "2010-07-12",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2010-11-12",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2067",
+      "transit-2080"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in trine with natal Sun",
+      "startDate": "2010-06-07",
+      "endDate": "2010-06-25",
+      "exactHits": [
+        {
+          "date": "2010-06-15",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2068",
+      "transit-2081"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune into natal Eighth House",
+      "startDate": "2011-01-25",
+      "endDate": "2020-05-11",
+      "exactHits": [
+        {
+          "date": "2011-02-21",
+          "motion": "direct"
+        },
+        {
+          "date": "2011-10-01",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2011-12-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2116",
+      "transit-2149"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Neptune",
+      "startDate": "2011-04-04",
+      "endDate": "2011-08-16",
+      "exactHits": [
+        {
+          "date": "2011-04-24",
+          "motion": "direct"
+        },
+        {
+          "date": "2011-07-25",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2129",
+      "transit-2150"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Sun",
+      "startDate": "2011-04-11",
+      "endDate": "2011-07-28",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2130",
+      "transit-2151"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in inconjunct with natal Jupiter",
+      "startDate": "2011-04-12",
+      "endDate": "2011-08-07",
+      "exactHits": [
+        {
+          "date": "2011-05-05",
+          "motion": "direct"
+        },
+        {
+          "date": "2011-07-13",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2131",
+      "transit-2152"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in inconjunct with natal Saturn",
+      "startDate": "2011-04-12",
+      "endDate": "2011-08-07",
+      "exactHits": [
+        {
+          "date": "2011-05-05",
+          "motion": "direct"
+        },
+        {
+          "date": "2011-07-13",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2132",
+      "transit-2153"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Mars",
+      "startDate": "2011-05-05",
+      "endDate": "2011-09-17",
+      "exactHits": [
+        {
+          "date": "2011-05-30",
+          "motion": "direct"
+        },
+        {
+          "date": "2011-08-20",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2140",
+      "transit-2154"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in quintile with natal Neptune",
+      "startDate": "2011-05-06",
+      "endDate": "2011-07-19",
+      "exactHits": [
+        {
+          "date": "2011-06-03",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2011-06-22",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2141",
+      "transit-2155"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in opposition with natal Jupiter",
+      "startDate": "2011-05-31",
+      "endDate": "2011-08-19",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2145",
+      "transit-2156"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in opposition with natal Saturn",
+      "startDate": "2011-05-31",
+      "endDate": "2011-08-19",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2146",
+      "transit-2157"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Mercury",
+      "startDate": "2011-06-09",
+      "endDate": "2011-06-19",
+      "exactHits": [
+        {
+          "date": "2011-06-14",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2148",
+      "transit-2158"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Mars",
+      "startDate": "2012-05-06",
+      "endDate": "2012-07-05",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2211",
+      "transit-2220"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Chiron",
+      "startDate": "2012-05-11",
+      "endDate": "2012-07-14",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2212",
+      "transit-2221"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in sextile with natal Neptune",
+      "startDate": "2012-05-24",
+      "endDate": "2012-07-25",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2214",
+      "transit-2222"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Chiron",
+      "startDate": "2012-05-30",
+      "endDate": "2012-07-20",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2215",
+      "transit-2223"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Ascendant",
+      "startDate": "2012-06-07",
+      "endDate": "2012-06-15",
+      "exactHits": [
+        {
+          "date": "2012-06-11",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2218",
+      "transit-2224"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Sun",
+      "startDate": "2012-06-12",
+      "endDate": "2012-06-21",
+      "exactHits": [
+        {
+          "date": "2012-06-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2219",
+      "transit-2225"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in quintile with natal Neptune",
+      "startDate": "2013-03-11",
+      "endDate": "2013-09-11",
+      "exactHits": [
+        {
+          "date": "2013-04-10",
+          "motion": "direct"
+        },
+        {
+          "date": "2013-08-06",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2256",
+      "transit-2272"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Jupiter",
+      "startDate": "2013-03-23",
+      "endDate": "2013-08-28",
+      "exactHits": [
+        {
+          "date": "2013-04-27",
+          "motion": "direct"
+        },
+        {
+          "date": "2013-07-19",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2257",
+      "transit-2273"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Saturn",
+      "startDate": "2013-03-23",
+      "endDate": "2013-08-28",
+      "exactHits": [
+        {
+          "date": "2013-04-27",
+          "motion": "direct"
+        },
+        {
+          "date": "2013-07-19",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2258",
+      "transit-2274"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in trine with natal Mercury",
+      "startDate": "2013-05-03",
+      "endDate": "2013-07-31",
+      "exactHits": [
+        {
+          "date": "2013-06-16",
+          "motion": "stationing_retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2263",
+      "transit-2275"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Ascendant",
+      "startDate": "2013-05-13",
+      "endDate": "2013-09-24",
+      "exactHits": [
+        {
+          "date": "2013-06-08",
+          "motion": "direct"
+        },
+        {
+          "date": "2013-08-26",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2265",
+      "transit-2276"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in semi-sextile with natal Jupiter",
+      "startDate": "2013-05-30",
+      "endDate": "2013-08-14",
+      "exactHits": [
+        {
+          "date": "2013-06-25",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2013-07-19",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2269",
+      "transit-2277"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in semi-sextile with natal Saturn",
+      "startDate": "2013-05-30",
+      "endDate": "2013-08-14",
+      "exactHits": [
+        {
+          "date": "2013-06-25",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2013-07-19",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2270",
+      "transit-2278"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto into natal Sixth House",
+      "startDate": "2013-12-19",
+      "endDate": "2030-04-17",
+      "exactHits": [
+        {
+          "date": "2014-01-17",
+          "motion": "direct"
+        },
+        {
+          "date": "2014-07-23",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2014-11-19",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2300",
+      "transit-2330"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Chiron",
+      "startDate": "2014-06-05",
+      "endDate": "2014-06-15",
+      "exactHits": [
+        {
+          "date": "2014-06-10",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2325",
+      "transit-2331"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Neptune",
+      "startDate": "2014-06-06",
+      "endDate": "2014-06-16",
+      "exactHits": [
+        {
+          "date": "2014-06-11",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2326",
+      "transit-2332"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Jupiter",
+      "startDate": "2014-06-08",
+      "endDate": "2014-06-18",
+      "exactHits": [
+        {
+          "date": "2014-06-13",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2327",
+      "transit-2333"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Saturn",
+      "startDate": "2014-06-08",
+      "endDate": "2014-06-18",
+      "exactHits": [
+        {
+          "date": "2014-06-13",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2328",
+      "transit-2334"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Ascendant",
+      "startDate": "2014-06-08",
+      "endDate": "2014-12-24",
+      "exactHits": [
+        {
+          "date": "2014-07-18",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2014-11-23",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2329",
+      "transit-2335"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron into natal Ninth House",
+      "startDate": "2015-04-14",
+      "endDate": "2015-09-06",
+      "exactHits": [
+        {
+          "date": "2015-05-05",
+          "motion": "direct"
+        },
+        {
+          "date": "2015-08-14",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2377",
+      "transit-2386"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Midheaven",
+      "startDate": "2015-04-27",
+      "endDate": "2015-08-22",
+      "exactHits": [
+        {
+          "date": "2015-05-25",
+          "motion": "direct"
+        },
+        {
+          "date": "2015-07-25",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2379",
+      "transit-2387"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in quintile with natal Chiron",
+      "startDate": "2015-04-28",
+      "endDate": "2015-07-29",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2380",
+      "transit-2388"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in inconjunct with natal Pluto",
+      "startDate": "2015-05-10",
+      "endDate": "2015-08-09",
+      "exactHits": [
+        {
+          "date": "2015-06-24",
+          "motion": "stationing_retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2381",
+      "transit-2389"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in sextile with natal Chiron",
+      "startDate": "2015-05-30",
+      "endDate": "2015-07-19",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2383",
+      "transit-2390"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Venus",
+      "startDate": "2015-06-06",
+      "endDate": "2015-07-15",
+      "exactHits": [
+        {
+          "date": "2015-06-22",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2384",
+      "transit-2391"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in opposition with natal Mercury",
+      "startDate": "2015-06-08",
+      "endDate": "2015-12-28",
+      "exactHits": [
+        {
+          "date": "2015-07-19",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2015-11-27",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2385",
+      "transit-2392"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron into natal Ninth House",
+      "startDate": "2016-02-14",
+      "endDate": "2024-05-09",
+      "exactHits": [
+        {
+          "date": "2016-03-01",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2428",
+      "transit-2450"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Uranus",
+      "startDate": "2016-04-03",
+      "endDate": "2016-06-14",
+      "exactHits": [
+        {
+          "date": "2016-04-15",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2016-06-02",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2438",
+      "transit-2451"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Mercury",
+      "startDate": "2016-04-04",
+      "endDate": "2016-06-12",
+      "exactHits": [
+        {
+          "date": "2016-04-18",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2016-05-31",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2439",
+      "transit-2452"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus into natal Tenth House",
+      "startDate": "2016-04-04",
+      "endDate": "2026-05-27",
+      "exactHits": [
+        {
+          "date": "2016-04-22",
+          "motion": "direct"
+        },
+        {
+          "date": "2016-11-20",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2017-02-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2440",
+      "transit-2453"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Ascendant",
+      "startDate": "2016-04-08",
+      "endDate": "2016-08-23",
+      "exactHits": [
+        {
+          "date": "2016-05-23",
+          "motion": "direct"
+        },
+        {
+          "date": "2016-07-06",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2442",
+      "transit-2454"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Ascendant",
+      "startDate": "2016-06-05",
+      "endDate": "2016-07-04",
+      "exactHits": [
+        {
+          "date": "2016-06-18",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2448",
+      "transit-2455"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in trine with natal Uranus",
+      "startDate": "2016-06-09",
+      "endDate": "2016-07-15",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2449",
+      "transit-2456"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Mercury",
+      "startDate": "2017-04-05",
+      "endDate": "2017-09-02",
+      "exactHits": [
+        {
+          "date": "2017-05-12",
+          "motion": "direct"
+        },
+        {
+          "date": "2017-07-21",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2514",
+      "transit-2521"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Moon",
+      "startDate": "2017-05-01",
+      "endDate": "2017-09-01",
+      "exactHits": [
+        {
+          "date": "2017-05-27",
+          "motion": "direct"
+        },
+        {
+          "date": "2017-08-05",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2516",
+      "transit-2522"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Mercury",
+      "startDate": "2017-05-05",
+      "endDate": "2017-07-14",
+      "exactHits": [
+        {
+          "date": "2017-05-18",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2017-07-01",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2517",
+      "transit-2523"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Sun",
+      "startDate": "2017-05-14",
+      "endDate": "2017-07-05",
+      "exactHits": [
+        {
+          "date": "2017-06-09",
+          "motion": "stationing_direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2519",
+      "transit-2524"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in inconjunct with natal Venus",
+      "startDate": "2017-06-02",
+      "endDate": "2017-07-29",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2520",
+      "transit-2525"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Midheaven",
+      "startDate": "2018-02-11",
+      "endDate": "2018-07-07",
+      "exactHits": [
+        {
+          "date": "2018-03-29",
+          "motion": "direct"
+        },
+        {
+          "date": "2018-05-16",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2568",
+      "transit-2581"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Pluto",
+      "startDate": "2018-03-03",
+      "endDate": "2018-06-14",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2570",
+      "transit-2582"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in trine with natal Sun",
+      "startDate": "2018-04-20",
+      "endDate": "2018-06-11",
+      "exactHits": [
+        {
+          "date": "2018-05-11",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2577",
+      "transit-2583"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Sun",
+      "startDate": "2018-05-19",
+      "endDate": "2018-07-08",
+      "exactHits": [
+        {
+          "date": "2018-06-08",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2578",
+      "transit-2584"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in quintile with natal Mercury",
+      "startDate": "2018-06-03",
+      "endDate": "2018-10-14",
+      "exactHits": [
+        {
+          "date": "2018-06-29",
+          "motion": "direct"
+        },
+        {
+          "date": "2018-09-16",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2579",
+      "transit-2585"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in trine with natal Mercury",
+      "startDate": "2018-06-06",
+      "endDate": "2018-08-12",
+      "exactHits": [
+        {
+          "date": "2018-06-20",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2018-07-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2580",
+      "transit-2586"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Chiron",
+      "startDate": "2019-01-21",
+      "endDate": "2019-08-09",
+      "exactHits": [
+        {
+          "date": "2019-02-22",
+          "motion": "direct"
+        },
+        {
+          "date": "2019-06-28",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2624",
+      "transit-2644"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in semi-sextile with natal Neptune",
+      "startDate": "2019-01-28",
+      "endDate": "2019-07-29",
+      "exactHits": [
+        {
+          "date": "2019-03-04",
+          "motion": "direct"
+        },
+        {
+          "date": "2019-06-17",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2625",
+      "transit-2645"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in opposition with natal Jupiter",
+      "startDate": "2019-04-28",
+      "endDate": "2019-07-08",
+      "exactHits": [
+        {
+          "date": "2019-05-20",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2635",
+      "transit-2646"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in opposition with natal Saturn",
+      "startDate": "2019-04-28",
+      "endDate": "2019-07-08",
+      "exactHits": [
+        {
+          "date": "2019-05-20",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2636",
+      "transit-2647"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in inconjunct with natal Jupiter",
+      "startDate": "2019-05-18",
+      "endDate": "2019-07-01",
+      "exactHits": [
+        {
+          "date": "2019-06-06",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2641",
+      "transit-2648"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in inconjunct with natal Saturn",
+      "startDate": "2019-05-18",
+      "endDate": "2019-07-01",
+      "exactHits": [
+        {
+          "date": "2019-06-06",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2642",
+      "transit-2649"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in opposition with natal Sun",
+      "startDate": "2020-03-24",
+      "endDate": "2020-06-29",
+      "exactHits": [
+        {
+          "date": "2020-04-10",
+          "motion": "direct"
+        },
+        {
+          "date": "2020-06-11",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2701",
+      "transit-2707"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune into natal Ninth House",
+      "startDate": "2020-04-06",
+      "endDate": "2020-09-14",
+      "exactHits": [
+        {
+          "date": "2020-05-11",
+          "motion": "direct"
+        },
+        {
+          "date": "2020-08-06",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2702",
+      "transit-2708"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in semi-sextile with natal Midheaven",
+      "startDate": "2020-04-28",
+      "endDate": "2020-08-20",
+      "exactHits": [
+        {
+          "date": "2020-06-23",
+          "motion": "stationing_retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2704",
+      "transit-2709"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Pluto",
+      "startDate": "2020-05-21",
+      "endDate": "2020-07-26",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2705",
+      "transit-2710"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Uranus",
+      "startDate": "2020-05-24",
+      "endDate": "2020-06-21",
+      "exactHits": [
+        {
+          "date": "2020-06-10",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2706",
+      "transit-2711"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in sextile with natal Uranus",
+      "startDate": "2021-01-28",
+      "endDate": "2021-08-05",
+      "exactHits": [
+        {
+          "date": "2021-03-03",
+          "motion": "direct"
+        },
+        {
+          "date": "2021-06-24",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2743",
+      "transit-2769"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune into natal Ninth House",
+      "startDate": "2021-02-07",
+      "endDate": "2034-05-17",
+      "exactHits": [
+        {
+          "date": "2021-03-06",
+          "motion": "direct"
+        },
+        {
+          "date": "2021-11-15",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2021-12-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2746",
+      "transit-2770"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn into natal Seventh House",
+      "startDate": "2021-03-26",
+      "endDate": "2021-07-23",
+      "exactHits": [
+        {
+          "date": "2021-04-08",
+          "motion": "direct"
+        },
+        {
+          "date": "2021-07-08",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2757",
+      "transit-2771"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in sextile with natal Chiron",
+      "startDate": "2021-03-28",
+      "endDate": "2021-10-02",
+      "exactHits": [
+        {
+          "date": "2021-04-26",
+          "motion": "direct"
+        },
+        {
+          "date": "2021-08-27",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2759",
+      "transit-2772"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in square with natal Neptune",
+      "startDate": "2021-04-03",
+      "endDate": "2021-09-24",
+      "exactHits": [
+        {
+          "date": "2021-05-05",
+          "motion": "direct"
+        },
+        {
+          "date": "2021-08-17",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2760",
+      "transit-2773"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Eighth House",
+      "startDate": "2021-04-25",
+      "endDate": "2021-08-17",
+      "exactHits": [
+        {
+          "date": "2021-05-02",
+          "motion": "direct"
+        },
+        {
+          "date": "2021-08-10",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2763",
+      "transit-2774"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Mercury",
+      "startDate": "2021-04-26",
+      "endDate": "2021-06-19",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2764",
+      "transit-2775"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Ascendant",
+      "startDate": "2021-05-04",
+      "endDate": "2021-06-10",
+      "exactHits": [
+        {
+          "date": "2021-05-22",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2766",
+      "transit-2776"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in trine with natal Ascendant",
+      "startDate": "2021-05-05",
+      "endDate": "2021-07-09",
+      "exactHits": [
+        {
+          "date": "2021-05-27",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2767",
+      "transit-2777"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Sun",
+      "startDate": "2021-05-15",
+      "endDate": "2021-07-26",
+      "exactHits": [
+        {
+          "date": "2021-05-26",
+          "motion": "direct"
+        },
+        {
+          "date": "2021-07-15",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2768",
+      "transit-2778"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Moon",
+      "startDate": "2022-02-14",
+      "endDate": "2022-07-20",
+      "exactHits": [
+        {
+          "date": "2022-03-28",
+          "motion": "direct"
+        },
+        {
+          "date": "2022-06-01",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2814",
+      "transit-2839"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Uranus",
+      "startDate": "2022-05-22",
+      "endDate": "2022-06-18",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2834",
+      "transit-2840"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Uranus",
+      "startDate": "2022-05-23",
+      "endDate": "2022-08-03",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2835",
+      "transit-2841"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Mars",
+      "startDate": "2022-05-26",
+      "endDate": "2022-06-08",
+      "exactHits": [
+        {
+          "date": "2022-06-02",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2836",
+      "transit-2842"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in opposition with natal Jupiter",
+      "startDate": "2022-06-02",
+      "endDate": "2022-06-16",
+      "exactHits": [
+        {
+          "date": "2022-06-09",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2837",
+      "transit-2843"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in opposition with natal Saturn",
+      "startDate": "2022-06-02",
+      "endDate": "2022-06-16",
+      "exactHits": [
+        {
+          "date": "2022-06-09",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2838",
+      "transit-2844"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Venus",
+      "startDate": "2023-01-27",
+      "endDate": "2023-08-17",
+      "exactHits": [
+        {
+          "date": "2023-03-01",
+          "motion": "direct"
+        },
+        {
+          "date": "2023-07-05",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2872",
+      "transit-2901"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in semi-sextile with natal Moon",
+      "startDate": "2023-05-26",
+      "endDate": "2023-08-06",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-2898",
+      "transit-2902"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Mars",
+      "startDate": "2023-05-29",
+      "endDate": "2023-06-08",
+      "exactHits": [
+        {
+          "date": "2023-06-03",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2899",
+      "transit-2903"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in semi-sextile with natal Midheaven",
+      "startDate": "2023-05-31",
+      "endDate": "2023-07-11",
+      "exactHits": [
+        {
+          "date": "2023-06-18",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2900",
+      "transit-2904"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in opposition with natal Sun",
+      "startDate": "2024-01-26",
+      "endDate": "2024-08-22",
+      "exactHits": [
+        {
+          "date": "2024-02-28",
+          "motion": "direct"
+        },
+        {
+          "date": "2024-07-10",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2932",
+      "transit-2961"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Venus",
+      "startDate": "2024-04-17",
+      "endDate": "2024-09-21",
+      "exactHits": [
+        {
+          "date": "2024-05-23",
+          "motion": "direct"
+        },
+        {
+          "date": "2024-08-12",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2946",
+      "transit-2962"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron into natal Tenth House",
+      "startDate": "2024-04-21",
+      "endDate": "2024-11-07",
+      "exactHits": [
+        {
+          "date": "2024-05-09",
+          "motion": "direct"
+        },
+        {
+          "date": "2024-10-16",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2949",
+      "transit-2963"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in opposition with natal Pluto",
+      "startDate": "2024-04-30",
+      "endDate": "2024-06-11",
+      "exactHits": [
+        {
+          "date": "2024-05-19",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2951",
+      "transit-2964"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Mars",
+      "startDate": "2024-05-05",
+      "endDate": "2024-06-18",
+      "exactHits": [
+        {
+          "date": "2024-05-24",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2953",
+      "transit-2965"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Chiron",
+      "startDate": "2024-05-11",
+      "endDate": "2024-07-01",
+      "exactHits": [
+        {
+          "date": "2024-06-01",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2954",
+      "transit-2966"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in trine with natal Neptune",
+      "startDate": "2024-05-16",
+      "endDate": "2024-07-19",
+      "exactHits": [
+        {
+          "date": "2024-06-07",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2956",
+      "transit-2967"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Sun",
+      "startDate": "2024-05-26",
+      "endDate": "2024-06-04",
+      "exactHits": [
+        {
+          "date": "2024-05-31",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2959",
+      "transit-2968"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Eleventh House",
+      "startDate": "2024-05-29",
+      "endDate": "2025-08-01",
+      "exactHits": [
+        {
+          "date": "2024-06-02",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-2960",
+      "transit-2969"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Mars",
+      "startDate": "2025-03-01",
+      "endDate": "2025-07-11",
+      "exactHits": [
+        {
+          "date": "2025-05-04",
+          "motion": "stationing_retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3004",
+      "transit-3027"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Sun",
+      "startDate": "2025-04-04",
+      "endDate": "2025-10-14",
+      "exactHits": [
+        {
+          "date": "2025-05-03",
+          "motion": "direct"
+        },
+        {
+          "date": "2025-09-08",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3013",
+      "transit-3028"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Venus",
+      "startDate": "2025-05-07",
+      "endDate": "2025-06-01",
+      "exactHits": [
+        {
+          "date": "2025-05-19",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3021",
+      "transit-3029"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in semi-sextile with natal Moon",
+      "startDate": "2025-05-18",
+      "endDate": "2025-06-23",
+      "exactHits": [
+        {
+          "date": "2025-06-05",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3023",
+      "transit-3030"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in inconjunct with natal Uranus",
+      "startDate": "2025-05-19",
+      "endDate": "2025-07-18",
+      "exactHits": [
+        {
+          "date": "2025-06-10",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3024",
+      "transit-3031"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Sun",
+      "startDate": "2025-05-27",
+      "endDate": "2025-08-29",
+      "exactHits": [
+        {
+          "date": "2025-06-13",
+          "motion": "direct"
+        },
+        {
+          "date": "2025-08-12",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3025",
+      "transit-3032"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Moon",
+      "startDate": "2025-05-29",
+      "endDate": "2025-06-07",
+      "exactHits": [
+        {
+          "date": "2025-06-02",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3026",
+      "transit-3033"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Jupiter",
+      "startDate": "2026-02-08",
+      "endDate": "2026-08-10",
+      "exactHits": [
+        {
+          "date": "2026-03-17",
+          "motion": "direct"
+        },
+        {
+          "date": "2026-06-27",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3078",
+      "transit-3101"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Saturn",
+      "startDate": "2026-02-08",
+      "endDate": "2026-08-10",
+      "exactHits": [
+        {
+          "date": "2026-03-17",
+          "motion": "direct"
+        },
+        {
+          "date": "2026-06-27",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3079",
+      "transit-3102"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in square with natal Mars",
+      "startDate": "2026-04-20",
+      "endDate": "2026-09-29",
+      "exactHits": [
+        {
+          "date": "2026-05-24",
+          "motion": "direct"
+        },
+        {
+          "date": "2026-08-21",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3087",
+      "transit-3103"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in conjunction with natal Moon",
+      "startDate": "2026-04-28",
+      "endDate": "2026-06-04",
+      "exactHits": [
+        {
+          "date": "2026-05-15",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3088",
+      "transit-3104"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Sun",
+      "startDate": "2026-04-29",
+      "endDate": "2026-06-03",
+      "exactHits": [
+        {
+          "date": "2026-05-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3089",
+      "transit-3105"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus into natal Eleventh House",
+      "startDate": "2026-05-10",
+      "endDate": "2035-07-20",
+      "exactHits": [
+        {
+          "date": "2026-05-27",
+          "motion": "direct"
+        },
+        {
+          "date": "2027-01-22",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2027-02-24",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3091",
+      "transit-3106"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Ascendant",
+      "startDate": "2026-05-17",
+      "endDate": "2026-06-09",
+      "exactHits": [
+        {
+          "date": "2026-05-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3095",
+      "transit-3107"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in trine with natal Venus",
+      "startDate": "2026-05-19",
+      "endDate": "2026-07-06",
+      "exactHits": [
+        {
+          "date": "2026-06-07",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3096",
+      "transit-3108"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Jupiter",
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-31",
+      "exactHits": [
+        {
+          "date": "2026-05-25",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3097",
+      "transit-3109"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Saturn",
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-31",
+      "exactHits": [
+        {
+          "date": "2026-05-25",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3098",
+      "transit-3110"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in opposition with natal Jupiter",
+      "startDate": "2026-05-25",
+      "endDate": "2026-08-20",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-3099",
+      "transit-3111"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in opposition with natal Saturn",
+      "startDate": "2026-05-25",
+      "endDate": "2026-08-20",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-3100",
+      "transit-3112"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Jupiter",
+      "startDate": "2027-04-24",
+      "endDate": "2027-05-30",
+      "exactHits": [
+        {
+          "date": "2027-05-13",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3159",
+      "transit-3169"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Saturn",
+      "startDate": "2027-04-24",
+      "endDate": "2027-05-30",
+      "exactHits": [
+        {
+          "date": "2027-05-13",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3160",
+      "transit-3170"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn into natal Tenth House",
+      "startDate": "2027-04-27",
+      "endDate": "2030-06-15",
+      "exactHits": [
+        {
+          "date": "2027-05-05",
+          "motion": "direct"
+        },
+        {
+          "date": "2027-12-11",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2028-01-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3161",
+      "transit-3171"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Mercury",
+      "startDate": "2027-04-30",
+      "endDate": "2027-06-04",
+      "exactHits": [
+        {
+          "date": "2027-05-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3163",
+      "transit-3172"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in trine with natal Midheaven",
+      "startDate": "2027-05-29",
+      "endDate": "2027-06-13",
+      "exactHits": [
+        {
+          "date": "2027-06-06",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3168",
+      "transit-3173"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in quintile with natal Uranus",
+      "startDate": "2028-02-07",
+      "endDate": "2028-08-21",
+      "exactHits": [
+        {
+          "date": "2028-03-13",
+          "motion": "direct"
+        },
+        {
+          "date": "2028-07-08",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3224",
+      "transit-3243"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in quintile with natal Midheaven",
+      "startDate": "2028-03-14",
+      "endDate": "2028-07-06",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-3230",
+      "transit-3244"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Jupiter",
+      "startDate": "2028-05-14",
+      "endDate": "2028-05-31",
+      "exactHits": [
+        {
+          "date": "2028-05-22",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3241",
+      "transit-3245"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Saturn",
+      "startDate": "2028-05-14",
+      "endDate": "2028-05-31",
+      "exactHits": [
+        {
+          "date": "2028-05-22",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3242",
+      "transit-3246"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in semi-sextile with natal Mercury",
+      "startDate": "2029-05-11",
+      "endDate": "2029-06-15",
+      "exactHits": [
+        {
+          "date": "2029-05-29",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3296",
+      "transit-3297"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto into natal Seventh House",
+      "startDate": "2030-02-28",
+      "endDate": "2030-07-31",
+      "exactHits": [
+        {
+          "date": "2030-04-17",
+          "motion": "direct"
+        },
+        {
+          "date": "2030-06-07",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3339",
+      "transit-3358"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in opposition with natal Ascendant",
+      "startDate": "2030-02-28",
+      "endDate": "2030-07-31",
+      "exactHits": [
+        {
+          "date": "2030-04-17",
+          "motion": "direct"
+        },
+        {
+          "date": "2030-06-07",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3340",
+      "transit-3359"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Ascendant",
+      "startDate": "2030-04-03",
+      "endDate": "2030-06-04",
+      "exactHits": [
+        {
+          "date": "2030-04-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3346",
+      "transit-3360"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in quintile with natal Venus",
+      "startDate": "2030-05-02",
+      "endDate": "2030-06-07",
+      "exactHits": [
+        {
+          "date": "2030-05-20",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3349",
+      "transit-3361"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in opposition with natal Chiron",
+      "startDate": "2030-05-09",
+      "endDate": "2030-05-25",
+      "exactHits": [
+        {
+          "date": "2030-05-17",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3351",
+      "transit-3362"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in semi-sextile with natal Moon",
+      "startDate": "2030-05-11",
+      "endDate": "2030-05-27",
+      "exactHits": [
+        {
+          "date": "2030-05-19",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3352",
+      "transit-3363"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in sextile with natal Mercury",
+      "startDate": "2030-05-12",
+      "endDate": "2030-06-15",
+      "exactHits": [
+        {
+          "date": "2030-05-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3353",
+      "transit-3364"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in semi-sextile with natal Pluto",
+      "startDate": "2030-05-14",
+      "endDate": "2030-05-30",
+      "exactHits": [
+        {
+          "date": "2030-05-22",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3354",
+      "transit-3365"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Midheaven",
+      "startDate": "2030-05-18",
+      "endDate": "2030-06-04",
+      "exactHits": [
+        {
+          "date": "2030-05-26",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3355",
+      "transit-3366"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Venus",
+      "startDate": "2030-05-20",
+      "endDate": "2030-06-05",
+      "exactHits": [
+        {
+          "date": "2030-05-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3356",
+      "transit-3367"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in quintile with natal Ascendant",
+      "startDate": "2030-05-23",
+      "endDate": "2030-06-08",
+      "exactHits": [
+        {
+          "date": "2030-05-31",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3357",
+      "transit-3368"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto into natal Seventh House",
+      "startDate": "2031-01-07",
+      "endDate": "2032-01-23",
+      "exactHits": [
+        {
+          "date": "2031-02-09",
+          "motion": "direct"
+        },
+        {
+          "date": "2031-08-28",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2031-12-18",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3404",
+      "transit-3427"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Mercury",
+      "startDate": "2031-03-18",
+      "endDate": "2031-07-14",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-3416",
+      "transit-3428"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in square with natal Mercury",
+      "startDate": "2031-03-31",
+      "endDate": "2031-05-29",
+      "exactHits": [
+        {
+          "date": "2031-04-27",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3420",
+      "transit-3429"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Midheaven",
+      "startDate": "2031-04-22",
+      "endDate": "2031-05-30",
+      "exactHits": [
+        {
+          "date": "2031-05-12",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3421",
+      "transit-3430"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Pluto",
+      "startDate": "2031-05-03",
+      "endDate": "2031-06-08",
+      "exactHits": [
+        {
+          "date": "2031-05-22",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3422",
+      "transit-3431"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in semi-sextile with natal Chiron",
+      "startDate": "2031-05-15",
+      "endDate": "2031-06-18",
+      "exactHits": [
+        {
+          "date": "2031-06-01",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3423",
+      "transit-3432"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in opposition with natal Neptune",
+      "startDate": "2031-05-19",
+      "endDate": "2031-06-22",
+      "exactHits": [
+        {
+          "date": "2031-06-05",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3424",
+      "transit-3433"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in semi-sextile with natal Uranus",
+      "startDate": "2031-05-21",
+      "endDate": "2031-06-07",
+      "exactHits": [
+        {
+          "date": "2031-05-30",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3425",
+      "transit-3434"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in sextile with natal Ascendant",
+      "startDate": "2031-05-22",
+      "endDate": "2031-06-07",
+      "exactHits": [
+        {
+          "date": "2031-05-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3426",
+      "transit-3435"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in opposition with natal Sun",
+      "startDate": "2032-04-13",
+      "endDate": "2032-06-24",
+      "exactHits": [
+        {
+          "date": "2032-04-24",
+          "motion": "direct"
+        },
+        {
+          "date": "2032-06-13",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3487",
+      "transit-3497"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Midheaven",
+      "startDate": "2032-04-26",
+      "endDate": "2032-05-25",
+      "exactHits": [
+        {
+          "date": "2032-05-11",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3489",
+      "transit-3498"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in inconjunct with natal Pluto",
+      "startDate": "2032-05-04",
+      "endDate": "2032-06-02",
+      "exactHits": [
+        {
+          "date": "2032-05-18",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3491",
+      "transit-3499"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in semi-sextile with natal Chiron",
+      "startDate": "2032-05-06",
+      "endDate": "2032-05-22",
+      "exactHits": [
+        {
+          "date": "2032-05-14",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3492",
+      "transit-3500"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in opposition with natal Neptune",
+      "startDate": "2032-05-08",
+      "endDate": "2032-05-24",
+      "exactHits": [
+        {
+          "date": "2032-05-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3493",
+      "transit-3501"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in inconjunct with natal Uranus",
+      "startDate": "2032-05-08",
+      "endDate": "2032-06-13",
+      "exactHits": [
+        {
+          "date": "2032-05-26",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3494",
+      "transit-3502"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in conjunction with natal Chiron",
+      "startDate": "2032-05-13",
+      "endDate": "2032-06-12",
+      "exactHits": [
+        {
+          "date": "2032-05-27",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3495",
+      "transit-3503"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in inconjunct with natal Neptune",
+      "startDate": "2032-05-16",
+      "endDate": "2032-06-15",
+      "exactHits": [
+        {
+          "date": "2032-05-31",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3496",
+      "transit-3504"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in quintile with natal Moon",
+      "startDate": "2033-02-22",
+      "endDate": "2033-08-18",
+      "exactHits": [
+        {
+          "date": "2033-04-03",
+          "motion": "direct"
+        },
+        {
+          "date": "2033-07-02",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3553",
+      "transit-3574"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Eighth House",
+      "startDate": "2033-04-02",
+      "endDate": "2033-10-16",
+      "exactHits": [
+        {
+          "date": "2033-04-07",
+          "motion": "direct"
+        },
+        {
+          "date": "2033-09-27",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3561",
+      "transit-3575"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Venus",
+      "startDate": "2033-04-21",
+      "endDate": "2033-05-31",
+      "exactHits": [
+        {
+          "date": "2033-05-13",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3565",
+      "transit-3576"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in opposition with natal Uranus",
+      "startDate": "2033-05-03",
+      "endDate": "2033-06-01",
+      "exactHits": [
+        {
+          "date": "2033-05-18",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3568",
+      "transit-3577"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Neptune",
+      "startDate": "2033-05-06",
+      "endDate": "2033-05-22",
+      "exactHits": [
+        {
+          "date": "2033-05-14",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3569",
+      "transit-3578"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Jupiter",
+      "startDate": "2033-05-06",
+      "endDate": "2033-05-25",
+      "exactHits": [
+        {
+          "date": "2033-05-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3570",
+      "transit-3579"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Saturn",
+      "startDate": "2033-05-06",
+      "endDate": "2033-05-25",
+      "exactHits": [
+        {
+          "date": "2033-05-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3571",
+      "transit-3580"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Jupiter",
+      "startDate": "2033-05-09",
+      "endDate": "2033-05-27",
+      "exactHits": [
+        {
+          "date": "2033-05-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3572",
+      "transit-3581"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Saturn",
+      "startDate": "2033-05-09",
+      "endDate": "2033-05-27",
+      "exactHits": [
+        {
+          "date": "2033-05-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3573",
+      "transit-3582"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in quintile with natal Midheaven",
+      "startDate": "2034-03-26",
+      "endDate": "2034-05-21",
+      "exactHits": [
+        {
+          "date": "2034-04-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3635",
+      "transit-3653"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in conjunction with natal Midheaven",
+      "startDate": "2034-04-18",
+      "endDate": "2034-06-26",
+      "exactHits": [
+        {
+          "date": "2034-05-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3640",
+      "transit-3654"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in conjunction with natal Mars",
+      "startDate": "2034-04-24",
+      "endDate": "2034-06-04",
+      "exactHits": [
+        {
+          "date": "2034-05-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3643",
+      "transit-3655"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in opposition with natal Pluto",
+      "startDate": "2034-05-03",
+      "endDate": "2034-10-23",
+      "exactHits": [
+        {
+          "date": "2034-06-04",
+          "motion": "direct"
+        },
+        {
+          "date": "2034-09-16",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3644",
+      "transit-3656"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in sextile with natal Sun",
+      "startDate": "2034-05-08",
+      "endDate": "2034-06-04",
+      "exactHits": [
+        {
+          "date": "2034-05-22",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3646",
+      "transit-3657"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in opposition with natal Jupiter",
+      "startDate": "2034-05-09",
+      "endDate": "2034-05-19",
+      "exactHits": [
+        {
+          "date": "2034-05-14",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3647",
+      "transit-3658"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in opposition with natal Saturn",
+      "startDate": "2034-05-09",
+      "endDate": "2034-05-19",
+      "exactHits": [
+        {
+          "date": "2034-05-14",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3648",
+      "transit-3659"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in quintile with natal Mars",
+      "startDate": "2034-05-10",
+      "endDate": "2034-10-15",
+      "exactHits": [
+        {
+          "date": "2034-06-14",
+          "motion": "direct"
+        },
+        {
+          "date": "2034-09-05",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3649",
+      "transit-3660"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Jupiter",
+      "startDate": "2034-05-17",
+      "endDate": "2034-06-22",
+      "exactHits": [
+        {
+          "date": "2034-06-05",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3650",
+      "transit-3661"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Saturn",
+      "startDate": "2034-05-17",
+      "endDate": "2034-06-22",
+      "exactHits": [
+        {
+          "date": "2034-06-05",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3651",
+      "transit-3662"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron into natal Eleventh House",
+      "startDate": "2034-05-17",
+      "endDate": "2039-09-14",
+      "exactHits": [
+        {
+          "date": "2034-05-30",
+          "motion": "direct"
+        },
+        {
+          "date": "2035-01-10",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2035-03-07",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3652",
+      "transit-3663"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Neptune",
+      "startDate": "2035-03-29",
+      "endDate": "2035-05-23",
+      "exactHits": [
+        {
+          "date": "2035-04-24",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3713",
+      "transit-3727"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in semi-sextile with natal Venus",
+      "startDate": "2035-04-09",
+      "endDate": "2035-05-18",
+      "exactHits": [
+        {
+          "date": "2035-05-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3716",
+      "transit-3728"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Mars",
+      "startDate": "2035-05-12",
+      "endDate": "2035-05-20",
+      "exactHits": [
+        {
+          "date": "2035-05-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3723",
+      "transit-3729"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in conjunction with natal Sun",
+      "startDate": "2035-05-14",
+      "endDate": "2035-06-05",
+      "exactHits": [
+        {
+          "date": "2035-05-26",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3724",
+      "transit-3730"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Jupiter",
+      "startDate": "2035-05-16",
+      "endDate": "2035-05-25",
+      "exactHits": [
+        {
+          "date": "2035-05-20",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3725",
+      "transit-3731"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Saturn",
+      "startDate": "2035-05-16",
+      "endDate": "2035-05-25",
+      "exactHits": [
+        {
+          "date": "2035-05-20",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3726",
+      "transit-3732"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus into natal Twelfth House",
+      "startDate": "2035-07-03",
+      "endDate": "2041-10-05",
+      "exactHits": [
+        {
+          "date": "2035-07-20",
+          "motion": "direct"
+        },
+        {
+          "date": "2036-02-02",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2036-05-01",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3740",
+      "transit-3783"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in semi-sextile with natal Ascendant",
+      "startDate": "2036-01-06",
+      "endDate": "2036-05-26",
+      "exactHits": [
+        {
+          "date": "2036-01-30",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2036-05-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3760",
+      "transit-3784"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in sextile with natal Midheaven",
+      "startDate": "2036-03-06",
+      "endDate": "2036-08-12",
+      "exactHits": [
+        {
+          "date": "2036-04-23",
+          "motion": "direct"
+        },
+        {
+          "date": "2036-06-18",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3765",
+      "transit-3785"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Pluto",
+      "startDate": "2036-03-27",
+      "endDate": "2036-07-18",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-3769",
+      "transit-3786"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Uranus",
+      "startDate": "2036-05-05",
+      "endDate": "2036-10-29",
+      "exactHits": [
+        {
+          "date": "2036-06-05",
+          "motion": "direct"
+        },
+        {
+          "date": "2036-09-23",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3777",
+      "transit-3787"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Chiron",
+      "startDate": "2036-05-07",
+      "endDate": "2036-06-04",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-3778",
+      "transit-3788"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in semi-sextile with natal Mercury",
+      "startDate": "2036-05-09",
+      "endDate": "2036-06-07",
+      "exactHits": [
+        {
+          "date": "2036-05-26",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3779",
+      "transit-3789"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in sextile with natal Ascendant",
+      "startDate": "2036-05-09",
+      "endDate": "2036-06-03",
+      "exactHits": [
+        {
+          "date": "2036-05-21",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3780",
+      "transit-3790"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Sun",
+      "startDate": "2036-05-10",
+      "endDate": "2036-05-18",
+      "exactHits": [
+        {
+          "date": "2036-05-14",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3781",
+      "transit-3791"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Eleventh House",
+      "startDate": "2036-05-13",
+      "endDate": "2037-07-15",
+      "exactHits": [
+        {
+          "date": "2036-05-17",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3782",
+      "transit-3792"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Chiron",
+      "startDate": "2037-02-23",
+      "endDate": "2037-08-29",
+      "exactHits": [
+        {
+          "date": "2037-04-03",
+          "motion": "direct"
+        },
+        {
+          "date": "2037-07-14",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3829",
+      "transit-3841"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in sextile with natal Neptune",
+      "startDate": "2037-03-03",
+      "endDate": "2037-08-19",
+      "exactHits": [
+        {
+          "date": "2037-04-17",
+          "motion": "direct"
+        },
+        {
+          "date": "2037-06-29",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3830",
+      "transit-3842"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Uranus",
+      "startDate": "2037-03-21",
+      "endDate": "2037-06-02",
+      "exactHits": [
+        {
+          "date": "2037-04-15",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2037-05-08",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3832",
+      "transit-3843"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Venus",
+      "startDate": "2037-05-03",
+      "endDate": "2037-05-28",
+      "exactHits": [
+        {
+          "date": "2037-05-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3838",
+      "transit-3844"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in conjunction with natal Moon",
+      "startDate": "2037-05-08",
+      "endDate": "2037-11-02",
+      "exactHits": [
+        {
+          "date": "2037-06-08",
+          "motion": "direct"
+        },
+        {
+          "date": "2037-09-26",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3839",
+      "transit-3845"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Moon",
+      "startDate": "2037-05-11",
+      "endDate": "2037-05-21",
+      "exactHits": [
+        {
+          "date": "2037-05-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3840",
+      "transit-3846"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Midheaven",
+      "startDate": "2038-04-09",
+      "endDate": "2038-06-07",
+      "exactHits": [
+        {
+          "date": "2038-05-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3922",
+      "transit-3929"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in trine with natal Venus",
+      "startDate": "2038-04-11",
+      "endDate": "2038-06-07",
+      "exactHits": [
+        {
+          "date": "2038-05-08",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3923",
+      "transit-3930"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Pluto",
+      "startDate": "2038-05-03",
+      "endDate": "2038-06-17",
+      "exactHits": [
+        {
+          "date": "2038-05-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3928",
+      "transit-3931"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Chiron",
+      "startDate": "2039-03-12",
+      "endDate": "2039-05-23",
+      "exactHits": [
+        {
+          "date": "2039-03-25",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2039-05-11",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3998",
+      "transit-4011"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Pluto",
+      "startDate": "2039-03-19",
+      "endDate": "2039-05-16",
+      "exactHits": [
+        {
+          "date": "2039-04-05",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2039-04-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-3999",
+      "transit-4012"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in square with natal Sun",
+      "startDate": "2039-03-29",
+      "endDate": "2039-05-22",
+      "exactHits": [
+        {
+          "date": "2039-04-25",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4002",
+      "transit-4013"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Uranus",
+      "startDate": "2039-04-03",
+      "endDate": "2039-07-21",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4003",
+      "transit-4014"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Neptune",
+      "startDate": "2039-04-18",
+      "endDate": "2039-06-29",
+      "exactHits": [
+        {
+          "date": "2039-05-17",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2039-05-31",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4004",
+      "transit-4015"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in quintile with natal Mercury",
+      "startDate": "2039-04-18",
+      "endDate": "2039-06-16",
+      "exactHits": [
+        {
+          "date": "2039-05-15",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4005",
+      "transit-4016"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Chiron",
+      "startDate": "2039-04-23",
+      "endDate": "2039-06-25",
+      "exactHits": [
+        {
+          "date": "2039-05-25",
+          "motion": "stationing_direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4006",
+      "transit-4017"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in trine with natal Neptune",
+      "startDate": "2039-04-24",
+      "endDate": "2039-05-25",
+      "exactHits": [
+        {
+          "date": "2039-05-14",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4007",
+      "transit-4018"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Sun",
+      "startDate": "2039-04-29",
+      "endDate": "2039-05-24",
+      "exactHits": [
+        {
+          "date": "2039-05-12",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4008",
+      "transit-4019"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Uranus",
+      "startDate": "2039-05-02",
+      "endDate": "2039-06-19",
+      "exactHits": [
+        {
+          "date": "2039-05-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4009",
+      "transit-4020"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in semi-sextile with natal Pluto",
+      "startDate": "2039-05-08",
+      "endDate": "2039-06-09",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4010",
+      "transit-4021"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in square with natal Uranus",
+      "startDate": "2040-02-09",
+      "endDate": "2040-05-16",
+      "exactHits": [
+        {
+          "date": "2040-03-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4073",
+      "transit-4091"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in semi-sextile with natal Venus",
+      "startDate": "2040-02-11",
+      "endDate": "2040-05-29",
+      "exactHits": [
+        {
+          "date": "2040-03-14",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2040-04-27",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4074",
+      "transit-4092"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in sextile with natal Mars",
+      "startDate": "2040-04-12",
+      "endDate": "2040-06-08",
+      "exactHits": [
+        {
+          "date": "2040-05-09",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4081",
+      "transit-4093"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Neptune",
+      "startDate": "2040-04-13",
+      "endDate": "2040-06-20",
+      "exactHits": [
+        {
+          "date": "2040-04-27",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2040-06-07",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4082",
+      "transit-4094"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in trine with natal Chiron",
+      "startDate": "2040-04-16",
+      "endDate": "2040-06-18",
+      "exactHits": [
+        {
+          "date": "2040-05-02",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2040-06-03",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4083",
+      "transit-4095"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in semi-sextile with natal Pluto",
+      "startDate": "2040-04-24",
+      "endDate": "2040-06-10",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4084",
+      "transit-4096"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Midheaven",
+      "startDate": "2040-05-04",
+      "endDate": "2040-05-31",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4085",
+      "transit-4097"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in conjunction with natal Jupiter",
+      "startDate": "2040-05-07",
+      "endDate": "2040-07-05",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4086",
+      "transit-4098"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in conjunction with natal Saturn",
+      "startDate": "2040-05-07",
+      "endDate": "2040-07-05",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4087",
+      "transit-4099"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Jupiter",
+      "startDate": "2040-05-10",
+      "endDate": "2040-11-14",
+      "exactHits": [
+        {
+          "date": "2040-06-09",
+          "motion": "direct"
+        },
+        {
+          "date": "2040-10-09",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4088",
+      "transit-4100"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Saturn",
+      "startDate": "2040-05-10",
+      "endDate": "2040-11-14",
+      "exactHits": [
+        {
+          "date": "2040-06-09",
+          "motion": "direct"
+        },
+        {
+          "date": "2040-10-09",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4089",
+      "transit-4101"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in quintile with natal Moon",
+      "startDate": "2040-05-10",
+      "endDate": "2040-06-02",
+      "exactHits": [
+        {
+          "date": "2040-05-22",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4090",
+      "transit-4102"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Fourth House",
+      "startDate": "2040-11-11",
+      "endDate": "2042-03-05",
+      "exactHits": [
+        {
+          "date": "2040-11-16",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4135",
+      "transit-4169"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Jupiter",
+      "startDate": "2041-01-27",
+      "endDate": "2041-06-19",
+      "exactHits": [
+        {
+          "date": "2041-02-20",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2041-05-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4154",
+      "transit-4170"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Saturn",
+      "startDate": "2041-01-27",
+      "endDate": "2041-06-19",
+      "exactHits": [
+        {
+          "date": "2041-02-20",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2041-05-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4155",
+      "transit-4171"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in quintile with natal Chiron",
+      "startDate": "2041-02-12",
+      "endDate": "2041-06-05",
+      "exactHits": [
+        {
+          "date": "2041-03-13",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2041-05-08",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4156",
+      "transit-4172"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in semi-sextile with natal Mars",
+      "startDate": "2041-02-21",
+      "endDate": "2041-05-28",
+      "exactHits": [
+        {
+          "date": "2041-04-10",
+          "motion": "stationing_direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4157",
+      "transit-4173"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in sextile with natal Moon",
+      "startDate": "2041-03-11",
+      "endDate": "2041-08-21",
+      "exactHits": [
+        {
+          "date": "2041-04-29",
+          "motion": "direct"
+        },
+        {
+          "date": "2041-06-27",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4162",
+      "transit-4174"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Ascendant",
+      "startDate": "2041-05-02",
+      "endDate": "2041-05-22",
+      "exactHits": [
+        {
+          "date": "2041-05-11",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4168",
+      "transit-4175"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in opposition with natal Venus",
+      "startDate": "2042-03-04",
+      "endDate": "2042-09-03",
+      "exactHits": [
+        {
+          "date": "2042-04-15",
+          "motion": "direct"
+        },
+        {
+          "date": "2042-07-17",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4239",
+      "transit-4249"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Venus",
+      "startDate": "2042-04-18",
+      "endDate": "2042-05-23",
+      "exactHits": [
+        {
+          "date": "2042-05-09",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4244",
+      "transit-4250"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in quintile with natal Pluto",
+      "startDate": "2042-04-27",
+      "endDate": "2042-06-25",
+      "exactHits": [
+        {
+          "date": "2042-06-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4246",
+      "transit-4251"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Moon",
+      "startDate": "2042-04-30",
+      "endDate": "2042-05-16",
+      "exactHits": [
+        {
+          "date": "2042-05-08",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4247",
+      "transit-4252"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Sun",
+      "startDate": "2042-05-07",
+      "endDate": "2042-06-13",
+      "exactHits": [
+        {
+          "date": "2042-05-22",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4248",
+      "transit-4253"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron into natal First House",
+      "startDate": "2042-08-25",
+      "endDate": "2043-10-08",
+      "exactHits": [
+        {
+          "date": "2042-09-03",
+          "motion": "direct"
+        },
+        {
+          "date": "2043-03-14",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2043-05-08",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4270",
+      "transit-4307"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in semi-sextile with natal Mercury",
+      "startDate": "2043-02-14",
+      "endDate": "2043-06-22",
+      "exactHits": [
+        {
+          "date": "2043-03-12",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2043-05-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4299",
+      "transit-4308"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in conjunction with natal Ascendant",
+      "startDate": "2043-02-25",
+      "endDate": "2043-05-25",
+      "exactHits": [
+        {
+          "date": "2043-03-14",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2043-05-08",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4301",
+      "transit-4309"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Sun",
+      "startDate": "2043-03-15",
+      "endDate": "2043-08-23",
+      "exactHits": [
+        {
+          "date": "2043-05-05",
+          "motion": "direct"
+        },
+        {
+          "date": "2043-06-28",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4303",
+      "transit-4310"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in quintile with natal Pluto",
+      "startDate": "2043-03-26",
+      "endDate": "2043-05-14",
+      "exactHits": [
+        {
+          "date": "2043-04-20",
+          "motion": "stationing_retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4304",
+      "transit-4311"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in opposition with natal Mars",
+      "startDate": "2043-03-30",
+      "endDate": "2043-05-11",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4305",
+      "transit-4312"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in trine with natal Mercury",
+      "startDate": "2043-05-09",
+      "endDate": "2043-06-06",
+      "exactHits": [
+        {
+          "date": "2043-05-22",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4306",
+      "transit-4313"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in square with natal Uranus",
+      "startDate": "2044-03-20",
+      "endDate": "2044-05-28",
+      "exactHits": [
+        {
+          "date": "2044-04-21",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2044-04-27",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4371",
+      "transit-4377"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in square with natal Ascendant",
+      "startDate": "2044-03-24",
+      "endDate": "2044-05-19",
+      "exactHits": [
+        {
+          "date": "2044-04-22",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4372",
+      "transit-4378"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Moon",
+      "startDate": "2044-04-10",
+      "endDate": "2044-05-11",
+      "exactHits": [
+        {
+          "date": "2044-04-27",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4376",
+      "transit-4379"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in trine with natal Mars",
+      "startDate": "2045-03-17",
+      "endDate": "2045-08-27",
+      "exactHits": [
+        {
+          "date": "2045-05-06",
+          "motion": "direct"
+        },
+        {
+          "date": "2045-07-01",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4437",
+      "transit-4450"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Neptune",
+      "startDate": "2045-03-18",
+      "endDate": "2045-06-10",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4439",
+      "transit-4451"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in sextile with natal Mercury",
+      "startDate": "2045-03-19",
+      "endDate": "2045-05-15",
+      "exactHits": [
+        {
+          "date": "2045-04-18",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4441",
+      "transit-4452"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Chiron",
+      "startDate": "2045-03-24",
+      "endDate": "2045-06-03",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4442",
+      "transit-4453"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in quintile with natal Neptune",
+      "startDate": "2045-04-11",
+      "endDate": "2045-07-28",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4445",
+      "transit-4454"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in semi-sextile with natal Ascendant",
+      "startDate": "2045-04-20",
+      "endDate": "2045-05-29",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4449",
+      "transit-4455"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Chiron",
+      "startDate": "2046-02-11",
+      "endDate": "2046-05-23",
+      "exactHits": [
+        {
+          "date": "2046-02-26",
+          "motion": "direct"
+        },
+        {
+          "date": "2046-05-06",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4505",
+      "transit-4528"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in conjunction with natal Neptune",
+      "startDate": "2046-02-14",
+      "endDate": "2046-05-19",
+      "exactHits": [
+        {
+          "date": "2046-03-03",
+          "motion": "direct"
+        },
+        {
+          "date": "2046-05-01",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4506",
+      "transit-4529"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in quintile with natal Neptune",
+      "startDate": "2046-02-19",
+      "endDate": "2046-10-06",
+      "exactHits": [
+        {
+          "date": "2046-03-28",
+          "motion": "direct"
+        },
+        {
+          "date": "2046-08-16",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4510",
+      "transit-4530"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Moon",
+      "startDate": "2046-02-23",
+      "endDate": "2046-07-11",
+      "exactHits": [
+        {
+          "date": "2046-03-19",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2046-06-18",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4512",
+      "transit-4531"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Jupiter",
+      "startDate": "2046-03-06",
+      "endDate": "2046-09-12",
+      "exactHits": [
+        {
+          "date": "2046-04-16",
+          "motion": "direct"
+        },
+        {
+          "date": "2046-07-26",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4517",
+      "transit-4532"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Saturn",
+      "startDate": "2046-03-06",
+      "endDate": "2046-09-12",
+      "exactHits": [
+        {
+          "date": "2046-04-16",
+          "motion": "direct"
+        },
+        {
+          "date": "2046-07-26",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4518",
+      "transit-4533"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in sextile with natal Sun",
+      "startDate": "2046-04-09",
+      "endDate": "2046-05-23",
+      "exactHits": [
+        {
+          "date": "2046-04-23",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4523",
+      "transit-4534"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in sextile with natal Pluto",
+      "startDate": "2046-04-27",
+      "endDate": "2046-05-31",
+      "exactHits": [
+        {
+          "date": "2046-05-17",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4527",
+      "transit-4535"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in quintile with natal Pluto",
+      "startDate": "2047-02-23",
+      "endDate": "2047-06-03",
+      "exactHits": [
+        {
+          "date": "2047-03-10",
+          "motion": "direct"
+        },
+        {
+          "date": "2047-05-18",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4581",
+      "transit-4604"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in opposition with natal Mars",
+      "startDate": "2047-02-26",
+      "endDate": "2047-05-31",
+      "exactHits": [
+        {
+          "date": "2047-03-15",
+          "motion": "direct"
+        },
+        {
+          "date": "2047-05-13",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4582",
+      "transit-4605"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Jupiter",
+      "startDate": "2047-03-15",
+      "endDate": "2047-05-12",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4590",
+      "transit-4606"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Saturn",
+      "startDate": "2047-03-15",
+      "endDate": "2047-05-12",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4591",
+      "transit-4607"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in quintile with natal Sun",
+      "startDate": "2047-04-16",
+      "endDate": "2047-06-10",
+      "exactHits": [
+        {
+          "date": "2047-05-13",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4599",
+      "transit-4608"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Mars",
+      "startDate": "2047-04-26",
+      "endDate": "2047-05-04",
+      "exactHits": [
+        {
+          "date": "2047-04-30",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4601",
+      "transit-4609"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Jupiter",
+      "startDate": "2047-04-30",
+      "endDate": "2047-05-08",
+      "exactHits": [
+        {
+          "date": "2047-05-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4602",
+      "transit-4610"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in inconjunct with natal Saturn",
+      "startDate": "2047-04-30",
+      "endDate": "2047-05-08",
+      "exactHits": [
+        {
+          "date": "2047-05-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4603",
+      "transit-4611"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn into natal Sixth House",
+      "startDate": "2048-01-31",
+      "endDate": "2048-07-29",
+      "exactHits": [
+        {
+          "date": "2048-02-09",
+          "motion": "direct"
+        },
+        {
+          "date": "2048-07-14",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4661",
+      "transit-4677"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in semi-sextile with natal Midheaven",
+      "startDate": "2048-04-09",
+      "endDate": "2048-06-03",
+      "exactHits": [
+        {
+          "date": "2048-05-07",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4670",
+      "transit-4678"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Sun",
+      "startDate": "2048-04-23",
+      "endDate": "2048-05-02",
+      "exactHits": [
+        {
+          "date": "2048-04-28",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4674",
+      "transit-4679"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Pluto",
+      "startDate": "2048-04-24",
+      "endDate": "2048-06-18",
+      "exactHits": [
+        {
+          "date": "2048-05-21",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4675",
+      "transit-4680"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter into natal Eleventh House",
+      "startDate": "2048-04-26",
+      "endDate": "2049-06-29",
+      "exactHits": [
+        {
+          "date": "2048-05-01",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4676",
+      "transit-4681"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in conjunction with natal Chiron",
+      "startDate": "2049-02-26",
+      "endDate": "2049-05-06",
+      "exactHits": [
+        {
+          "date": "2049-04-08",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4737",
+      "transit-4748"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Neptune in inconjunct with natal Neptune",
+      "startDate": "2049-03-11",
+      "endDate": "2049-05-12",
+      "exactHits": [
+        {
+          "date": "2049-04-15",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4740",
+      "transit-4749"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in semi-sextile with natal Ascendant",
+      "startDate": "2049-03-27",
+      "endDate": "2049-07-08",
+      "exactHits": [
+        {
+          "date": "2049-05-02",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2049-06-03",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4742",
+      "transit-4750"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Chiron in conjunction with natal Uranus",
+      "startDate": "2049-04-02",
+      "endDate": "2049-05-05",
+      "exactHits": [
+        {
+          "date": "2049-04-21",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4743",
+      "transit-4751"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Moon",
+      "startDate": "2049-04-21",
+      "endDate": "2049-05-02",
+      "exactHits": [
+        {
+          "date": "2049-04-26",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4745",
+      "transit-4752"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Venus",
+      "startDate": "2049-04-27",
+      "endDate": "2049-05-08",
+      "exactHits": [
+        {
+          "date": "2049-05-03",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4746",
+      "transit-4753"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in square with natal Moon",
+      "startDate": "2049-04-28",
+      "endDate": "2049-05-14",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4747",
+      "transit-4754"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in quintile with natal Chiron",
+      "startDate": "2050-03-13",
+      "endDate": "2050-09-15",
+      "exactHits": [
+        {
+          "date": "2050-04-25",
+          "motion": "direct"
+        },
+        {
+          "date": "2050-07-27",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4818",
+      "transit-4824"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in quintile with natal Uranus",
+      "startDate": "2050-03-31",
+      "endDate": "2050-07-07",
+      "exactHits": [
+        {
+          "date": "2050-04-16",
+          "motion": "direct"
+        },
+        {
+          "date": "2050-06-20",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4819",
+      "transit-4825"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in trine with natal Uranus",
+      "startDate": "2050-04-11",
+      "endDate": "2050-05-02",
+      "exactHits": [
+        {
+          "date": "2050-04-23",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4820",
+      "transit-4826"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in quintile with natal Midheaven",
+      "startDate": "2050-04-17",
+      "endDate": "2050-06-19",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4821",
+      "transit-4827"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in quintile with natal Mars",
+      "startDate": "2050-04-26",
+      "endDate": "2050-06-19",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4822",
+      "transit-4828"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in square with natal Neptune",
+      "startDate": "2051-03-13",
+      "endDate": "2051-05-12",
+      "exactHits": [
+        {
+          "date": "2051-04-05",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4886",
+      "transit-4892"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in trine with natal Chiron",
+      "startDate": "2051-03-19",
+      "endDate": "2051-08-04",
+      "exactHits": [
+        {
+          "date": "2051-04-12",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2051-07-13",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4887",
+      "transit-4893"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in square with natal Uranus",
+      "startDate": "2051-03-23",
+      "endDate": "2051-05-21",
+      "exactHits": [
+        {
+          "date": "2051-04-09",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2051-05-04",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4888",
+      "transit-4894"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Ascendant",
+      "startDate": "2051-03-28",
+      "endDate": "2051-08-31",
+      "exactHits": [
+        {
+          "date": "2051-05-25",
+          "motion": "direct"
+        },
+        {
+          "date": "2051-06-29",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4889",
+      "transit-4895"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in semi-sextile with natal Pluto",
+      "startDate": "2051-04-02",
+      "endDate": "2051-07-23",
+      "exactHits": [
+        {
+          "date": "2051-05-03",
+          "motion": "retrograde"
+        },
+        {
+          "date": "2051-06-23",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4890",
+      "transit-4896"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in inconjunct with natal Midheaven",
+      "startDate": "2051-04-16",
+      "endDate": "2051-07-10",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4891",
+      "transit-4897"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Pluto in inconjunct with natal Ascendant",
+      "startDate": "2052-02-09",
+      "endDate": "2052-05-02",
+      "exactHits": [
+        {
+          "date": "2052-03-18",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4951",
+      "transit-4969"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn into natal Eighth House",
+      "startDate": "2052-03-21",
+      "endDate": "2052-09-10",
+      "exactHits": [
+        {
+          "date": "2052-03-31",
+          "motion": "direct"
+        },
+        {
+          "date": "2052-08-27",
+          "motion": "retrograde"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4961",
+      "transit-4970"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in sextile with natal Uranus",
+      "startDate": "2052-04-16",
+      "endDate": "2052-07-18",
+      "exactHits": [
+        {
+          "date": "2052-06-02",
+          "motion": "stationing_direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4965",
+      "transit-4971"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Saturn in inconjunct with natal Sun",
+      "startDate": "2052-04-18",
+      "endDate": "2052-05-24",
+      "exactHits": [
+        {
+          "date": "2052-05-02",
+          "motion": "direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4966",
+      "transit-4972"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Uranus in quintile with natal Mercury",
+      "startDate": "2052-04-20",
+      "endDate": "2052-07-14",
+      "exactHits": []
+    },
+    "count": 2,
+    "ids": [
+      "transit-4967",
+      "transit-4973"
+    ]
+  },
+  {
+    "dedupeKey": {
+      "title": "Transiting Jupiter in sextile with natal Uranus",
+      "startDate": "2052-04-27",
+      "endDate": "2052-06-16",
+      "exactHits": [
+        {
+          "date": "2052-05-22",
+          "motion": "stationing_direct"
+        }
+      ]
+    },
+    "count": 2,
+    "ids": [
+      "transit-4968",
+      "transit-4974"
+    ]
+  }
+]
