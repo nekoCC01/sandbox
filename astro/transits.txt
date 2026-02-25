@@ -1,12 +1,3 @@
-Transit Hit List Report for Daniel, 12 months, starting 7/24/1981
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto into natal Fourth House
 3 Sep 1980 to 27 Dec 1995, exact 30 Sep 1980
 
@@ -243,15 +234,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-Transit Hit List Report for Daniel, 12 months, starting 7/23/1982
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in quintile with natal Ascendant
 9 May 1982 to 27 Aug 1982, no date of exact
 
@@ -485,15 +467,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 7/22/1983
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Jupiter into natal Fifth House
 30 Dec 1982 to 2 Apr 1984, exact 4 Jan 1983; exact 7 Jul 1983 R; exact 20 Aug 1983
@@ -735,15 +708,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 7/20/1984
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in sextile with natal Venus
 28 Apr 1984 to 14 Sep 1984, exact 11 Jun 1984 R; exact 4 Aug 1984
 
@@ -970,15 +934,6 @@ Nodes: The Lunar Nodes are the two points where the Moon's orbital path crosses 
 Planets: In astrology, the word planets is used to describe astrologically significant points in the sky which includes the Sun and Moon, as well as many objects that are not currently astronomically defined as planets such as Chiron and Pluto.
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
-
-Transit Hit List Report for Daniel, 12 months, starting 7/19/1985
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in trine with natal Mars
 15 Nov 1984 to 2 Nov 1985, exact 14 Dec 1984
@@ -1228,15 +1183,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-Transit Hit List Report for Daniel, 12 months, starting 7/18/1986
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in semi-sextile with natal Jupiter
 28 Apr 1986 to 25 Sep 1986, exact 5 Jun 1986 R; exact 21 Aug 1986
 
@@ -1448,15 +1394,6 @@ Nodes: The Lunar Nodes are the two points where the Moon's orbital path crosses 
 Planets: In astrology, the word planets is used to describe astrologically significant points in the sky which includes the Sun and Moon, as well as many objects that are not currently astronomically defined as planets such as Chiron and Pluto.
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
-
-Transit Hit List Report for Daniel, 12 months, starting 7/17/1987
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Jupiter into natal Tenth House
 28 May 1987 to 30 Nov 1987, exact 2 Jun 1987; exact 15 Nov 1987 R
@@ -1700,15 +1637,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 7/15/1988
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Uranus in trine with natal Moon
 12 Jun 1988 to 8 Aug 1988, exact 6 Jul 1988 R
@@ -1973,15 +1901,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-Transit Hit List Report for Daniel, 12 months, starting 7/14/1989
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Saturn in opposition with natal Mercury
 19 Mar 1989 to 26 Dec 1989, exact 22 Apr 1989 SR; exact 17 Dec 1989
 
@@ -2194,15 +2113,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 7/13/1990
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Neptune into natal Sixth House
 28 Nov 1989 to 6 Mar 2003, exact 26 Dec 1989; exact 16 Sep 1990 R; exact 30 Sep 1990
@@ -2471,15 +2381,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 7/12/1991
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Uranus into natal Sixth House
 19 Jan 1991 to 29 Jul 1991, exact 6 Feb 1991; exact 3 Jul 1991 R
 
@@ -2692,15 +2593,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 7/10/1992
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Saturn into natal Seventh House
 13 Feb 1992 to 23 Apr 1993, exact 21 Feb 1992; exact 4 Oct 1992 R; exact 26 Oct 1992
@@ -2947,15 +2839,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 7/9/1993
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Saturn into natal Eighth House
 11 Apr 1993 to 12 Aug 1993, exact 23 Apr 1993; exact 29 Jul 1993 R
@@ -3210,15 +3093,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 7/8/1994
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Neptune in semi-sextile with natal Neptune
 29 Jan 1994 to 30 Jul 1994, exact 28 Feb 1994; exact 23 Jun 1994 R
 
@@ -3471,15 +3345,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 7/7/1995
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Uranus in inconjunct with natal Venus
 23 Feb 1995 to 20 Jul 1995, exact 17 Mar 1995; exact 25 Jun 1995 R
@@ -3743,15 +3608,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 7/5/1996
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Jupiter into natal Sixth House
 24 Feb 1996 to 20 Jul 1996, exact 1 Mar 1996; exact 11 Jul 1996 R
 
@@ -3992,15 +3848,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 7/4/1997
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Neptune in inconjunct with natal Venus
 15 Feb 1997 to 23 Jul 1997, exact 22 Mar 1997; exact 12 Jun 1997 R
@@ -4260,15 +4107,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 7/3/1998
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Neptune in opposition with natal Sun
 3 Feb 1998 to 14 Aug 1998, exact 4 Mar 1998; exact 8 Jul 1998 R
@@ -4537,15 +4375,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 7/2/1999
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Uranus into natal Seventh House
 31 Dec 1998 to 6 May 2002, exact 18 Jan 1999
 
@@ -4782,15 +4611,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/30/2000
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Uranus in sextile with natal Midheaven
 14 Apr 2000 to 6 Jul 2000, no date of exact
@@ -5030,15 +4850,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/29/2001
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Neptune in quintile with natal Uranus
 17 Feb 2001 to 9 Aug 2001, exact 21 Mar 2001; exact 2 Jul 2001 R
 
@@ -5266,15 +5077,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/28/2002
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Uranus in sextile with natal Moon
 2 Apr 2002 to 7 Aug 2002, exact 29 Apr 2002; exact 8 Jul 2002 R
@@ -5510,15 +5312,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/27/2003
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Chiron into natal Sixth House
 1 Jan 2003 to 22 Feb 2007, exact 11 Jan 2003
 
@@ -5743,15 +5536,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/25/2004
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Neptune into natal Seventh House
 5 Dec 2003 to 6 May 2010, exact 7 Jan 2004
@@ -6024,15 +5808,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/24/2005
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Uranus in quintile with natal Chiron
 13 Apr 2005 to 19 Aug 2005, exact 10 May 2005; exact 20 Jul 2005 R
 
@@ -6245,15 +6020,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/23/2006
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in semi-sextile with natal Uranus
 7 Jan 2006 to 28 Jun 2006, exact 8 Feb 2006; exact 20 May 2006 R
@@ -6473,15 +6239,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/22/2007
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in trine with natal Moon
 10 Jan 2007 to 30 Jun 2007, exact 11 Feb 2007; exact 21 May 2007 R
@@ -6722,15 +6479,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/20/2008
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Jupiter into natal Sixth House
 5 Feb 2008 to 25 Feb 2009, exact 10 Feb 2008
@@ -6974,15 +6722,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/19/2009
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Neptune in square with natal Uranus
 16 Mar 2009 to 16 Aug 2009, exact 21 Apr 2009; exact 6 Jul 2009 R
@@ -7247,15 +6986,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/18/2010
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in square with natal Jupiter
 18 Jan 2010 to 2 Jul 2010, exact 22 Feb 2010; exact 22 May 2010 R
@@ -7524,15 +7254,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/17/2011
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Neptune into natal Eighth House
 25 Jan 2011 to 11 May 2020, exact 21 Feb 2011; exact 1 Oct 2011 R; exact 17 Dec 2011
 
@@ -7773,15 +7494,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/15/2012
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Neptune in trine with natal Mars
 6 May 2012 to 5 Jul 2012, no date of exact
 
@@ -7964,15 +7676,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/14/2013
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Neptune in quintile with natal Neptune
 11 Mar 2013 to 11 Sep 2013, exact 10 Apr 2013; exact 6 Aug 2013 R
@@ -8175,15 +7878,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/13/2014
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto into natal Sixth House
 19 Dec 2013 to 17 Apr 2030, exact 17 Jan 2014; exact 23 Jul 2014 R; exact 19 Nov 2014
 
@@ -8377,15 +8071,6 @@ Nodes: The Lunar Nodes are the two points where the Moon's orbital path crosses 
 Planets: In astrology, the word planets is used to describe astrologically significant points in the sky which includes the Sun and Moon, as well as many objects that are not currently astronomically defined as planets such as Chiron and Pluto.
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
-
-Transit Hit List Report for Daniel, 12 months, starting 6/12/2015
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Chiron into natal Ninth House
 14 Apr 2015 to 6 Sep 2015, exact 5 May 2015; exact 14 Aug 2015 R
@@ -8606,15 +8291,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/10/2016
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Chiron into natal Ninth House
 14 Feb 2016 to 9 May 2024, exact 1 Mar 2016
@@ -8856,15 +8532,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/9/2017
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Neptune in trine with natal Mercury
 5 Apr 2017 to 2 Sep 2017, exact 12 May 2017; exact 21 Jul 2017 R
 
@@ -9071,15 +8738,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/8/2018
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in square with natal Midheaven
 11 Feb 2018 to 7 Jul 2018, exact 29 Mar 2018; exact 16 May 2018 R
@@ -9298,15 +8956,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/7/2019
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in trine with natal Chiron
 21 Jan 2019 to 9 Aug 2019, exact 22 Feb 2019; exact 28 Jun 2019 R
 
@@ -9523,15 +9172,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/5/2020
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Saturn in opposition with natal Sun
 24 Mar 2020 to 29 Jun 2020, exact 10 Apr 2020; exact 11 Jun 2020 R
 
@@ -9745,15 +9385,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 6/4/2021
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in sextile with natal Uranus
 28 Jan 2021 to 5 Aug 2021, exact 3 Mar 2021; exact 24 Jun 2021 R
@@ -9993,15 +9624,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/3/2022
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in square with natal Moon
 14 Feb 2022 to 20 Jul 2022, exact 28 Mar 2022; exact 1 Jun 2022 R
 
@@ -10216,15 +9838,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 6/2/2023
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in inconjunct with natal Venus
 27 Jan 2023 to 17 Aug 2023, exact 1 Mar 2023; exact 5 Jul 2023 R
 
@@ -10432,15 +10045,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/31/2024
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in opposition with natal Sun
 26 Jan 2024 to 22 Aug 2024, exact 28 Feb 2024; exact 10 Jul 2024 R
@@ -10666,15 +10270,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/30/2025
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in inconjunct with natal Mars
 1 Mar 2025 to 11 Jul 2025, exact 4 May 2025 SR
@@ -10924,15 +10519,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-Transit Hit List Report for Daniel, 12 months, starting 5/29/2026
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in trine with natal Jupiter
 8 Feb 2026 to 10 Aug 2026, exact 17 Mar 2026; exact 27 Jun 2026 R
 
@@ -11163,15 +10749,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/28/2027
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Uranus in trine with natal Jupiter
 24 Apr 2027 to 30 May 2027, exact 13 May 2027
@@ -11421,15 +10998,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-Transit Hit List Report for Daniel, 12 months, starting 5/26/2028
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in quintile with natal Uranus
 7 Feb 2028 to 21 Aug 2028, exact 13 Mar 2028; exact 8 Jul 2028 R
 
@@ -11618,15 +11186,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/25/2029
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Uranus in semi-sextile with natal Mercury
 11 May 2029 to 15 Jun 2029, exact 29 May 2029
@@ -11837,15 +11396,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/24/2030
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto into natal Seventh House
 28 Feb 2030 to 31 Jul 2030, exact 17 Apr 2030; exact 7 Jun 2030 R
@@ -12081,15 +11631,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/23/2031
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto into natal Seventh House
 7 Jan 2031 to 23 Jan 2032, exact 9 Feb 2031; exact 28 Aug 2031 R; exact 18 Dec 2031
@@ -12327,15 +11868,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/21/2032
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Jupiter in opposition with natal Sun
 13 Apr 2032 to 24 Jun 2032, exact 24 Apr 2032; exact 13 Jun 2032 R
@@ -12593,15 +12125,6 @@ Nodes: The Lunar Nodes are the two points where the Moon's orbital path crosses 
 Planets: In astrology, the word planets is used to describe astrologically significant points in the sky which includes the Sun and Moon, as well as many objects that are not currently astronomically defined as planets such as Chiron and Pluto.
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
-
-Transit Hit List Report for Daniel, 12 months, starting 5/20/2033
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in quintile with natal Moon
 22 Feb 2033 to 18 Aug 2033, exact 3 Apr 2033; exact 2 Jul 2033 R
@@ -12866,15 +12389,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-Transit Hit List Report for Daniel, 12 months, starting 5/19/2034
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Uranus in quintile with natal Midheaven
 26 Mar 2034 to 21 May 2034, exact 30 Apr 2034
 
@@ -13124,15 +12638,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 5/18/2035
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Neptune in trine with natal Neptune
 29 Mar 2035 to 23 May 2035, exact 24 Apr 2035
 
@@ -13327,15 +12832,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/16/2036
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Uranus into natal Twelfth House
 3 Jul 2035 to 5 Oct 2041, exact 20 Jul 2035; exact 2 Feb 2036 R; exact 1 May 2036
@@ -13537,15 +13033,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/15/2037
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in square with natal Chiron
 23 Feb 2037 to 29 Aug 2037, exact 3 Apr 2037; exact 14 Jul 2037 R
@@ -13838,15 +13325,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 5/14/2038
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Uranus in square with natal Midheaven
 9 Apr 2038 to 7 Jun 2038, exact 16 May 2038
 
@@ -14120,15 +13598,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 5/13/2039
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Jupiter in square with natal Chiron
 12 Mar 2039 to 23 May 2039, exact 25 Mar 2039 R; exact 11 May 2039
 
@@ -14396,15 +13865,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 5/11/2040
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in square with natal Uranus
 9 Feb 2040 to 16 May 2040, exact 16 Mar 2040
 
@@ -14665,15 +14125,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/10/2041
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Jupiter into natal Fourth House
 11 Nov 2040 to 5 Mar 2042, exact 16 Nov 2040
@@ -14943,15 +14394,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 5/9/2042
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in opposition with natal Venus
 4 Mar 2042 to 3 Sep 2042, exact 15 Apr 2042; exact 17 Jul 2042 R
 
@@ -15153,15 +14595,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/8/2043
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Chiron into natal First House
 25 Aug 2042 to 8 Oct 2043, exact 3 Sep 2042; exact 14 Mar 2043 R; exact 8 May 2043
@@ -15400,15 +14833,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/6/2044
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Chiron in square with natal Uranus
 20 Mar 2044 to 28 May 2044, exact 21 Apr 2044 R; exact 27 Apr 2044
@@ -15655,15 +15079,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
-
-Transit Hit List Report for Daniel, 12 months, starting 5/5/2045
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in trine with natal Mars
 17 Mar 2045 to 27 Aug 2045, exact 6 May 2045; exact 1 Jul 2045 R
@@ -15926,15 +15341,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-Transit Hit List Report for Daniel, 12 months, starting 5/4/2046
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Saturn in inconjunct with natal Chiron
 11 Feb 2046 to 23 May 2046, exact 26 Feb 2046; exact 6 May 2046 R
 
@@ -16191,15 +15597,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 5/3/2047
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Saturn in quintile with natal Pluto
 23 Feb 2047 to 3 Jun 2047, exact 10 Mar 2047; exact 18 May 2047 R
 
@@ -16447,15 +15844,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 5/1/2048
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Saturn into natal Sixth House
 31 Jan 2048 to 29 Jul 2048, exact 9 Feb 2048; exact 14 Jul 2048 R
 
@@ -16696,15 +16084,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 4/30/2049
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Neptune in conjunction with natal Chiron
 26 Feb 2049 to 6 May 2049, exact 8 Apr 2049
@@ -16962,15 +16341,6 @@ Transits: Aspects formed between the current positions of the planets and the po
 
 
 
-Transit Hit List Report for Daniel, 12 months, starting 4/29/2050
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
-
 Transiting Pluto in quintile with natal Chiron
 13 Mar 2050 to 15 Sep 2050, exact 25 Apr 2050; exact 27 Jul 2050 R
 
@@ -17202,15 +16572,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 4/28/2051
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Uranus in square with natal Neptune
 13 Mar 2051 to 12 May 2051, exact 5 Apr 2051 R
@@ -17470,15 +16831,6 @@ Planets: In astrology, the word planets is used to describe astrologically signi
 Transits: Aspects formed between the current positions of the planets and the positions of your natal planets at the time and place you were born.
 
 
-
-Transit Hit List Report for Daniel, 12 months, starting 4/26/2052
-24 Jul 1981, 06:31:00 CEDT
-Maximum orb: 1 degrees, sorted by Begin Date
-Prepared by: Daniel Kasai
-
-Interpretation text by Henry Seltzer
-Copyright 1999 - 2021 Astrograph Software, Inc.
-www.Astrograph.com
 
 Transiting Pluto in inconjunct with natal Ascendant
 9 Feb 2052 to 2 May 2052, exact 18 Mar 2052
