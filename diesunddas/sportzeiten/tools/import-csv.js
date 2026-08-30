@@ -18,6 +18,8 @@ function isoDate(note) {
 }
 function person(note) {
   const n=note.toLowerCase();
+  const danielWithoutName=new Set(["hella halbmarathon 26.6.16","alstertal 27.9.15","wilhelmsburg 3.4.16","wilhelmsburg 12.4.15","alstertal 28.9.14"]);
+  if(danielWithoutName.has(n))return "daniel";
   const known=[["daniela tost","daniela-tost"],["daniel kasai","daniel"],["daniel","daniel"],["akiko kasai","akiko"],["akiko","akiko"],["frank maier","frank-maier"],["dirk holtstiege","dirk-holtstiege"],["dieter schwarzkopf","dieter-schwarzkopf"],["dennis mehlfeld","dennis-mehlfeld"],["claudius michalak","claudius-michalak"],["pascal dethlefs","pascal-dethlefs"],["haftom welday","haftom-welday"],["towett vincent kimutai","towett-vincent-kimutai"],["kangogo, albert","albert-kangogo"],["zeit von josef","josef"],["papa","papa"]];
   return known.find(([needle])=>n.includes(needle))?.[1]||null;
 }
