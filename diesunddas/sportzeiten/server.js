@@ -16,10 +16,11 @@ function slug(value, required=false) { const clean=String(value||"").trim(); if(
 async function addRun(request, response) {
   let raw=""; for await (const chunk of request) { raw+=chunk; if(raw.length>100_000)return json(response,413,{error:"Anfrage ist zu groß."}); }
   try {
-    const input=JSON.parse(raw), seconds=durationSeconds(input.duration), person=slug(input.person,true), event=slug(input.event);
-    if(!/^\d{4}-\d{2}-\d{2}$/.test(input.date||"")||!person||!event&&String(input.event||"").trim()||!Number.isFinite(input.distanceKm)||input.distanceKm<=0||!seconds||!types.has(input.type)) return json(response,400,{error:"Bitte alle Felder im erwarteten Format ausfüllen."});
+    const input=JSON.parse(raw), seconds=durationSeconds(input.duration), dateInput=String(input.date||"").trim(), personInput=String(input.person||"").trim(), eventInput=String(input.event||"").trim();
+    const date=dateInput||null, person=slug(personInput), event=slug(eventInput);
+    if(dateInput&&!/^\d{4}-\d{2}-\d{2}$/.test(dateInput)||personInput&&!person||eventInput&&!event||!Number.isFinite(input.distanceKm)||input.distanceKm<=0||!seconds||!types.has(input.type)) return json(response,400,{error:"Bitte Strecke und Dauer im erwarteten Format ausfüllen."});
     const data=JSON.parse(await fs.readFile(dataFile,"utf8"));
-    const run={id:`${input.date}-${person}-${crypto.randomUUID().slice(0,8)}`,date:input.date,person,distanceKm:input.distanceKm,durationSeconds:seconds,event,type:input.type,notes:String(input.notes||"").trim()};
+    const run={id:`${date||"undated"}-${person||"unknown"}-${crypto.randomUUID().slice(0,8)}`,date,person,distanceKm:input.distanceKm,durationSeconds:seconds,event,type:input.type,notes:String(input.notes||"").trim()};
     data.runs.push(run); data.updatedAt=new Date().toISOString();
     const temporary=`${dataFile}.tmp`; await fs.writeFile(temporary,`${JSON.stringify(data,null,2)}\n`); await fs.rename(temporary,dataFile);
     json(response,201,{run});
