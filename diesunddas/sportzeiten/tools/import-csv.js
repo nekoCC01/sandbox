@@ -13,6 +13,7 @@ function parseCsv(text) {
 
 function seconds(value) { const parts=value.split(":").map(Number); if(parts.length===2)parts.unshift(0); return parts[0]*3600+parts[1]*60+parts[2]; }
 function isoDate(note) {
+  if(note.toLowerCase().includes("köhlbrandbrücke 2017"))return "2017-10-03";
   const match=note.match(/\b(\d{1,2})\.(\d{1,2})\.(\d{2,4})\b/); if(!match)return null;
   const year=match[3].length===2?Number(match[3])+2000:Number(match[3]); return `${year}-${match[2].padStart(2,"0")}-${match[1].padStart(2,"0")}`;
 }

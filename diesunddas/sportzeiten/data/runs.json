@@ -175,7 +175,7 @@
     },
     {
       "id": "csv-018",
-      "date": null,
+      "date": "2017-10-03",
       "person": "claudius-michalak",
       "distanceKm": 12,
       "durationSeconds": 2452,
@@ -185,7 +185,7 @@
     },
     {
       "id": "csv-019",
-      "date": null,
+      "date": "2017-10-03",
       "person": "akiko",
       "distanceKm": 12,
       "durationSeconds": 4849,
@@ -195,7 +195,7 @@
     },
     {
       "id": "csv-020",
-      "date": null,
+      "date": "2017-10-03",
       "person": "daniel",
       "distanceKm": 12,
       "durationSeconds": 3959,
