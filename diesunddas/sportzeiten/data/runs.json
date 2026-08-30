@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "Strecken & Zeiten - Tabellenblatt1.csv",
-  "updatedAt": "2026-08-30T12:58:29.335Z",
+  "updatedAt": "2026-08-30T14:38:27.160Z",
   "runs": [
     {
       "id": "csv-001",
@@ -432,6 +432,16 @@
       "event": "blankeneser-heldenlauf",
       "type": "race",
       "notes": "Gesamtplatz 250 von 695, M/W Platz 177, Brutt0 01:06:25"
+    },
+    {
+      "id": "2026-08-30-daniel-1aceed34",
+      "date": "2026-08-30",
+      "person": "daniel",
+      "distanceKm": 11,
+      "durationSeconds": 2415,
+      "event": null,
+      "type": "race",
+      "notes": "1. Platz - Sander Huisman"
     }
   ]
 }
