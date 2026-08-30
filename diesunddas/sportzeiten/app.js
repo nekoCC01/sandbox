@@ -4,10 +4,11 @@ const clock = seconds => `${Math.floor(seconds/3600)}:${String(Math.floor(second
 const pace = run => { const p=Math.round(run.durationSeconds/run.distanceKm); return `${Math.floor(p/60)}:${String(p%60).padStart(2,"0")} min/km`; };
 const name = slug => slug ? slug.split("-").map(word=>word[0].toUpperCase()+word.slice(1)).join(" ") : "—";
 const date = value => value ? new Intl.DateTimeFormat("de-DE").format(new Date(`${value}T12:00:00`)) : "—";
+const distanceName = value => value===21.1 ? "Halbmarathon · 21,1 km" : value===42.2 ? "Marathon · 42,2 km" : `${value.toLocaleString("de-DE")} km`;
 
 function selection() {
-  const person=document.querySelector("#person-filter").value, type=document.querySelector("#type-filter").value;
-  return state.runs.filter(run => (person==="all"||run.person===person) && (type==="all"||(type==="activity"?["race","training"].includes(run.type):run.type===type)));
+  const person=document.querySelector("#person-filter").value, type=document.querySelector("#type-filter").value, distance=document.querySelector("#distance-filter").value;
+  return state.runs.filter(run => (person==="all"||run.person===person) && (type==="all"||(type==="activity"?["race","training"].includes(run.type):run.type===type)) && (distance==="all"||run.distanceKm===Number(distance)));
 }
 
 function renderSummary(runs) {
@@ -52,5 +53,5 @@ function showEquivalents(run) {
 
 function render(){const runs=selection();renderSummary(runs);renderChart(runs);renderTable(sortedRuns(runs))}
 
-async function init(){try{const response=await fetch("data/runs.json");if(!response.ok)throw new Error(`Daten konnten nicht geladen werden (${response.status}).`);state.runs=(await response.json()).runs;const people=[...new Set(state.runs.map(run=>run.person).filter(Boolean))].sort(),select=document.querySelector("#person-filter");select.append(new Option("Alle Personen","all"),...people.map(person=>new Option(name(person),person)));select.value=people.includes("daniel")?"daniel":"all";select.addEventListener("change",render);document.querySelector("#type-filter").addEventListener("change",render);document.querySelector("#sort-order").addEventListener("change",render);render()}catch(error){document.querySelector("#error").textContent=`${error.message} Bitte die Seite über „node server.js“ öffnen.`}}
+async function init(){try{const response=await fetch("data/runs.json");if(!response.ok)throw new Error(`Daten konnten nicht geladen werden (${response.status}).`);state.runs=(await response.json()).runs;const people=[...new Set(state.runs.map(run=>run.person).filter(Boolean))].sort(),personSelect=document.querySelector("#person-filter");personSelect.append(new Option("Alle Personen","all"),...people.map(person=>new Option(name(person),person)));personSelect.value=people.includes("daniel")?"daniel":"all";const distances=[...new Set(state.runs.map(run=>run.distanceKm))].sort((a,b)=>a-b),distanceSelect=document.querySelector("#distance-filter");distanceSelect.append(new Option("Alle Strecken","all"),...distances.map(distance=>new Option(distanceName(distance),String(distance))));for(const control of [personSelect,document.querySelector("#type-filter"),distanceSelect,document.querySelector("#sort-order")])control.addEventListener("change",render);render()}catch(error){document.querySelector("#error").textContent=`${error.message} Bitte die Seite über „node server.js“ öffnen.`}}
 init();
