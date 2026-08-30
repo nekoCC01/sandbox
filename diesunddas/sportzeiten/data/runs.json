@@ -6,7 +6,7 @@
     {
       "id": "csv-001",
       "date": null,
-      "person": "haftom-welday",
+      "person": null,
       "distanceKm": 21.1,
       "durationSeconds": 3767,
       "event": "hella-halbmarathon",
@@ -16,7 +16,7 @@
     {
       "id": "csv-002",
       "date": null,
-      "person": "towett-vincent-kimutai",
+      "person": null,
       "distanceKm": 21.1,
       "durationSeconds": 3727,
       "event": "hella-halbmarathon",
@@ -56,7 +56,7 @@
     {
       "id": "csv-006",
       "date": "2019-05-14",
-      "person": "pascal-dethlefs",
+      "person": null,
       "distanceKm": 5.6,
       "durationSeconds": 1057,
       "event": "b2run",
@@ -66,7 +66,7 @@
     {
       "id": "csv-007",
       "date": null,
-      "person": "dirk-holtstiege",
+      "person": null,
       "distanceKm": 5.6,
       "durationSeconds": 1593,
       "event": "b2run",
@@ -176,7 +176,7 @@
     {
       "id": "csv-018",
       "date": "2017-10-03",
-      "person": "claudius-michalak",
+      "person": null,
       "distanceKm": 12,
       "durationSeconds": 2452,
       "event": "koehlbrandbrueckenlauf",
@@ -246,7 +246,7 @@
     {
       "id": "csv-025",
       "date": null,
-      "person": "dennis-mehlfeld",
+      "person": null,
       "distanceKm": 12,
       "durationSeconds": 2414,
       "event": "koehlbrandbrueckenlauf",
@@ -256,7 +256,7 @@
     {
       "id": "csv-026",
       "date": null,
-      "person": "dieter-schwarzkopf",
+      "person": null,
       "distanceKm": 12,
       "durationSeconds": 2450,
       "event": "koehlbrandbrueckenlauf",
@@ -266,7 +266,7 @@
     {
       "id": "csv-027",
       "date": "2017-06-25",
-      "person": "albert-kangogo",
+      "person": null,
       "distanceKm": 21.1,
       "durationSeconds": 3665,
       "event": "hella-halbmarathon",
@@ -306,7 +306,7 @@
     {
       "id": "csv-031",
       "date": null,
-      "person": "josef",
+      "person": null,
       "distanceKm": 21.1,
       "durationSeconds": 6111,
       "event": "halbmarathon-wilhelmsburg",
