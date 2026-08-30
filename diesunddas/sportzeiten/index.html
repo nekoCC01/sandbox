@@ -22,6 +22,13 @@
           <option value="unknown">Nur unbekannte</option>
         </select>
       </label>
+      <label>Sortierung
+        <select id="sort-order">
+          <option value="newest">Neueste zuerst</option>
+          <option value="pace-asc">Schnellste Pace zuerst</option>
+          <option value="pace-desc">Langsamste Pace zuerst</option>
+        </select>
+      </label>
     </section>
     <section id="summary" class="summary" aria-label="Zusammenfassung"></section>
     <section class="panel">
@@ -31,11 +38,20 @@
     <section class="panel">
       <div class="section-heading"><div><p class="eyebrow">Archiv</p><h2>Alle Einträge</h2></div><p id="result-count" class="muted"></p></div>
       <div class="table-wrap"><table><thead><tr>
-        <th>Datum</th><th>Person</th><th>Event</th><th>Strecke</th><th>Zeit</th><th>Pace</th><th>Typ</th><th>Notizen</th>
+        <th>Datum</th><th>Person</th><th>Event</th><th>Strecke</th><th>Zeit</th><th>Pace</th><th>Typ</th><th>Notizen</th><th><span class="visually-hidden">Aktion</span></th>
       </tr></thead><tbody id="runs-body"></tbody></table></div>
     </section>
     <p id="error" class="error" role="alert"></p>
   </main>
+  <dialog id="equivalents-dialog" aria-labelledby="equivalents-title">
+    <div class="dialog-heading">
+      <div><p class="eyebrow">Gleiches Tempo</p><h2 id="equivalents-title">Entsprechungen</h2></div>
+      <form method="dialog"><button class="icon-button" aria-label="Dialog schließen">×</button></form>
+    </div>
+    <p id="equivalents-source" class="dialog-source"></p>
+    <dl id="equivalents-list" class="equivalents"></dl>
+    <p class="muted dialog-note">Linear aus der durchschnittlichen Pace berechnet, nicht als Wettkampfprognose.</p>
+  </dialog>
   <script src="app.js"></script>
 </body>
 </html>

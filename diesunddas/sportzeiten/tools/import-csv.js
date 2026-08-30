@@ -18,7 +18,7 @@ function isoDate(note) {
 }
 function person(note) {
   const n=note.toLowerCase();
-  const known=[["daniel kasai","daniel"],["daniel","daniel"],["akiko kasai","akiko"],["akiko","akiko"],["frank maier","frank-maier"],["daniela tost","daniela-tost"],["dirk holtstiege","dirk-holtstiege"],["dieter schwarzkopf","dieter-schwarzkopf"],["dennis mehlfeld","dennis-mehlfeld"],["claudius michalak","claudius-michalak"],["pascal dethlefs","pascal-dethlefs"],["haftom welday","haftom-welday"],["towett vincent kimutai","towett-vincent-kimutai"],["kangogo, albert","albert-kangogo"],["zeit von josef","josef"],["papa","papa"]];
+  const known=[["daniela tost","daniela-tost"],["daniel kasai","daniel"],["daniel","daniel"],["akiko kasai","akiko"],["akiko","akiko"],["frank maier","frank-maier"],["dirk holtstiege","dirk-holtstiege"],["dieter schwarzkopf","dieter-schwarzkopf"],["dennis mehlfeld","dennis-mehlfeld"],["claudius michalak","claudius-michalak"],["pascal dethlefs","pascal-dethlefs"],["haftom welday","haftom-welday"],["towett vincent kimutai","towett-vincent-kimutai"],["kangogo, albert","albert-kangogo"],["zeit von josef","josef"],["papa","papa"]];
   return known.find(([needle])=>n.includes(needle))?.[1]||null;
 }
 function event(note) {

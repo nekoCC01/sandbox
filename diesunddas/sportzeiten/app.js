@@ -29,11 +29,28 @@ function renderChart(runs) {
 }
 
 function renderTable(runs) {
-  document.querySelector("#runs-body").replaceChildren(...runs.map(run=>{const row=document.createElement("tr");[date(run.date),name(run.person),name(run.event),`${run.distanceKm.toLocaleString("de-DE")} km`,clock(run.durationSeconds),pace(run),typeNames[run.type]||run.type,run.notes||""].forEach((value,i)=>{const cell=document.createElement("td");if(i===6){const tag=document.createElement("span");tag.className="tag";tag.textContent=value;cell.append(tag)}else cell.textContent=value;row.append(cell)});return row}));
+  document.querySelector("#runs-body").replaceChildren(...runs.map(run=>{const row=document.createElement("tr");[date(run.date),name(run.person),name(run.event),`${run.distanceKm.toLocaleString("de-DE")} km`,clock(run.durationSeconds),pace(run),typeNames[run.type]||run.type,run.notes||""].forEach((value,i)=>{const cell=document.createElement("td");if(i===6){const tag=document.createElement("span");tag.className="tag";tag.textContent=value;cell.append(tag)}else cell.textContent=value;row.append(cell)});const action=document.createElement("td"),button=document.createElement("button");button.className="table-action";button.type="button";button.textContent="Entsprechungen";button.addEventListener("click",()=>showEquivalents(run));action.append(button);row.append(action);return row}));
   document.querySelector("#result-count").textContent=`${runs.length} Einträge`;
 }
 
-function render(){const runs=selection().sort((a,b)=>(b.date||"").localeCompare(a.date||""));renderSummary(runs);renderChart(runs);renderTable(runs)}
+function sortedRuns(runs) {
+  const order=document.querySelector("#sort-order").value, paceValue=run=>run.durationSeconds/run.distanceKm;
+  return [...runs].sort((a,b)=>{
+    if(order==="pace-asc")return paceValue(a)-paceValue(b)||(b.date||"").localeCompare(a.date||"");
+    if(order==="pace-desc")return paceValue(b)-paceValue(a)||(b.date||"").localeCompare(a.date||"");
+    return (b.date||"").localeCompare(a.date||"");
+  });
+}
 
-async function init(){try{const response=await fetch("data/runs.json");if(!response.ok)throw new Error(`Daten konnten nicht geladen werden (${response.status}).`);state.runs=(await response.json()).runs;const people=[...new Set(state.runs.map(run=>run.person).filter(Boolean))].sort(),select=document.querySelector("#person-filter");select.append(new Option("Alle Personen","all"),...people.map(person=>new Option(name(person),person)));select.value=people.includes("daniel")?"daniel":"all";select.addEventListener("change",render);document.querySelector("#type-filter").addEventListener("change",render);render()}catch(error){document.querySelector("#error").textContent=`${error.message} Bitte die Seite über „node server.js“ öffnen.`}}
+function showEquivalents(run) {
+  const dialog=document.querySelector("#equivalents-dialog"), source=document.querySelector("#equivalents-source"), list=document.querySelector("#equivalents-list");
+  const context=[name(run.person),name(run.event),date(run.date)].filter(value=>value!=="—").join(" · ");
+  source.textContent=`${context ? `${context} — ` : ""}${run.distanceKm.toLocaleString("de-DE")} km in ${clock(run.durationSeconds)} (${pace(run)})`;
+  list.replaceChildren(...[1,10,21.1,42.2].flatMap(distance=>{const term=document.createElement("dt"),value=document.createElement("dd");term.textContent=`${distance.toLocaleString("de-DE")} km`;value.textContent=clock(Math.round(run.durationSeconds/run.distanceKm*distance));return [term,value]}));
+  dialog.showModal();
+}
+
+function render(){const runs=selection();renderSummary(runs);renderChart(runs);renderTable(sortedRuns(runs))}
+
+async function init(){try{const response=await fetch("data/runs.json");if(!response.ok)throw new Error(`Daten konnten nicht geladen werden (${response.status}).`);state.runs=(await response.json()).runs;const people=[...new Set(state.runs.map(run=>run.person).filter(Boolean))].sort(),select=document.querySelector("#person-filter");select.append(new Option("Alle Personen","all"),...people.map(person=>new Option(name(person),person)));select.value=people.includes("daniel")?"daniel":"all";select.addEventListener("change",render);document.querySelector("#type-filter").addEventListener("change",render);document.querySelector("#sort-order").addEventListener("change",render);render()}catch(error){document.querySelector("#error").textContent=`${error.message} Bitte die Seite über „node server.js“ öffnen.`}}
 init();
