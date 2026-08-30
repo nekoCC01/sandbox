@@ -5,6 +5,8 @@ const pace = run => { const p=Math.round(run.durationSeconds/run.distanceKm); re
 const name = slug => slug ? slug.split("-").map(word=>word[0].toUpperCase()+word.slice(1)).join(" ") : "—";
 const date = value => value ? new Intl.DateTimeFormat("de-DE").format(new Date(`${value}T12:00:00`)) : "—";
 const distanceName = value => value===21.1 ? "Halbmarathon · 21,1 km" : value===42.2 ? "Marathon · 42,2 km" : `${value.toLocaleString("de-DE")} km`;
+const localHosts = new Set(["127.0.0.1", "localhost", "::1"]);
+document.querySelector("#add-run-link").hidden = !localHosts.has(window.location.hostname);
 
 function selection() {
   const person=document.querySelector("#person-filter").value, type=document.querySelector("#type-filter").value, distance=document.querySelector("#distance-filter").value;
