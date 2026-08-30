@@ -439,7 +439,7 @@
       "person": "daniel",
       "distanceKm": 11,
       "durationSeconds": 2415,
-      "event": null,
+      "event": "blankeneser-heldenlauf",
       "type": "race",
       "notes": "1. Platz - Sander Huisman"
     }
