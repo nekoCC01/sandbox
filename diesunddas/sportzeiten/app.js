@@ -24,7 +24,7 @@ function renderChart(runs) {
   const w=900,h=280,l=46,r=18,t=18,b=42,ps=data.map(run=>run.durationSeconds/run.distanceKm/60),min=Math.floor(Math.min(...ps)*2)/2-.25,max=Math.ceil(Math.max(...ps)*2)/2+.25;
   const x=i=>l+i*(w-l-r)/Math.max(1,data.length-1), y=p=>t+(p-min)*(h-t-b)/Math.max(.1,max-min);
   const grid=Array.from({length:5},(_,i)=>{const p=min+(max-min)*i/4,yy=y(p),m=Math.floor(p),s=Math.round((p-m)*60);return `<line x1="${l}" y1="${yy}" x2="${w-r}" y2="${yy}" stroke="#d9ded8"/><text x="${l-8}" y="${yy+4}" text-anchor="end" fill="#66716b" font-size="11">${m}:${String(s).padStart(2,"0")}</text>`}).join("");
-  const line=data.map((run,i)=>`${x(i)},${y(ps[i])}`).join(" "), dots=data.map((run,i)=>`<circle cx="${x(i)}" cy="${y(ps[i])}" r="4" fill="#236b45"><title>${date(run.date)} · ${pace(run)}</title></circle>`).join("");
+  const line=data.map((run,i)=>`${x(i)},${y(ps[i])}`).join(" "), dots=data.map((run,i)=>`<circle cx="${x(i)}" cy="${y(ps[i])}" r="4" fill="#236b45"><title>${name(run.person)} · ${name(run.event)}\n${date(run.date)} · ${run.distanceKm.toLocaleString("de-DE")} km\nZeit ${clock(run.durationSeconds)} · Pace ${pace(run)}</title></circle>`).join("");
   const labels=data.map((run,i)=>(i===0||i===data.length-1||data.length<8)?`<text x="${x(i)}" y="${h-13}" text-anchor="middle" fill="#66716b" font-size="11">${run.date.slice(0,4)}</text>`:"").join("");
   target.innerHTML=`<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Pace über die Zeit">${grid}<polyline points="${line}" fill="none" stroke="#236b45" stroke-width="2.5" stroke-linejoin="round"/>${dots}${labels}</svg>`;
 }
