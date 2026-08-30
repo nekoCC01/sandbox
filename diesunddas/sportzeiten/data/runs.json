@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "source": "Strecken & Zeiten - Tabellenblatt1.csv",
+  "updatedAt": "2026-08-30T12:38:02.419Z",
+  "runs": [
+    {
+      "id": "csv-001",
+      "date": null,
+      "person": "haftom-welday",
+      "distanceKm": 21.1,
+      "durationSeconds": 3767,
+      "event": "hella-halbmarathon",
+      "type": "race",
+      "notes": "6.Platz Hella Halbmarathon 24 - Haftom Welday, (TH Eilbeck) (schnellster Deutscher und Hamburger)"
+    },
+    {
+      "id": "csv-002",
+      "date": null,
+      "person": "towett-vincent-kimutai",
+      "distanceKm": 21.1,
+      "durationSeconds": 3727,
+      "event": "hella-halbmarathon",
+      "type": "race",
+      "notes": "1.Platz Hella Halbmarathon 24 - Towett Vincent Kimutai"
+    },
+    {
+      "id": "csv-003",
+      "date": "2024-06-30",
+      "person": "daniel",
+      "distanceKm": 21.1,
+      "durationSeconds": 8388,
+      "event": "hella-halbmarathon",
+      "type": "race",
+      "notes": "Daniel, Hella Halbmarathon 30.6.2024, Nr 7449 von 9779 Teilnehmern (m/w/d), Nr 4947 von 5913 Männern, Nr 592 von 682 Teilnehmern in Alterklasse 40 (männl.)"
+    },
+    {
+      "id": "csv-004",
+      "date": "2023-08-27",
+      "person": "daniel",
+      "distanceKm": 21.1,
+      "durationSeconds": 7805,
+      "event": "blankeneser-heldenlauf",
+      "type": "race",
+      "notes": "Daniel, Blankeneser Heldenlauf 27.8.2023 - Nr 144 von 211, AK: 20 von 22, M/W-Platz: 105"
+    },
+    {
+      "id": "csv-005",
+      "date": "2019-06-14",
+      "person": "daniel",
+      "distanceKm": 7.5,
+      "durationSeconds": 2390,
+      "event": "sportscheck-alster-run",
+      "type": "race",
+      "notes": "Daniel, SportScheck Alster Run 14.6.19"
+    },
+    {
+      "id": "csv-006",
+      "date": "2019-05-14",
+      "person": "pascal-dethlefs",
+      "distanceKm": 5.6,
+      "durationSeconds": 1057,
+      "event": "b2run",
+      "type": "race",
+      "notes": "Erster Platz: Pascal Dethlefs (Debeka), B2Run, 14.5.19"
+    },
+    {
+      "id": "csv-007",
+      "date": null,
+      "person": "dirk-holtstiege",
+      "distanceKm": 5.6,
+      "durationSeconds": 1593,
+      "event": null,
+      "type": "reference",
+      "notes": "Dirk Holtstiege, Bester im FUNKE Zeitschriften Team"
+    },
+    {
+      "id": "csv-008",
+      "date": "2019-05-14",
+      "person": "daniel",
+      "distanceKm": 5.6,
+      "durationSeconds": 1673,
+      "event": "b2run",
+      "type": "race",
+      "notes": "Daniel, B2Run, Funke-Team, 14.5.19"
+    },
+    {
+      "id": "csv-009",
+      "date": "2018-08-26",
+      "person": "daniel",
+      "distanceKm": 21.1,
+      "durationSeconds": 7476,
+      "event": "blankeneser-heldenlauf",
+      "type": "race",
+      "notes": "Daniel, Blankeneser Heldenlauf 26.8.2018"
+    },
+    {
+      "id": "csv-010",
+      "date": "2018-08-26",
+      "person": "akiko",
+      "distanceKm": 21.1,
+      "durationSeconds": 9344,
+      "event": "blankeneser-heldenlauf",
+      "type": "race",
+      "notes": "Akiko, Blankeneser Heldenlauf 26.8.2018"
+    },
+    {
+      "id": "csv-011",
+      "date": "2017-06-25",
+      "person": "akiko",
+      "distanceKm": 21.1,
+      "durationSeconds": 8467,
+      "event": "hella-halbmarathon",
+      "type": "race",
+      "notes": "Hella Halbmarathon 25.6.17 - Akiko Kasai, Nr. 2517"
+    },
+    {
+      "id": "csv-012",
+      "date": "2017-06-25",
+      "person": "daniel",
+      "distanceKm": 21.1,
+      "durationSeconds": 7387,
+      "event": "hella-halbmarathon",
+      "type": "race",
+      "notes": "Hella Halbmarathon 25.6.17 - Daniel Kasai, Nr. 3346"
+    },
+    {
+      "id": "csv-013",
+      "date": "2016-06-26",
+      "person": null,
+      "distanceKm": 21.1,
+      "durationSeconds": 8053,
+      "event": "hella-halbmarathon",
+      "type": "race",
+      "notes": "Hella Halbmarathon 26.6.16"
+    },
+    {
+      "id": "csv-014",
+      "date": "2015-09-27",
+      "person": null,
+      "distanceKm": 10,
+      "durationSeconds": 3440,
+      "event": "alstertallauf",
+      "type": "race",
+      "notes": "Alstertal 27.9.15"
+    },
+    {
+      "id": "csv-015",
+      "date": "2016-04-03",
+      "person": null,
+      "distanceKm": 21.1,
+      "durationSeconds": 8390,
+      "event": "halbmarathon-wilhelmsburg",
+      "type": "race",
+      "notes": "Wilhelmsburg 3.4.16"
+    },
+    {
+      "id": "csv-016",
+      "date": "2015-04-12",
+      "person": null,
+      "distanceKm": 21.1,
+      "durationSeconds": 7788,
+      "event": "halbmarathon-wilhelmsburg",
+      "type": "race",
+      "notes": "Wilhelmsburg 12.4.15"
+    },
+    {
+      "id": "csv-017",
+      "date": "2014-09-28",
+      "person": null,
+      "distanceKm": 10,
+      "durationSeconds": 3462,
+      "event": "alstertallauf",
+      "type": "race",
+      "notes": "Alstertal 28.9.14"
+    },
+    {
+      "id": "csv-018",
+      "date": null,
+      "person": "claudius-michalak",
+      "distanceKm": 12,
+      "durationSeconds": 2452,
+      "event": "koehlbrandbrueckenlauf",
+      "type": "race",
+      "notes": "Köhlbrandbrücke 2017 1.Platz: Claudius Michalak"
+    },
+    {
+      "id": "csv-019",
+      "date": null,
+      "person": "akiko",
+      "distanceKm": 12,
+      "durationSeconds": 4849,
+      "event": "koehlbrandbrueckenlauf",
+      "type": "race",
+      "notes": "Köhlbrandbrücke 2017 Akiko Kasai"
+    },
+    {
+      "id": "csv-020",
+      "date": null,
+      "person": "daniel",
+      "distanceKm": 12,
+      "durationSeconds": 3959,
+      "event": "koehlbrandbrueckenlauf",
+      "type": "race",
+      "notes": "Köhlbrandbrücke 2017 Daniel Kasai"
+    },
+    {
+      "id": "csv-021",
+      "date": null,
+      "person": "akiko",
+      "distanceKm": 12,
+      "durationSeconds": 5945,
+      "event": "koehlbrandbrueckenlauf",
+      "type": "race",
+      "notes": "Köhlbrandbrücke Akiko Kasai"
+    },
+    {
+      "id": "csv-022",
+      "date": null,
+      "person": "daniel",
+      "distanceKm": 12,
+      "durationSeconds": 4091,
+      "event": "koehlbrandbrueckenlauf",
+      "type": "race",
+      "notes": "Köhlbrandbrücke Daniel Kasai"
+    },
+    {
+      "id": "csv-023",
+      "date": null,
+      "person": "frank-maier",
+      "distanceKm": 12,
+      "durationSeconds": 4204,
+      "event": "koehlbrandbrueckenlauf",
+      "type": "race",
+      "notes": "Köhlbrandbrücke Frank Maier"
+    },
+    {
+      "id": "csv-024",
+      "date": null,
+      "person": "daniel",
+      "distanceKm": 12,
+      "durationSeconds": 4406,
+      "event": "koehlbrandbrueckenlauf",
+      "type": "race",
+      "notes": "Köhlbrandbrücke Daniela Tost"
+    },
+    {
+      "id": "csv-025",
+      "date": null,
+      "person": "dennis-mehlfeld",
+      "distanceKm": 12,
+      "durationSeconds": 2414,
+      "event": "koehlbrandbrueckenlauf",
+      "type": "race",
+      "notes": "Köhlbrandbrücke Dennis Mehlfeld Platz1"
+    },
+    {
+      "id": "csv-026",
+      "date": null,
+      "person": "dieter-schwarzkopf",
+      "distanceKm": 12,
+      "durationSeconds": 2450,
+      "event": "koehlbrandbrueckenlauf",
+      "type": "race",
+      "notes": "Köhlbrandbrücke Dieter Schwarzkopf - Bester aus unserer Gruppe"
+    },
+    {
+      "id": "csv-027",
+      "date": "2017-06-25",
+      "person": "albert-kangogo",
+      "distanceKm": 21.1,
+      "durationSeconds": 3665,
+      "event": "hella-halbmarathon",
+      "type": "race",
+      "notes": "Hella Halbmarathon - 25.6.17 - 1.Platz (Kangogo, Albert (KEN)"
+    },
+    {
+      "id": "csv-028",
+      "date": null,
+      "person": "papa",
+      "distanceKm": 42.2,
+      "durationSeconds": 15600,
+      "event": null,
+      "type": "race",
+      "notes": "Papa Marathon"
+    },
+    {
+      "id": "csv-029",
+      "date": "2016-06-26",
+      "person": null,
+      "distanceKm": 21.1,
+      "durationSeconds": 5160,
+      "event": "hella-halbmarathon",
+      "type": "race",
+      "notes": "Bekannter von Yosuke (Japaner) - Hella Halbmarathon 26.6.16"
+    },
+    {
+      "id": "csv-030",
+      "date": null,
+      "person": null,
+      "distanceKm": 10,
+      "durationSeconds": 1800,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    },
+    {
+      "id": "csv-031",
+      "date": null,
+      "person": "josef",
+      "distanceKm": 21.1,
+      "durationSeconds": 6111,
+      "event": "halbmarathon-wilhelmsburg",
+      "type": "race",
+      "notes": "Zeit von Josef - HM Wilhelmsburg"
+    },
+    {
+      "id": "csv-032",
+      "date": null,
+      "person": null,
+      "distanceKm": 10,
+      "durationSeconds": 2163,
+      "event": "alstertallauf",
+      "type": "race",
+      "notes": "Bestzeit bei 10km Alstertal 2015"
+    },
+    {
+      "id": "csv-033",
+      "date": null,
+      "person": null,
+      "distanceKm": 6,
+      "durationSeconds": 1800,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    },
+    {
+      "id": "csv-034",
+      "date": null,
+      "person": null,
+      "distanceKm": 2,
+      "durationSeconds": 480,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    },
+    {
+      "id": "csv-035",
+      "date": null,
+      "person": null,
+      "distanceKm": 3,
+      "durationSeconds": 900,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    },
+    {
+      "id": "csv-036",
+      "date": null,
+      "person": null,
+      "distanceKm": 3,
+      "durationSeconds": 600,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    },
+    {
+      "id": "csv-037",
+      "date": null,
+      "person": null,
+      "distanceKm": 3,
+      "durationSeconds": 720,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    },
+    {
+      "id": "csv-038",
+      "date": null,
+      "person": null,
+      "distanceKm": 4.3,
+      "durationSeconds": 1020,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    },
+    {
+      "id": "csv-039",
+      "date": null,
+      "person": null,
+      "distanceKm": 5,
+      "durationSeconds": 1200,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    },
+    {
+      "id": "csv-040",
+      "date": null,
+      "person": null,
+      "distanceKm": 10,
+      "durationSeconds": 2700,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    },
+    {
+      "id": "csv-041",
+      "date": null,
+      "person": null,
+      "distanceKm": 21.1,
+      "durationSeconds": 7200,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    },
+    {
+      "id": "csv-042",
+      "date": null,
+      "person": null,
+      "distanceKm": 21.1,
+      "durationSeconds": 5400,
+      "event": null,
+      "type": "example",
+      "notes": ""
+    }
+  ]
+}

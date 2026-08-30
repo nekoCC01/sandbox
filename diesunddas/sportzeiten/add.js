@@ -1,0 +1,3 @@
+const form=document.querySelector("#run-form"),status=document.querySelector("#form-status");
+form.elements.date.valueAsDate=new Date();
+form.addEventListener("submit",async event=>{event.preventDefault();status.textContent="Speichert …";const values=Object.fromEntries(new FormData(form));try{const response=await fetch("/api/runs",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({...values,distanceKm:Number(values.distanceKm)})}),result=await response.json();if(!response.ok)throw new Error(result.error||"Speichern fehlgeschlagen.");status.textContent="Gespeichert.";for(const field of ["distanceKm","duration","event","notes"])form.elements[field].value=""}catch(error){status.textContent=error.message}});

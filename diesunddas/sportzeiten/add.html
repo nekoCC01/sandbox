@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lauf hinzufügen · Sportzeiten</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <header class="site-header"><div><p class="eyebrow">Neuer Eintrag</p><h1>Lauf hinzufügen</h1></div><a class="button button-secondary" href="index.html">Zur Übersicht</a></header>
+  <main class="narrow">
+    <form id="run-form" class="panel form-grid">
+      <label>Datum<input name="date" type="date" required></label>
+      <label>Person<input name="person" value="daniel" pattern="[a-z0-9-]+" required><small>Kleinbuchstaben, Zahlen und Bindestriche</small></label>
+      <label>Strecke in km<input name="distanceKm" type="number" min="0.01" step="0.01" inputmode="decimal" required></label>
+      <label>Dauer<input name="duration" placeholder="hh:mm:ss" pattern="(?:\d+:)?[0-5]\d:[0-5]\d" required></label>
+      <label>Event<input name="event" placeholder="z. B. hella-halbmarathon" pattern="[a-z0-9-]*"><small>Darf leer bleiben</small></label>
+      <label>Typ<select name="type" required><option value="race">Rennen</option><option value="training">Training</option><option value="reference">Referenz</option><option value="example">Rechenbeispiel</option><option value="unknown">Unbekannt</option></select></label>
+      <label class="full">Notizen<textarea name="notes" rows="4" placeholder="Platzierung, Strecke, Wetter …"></textarea></label>
+      <div class="full form-actions"><button class="button" type="submit">Speichern</button><p id="form-status" role="status"></p></div>
+    </form>
+  </main><script src="add.js"></script>
+</body></html>
