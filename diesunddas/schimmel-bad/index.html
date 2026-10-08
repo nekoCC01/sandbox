@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>Bildergalerie – Badezimmer</title>
+    <style>
+        :root { color-scheme: light; font-family: system-ui, sans-serif; color: #24312d; background: #f4f5f1; }
+        * { box-sizing: border-box; }
+        body { margin: 0; }
+        main { max-width: 1200px; margin: auto; padding: clamp(24px, 5vw, 64px); }
+        header { margin-bottom: 32px; }
+        .eyebrow { color: #66766b; text-transform: uppercase; font-size: 12px; font-weight: 650; letter-spacing: .16em; }
+        h1 { font-size: clamp(30px, 5vw, 52px); letter-spacing: -.045em; margin: 12px 0; }
+        .intro { color: #66766b; line-height: 1.6; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px; }
+        figure { margin: 0; }
+        .thumbnail { display: block; width: 100%; padding: 0; border: 0; border-radius: 16px; overflow: hidden; background: #e0e5de; cursor: zoom-in; }
+        .thumbnail img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform .25s ease; }
+        .thumbnail:hover img { transform: scale(1.035); }
+        button:focus-visible { outline: 3px solid #779a78; outline-offset: 5px; }
+        figcaption { display: flex; justify-content: space-between; padding: 12px 2px; font-size: 13px; color: #66766b; }
+        dialog { position: fixed; inset: 0; width: 100%; height: 100%; max-width: none; max-height: none; border: 0; padding: 20px; margin: 0; background: #111714; color: #fff; }
+        dialog::backdrop { background: #111714; }
+        .viewer { height: 100%; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; gap: 16px; }
+        .toolbar, .footer { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+        .control { border: 1px solid #ffffff35; border-radius: 50%; width: 44px; height: 44px; background: #ffffff10; color: white; font: inherit; font-size: 24px; cursor: pointer; flex-shrink: 0; }
+        .control:hover { background: #ffffff25; }
+        .stage { display: flex; justify-content: center; align-items: center; min-height: 0; }
+        .stage img { width: 100%; height: 100%; object-fit: contain; }
+        .navigation { display: flex; align-items: center; gap: 16px; }
+        .hint { color: #a3afa8; font-size: 13px; }
+        body:has(dialog[open]) { overflow: hidden; }
+        @media (max-width: 560px) { dialog { padding: 16px; } .hint { display: none; } }
+        @media (prefers-reduced-motion: reduce) { .thumbnail img { transition: none; } }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="eyebrow">Fotodokumentation · 5 Bilder</div>
+            <h1>Badezimmer</h1>
+            <p class="intro">Alle Aufnahmen im Überblick. Ein Bild anklicken, um es in voller Größe zu betrachten.</p>
+        </header>
+        <div class="gallery" id="gallery"></div>
+    </main>
+    <dialog id="lightbox" aria-label="Bild in Großansicht">
+        <div class="viewer">
+            <div class="toolbar">
+                <span id="filename"></span>
+                <button class="control" id="close" aria-label="Großansicht schließen" autofocus>×</button>
+            </div>
+            <div class="stage"><img id="full-image" alt=""></div>
+            <div class="footer">
+                <span class="hint">← → Blättern · Esc Schließen</span>
+                <div class="navigation">
+                    <button class="control" id="previous" aria-label="Vorheriges Bild">←</button>
+                    <span id="counter" aria-live="polite"></span>
+                    <button class="control" id="next" aria-label="Nächstes Bild">→</button>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <script>
+        // Neue Dateien aus img hier ergänzen; funktioniert auch ohne Webserver.
+        const images = ['IMG_7936.jpg', 'IMG_7937.jpg', 'IMG_7938.jpg', 'IMG_7939.jpg', 'IMG_7940.jpg'];
+        const gallery = document.getElementById('gallery');
+        const lightbox = document.getElementById('lightbox');
+        const fullImage = document.getElementById('full-image');
+        let current = 0;
+
+        function showImage(index) {
+            current = (index + images.length) % images.length;
+            fullImage.src = `img/${images[current]}`;
+            fullImage.alt = `Badezimmer – Aufnahme ${current + 1}`;
+            document.getElementById('filename').textContent = images[current];
+            document.getElementById('counter').textContent = `${current + 1} / ${images.length}`;
+        }
+
+        images.forEach((filename, index) => {
+            const figure = document.createElement('figure');
+            const button = document.createElement('button');
+            button.className = 'thumbnail';
+            button.setAttribute('aria-label', `Aufnahme ${index + 1} in Großansicht öffnen`);
+            const img = document.createElement('img');
+            img.src = `img/${filename}`;
+            img.alt = `Badezimmer – Aufnahme ${index + 1}`;
+            img.loading = index === 0 ? 'eager' : 'lazy';
+            img.decoding = 'async';
+            button.append(img);
+            button.addEventListener('click', () => { showImage(index); lightbox.showModal(); });
+            const caption = document.createElement('figcaption');
+            const name = document.createElement('span');
+            name.textContent = filename;
+            const number = document.createElement('span');
+            number.textContent = String(index + 1).padStart(2, '0');
+            caption.append(name, number);
+            figure.append(button, caption);
+            gallery.append(figure);
+        });
+
+        document.getElementById('close').addEventListener('click', () => lightbox.close());
+        document.getElementById('previous').addEventListener('click', () => showImage(current - 1));
+        document.getElementById('next').addEventListener('click', () => showImage(current + 1));
+        lightbox.addEventListener('keydown', event => {
+            if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+                event.preventDefault();
+                showImage(current + (event.key === 'ArrowLeft' ? -1 : 1));
+            }
+        });
+        let touchStart = null;
+        fullImage.addEventListener('touchstart', event => {
+            touchStart = event.touches.length === 1 ? event.touches[0].clientX : null;
+        }, { passive: true });
+        fullImage.addEventListener('touchend', event => {
+            if (touchStart === null) return;
+            const distance = event.changedTouches[0].clientX - touchStart;
+            if (Math.abs(distance) > 60) showImage(current + (distance < 0 ? 1 : -1));
+            touchStart = null;
+        }, { passive: true });
+    </script>
+</body>
+</html>
