@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>PWA Demo</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#111827">
+
+  <!-- iOS -->
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PWA Demo">
+
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: calc(env(safe-area-inset-top) + 24px) 20px 24px;
+      box-sizing: border-box;
+      background: #111827;
+      color: #f9fafb;
+      font-family: -apple-system, system-ui, sans-serif;
+    }
+    h1 { margin: 0 0 24px; }
+    dl { display: grid; grid-template-columns: auto 1fr; gap: 8px 16px; }
+    dt { color: #9ca3af; }
+    dd { margin: 0; }
+    button {
+      margin-top: 24px;
+      width: 100%;
+      padding: 16px;
+      font-size: 1.2rem;
+      border: 0;
+      border-radius: 12px;
+      background: #facc15;
+      color: #111827;
+    }
+    #hint {
+      margin-top: 32px;
+      padding: 16px;
+      border-radius: 12px;
+      background: #1f2937;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>PWA Demo</h1>
+
+  <dl>
+    <dt>Modus</dt>          <dd id="mode">–</dd>
+    <dt>Service Worker</dt> <dd id="sw">–</dd>
+    <dt>Netz</dt>           <dd id="online">–</dd>
+    <dt>Zähler</dt>         <dd id="count">0</dd>
+  </dl>
+
+  <button id="btn">+1</button>
+
+  <p id="hint">
+    Installieren: in Safari auf <strong>Teilen</strong> tippen →
+    <strong>Zum Home-Bildschirm</strong>.
+  </p>
+
+  <script src="app.js"></script>
+</body>
+</html>
