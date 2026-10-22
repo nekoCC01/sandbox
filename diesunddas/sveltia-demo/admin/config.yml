@@ -1,0 +1,48 @@
+# Sveltia CMS – Konfiguration
+# Alle Pfade sind relativ zur Wurzel des Git-Repos (nekoCC01/sandbox),
+# nicht relativ zu diesem Ordner.
+
+backend:
+  name: github
+  repo: nekoCC01/sandbox
+  branch: main
+
+# Pflichtangabe; Uploads landen hier (aktuell nutzen wir nur picsum-URLs)
+media_folder: diesunddas/sveltia-demo/media
+public_folder: media
+
+# Nur diese Dateien sind im CMS editierbar – der Rest der index.html bleibt fest
+collections:
+  - name: inhalte
+    label: Inhalte
+    files:
+      - name: projects
+        label: Projekte
+        file: diesunddas/sveltia-demo/content/projects.json
+        format: json
+        fields:
+          - name: projects
+            label: Projekte
+            widget: list
+            summary: "{{fields.title}} ({{fields.year}})"
+            fields:
+              - { name: title, label: Titel, widget: string }
+              - { name: category, label: Kategorie, widget: string }
+              - { name: year, label: Jahr, widget: string }
+              - { name: image, label: Bild-URL, widget: string, hint: "z. B. https://picsum.photos/seed/irgendwas/800/600" }
+              - { name: description, label: Beschreibung, widget: text }
+
+      - name: news
+        label: News
+        file: diesunddas/sveltia-demo/content/news.json
+        format: json
+        fields:
+          - name: news
+            label: News
+            widget: list
+            summary: "{{fields.date}} – {{fields.title}}"
+            fields:
+              - { name: title, label: Titel, widget: string }
+              - { name: date, label: Datum, widget: datetime, time_format: false, format: "YYYY-MM-DD" }
+              - { name: image, label: Bild-URL, widget: string, hint: "z. B. https://picsum.photos/seed/irgendwas/800/450" }
+              - { name: text, label: Text, widget: text }
