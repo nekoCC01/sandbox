@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "Rebranding Café Morgenrot",
+      "category": "Branding",
+      "year": "2026",
+      "image": "https://picsum.photos/seed/morgenrot/800/600",
+      "description": "Neues Logo, Farbwelt und Speisekarten für ein kleines Café in Hamburg-Ottensen."
+    },
+    {
+      "title": "Website Atelier Nordlicht",
+      "category": "Webdesign",
+      "year": "2026",
+      "image": "https://picsum.photos/seed/nordlicht/800/600",
+      "description": "Schlanke Portfolio-Website für ein Fotostudio, mit Fokus auf großen Bildern."
+    },
+    {
+      "title": "Kampagne Stadtrad",
+      "category": "Kampagne",
+      "year": "2025",
+      "image": "https://picsum.photos/seed/stadtrad/800/600",
+      "description": "Plakat- und Social-Media-Kampagne für einen lokalen Fahrradverleih."
+    }
+  ]
+}

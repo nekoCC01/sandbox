@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mila Sommer – Design & Web</title>
+  <style>
+    :root {
+      --bg: #faf8f5;
+      --text: #1d1d1f;
+      --muted: #6b6b70;
+      --accent: #e8572a;
+      --card: #ffffff;
+      --max: 1100px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; }
+    .container { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem; }
+    section { padding: 5rem 0; scroll-margin-top: 4rem; }
+    h2 { font-size: 2rem; margin-bottom: 2rem; }
+    h2::after { content: ""; display: block; width: 3rem; height: 4px; background: var(--accent); margin-top: .5rem; }
+
+    /* Header */
+    header {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(250, 248, 245, .9);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid #e7e3dd;
+    }
+    header .container { display: flex; justify-content: space-between; align-items: center; height: 4rem; }
+    .logo { font-weight: 700; text-decoration: none; }
+    .logo span { color: var(--accent); }
+    nav { display: flex; gap: 1.25rem; }
+    nav a { text-decoration: none; color: var(--muted); font-size: .95rem; }
+    nav a:hover { color: var(--accent); }
+
+    /* Hero */
+    #hero {
+      min-height: 85vh; display: flex; align-items: center; color: #fff;
+      background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+                  url("https://picsum.photos/seed/hero/1600/900") center / cover;
+    }
+    #hero h1 { font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1.1; max-width: 14ch; }
+    #hero p { font-size: 1.2rem; margin: 1rem 0 2rem; max-width: 40ch; opacity: .9; }
+    .btn {
+      display: inline-block; padding: .8rem 1.6rem; border-radius: 999px;
+      background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+    }
+
+    /* About */
+    .about { display: grid; grid-template-columns: 1fr 1.5fr; gap: 3rem; align-items: center; }
+    .about img { border-radius: 1rem; aspect-ratio: 4 / 5; object-fit: cover; width: 100%; }
+    .about p + p { margin-top: 1rem; }
+
+    /* Cards (Projekte & News) */
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+    .card { background: var(--card); border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+    .card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+    .card-body { padding: 1.25rem; }
+    .card-meta { font-size: .85rem; color: var(--muted); margin-bottom: .25rem; }
+    .card h3 { font-size: 1.15rem; margin-bottom: .5rem; }
+    #news .card img { aspect-ratio: 16 / 9; }
+    #news { background: #f1ede7; }
+
+    /* Kontakt & Footer */
+    #kontakt { text-align: center; }
+    #kontakt h2::after { margin-left: auto; margin-right: auto; }
+    #kontakt p { margin-bottom: 2rem; color: var(--muted); }
+    footer { padding: 2rem 0; text-align: center; font-size: .85rem; color: var(--muted); border-top: 1px solid #e7e3dd; }
+
+    @media (max-width: 700px) {
+      nav { gap: .8rem; }
+      nav a { font-size: .85rem; }
+      .about { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a class="logo" href="#hero">Mila<span>.</span>Sommer</a>
+      <nav>
+        <a href="#about">Über mich</a>
+        <a href="#projekte">Projekte</a>
+        <a href="#news">News</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="container">
+        <h1>Design, das Geschichten erzählt.</h1>
+        <p>Ich bin Mila – freie Designerin für Branding und Webdesign aus Hamburg.</p>
+        <a class="btn" href="#projekte">Projekte ansehen</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container about">
+        <img src="https://picsum.photos/seed/portrait/600/750" alt="Porträt von Mila Sommer">
+        <div>
+          <h2>Über mich</h2>
+          <p>Seit über acht Jahren entwickle ich Markenauftritte und Websites für kleine Unternehmen, Kulturschaffende und Start-ups.</p>
+          <p>Mein Ansatz: zuhören, reduzieren, gestalten. Am liebsten arbeite ich eng mit meinen Kund:innen zusammen – vom ersten Scribble bis zum Launch.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inhalte kommen aus content/projects.json (per Sveltia CMS editierbar) -->
+    <section id="projekte">
+      <div class="container">
+        <h2>Projekte</h2>
+        <div class="grid" id="projects-list"></div>
+      </div>
+    </section>
+
+    <!-- Inhalte kommen aus content/news.json (per Sveltia CMS editierbar) -->
+    <section id="news">
+      <div class="container">
+        <h2>News</h2>
+        <div class="grid" id="news-list"></div>
+      </div>
+    </section>
+
+    <section id="kontakt">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <p>Lust auf ein gemeinsames Projekt? Schreib mir einfach.</p>
+        <a class="btn" href="mailto:hallo@example.com">hallo@example.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Mila Sommer · Dummy-Seite für die Sveltia-CMS-Demo</div>
+  </footer>
+
+  <script>
+    const escapeHtml = (str = "") =>
+      String(str).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+    const formatDate = (iso) =>
+      new Date(iso).toLocaleDateString("de-DE", { day: "numeric", month: "long", year: "numeric" });
+
+    async function loadJson(url) {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error(`${url}: ${res.status}`);
+      return res.json();
+    }
+
+    function card({ image, alt, meta, title, text }) {
+      return `
+        <article class="card">
+          <img src="${escapeHtml(image)}" alt="${escapeHtml(alt)}" loading="lazy">
+          <div class="card-body">
+            <div class="card-meta">${escapeHtml(meta)}</div>
+            <h3>${escapeHtml(title)}</h3>
+            <p>${escapeHtml(text)}</p>
+          </div>
+        </article>`;
+    }
+
+    async function render(url, key, targetId, toCard, sort) {
+      const target = document.getElementById(targetId);
+      try {
+        const items = (await loadJson(url))[key] || [];
+        if (sort) items.sort(sort);
+        target.innerHTML = items.map(toCard).join("");
+      } catch (err) {
+        console.error(err);
+        target.innerHTML = "<p>Inhalte konnten nicht geladen werden.</p>";
+      }
+    }
+
+    render("content/projects.json", "projects", "projects-list", (p) => card({
+      image: p.image, alt: p.title, meta: `${p.category} · ${p.year}`, title: p.title, text: p.description,
+    }));
+
+    render("content/news.json", "news", "news-list", (n) => card({
+      image: n.image, alt: n.title, meta: formatDate(n.date), title: n.title, text: n.text,
+    }), (a, b) => b.date.localeCompare(a.date));
+  </script>
+</body>
+</html>

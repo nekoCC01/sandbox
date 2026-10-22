@@ -1,0 +1,22 @@
+{
+  "news": [
+    {
+      "title": "Neues Studio in Altona",
+      "date": "2026-10-01",
+      "image": "https://picsum.photos/seed/studio/800/450",
+      "text": "Ab sofort arbeite ich aus einem kleinen Studio in Altona – Kaffee steht bereit."
+    },
+    {
+      "title": "Auszeichnung für Stadtrad-Kampagne",
+      "date": "2026-08-15",
+      "image": "https://picsum.photos/seed/award/800/450",
+      "text": "Die Kampagne für Stadtrad wurde beim regionalen Designpreis ausgezeichnet."
+    },
+    {
+      "title": "Workshop: Branding für Gründer:innen",
+      "date": "2026-06-20",
+      "image": "https://picsum.photos/seed/workshop/800/450",
+      "text": "Im Herbst biete ich wieder einen eintägigen Workshop zu Markenentwicklung an."
+    }
+  ]
+}
