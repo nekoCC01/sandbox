@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+
+
+    <script>
+        class Movement {
+            constructor(part, axis, action) {
+                this.part = part;
+                this.axis = axis;
+                this.action = action;
+            }
+
+            get name() {
+                return [this.part, this.axis, this.action]
+                    .filter(Boolean)
+                    .join(" ");
+            }
+        }
+
+        const movementData = [
+            ["upper-body", "horizontal", "push"],
+            ["upper-body", "horizontal", "pull"],
+            ["upper-body", "vertical", "push"],
+            ["upper-body", "vertical", "pull"],
+            ["lower-body", null, "push"],
+            ["lower-body", null, "pull"],
+        ];
+
+        const basicMovements = movementData.map(
+            ([part, axis, action]) => new Movement(part, axis, action)
+        );
+        const movementsByName = new Map(
+            basicMovements.map(movement => [movement.name, movement])
+        );
+
+
+        class Exercise {
+            constructor(name, movement) {
+                this.name = name;
+                this.movement = movement;
+            }
+        }
+        const trainings = [
+            new Exercise(
+                "Push-up",
+                movementsByName.get("upper-body horizontal push")
+            ),
+            new Exercise(
+                "Squat",
+                movementsByName.get("lower-body push")
+            ),
+        ];
+
+
+
+
+    </script>
+
+
+
 </body>
+
 </html>
