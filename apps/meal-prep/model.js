@@ -21,7 +21,7 @@ export class Combo {
     return [...totals].map(([id,amount]) => ({ingredient:this.catalog.ingredients.get(id),amount}));
   }
   matches(query) {
-    const text = [this.name, ...this.shoppingList().map(x => x.ingredient.name)].join(' ').toLocaleLowerCase('de');
+    const text = [this.name, this.originalTitle, ...this.shoppingList().map(x => x.ingredient.name)].join(' ').toLocaleLowerCase('de');
     return query.toLocaleLowerCase('de').trim().split(/\s+/).every(word => text.includes(word));
   }
 }

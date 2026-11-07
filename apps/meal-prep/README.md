@@ -54,3 +54,5 @@ Vorgegarte Rote Bete, frischer Reis am Verzehrtag, Gemüse als Suppeneinlage sta
 - **Meal Prep**, Lena Merz → Hauptdarsteller Couscous.
 
 Titel und Autorinnen nach den bereitgestellten Covern. Seitenzahlen werden erst mit bestätigter Fundstelle ergänzt. Buchangaben stehen auf den Kombi-Karten, in den Details und in der Kochbuchübersicht. Tagesrezepte gehören über ihre Kombi zur jeweiligen Quelle; gemeinsame Rezeptdatensätze brauchen keine doppelte Buchzuordnung. Die ursprünglichen frei erstellten Kombis und ihre exklusiven Rezepte/Bausteine wurden entfernt.
+
+`combos.originalTitle` bewahrt den Originaltitel bzw. Wochen-Titel unabhängig vom kurzen App-Titel. Er erscheint auf Kombi-Karten, im Buchverweis und in der Kochbuchübersicht und ist über die Suche auffindbar. Beide Sunday-Kombis gehören zum Original „Woche 05“; `bookReference` präzisiert die zugehörigen Gerichte.
