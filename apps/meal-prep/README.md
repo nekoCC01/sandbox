@@ -24,3 +24,7 @@ Die Einkaufsliste markiert vorhandene Zutaten per ID. Nur diese Häkchen werden 
 5. Quellenangabe und Original-Portionen bei der Übernahme ergänzen; die aktuellen Inhalte sind frei erstellte Beispiele.
 
 Noch offen: Eingabeoberfläche/Import für neue Kombis, mengenbasierte Vorräte, geprüfte Lagerungshinweise je Originalrezept. Aktuell erfolgt die Erfassung bewusst direkt in den Rohdaten.
+
+## Übernommene Kombi: Hauptdarsteller Couscous
+
+Aus den bereitgestellten Screenshots vereinfacht, mit Originalmengen: zwei Gerichte à zwei Portionen, 45 Minuten Gesamtvorbereitung. Couscous samt Brühe und die gemeinsam aufgeteilten Zutaten Feta, Zucchini und Tomaten sind Bausteine mit je 50 % Verwendung. Alle übrigen Zutaten stehen beim jeweiligen Gericht. Beide Gerichte werden am Prep Day fertiggestellt; Tagesnummern sind ein Verzehrvorschlag. Buch/Seite sind noch unbekannt. Tomaten werden im gesamten Katalog in Stück geführt; die freie Tomaten-Bohnen-Beispielkombi verwendet jetzt sechs Stück.
