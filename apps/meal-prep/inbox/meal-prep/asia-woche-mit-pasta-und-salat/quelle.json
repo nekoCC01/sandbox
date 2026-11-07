@@ -1,0 +1,14 @@
+{
+  "status": "imported",
+  "bookId": "meal-prep",
+  "originalTitle": "Asia-Woche mit Pasta und Salat",
+  "pages": null,
+  "originalServings": {
+    "total": 4,
+    "perMeal": 2,
+    "meals": 2
+  },
+  "targetServingsPerMeal": 2,
+  "files": [],
+  "notes": "Drei aktuelle Chat-Screenshots, nicht lokal archiviert. Kombi-ID: asia-pasta-salad. Original-Portionen erhalten, Änderungen in import-notizen.md."
+}
