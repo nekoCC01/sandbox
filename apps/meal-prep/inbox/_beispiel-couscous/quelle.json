@@ -1,0 +1,14 @@
+{
+  "status": "example-already-imported",
+  "bookId": "meal-prep",
+  "originalTitle": "Hauptdarsteller Couscous",
+  "pages": null,
+  "originalServings": {
+    "total": 4,
+    "perMeal": 2,
+    "meals": 2
+  },
+  "targetServingsPerMeal": 2,
+  "files": [],
+  "notes": "Ausgefülltes Beispiel einer bereits erfassten Kombi. Nicht erneut importieren. Originalbilder wurden im Chat bereitgestellt und sind hier nicht archiviert."
+}

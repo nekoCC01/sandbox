@@ -2,6 +2,65 @@
 
 Buildfreie Mini-App mit HTML, CSS und JavaScript-Modulen. Im Repository mit einem statischen HTTP-Server öffnen (z. B. `python3 -m http.server 8000` aus dem Repository und dann `/apps/meal-prep/`). Module benötigen HTTP statt `file://`.
 
+## Neue Rezepte hinzufügen – auch in einer neuen Codex-Sitzung
+
+Die Regeln liegen im Projekt; der alte Chat muss dafür nicht mitgegeben werden. Neue Sitzungen im selben Repository starten und die Anweisungsdatei im Auftrag ausdrücklich nennen.
+
+1. Einen Quellenordner anlegen, z. B. `apps/meal-prep/inbox/sunday-meal-prep/woche-06/`.
+2. Screenshots vollständig und in Leserichtung ablegen, z. B. `01-uebersicht.jpg`, `02-zutaten.jpg`, `03-vorbereitung.jpg`, `04-gerichte.jpg`.
+3. Die [Beispiel-Quelldaten](inbox/_beispiel-couscous/quelle.json) als `quelle.json` in den neuen Ordner kopieren. `status` auf `new` setzen, Buch/Titel/Portionen anpassen und echte Dateinamen eintragen. Unbekannte Seiten oder Portionszahlen als `null` belassen.
+4. Den folgenden Prompt mit angepasstem Ordner und Originaltitel verwenden.
+5. Nach dem Import Änderungen und offene Angaben in `import-notizen.md` im Quellordner nachlesen. Das Quellenmaterial bleibt unverändert; neue Kombis erscheinen in der App.
+
+Aktuelle Buch-IDs: `sunday-meal-prep`, `cook-once`, `meal-prep`. Neue Bücher können mit Titel und Autor ergänzt werden.
+
+### Beispiel-Prompt zum Kopieren
+
+```text
+Bitte arbeite neue Rezept-Kombis in apps/meal-prep ein.
+Lies zuerst apps/meal-prep/AGENTS.md und apps/meal-prep/REZEPT-IMPORT.md.
+
+Quelle: apps/meal-prep/inbox/sunday-meal-prep/woche-06/
+Metadaten: quelle.json im Quellordner.
+Kochbuch: Sunday Meal Prep vegetarisch (bookId: sunday-meal-prep).
+Originaltitel: Woche 06.
+
+Sieh alle angegebenen Screenshots an. Vereinfache stark, mit Fokus auf
+tragende Zutaten und ihre Wiederverwendung in mehreren Mahlzeiten.
+Bonusgerichte ignorieren; große Wochenpläne in Kombis mit 2–4 Gerichten teilen.
+Originaltitel und Fundstelle erhalten. Originalportionen beibehalten,
+sofern die Metadaten keine anderen Zielportionen vorgeben.
+
+Keine fehlenden Mengen erfinden. Bereits importierte Quellen prüfen,
+Duplikate vermeiden und Änderungen/offene Angaben in import-notizen.md
+festhalten. Ergänze die Daten im bestehenden Modell, ohne die App umzubauen.
+Führe das Prüfskript aus und gleiche Einkaufsmengen mit der Quelle ab.
+Berichte kurz über neue Kombis, Wiederverwendung und Vereinfachungen.
+```
+
+Der Ordner `woche-06` ist im Prompt nur ein Beispiel und noch nicht angelegt. Alternativ können Bilder im Chat angehängt werden: die Quellenzeile entsprechend ersetzen und Buch, Originaltitel und bekannte Seiten im Prompt nennen. Chat-Anhänge werden dadurch nicht automatisch lokal archiviert.
+
+### Dateien und Beispiel
+
+- [AGENTS.md](AGENTS.md): dauerhafte Projektregeln für Codex.
+- [REZEPT-IMPORT.md](REZEPT-IMPORT.md): Ablauf, Metadatenfelder, Datenkonventionen und ausführlicher Prompt.
+- [Beispielordner](inbox/_beispiel-couscous/README.md): ausgefüllte Quelle, Importnotizen und [vollständiger Beispieldatensatz](inbox/_beispiel-couscous/datensatz.json), basierend auf der bestehenden Couscous-Kombi. Keine Bilder, kein neuer Importauftrag; nicht doppelt übernehmen.
+- [Prüfskript](scripts/check-data.mjs): ohne zusätzliche Pakete mit Node.js ausführen.
+
+Die Inbox ist eine nachvollziehbare Quellenablage. Dateien hineinzulegen startet keinen automatischen Import; der Codex-Auftrag ist der Auslöser. Nur `data.js` und `cookbooks.js` werden von der App geladen.
+
+### Daten prüfen
+
+Vom Repository-Stamm aus:
+
+```sh
+node apps/meal-prep/scripts/check-data.mjs
+node apps/meal-prep/scripts/check-data.mjs --self-test
+node apps/meal-prep/scripts/check-data.mjs apps/meal-prep/inbox/_beispiel-couscous/datensatz.json
+```
+
+Geprüft werden eindeutige IDs, Pflichtfelder/Quellen, gültige Buch-/Rezept-/Zutatenreferenzen, positive Mengen, vollständige Baustein-Aufteilung, verwaiste Rezepte/Bausteine, Einkaufssummen und Skalierung, tragende Zutaten sowie Suchbarkeit. `--self-test` prüft zusätzlich die Erkennung von acht absichtlich fehlerhaften Datenvarianten. Bei Fehlern endet das Skript mit einem Fehlerstatus. Die Prüfung ergänzt den manuellen Abgleich mit den Rezeptbildern; sie bestätigt keine korrekte Texterkennung oder Garzeiten.
+
 ## Datenmodell
 
 `data.js` enthält ausschließlich Rohdaten. IDs bleiben stabil und verbinden:
