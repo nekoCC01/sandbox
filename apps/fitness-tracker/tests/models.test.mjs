@@ -8,13 +8,13 @@ const catalog=new Catalog(raw);
 const session=(id='s1',reps=12,loadKg=10,exerciseId='goblet-squat',context='3xa',loadNote='')=>({id,date:'2026-11-01',context,notes:'',entries:[{exerciseId,loadKg,loadNote,sets:[{reps,effort:3}]}]});
 const withSessions=(...sessions)=>({...emptyUser(),sessions});
 test('catalog links all course variants, six movements and hierarchy',()=>{
- assert.equal(catalog.movements.size,6); assert.equal(catalog.exercises.size,66);
+ assert.equal(catalog.movements.size,6); assert.equal([...catalog.exercises.values()].filter(e=>e.sourceId!=='training-notes-2026').length,66);
  assert.equal(catalog.exercises.get('lunge').movement.id,'squat');
  assert.equal(catalog.exercises.get('good-morning').movement.id,'hinge');
  assert.equal(catalog.exercises.get('db-bicep-curl').movement,undefined);
  assert.equal(catalog.routines.get('6x').slots.length,6);
  assert.equal(catalog.groups.get('quads').region.name,'Unterkörper');
- assert.equal(catalog.exercises.get('push-up').variants(catalog).length,4);
+ assert.equal(catalog.exercises.get('push-up').variants(catalog).length,5);
 });
 test('invalid catalog reference fails instead of silently losing anatomy',()=>{
  const bad=structuredClone(raw);bad.families[0].primaryGroupIds=['missing'];assert.throws(()=>new Catalog(bad));

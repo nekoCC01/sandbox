@@ -40,6 +40,11 @@
     {
       "id": "10x-week-10",
       "file": "10 - 10X _ Week 10_ Design Your Journey, Deep Sleep, Track Progress.docx"
+    },
+    {
+      "id": "training-notes-2026",
+      "file": "00 Training erfassen.md",
+      "path": "data/imports/00 Training erfassen.md"
     }
   ],
   "regions": [
@@ -455,6 +460,26 @@
       "secondaryGroupIds": [],
       "kind": "isolation",
       "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "core-notes",
+      "name": "Core",
+      "movementId": null,
+      "primaryGroupIds": [
+        "abs"
+      ],
+      "secondaryGroupIds": [],
+      "kind": "accessory",
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "combined-notes",
+      "name": "Kombinierte Bewegungen",
+      "movementId": null,
+      "primaryGroupIds": [],
+      "secondaryGroupIds": [],
+      "kind": "accessory",
+      "sourceId": "training-notes-2026"
     }
   ],
   "exercises": [
@@ -1506,6 +1531,203 @@
         "hold": 2
       },
       "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "wall-push-up",
+      "name": "Wall Pushup",
+      "familyId": "push-up",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2
+      },
+      "sourceId": "training-notes-2026",
+      "notes": "Liegestütz an der Wand."
+    },
+    {
+      "id": "floor-press",
+      "name": "Dumbbell Floor Press",
+      "familyId": "chest-press",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026",
+      "notes": "Am Boden liegend, Oberkörper unten lassen."
+    },
+    {
+      "id": "bridge-press",
+      "name": "Dumbbell Press mit angehobener Hüfte",
+      "familyId": "combined-notes",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026",
+      "notes": "Beide Hanteln nach oben; Rücken / Po angehoben. Ausführung aus den persönlichen Notizen, noch nicht genauer bestimmt."
+    },
+    {
+      "id": "crunch",
+      "name": "Crunch",
+      "familyId": "core-notes",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "reverse-plank",
+      "name": "Reverse Plank",
+      "familyId": "core-notes",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "bicycle-crunch",
+      "name": "Bicycle Crunch",
+      "familyId": "core-notes",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "plank",
+      "name": "Plank",
+      "familyId": "core-notes",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "side-plank-knee",
+      "name": "Side Plank mit gebeugtem Knie",
+      "familyId": "core-notes",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "cat-cow",
+      "name": "Cat/Cow",
+      "familyId": "core-notes",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "floor-bridge",
+      "name": "Glute Bridge am Boden",
+      "familyId": "hip-thrust",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026",
+      "notes": "Gewicht auf dem Bauch."
+    },
+    {
+      "id": "hinge-row",
+      "name": "Hinge + Row (separat)",
+      "familyId": "combined-notes",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "hinge-lunge",
+      "name": "Hinge + Lunge",
+      "familyId": "combined-notes",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "hinge-curl-lateral-lunge",
+      "name": "Hinge Curl Lat Lunge",
+      "familyId": "combined-notes",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026",
+      "notes": "Bezeichnung aus der Quelle; genaue Kombination unklar."
+    },
+    {
+      "id": "db-shoulder-squat",
+      "name": "Squat mit Dumbbells an den Schultern",
+      "familyId": "squat",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "plank-lower-back-extension",
+      "name": "Plank → Lower Down → Back Extension",
+      "familyId": "combined-notes",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
+    },
+    {
+      "id": "db-hinge",
+      "name": "Dumbbell Hinge (Variante nicht genauer bestimmt)",
+      "familyId": "deadlift",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026",
+      "notes": "Hinge laut Trainingsnotizen; Kniebeugung und genaue Deadlift-Variante nicht dokumentiert."
+    },
+    {
+      "id": "db-squat-unspecified",
+      "name": "Dumbbell Squat (Hantelposition unbekannt)",
+      "familyId": "squat",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {},
+      "sourceId": "training-notes-2026"
     }
   ],
   "units": [
@@ -1609,5 +1831,277 @@
       "sourceId": "10x-week-10"
     }
   ],
-  "classificationNote": "Muskelzuordnungen und Starter-Auswahl sind redaktionelle, vereinfachte Zuordnungen. Good Morning bleibt zur Quellennachverfolgung in der Kursfamilie Leg Curl; biomechanisch ist es eine Hinge-Übung. Nicht jede Isolation wird in eines der Big Six gezwängt."
+  "classificationNote": "Muskelzuordnungen und Starter-Auswahl sind redaktionelle, vereinfachte Zuordnungen. Good Morning bleibt zur Quellennachverfolgung in der Kursfamilie Leg Curl; biomechanisch ist es eine Hinge-Übung. Nicht jede Isolation wird in eines der Big Six gezwängt.",
+  "workouts": [
+    {
+      "id": "apple-1859815572",
+      "name": "Grundlagen des Krafttrainings mit Jenn",
+      "type": "fitness-plus",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-shoulder-press"
+        },
+        {
+          "id": "s2",
+          "exerciseId": "db-row"
+        },
+        {
+          "id": "s3",
+          "exerciseId": "db-bicep-curl"
+        }
+      ],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-jenn/1859815572",
+      "trainer": "Jenn"
+    },
+    {
+      "id": "apple-1661892258",
+      "name": "Core mit Kyle · Mehr Balance",
+      "type": "fitness-plus",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "side-plank-knee"
+        },
+        {
+          "id": "s2",
+          "exerciseId": "crunch"
+        }
+      ],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/core-mit-kyle/1661892258",
+      "trainer": "Kyle",
+      "durationSeconds": 600
+    },
+    {
+      "id": "apple-1589513785",
+      "name": "Core mit Gregg · Core Challenge Nr. 1",
+      "type": "fitness-plus",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "cat-cow"
+        },
+        {
+          "id": "s2",
+          "exerciseId": "reverse-plank"
+        },
+        {
+          "id": "s3",
+          "exerciseId": "bicycle-crunch"
+        }
+      ],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/core-mit-gregg/1589513785",
+      "trainer": "Gregg",
+      "durationSeconds": 300
+    },
+    {
+      "id": "apple-1579923027",
+      "name": "Core mit Molly",
+      "type": "fitness-plus",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "plank",
+          "defaults": {
+            "durationSeconds": 30
+          }
+        },
+        {
+          "id": "s2",
+          "exerciseId": "back-extension"
+        },
+        {
+          "id": "s3",
+          "exerciseId": "plank-lower-back-extension"
+        }
+      ],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/core-mit-molly/1579923027",
+      "trainer": "Molly",
+      "durationSeconds": 300
+    },
+    {
+      "id": "apple-1660439951",
+      "name": "Krafttraining mit Sam · Mehr Balance",
+      "type": "fitness-plus",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "hinge-lunge"
+        },
+        {
+          "id": "s2",
+          "exerciseId": "db-squat-unspecified"
+        },
+        {
+          "id": "s3",
+          "exerciseId": "hinge-curl-lateral-lunge"
+        }
+      ],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/krafttraining-mit-sam/1660439951",
+      "trainer": "Sam",
+      "durationSeconds": 600
+    },
+    {
+      "id": "apple-1739168440",
+      "name": "Core mit Gregg · Rücken stärken",
+      "type": "fitness-plus",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "crunch"
+        },
+        {
+          "id": "s2",
+          "exerciseId": "reverse-plank"
+        }
+      ],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/core-mit-gregg/1739168440",
+      "trainer": "Gregg"
+    },
+    {
+      "id": "apple-1571908716",
+      "name": "Yoga mit Jessica",
+      "type": "fitness-plus",
+      "slots": [],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/yoga-mit-jessica/1571908716",
+      "trainer": "Jessica"
+    },
+    {
+      "id": "apple-1859815701",
+      "name": "Grundlagen des Krafttrainings mit Gregg",
+      "type": "fitness-plus",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-squat-unspecified"
+        },
+        {
+          "id": "s2",
+          "exerciseId": "db-hinge"
+        },
+        {
+          "id": "s3",
+          "exerciseId": "lunge"
+        }
+      ],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701",
+      "trainer": "Gregg",
+      "durationSeconds": 600
+    },
+    {
+      "id": "apple-1849247451",
+      "name": "Yoga-Routine mit Jessica · Woche 2 Rücken",
+      "type": "fitness-plus",
+      "slots": [],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/yoga-routine-mit-jessica/1849247451",
+      "trainer": "Jessica"
+    },
+    {
+      "id": "apple-yoga-dice-unidentified",
+      "name": "Yoga mit Dice · Video unbekannt",
+      "type": "fitness-plus",
+      "slots": [],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "trainer": "Dice"
+    },
+    {
+      "id": "apple-strength-kyle-unidentified",
+      "name": "Krafttraining mit Kyle · Video unbekannt",
+      "type": "fitness-plus",
+      "slots": [],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "trainer": "Kyle"
+    },
+    {
+      "id": "apple-hiit-bakari-unidentified",
+      "name": "HIIT mit Bakari · Fitness Comeback",
+      "type": "fitness-plus",
+      "slots": [],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "trainer": "Bakari"
+    },
+    {
+      "id": "apple-1805895783",
+      "name": "Woche 1: Ganzkörper-Krafttraining mit Sam",
+      "type": "fitness-plus",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-shoulder-squat",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s2",
+          "exerciseId": "hinge-row",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s3",
+          "exerciseId": "floor-bridge",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s4",
+          "exerciseId": "floor-press",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s5",
+          "exerciseId": "db-shoulder-squat",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s6",
+          "exerciseId": "hinge-row",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        }
+      ],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/woche-1-ganzk%C3%B6rper-krafttraining-mit-sam/1805895783",
+      "trainer": "Sam"
+    },
+    {
+      "id": "apple-6795243669",
+      "name": "Krafttraining mit Kyle",
+      "type": "fitness-plus",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "bridge-press"
+        }
+      ],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "url": "https://fitness.apple.com/de/workout/krafttraining-mit-kyle/6795243669",
+      "trainer": "Kyle"
+    },
+    {
+      "id": "apple-yoga-oct08-unidentified",
+      "name": "Yoga · 8.10. · Video unbekannt",
+      "type": "fitness-plus",
+      "slots": [],
+      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "durationSeconds": 600
+    }
+  ]
 }

@@ -16,9 +16,9 @@ ES-Module und JSON-Fetch brauchen HTTP; `file://` genügt nicht. Für gleichblei
 
 ## Was bereits geht
 
-- 66 Übungsvarianten, 17 Familien, Filter nach Grundbewegung, Muskelgruppe und Widerstandsart.
-- Training mit Variante, Datum, Kontext, kg, Lastdetails, Wiederholungen je Satz, Anstrengung und Notizen erfassen. Bestehende einzelne Übungseinträge bearbeiten.
-- Persönliche Wiederholungsbestwerte je Variante, Kontext und Last. Der erste Eintrag gilt als Ausgangs-Meilenstein.
+- 83 Übungsvarianten, 19 Familien, Filter nach Grundbewegung, Muskelgruppe und Widerstandsart.
+- Training mit Variante, Datum, Kontext, kg, Lastdetails, Wiederholungen je Satz, Anstrengung und Notizen erfassen. Auch Trainings mit mehreren Übungen und Sätzen bearbeiten. Alle Leistungswerte sind optional.
+- Persönliche Wiederholungsbestwerte je Variante, Kontext, Last, Gewichtsbezug und Seite. Unsichere Werte und ungeklärte Lasten zählen nicht. Der erste Eintrag gilt als Ausgangs-Meilenstein.
 - Ziele für mindestens einen Satz mit kg und Wiederholungen. Vergleich nur bei gleicher Variante, gleichem Kontext und identischen Lastdetails.
 - Verlauf nach Gewicht oder Wiederholungen, mit Ziellinie und zugänglicher Werteliste.
 - Körperkarte für 14, 30 oder 90 Tage; auswählbare Muskelgruppen führen zu passenden Übungen. Relatives Satzaufkommen statt behauptetem Muskelwachstum oder Erholungszustand.
@@ -62,7 +62,7 @@ Beispiel Training (ein Eintrag pro Übung ist der aktuelle Eingabefluss; das Mod
 }
 ```
 
-`loadKg` ist externe Last, kein berechnetes Körpergewicht. Bei zwei Hanteln Gesamtlast eintragen und in `loadNote` erläutern. Bänder und Unterstützung nicht in kg schätzen: `loadKg: 0`, Aufbau und Bandstärke im Detailfeld dokumentieren. Bandfarbe allein ist nur innerhalb desselben Bandsystems vergleichbar. Einseitige Varianten je Seite dokumentieren und die Konvention konstant halten. Das Eingabeformular verwendet derzeit denselben Anstrengungswert für alle Sätze; JSON kann unterschiedliche Werte enthalten. Beim Bearbeiten im Formular wird dieser Wert vereinheitlicht.
+`loadKg` ist externe Last, kein berechnetes Körpergewicht. Bei zwei Hanteln Gesamtlast eintragen und in `loadNote` erläutern. Bänder und Unterstützung nicht in kg schätzen: `loadKg: 0`, Aufbau und Bandstärke im Detailfeld dokumentieren. Bandfarbe allein ist nur innerhalb desselben Bandsystems vergleichbar. Einseitige Varianten je Seite dokumentieren und die Konvention konstant halten. Das Eingabeformular erlaubt einen eigenen optionalen Anstrengungswert je Satz.
 
 Varianten sind Geschwister derselben Familie, keine automatische Schwierigkeitsrangfolge. Alternative Familien derselben Bewegung sind über `movementId` verbunden. Isolationsübungen müssen nicht zwanghaft einer der Big Six zugeordnet sein. Eine Variante kann `movementId` gezielt überschreiben, z. B. Good Morning.
 
@@ -70,10 +70,10 @@ Varianten sind Geschwister derselben Familie, keine automatische Schwierigkeitsr
 
 - Muskelbelastung: pro Satz 1 für primäre Gruppen, 0,5 für unterstützende Gruppen. Mehrere beteiligte Gruppen bekommen jeweils ihre Zuordnung; keine auf 100 % normierte Muskelverteilung.
 - Einfärbung relativ zum höchsten Gruppenwert im Zeitraum. Kein wissenschaftliches Aktivierungsmodell und keine automatische Erholungsberechnung.
-- Verlauf vergleicht Variante + Kontext + identische Lastdetails. Satzanzahl, Technik, Bewegungsumfang, tatsächliches Tempo und Erholung müssen zusätzlich berücksichtigt werden. Tempo ist vorerst eine Katalogvorgabe, kein pro Training gemessener Wert.
+- Verlauf vergleicht Variante + Kontext + identische Lastdetails. Satzanzahl, Technik, Bewegungsumfang, tatsächliches Tempo und Erholung müssen zusätzlich berücksichtigt werden. Katalogtempo ist eine Vorgabe; abweichendes tatsächliches Tempo kann im Log als optionales `tempo` erhalten bleiben.
 - Meilensteine beziehen sich auf Wiederholungsbestwerte bei identischer kg-Last, Variante, Lastdetail und Kontext; keine Hochrechnung auf 1RM.
 - Ziele gelten als erreicht, sobald ein passender Eintrag mindestens einen Satz mit Zielwiederholungen und mindestens Zielgewicht enthält. Datum ist ein persönlicher Termin, keine Frist für die Anerkennung.
-- Kein Löschen, kein automatisches Sync, kein Git-Commit aus dem Browser. Bei importierten Trainings mit mehreren Übungen erfolgt Bearbeitung vorerst in JSON.
+- Kein Löschen, kein automatisches Sync, kein Git-Commit aus dem Browser. Importierte Trainings mit mehreren Übungen lassen sich vollständig im Formular bearbeiten.
 
 ## Vom Browser in Git
 
@@ -125,3 +125,31 @@ node --check apps/fitness-tracker/js/app.mjs
 ```
 
 Tests prüfen Beziehungen, Referenzen, Kalenderdaten, Wertebereiche, idempotentes Zusammenführen, Belastungsberechnung, kontextspezifische Ziele/Bestwerte, Speicherfehler und Änderungen aus konkurrierenden Tabs.
+
+## Flexible Trainings und Fitness+ (November 2026)
+
+Unter **Fitness+ & Vorlagen** lassen sich Videos oder eigene Trainings mit optionaler URL, Trainer, Videolänge und einer geordneten Liste von Übungsslots anlegen und bearbeiten. Unbekannte Übungen dürfen als unaufgelöste Slots mit Bezeichnung stehen bleiben. Eine mehrfach vorkommende Übung erhält mehrere Slots mit stabilen IDs.
+
+`catalog.workouts` enthält die importierten Vorlagen. Persönliche neue Vorlagen und Änderungen an vorhandenen Vorlagen stehen in `user.workouts`; bei gleicher ID überschreibt die persönliche Vorlage die Katalogvorgabe. Beide werden mit exportiert bzw. beim Start geladen. Historische Slot-IDs bleiben auch nach Änderungen einer Vorlage gültig.
+
+Jede Vorlage kann `defaults` definieren, und jeder Slot eigene `defaults`, die einzelne Videostandardwerte überschreiben. Dazu gehören `durationSeconds`, `loadKg`, `loadBasis` und optional `reps`. Beispielsweise können Squats 14 kg, seitliches Heben 4 kg und beide jeweils 40 Sekunden vorgeben. Diese Daten beschreiben ausschließlich das Video. Bekannte Slotvorgaben werden beim Start eines neuen Logeintrags als `videoPrescription` festgehalten und separat angezeigt; sie werden niemals als tatsächlich geleistete Wiederholungen, Dauer oder Last gespeichert.
+
+Trainingseinträge können eine `workoutId` referenzieren oder unabhängig davon einzelne Übungen erfassen. Ein absolviertes Video darf ohne bekannte Übungsdetails geloggt werden. Übungseinträge dürfen eine leere `sets`-Liste haben, wenn keine Sätze dokumentiert sind. Alle tatsächlichen Leistungsfelder sind optional, sowohl auf Übungs- als auch auf Satzebene; Satzwerte überschreiben Übungswerte. Gewicht und Dauer dürfen je Satz wechseln. Fehlende Angaben werden nicht als 0 oder als Videovorgabe interpretiert.
+
+Zusätzliche Felder: `durationSeconds`, `repsRange: [8,9]`, `uncertain`, `side: left|right|both|alternating`, `loadBasis: total|perDumbbell|unknown`, `tempo` und Notizen. Im Formular lassen sich Wiederholungen als `12`, `8-9` oder `12?` eingeben. Bei Satzangaben bedeutet ein leerer Gewichtsbezug: wie die übergeordnete Übung. Die Gewichtsangabe wird nicht automatisch umgerechnet.
+
+Ein Training mit `status: review` darf `date: null` haben. Es erscheint mit seinem ursprünglichen Datumslabel im Journal, geht aber nicht in zeitliche Auswertungen ein. Auch datierte Prüfeinträge bleiben aus diesen Auswertungen ausgeschlossen. Bestwerte und Ziele verwenden nur sichere Wiederholungen mit bekanntem Gewichtsbezug; unbekannte Gewichte, Bereiche und unsichere Zählungen werden nicht zu Bestwerten. Zeitbasierte Sätze zählen als dokumentierte Sätze, ohne in Wiederholungen umgerechnet zu werden. Trainings ohne Satzdetails erzeugen keine Muskelbelastungswerte. Kurven trennen zusätzlich Gesamtlast/pro Hantel sowie die Seite.
+
+Die Erweiterung bleibt additiv zu `schemaVersion: 1`; alte Exporte ohne `workouts` bleiben lesbar. Browserstände, neue Vorlagen und Repo-Einträge werden anhand stabiler IDs zusammengeführt.
+
+### Import aus „00 Training erfassen.md“
+
+- 23 datierte Trainings und 6 Prüfeinträge (zwei mit widersprüchlichem Juni-Datum und vier undatierte Aktivitätsnotizen).
+- 15 Fitness+ Vorlagen, zum Teil ohne eindeutig bestimmtes Video. Trainergewichte fehlen im Dokument und bleiben leer. Die persönlichen Gewichte wurden nicht als Videostandards übernommen.
+- September/Oktober werden als 2026 interpretiert, gestützt durch Wochentage und den Dokumentlink `20261007`. Die Annahme ist in jedem datierten Import sichtbar.
+- Die Quelle liegt unverändert in `data/imports/00 Training erfassen.md`. Jeder Eintrag enthält unter `source` die Originalnotizen des betreffenden Tages und die Datumsannahme.
+- Geplante, aber nicht als absolviert dokumentierte Leistungen sind keine zusätzlichen Logeinträge. Unbekannte Wiederholungen bleiben leer. Bestätigte Ergebnisse haben Vorrang vor vorangestellten Plänen (30.9.: tatsächlich 8 kg).
+- Bei 2 × 50 Wall Pushups ist die notierte Dauer 4:10 nicht als Gesamtdauer übernommen. Pro Hantel vs. Gesamtlast ist bei den importierten Hantelgewichten ungeklärt.
+- Bent Over Row war bereits vorhanden. Neu sind unter anderem Wall Pushup, Core-Übungen, Floor Press, Press mit angehobener Hüfte und einige nicht genauer bestimmte bzw. kombinierte Bewegungen. Unklare Kombinationen haben keine erfundenen Muskelzuordnungen.
+
+Neue Übungen werden weiterhin im Katalog angelegt; die Oberfläche erstellt und bearbeitet Trainingsvorlagen und Logeinträge. Es wurde kein Git-Commit erstellt.

@@ -1,6 +1,929 @@
 {
   "schemaVersion": 1,
-  "sessions": [],
+  "sessions": [
+    {
+      "id": "md-2026-june-wall",
+      "date": null,
+      "context": "free",
+      "title": "Wall Pushup · Datum ungeklärt",
+      "status": "review",
+      "notes": "",
+      "entries": [
+        {
+          "exerciseId": "wall-push-up",
+          "sets": [
+            {
+              "durationSeconds": 135,
+              "repsRange": [
+                26,
+                27
+              ],
+              "uncertain": true
+            }
+          ],
+          "notes": "Test nach etwa 2:15 beendet; 2 × 50 sind hier Ziel, kein bestätigtes Ergebnis."
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "So, 27.6.",
+        "originalText": "# So, 27.6. {#so,-27.6.}\n\n## Wall Pushup {#wall-pushup}\n\n* [https\\://www\\.hybridcalisthenics.com/wall-pushups](https://www.hybridcalisthenics.com/wall-pushups)   \n  * ecc (auf Wand zu) \\- 3s \\+ conc (von Wand weg) \\- 2s  \n    → App “Metronom”  \n    * 2 x 50  \n      \\=\\> 1x \\= 5s, 12x \\= 1 min,   \n      4 x 12 \\=\\> 48x \\= 4 min  \n    * also einfach Timer auf 4min10s stellen\n\nUff, erstmal testen  \nnach 02:15 min wird es schon unangenehm\n\n* ich könnte noch  \n* aber es schmerzt leicht  \n* ich schaue auf die Uhr\n\n→ ich merke: ich möchte die Zeit besser im Blick haben  \nOk, wieviel Wiederholungen waren das nun?\n\n|  02:15 \\=\\> 12x (1min) \\+ 12x (1min) \\+ 3x (15s) \\=\\> 26-27x  |\n| :---- |\n\nAlso: ich erkenne: 3 x 50 ist nicht nix\n\n---\n\n## Grundlagen des Krafttrainings \\- F1 Jenn {#grundlagen-des-krafttrainings---f1-jenn}\n\n[https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-jenn/1859815572](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-jenn/1859815572)  \n\n**7 kg**\n\n* Shoulder Press  \n  * 7x li, 7x re  \n  * Wdh  \n* Bent Over Row  \n  * 6x li, 8x re  \n  * 9x (li,re)  \n* Biceps Curl  \n  * 8-9x  \n  * Wdh\n\ngeht relativ gut  \nmanchmal spürt man leichte Ermüdung / Schmerz im Arm\n\n",
+        "dateAssumption": "Datum ungeklärt"
+      },
+      "dateLabel": "So, 27.6."
+    },
+    {
+      "id": "md-2026-june-jenn",
+      "date": null,
+      "context": "fitness-plus",
+      "title": "Grundlagen mit Jenn · Datum ungeklärt",
+      "status": "review",
+      "notes": "",
+      "entries": [
+        {
+          "exerciseId": "db-shoulder-press",
+          "sets": [
+            {
+              "reps": 7,
+              "side": "left"
+            },
+            {
+              "reps": 7,
+              "side": "right"
+            }
+          ],
+          "notes": "„Wdh“ ohne genaue Anzahl weiterer Sätze.",
+          "loadKg": 7,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        },
+        {
+          "exerciseId": "db-row",
+          "sets": [
+            {
+              "reps": 6,
+              "side": "left"
+            },
+            {
+              "reps": 8,
+              "side": "right"
+            },
+            {
+              "reps": 9,
+              "side": "both"
+            }
+          ],
+          "loadKg": 7,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        },
+        {
+          "exerciseId": "db-bicep-curl",
+          "sets": [
+            {
+              "repsRange": [
+                8,
+                9
+              ]
+            }
+          ],
+          "notes": "„Wdh“ ohne genaue Anzahl weiterer Sätze.",
+          "loadKg": 7,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "So, 27.6.",
+        "originalText": "# So, 27.6. {#so,-27.6.}\n\n## Wall Pushup {#wall-pushup}\n\n* [https\\://www\\.hybridcalisthenics.com/wall-pushups](https://www.hybridcalisthenics.com/wall-pushups)   \n  * ecc (auf Wand zu) \\- 3s \\+ conc (von Wand weg) \\- 2s  \n    → App “Metronom”  \n    * 2 x 50  \n      \\=\\> 1x \\= 5s, 12x \\= 1 min,   \n      4 x 12 \\=\\> 48x \\= 4 min  \n    * also einfach Timer auf 4min10s stellen\n\nUff, erstmal testen  \nnach 02:15 min wird es schon unangenehm\n\n* ich könnte noch  \n* aber es schmerzt leicht  \n* ich schaue auf die Uhr\n\n→ ich merke: ich möchte die Zeit besser im Blick haben  \nOk, wieviel Wiederholungen waren das nun?\n\n|  02:15 \\=\\> 12x (1min) \\+ 12x (1min) \\+ 3x (15s) \\=\\> 26-27x  |\n| :---- |\n\nAlso: ich erkenne: 3 x 50 ist nicht nix\n\n---\n\n## Grundlagen des Krafttrainings \\- F1 Jenn {#grundlagen-des-krafttrainings---f1-jenn}\n\n[https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-jenn/1859815572](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-jenn/1859815572)  \n\n**7 kg**\n\n* Shoulder Press  \n  * 7x li, 7x re  \n  * Wdh  \n* Bent Over Row  \n  * 6x li, 8x re  \n  * 9x (li,re)  \n* Biceps Curl  \n  * 8-9x  \n  * Wdh\n\ngeht relativ gut  \nmanchmal spürt man leichte Ermüdung / Schmerz im Arm\n\n",
+        "dateAssumption": "Datum ungeklärt"
+      },
+      "workoutId": "apple-1859815572",
+      "dateLabel": "So, 27.6."
+    },
+    {
+      "id": "md-2026-0928-core",
+      "date": "2026-09-28",
+      "context": "fitness-plus",
+      "title": "Core · Mehr Balance",
+      "status": "completed",
+      "notes": "",
+      "entries": [
+        {
+          "exerciseId": "side-plank-knee",
+          "sets": []
+        },
+        {
+          "exerciseId": "crunch",
+          "sets": [],
+          "notes": "Tip Richtung Fuß"
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mo, 28.9.",
+        "originalText": "# Mo, 28.9. {#mo,-28.9.}\n\n## Core (MB) {#core-(mb)}\n\n[https\\://fitness.apple.com/de/workout/core-mit-kyle/1661892258](https://fitness.apple.com/de/workout/core-mit-kyle/1661892258) \n\naus Sammlung “Mehr Balance”\n\n* Set 1 \\- 2x  \n  * Side Plank, Knie gebeugt \\- Arm Bein zueinander  \n  * …   \n* Set 2 \\- 2x  \n  * …   \n  * Crunch \\- Tip Richtung Fuß\n\n## Wall Pushup {#wall-pushup-1}\n\nerstmal Ziel  \nLEVEL 1: 2 Sets of 30\n\n30 \\=\\> 2x12 (24) \\+ 6 \\=\\> 2,5 min (2min30s)\n\nGeschafft\n\ngeht vor allem in die Arme\n\n## Core 5min {#core-5min}\n\n[https\\://fitness.apple.com/de/workout/core-mit-gregg/1589513785](https://fitness.apple.com/de/workout/core-mit-gregg/1589513785)   \nCore Challenge \\- Nr 1\n\nPrep: Cat/Cow\n\n* Reverse Plank  \n* Bicycle Crunch\n\n## Single Exercise \\- Shoulder Press {#single-exercise---shoulder-press}\n\naus dem gestrigen Grundlagen Training\n\n* **Shoulder Press \\- rechter Arm**\n\n12 Rep Gewicht finden  \nVgl. [01 \\- 10X \\> Week 1: Exercises, Soreness, AMRAP, Measurements, Capacity Test](https://docs.google.com/document/d/1MpU4bNbV70wqvNwi88wIp2dMALjtVWInb_sqT8uSmB8/edit?tab=t.0#heading=h.q6fq1jg4ewt0)\n\n* Trial:   \n  * biomechanics (first set) \\- \\- easy  \n  * breathing pattern \\- \\- couple of reps  \n  * mind-muscle connection \\- rep with specific tempo \\- \\- contract/length  \n  * FIND MAXIMUM (4th set)  \n    * add weight  \n    * up to: 12 standard reps to failure\n\n→ ich mach jetzt nur den letzten Schritt  \nmit vorheriger kurzer Wdh\n\n|  7kg \\- 12 Reps  |\n| :---- |\n\n→ am Ende: es brennt, schmerzt schon\n\n* Gefühl: reicht, aber ich hätte evtl auch mehr Gewicht geschafft  \n* vielleicht sogar mehr, “trying my best”?\n\n→ also nächstes Mal mehr probieren  \n→ oder mit beiden Armen?\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1661892258"
+    },
+    {
+      "id": "md-2026-0928-wall",
+      "date": "2026-09-28",
+      "context": "free",
+      "title": "Wall Pushup",
+      "status": "completed",
+      "notes": "LEVEL 1: 2 Sets of 30 – geschafft. 2:30 min rechnerisch je Satz.",
+      "entries": [
+        {
+          "exerciseId": "wall-push-up",
+          "sets": [
+            {
+              "reps": 30
+            },
+            {
+              "reps": 30
+            }
+          ],
+          "tempo": {
+            "eccentric": 3,
+            "concentric": 2
+          }
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mo, 28.9.",
+        "originalText": "# Mo, 28.9. {#mo,-28.9.}\n\n## Core (MB) {#core-(mb)}\n\n[https\\://fitness.apple.com/de/workout/core-mit-kyle/1661892258](https://fitness.apple.com/de/workout/core-mit-kyle/1661892258) \n\naus Sammlung “Mehr Balance”\n\n* Set 1 \\- 2x  \n  * Side Plank, Knie gebeugt \\- Arm Bein zueinander  \n  * …   \n* Set 2 \\- 2x  \n  * …   \n  * Crunch \\- Tip Richtung Fuß\n\n## Wall Pushup {#wall-pushup-1}\n\nerstmal Ziel  \nLEVEL 1: 2 Sets of 30\n\n30 \\=\\> 2x12 (24) \\+ 6 \\=\\> 2,5 min (2min30s)\n\nGeschafft\n\ngeht vor allem in die Arme\n\n## Core 5min {#core-5min}\n\n[https\\://fitness.apple.com/de/workout/core-mit-gregg/1589513785](https://fitness.apple.com/de/workout/core-mit-gregg/1589513785)   \nCore Challenge \\- Nr 1\n\nPrep: Cat/Cow\n\n* Reverse Plank  \n* Bicycle Crunch\n\n## Single Exercise \\- Shoulder Press {#single-exercise---shoulder-press}\n\naus dem gestrigen Grundlagen Training\n\n* **Shoulder Press \\- rechter Arm**\n\n12 Rep Gewicht finden  \nVgl. [01 \\- 10X \\> Week 1: Exercises, Soreness, AMRAP, Measurements, Capacity Test](https://docs.google.com/document/d/1MpU4bNbV70wqvNwi88wIp2dMALjtVWInb_sqT8uSmB8/edit?tab=t.0#heading=h.q6fq1jg4ewt0)\n\n* Trial:   \n  * biomechanics (first set) \\- \\- easy  \n  * breathing pattern \\- \\- couple of reps  \n  * mind-muscle connection \\- rep with specific tempo \\- \\- contract/length  \n  * FIND MAXIMUM (4th set)  \n    * add weight  \n    * up to: 12 standard reps to failure\n\n→ ich mach jetzt nur den letzten Schritt  \nmit vorheriger kurzer Wdh\n\n|  7kg \\- 12 Reps  |\n| :---- |\n\n→ am Ende: es brennt, schmerzt schon\n\n* Gefühl: reicht, aber ich hätte evtl auch mehr Gewicht geschafft  \n* vielleicht sogar mehr, “trying my best”?\n\n→ also nächstes Mal mehr probieren  \n→ oder mit beiden Armen?\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-0928-core5",
+      "date": "2026-09-28",
+      "context": "fitness-plus",
+      "title": "Core Challenge Nr. 1",
+      "status": "completed",
+      "notes": "",
+      "entries": [
+        {
+          "exerciseId": "cat-cow",
+          "sets": []
+        },
+        {
+          "exerciseId": "reverse-plank",
+          "sets": []
+        },
+        {
+          "exerciseId": "bicycle-crunch",
+          "sets": []
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mo, 28.9.",
+        "originalText": "# Mo, 28.9. {#mo,-28.9.}\n\n## Core (MB) {#core-(mb)}\n\n[https\\://fitness.apple.com/de/workout/core-mit-kyle/1661892258](https://fitness.apple.com/de/workout/core-mit-kyle/1661892258) \n\naus Sammlung “Mehr Balance”\n\n* Set 1 \\- 2x  \n  * Side Plank, Knie gebeugt \\- Arm Bein zueinander  \n  * …   \n* Set 2 \\- 2x  \n  * …   \n  * Crunch \\- Tip Richtung Fuß\n\n## Wall Pushup {#wall-pushup-1}\n\nerstmal Ziel  \nLEVEL 1: 2 Sets of 30\n\n30 \\=\\> 2x12 (24) \\+ 6 \\=\\> 2,5 min (2min30s)\n\nGeschafft\n\ngeht vor allem in die Arme\n\n## Core 5min {#core-5min}\n\n[https\\://fitness.apple.com/de/workout/core-mit-gregg/1589513785](https://fitness.apple.com/de/workout/core-mit-gregg/1589513785)   \nCore Challenge \\- Nr 1\n\nPrep: Cat/Cow\n\n* Reverse Plank  \n* Bicycle Crunch\n\n## Single Exercise \\- Shoulder Press {#single-exercise---shoulder-press}\n\naus dem gestrigen Grundlagen Training\n\n* **Shoulder Press \\- rechter Arm**\n\n12 Rep Gewicht finden  \nVgl. [01 \\- 10X \\> Week 1: Exercises, Soreness, AMRAP, Measurements, Capacity Test](https://docs.google.com/document/d/1MpU4bNbV70wqvNwi88wIp2dMALjtVWInb_sqT8uSmB8/edit?tab=t.0#heading=h.q6fq1jg4ewt0)\n\n* Trial:   \n  * biomechanics (first set) \\- \\- easy  \n  * breathing pattern \\- \\- couple of reps  \n  * mind-muscle connection \\- rep with specific tempo \\- \\- contract/length  \n  * FIND MAXIMUM (4th set)  \n    * add weight  \n    * up to: 12 standard reps to failure\n\n→ ich mach jetzt nur den letzten Schritt  \nmit vorheriger kurzer Wdh\n\n|  7kg \\- 12 Reps  |\n| :---- |\n\n→ am Ende: es brennt, schmerzt schon\n\n* Gefühl: reicht, aber ich hätte evtl auch mehr Gewicht geschafft  \n* vielleicht sogar mehr, “trying my best”?\n\n→ also nächstes Mal mehr probieren  \n→ oder mit beiden Armen?\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1589513785"
+    },
+    {
+      "id": "md-2026-0928-press",
+      "date": "2026-09-28",
+      "context": "free",
+      "title": "Single Shoulder Press · rechts",
+      "status": "completed",
+      "notes": "Am Ende brennt/schmerzt es; eventuell mehr Gewicht möglich.",
+      "entries": [
+        {
+          "exerciseId": "db-shoulder-press",
+          "sets": [
+            {
+              "reps": 12,
+              "side": "right"
+            }
+          ],
+          "loadKg": 7,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mo, 28.9.",
+        "originalText": "# Mo, 28.9. {#mo,-28.9.}\n\n## Core (MB) {#core-(mb)}\n\n[https\\://fitness.apple.com/de/workout/core-mit-kyle/1661892258](https://fitness.apple.com/de/workout/core-mit-kyle/1661892258) \n\naus Sammlung “Mehr Balance”\n\n* Set 1 \\- 2x  \n  * Side Plank, Knie gebeugt \\- Arm Bein zueinander  \n  * …   \n* Set 2 \\- 2x  \n  * …   \n  * Crunch \\- Tip Richtung Fuß\n\n## Wall Pushup {#wall-pushup-1}\n\nerstmal Ziel  \nLEVEL 1: 2 Sets of 30\n\n30 \\=\\> 2x12 (24) \\+ 6 \\=\\> 2,5 min (2min30s)\n\nGeschafft\n\ngeht vor allem in die Arme\n\n## Core 5min {#core-5min}\n\n[https\\://fitness.apple.com/de/workout/core-mit-gregg/1589513785](https://fitness.apple.com/de/workout/core-mit-gregg/1589513785)   \nCore Challenge \\- Nr 1\n\nPrep: Cat/Cow\n\n* Reverse Plank  \n* Bicycle Crunch\n\n## Single Exercise \\- Shoulder Press {#single-exercise---shoulder-press}\n\naus dem gestrigen Grundlagen Training\n\n* **Shoulder Press \\- rechter Arm**\n\n12 Rep Gewicht finden  \nVgl. [01 \\- 10X \\> Week 1: Exercises, Soreness, AMRAP, Measurements, Capacity Test](https://docs.google.com/document/d/1MpU4bNbV70wqvNwi88wIp2dMALjtVWInb_sqT8uSmB8/edit?tab=t.0#heading=h.q6fq1jg4ewt0)\n\n* Trial:   \n  * biomechanics (first set) \\- \\- easy  \n  * breathing pattern \\- \\- couple of reps  \n  * mind-muscle connection \\- rep with specific tempo \\- \\- contract/length  \n  * FIND MAXIMUM (4th set)  \n    * add weight  \n    * up to: 12 standard reps to failure\n\n→ ich mach jetzt nur den letzten Schritt  \nmit vorheriger kurzer Wdh\n\n|  7kg \\- 12 Reps  |\n| :---- |\n\n→ am Ende: es brennt, schmerzt schon\n\n* Gefühl: reicht, aber ich hätte evtl auch mehr Gewicht geschafft  \n* vielleicht sogar mehr, “trying my best”?\n\n→ also nächstes Mal mehr probieren  \n→ oder mit beiden Armen?\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-0930-core",
+      "date": "2026-09-30",
+      "context": "fitness-plus",
+      "title": "5 min Core",
+      "status": "completed",
+      "notes": "Manchmal innegehalten; Puls >120.",
+      "entries": [
+        {
+          "exerciseId": "plank",
+          "sets": []
+        },
+        {
+          "exerciseId": "back-extension",
+          "sets": []
+        },
+        {
+          "exerciseId": "plank-lower-back-extension",
+          "sets": []
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mi, 30.9.",
+        "originalText": "# Mi, 30.9. {#mi,-30.9.}\n\nnochmal Single Exercise?\n\noder\n\n* 5 min Core  \n* Start Grundlagen \\- Aufwärmen\n\ndann:\n\n* Shoulder Press \\- mit 9 kg (8 gibt es nicht) \\- 12 rep \\- beide Seiten\\!  \n* Pause  \n* weiter mit Grundlagen \\> Row  \n  → Single Row \\- 12 rep 7 kg\n\nklingt gut\n\n## 5 min Core {#5-min-core}\n\n[https\\://fitness.apple.com/de/workout/core-mit-molly/1579923027](https://fitness.apple.com/de/workout/core-mit-molly/1579923027) \n\n* Plank \\- 30s  \n* Back Extension  \n* Combined \\- Plank \\- Lower Down \\- Back Extension  \n  * → sehr gute Pushup-Vorbereitung\n\nUff, got me\\!  \nPuls geht hoch auf \\> 120\n\nMuss manchmal innehalten  \nbin noch weit entfernt\n\n## Grundlagen \\- Single {#grundlagen---single}\n\n### Shoulder Press {#shoulder-press}\n\n* 12 reps \\- **8 kg**  \n  * links \\- Uff, tatsächlich bis Failure, gefühlt  \n  * rechts \\- leichter, am Ende hart, aber fühlt sich ausbaufähig an\n\n### Bent Over Row {#bent-over-row}\n\n* 12 reps \\- **8 kg**  \n  * links, rechts \\- ging relativ leicht\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1579923027"
+    },
+    {
+      "id": "md-2026-0930-single",
+      "date": "2026-09-30",
+      "context": "free",
+      "title": "Grundlagen · einzelne Übungen",
+      "status": "completed",
+      "notes": "Ergebnis 8 kg übernommen; die vorangestellte Planung nennt abweichend 9 bzw. 7 kg.",
+      "entries": [
+        {
+          "exerciseId": "db-shoulder-press",
+          "sets": [
+            {
+              "reps": 12,
+              "side": "left"
+            },
+            {
+              "reps": 12,
+              "side": "right"
+            }
+          ],
+          "loadKg": 8,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        },
+        {
+          "exerciseId": "db-row",
+          "sets": [
+            {
+              "reps": 12,
+              "side": "left"
+            },
+            {
+              "reps": 12,
+              "side": "right"
+            }
+          ],
+          "loadKg": 8,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mi, 30.9.",
+        "originalText": "# Mi, 30.9. {#mi,-30.9.}\n\nnochmal Single Exercise?\n\noder\n\n* 5 min Core  \n* Start Grundlagen \\- Aufwärmen\n\ndann:\n\n* Shoulder Press \\- mit 9 kg (8 gibt es nicht) \\- 12 rep \\- beide Seiten\\!  \n* Pause  \n* weiter mit Grundlagen \\> Row  \n  → Single Row \\- 12 rep 7 kg\n\nklingt gut\n\n## 5 min Core {#5-min-core}\n\n[https\\://fitness.apple.com/de/workout/core-mit-molly/1579923027](https://fitness.apple.com/de/workout/core-mit-molly/1579923027) \n\n* Plank \\- 30s  \n* Back Extension  \n* Combined \\- Plank \\- Lower Down \\- Back Extension  \n  * → sehr gute Pushup-Vorbereitung\n\nUff, got me\\!  \nPuls geht hoch auf \\> 120\n\nMuss manchmal innehalten  \nbin noch weit entfernt\n\n## Grundlagen \\- Single {#grundlagen---single}\n\n### Shoulder Press {#shoulder-press}\n\n* 12 reps \\- **8 kg**  \n  * links \\- Uff, tatsächlich bis Failure, gefühlt  \n  * rechts \\- leichter, am Ende hart, aber fühlt sich ausbaufähig an\n\n### Bent Over Row {#bent-over-row}\n\n* 12 reps \\- **8 kg**  \n  * links, rechts \\- ging relativ leicht\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-1001-strength",
+      "date": "2026-10-01",
+      "context": "fitness-plus",
+      "title": "Mehr Balance · Kraft",
+      "status": "completed",
+      "notes": "Notiert: 2 Durchgänge; Wiederholungen nicht eindeutig je Durchgang zugeordnet. Keine Sätze dupliziert. Puls bis 155.",
+      "entries": [
+        {
+          "exerciseId": "hinge-lunge",
+          "sets": [
+            {
+              "repsRange": [
+                5,
+                6
+              ]
+            }
+          ],
+          "loadKg": 9,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        },
+        {
+          "exerciseId": "db-squat-unspecified",
+          "sets": [
+            {
+              "repsRange": [
+                11,
+                14
+              ]
+            }
+          ],
+          "loadKg": 9,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        },
+        {
+          "exerciseId": "hinge-curl-lateral-lunge",
+          "sets": [
+            {
+              "reps": 5
+            }
+          ],
+          "loadKg": 9,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Do, 1.10.",
+        "originalText": "# Do, 1.10. {#do,-1.10.}\n\nIdee:  \nMehr Balance\n\n* Kraft 10  \n* Core 10\n\ndann nochmal Wall-Pushup  \n2 x 50\n\n## MB \\- Kraft & Core {#mb---kraft-&-core}\n\ndie ersten beiden aus “Mehr Balance”\n\n* Kraft \\- **9 kg**  \n  [https\\://fitness.apple.com/de/workout/krafttraining-mit-sam/1660439951](https://fitness.apple.com/de/workout/krafttraining-mit-sam/1660439951)   \n  * Hinge \\+ Lunge (mit DB (Dumbbell)) \\- 5-6x  \n  * Squat (DB) 11-14x  \n  * Hinge Curl Lat Lange \\- 5x\n\n\\>\\> Puls bis hoch zu 155\n\njew 10min  \n2 Durchgänge\n\n* Core (Kyle)   \n  * siehe oben\n\n\\>\\> Puls hoch zu 138\n\n## Wall Pushup \\- 2 x 50 {#wall-pushup---2-x-50}\n\nUff, **2 x 50**  \n4 min 10 s\n\n* 2.Runde, am Ende spüre ich ein Zittern in den Armen  \n* auch Beine (unten) tun weh, Zittern\n\nim Moment genügt das voll\n\nIch bemerke:\n\n* ich will aufhören \\> aber Konzentration auf Form lässt weiter machen  \n  * Schultern nach unten \\- und **entspannen**\\!  \n  * Arme nicht zu weit nach außen  \n  * Atem Rhythmus  \n  * Kopf aus\n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \nvergessen, zu tracken  \naber kurz am Ende Watch auf Krafttraining \\> Puls abwarten \\- \\- war auf 127\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1660439951"
+    },
+    {
+      "id": "md-2026-1001-core",
+      "date": "2026-10-01",
+      "context": "fitness-plus",
+      "title": "Mehr Balance · Core",
+      "status": "completed",
+      "notes": "2 Durchgänge notiert; keine Satzdetails. Puls bis 138.",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Do, 1.10.",
+        "originalText": "# Do, 1.10. {#do,-1.10.}\n\nIdee:  \nMehr Balance\n\n* Kraft 10  \n* Core 10\n\ndann nochmal Wall-Pushup  \n2 x 50\n\n## MB \\- Kraft & Core {#mb---kraft-&-core}\n\ndie ersten beiden aus “Mehr Balance”\n\n* Kraft \\- **9 kg**  \n  [https\\://fitness.apple.com/de/workout/krafttraining-mit-sam/1660439951](https://fitness.apple.com/de/workout/krafttraining-mit-sam/1660439951)   \n  * Hinge \\+ Lunge (mit DB (Dumbbell)) \\- 5-6x  \n  * Squat (DB) 11-14x  \n  * Hinge Curl Lat Lange \\- 5x\n\n\\>\\> Puls bis hoch zu 155\n\njew 10min  \n2 Durchgänge\n\n* Core (Kyle)   \n  * siehe oben\n\n\\>\\> Puls hoch zu 138\n\n## Wall Pushup \\- 2 x 50 {#wall-pushup---2-x-50}\n\nUff, **2 x 50**  \n4 min 10 s\n\n* 2.Runde, am Ende spüre ich ein Zittern in den Armen  \n* auch Beine (unten) tun weh, Zittern\n\nim Moment genügt das voll\n\nIch bemerke:\n\n* ich will aufhören \\> aber Konzentration auf Form lässt weiter machen  \n  * Schultern nach unten \\- und **entspannen**\\!  \n  * Arme nicht zu weit nach außen  \n  * Atem Rhythmus  \n  * Kopf aus\n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \nvergessen, zu tracken  \naber kurz am Ende Watch auf Krafttraining \\> Puls abwarten \\- \\- war auf 127\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1661892258"
+    },
+    {
+      "id": "md-2026-1001-wall",
+      "date": "2026-10-01",
+      "context": "free",
+      "title": "Wall Pushup · 2 × 50",
+      "status": "completed",
+      "notes": "Original: „4 min 10 s“; unklar, ob pro Satz. Nicht als gemessene Gesamtdauer übernommen. Puls am Ende 127.",
+      "entries": [
+        {
+          "exerciseId": "wall-push-up",
+          "sets": [
+            {
+              "reps": 50
+            },
+            {
+              "reps": 50
+            }
+          ],
+          "tempo": {
+            "eccentric": 3,
+            "concentric": 2
+          }
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Do, 1.10.",
+        "originalText": "# Do, 1.10. {#do,-1.10.}\n\nIdee:  \nMehr Balance\n\n* Kraft 10  \n* Core 10\n\ndann nochmal Wall-Pushup  \n2 x 50\n\n## MB \\- Kraft & Core {#mb---kraft-&-core}\n\ndie ersten beiden aus “Mehr Balance”\n\n* Kraft \\- **9 kg**  \n  [https\\://fitness.apple.com/de/workout/krafttraining-mit-sam/1660439951](https://fitness.apple.com/de/workout/krafttraining-mit-sam/1660439951)   \n  * Hinge \\+ Lunge (mit DB (Dumbbell)) \\- 5-6x  \n  * Squat (DB) 11-14x  \n  * Hinge Curl Lat Lange \\- 5x\n\n\\>\\> Puls bis hoch zu 155\n\njew 10min  \n2 Durchgänge\n\n* Core (Kyle)   \n  * siehe oben\n\n\\>\\> Puls hoch zu 138\n\n## Wall Pushup \\- 2 x 50 {#wall-pushup---2-x-50}\n\nUff, **2 x 50**  \n4 min 10 s\n\n* 2.Runde, am Ende spüre ich ein Zittern in den Armen  \n* auch Beine (unten) tun weh, Zittern\n\nim Moment genügt das voll\n\nIch bemerke:\n\n* ich will aufhören \\> aber Konzentration auf Form lässt weiter machen  \n  * Schultern nach unten \\- und **entspannen**\\!  \n  * Arme nicht zu weit nach außen  \n  * Atem Rhythmus  \n  * Kopf aus\n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \nvergessen, zu tracken  \naber kurz am Ende Watch auf Krafttraining \\> Puls abwarten \\- \\- war auf 127\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-1007-core",
+      "date": "2026-10-07",
+      "context": "fitness-plus",
+      "title": "Rücken stärken · Core",
+      "status": "completed",
+      "notes": "„2x“ notiert; genaue Satzaufteilung unklar.",
+      "entries": [
+        {
+          "exerciseId": "crunch",
+          "sets": []
+        },
+        {
+          "exerciseId": "reverse-plank",
+          "sets": []
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mi, 7.10.",
+        "originalText": "# Mi, 7.10. {#mi,-7.10.}\n\n## Rücken stärken, Hüfte dehnen {#rücken-stärken,-hüfte-dehnen}\n\n[https\\://fitness.apple.com/de/workout/core-mit-gregg/1739168440](https://fitness.apple.com/de/workout/core-mit-gregg/1739168440) \n\n* Crunch 2x (Var)  \n* Reverse Plank\n\n2x\n\n[https\\://fitness.apple.com/de/workout/yoga-mit-jessica/1571908716](https://fitness.apple.com/de/workout/yoga-mit-jessica/1571908716) \n\nbin die Übungen eher locker, teils halbherzig angegangen\n\n## Crunch {#crunch}\n\n[20261007b\\> Crunch](https://docs.google.com/document/d/1T4GYjBAVvHwx67tFOj1ZbNX5NCDKSmU19Ez-ljx8PsE/edit?tab=t.0#heading=h.ehosmz33yug7) \n\n12 Wdh  \n(wenn ich richtig gezählt hab, bin etwas durcheinandergekommen)\n\n* jew 5 s \\=\\> 2 hoch, 3 runden\n\nerschien mir verdächtig leicht\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1739168440"
+    },
+    {
+      "id": "md-2026-1007-yoga",
+      "date": "2026-10-07",
+      "context": "fitness-plus",
+      "title": "Hüfte dehnen · Yoga",
+      "status": "completed",
+      "notes": "",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mi, 7.10.",
+        "originalText": "# Mi, 7.10. {#mi,-7.10.}\n\n## Rücken stärken, Hüfte dehnen {#rücken-stärken,-hüfte-dehnen}\n\n[https\\://fitness.apple.com/de/workout/core-mit-gregg/1739168440](https://fitness.apple.com/de/workout/core-mit-gregg/1739168440) \n\n* Crunch 2x (Var)  \n* Reverse Plank\n\n2x\n\n[https\\://fitness.apple.com/de/workout/yoga-mit-jessica/1571908716](https://fitness.apple.com/de/workout/yoga-mit-jessica/1571908716) \n\nbin die Übungen eher locker, teils halbherzig angegangen\n\n## Crunch {#crunch}\n\n[20261007b\\> Crunch](https://docs.google.com/document/d/1T4GYjBAVvHwx67tFOj1ZbNX5NCDKSmU19Ez-ljx8PsE/edit?tab=t.0#heading=h.ehosmz33yug7) \n\n12 Wdh  \n(wenn ich richtig gezählt hab, bin etwas durcheinandergekommen)\n\n* jew 5 s \\=\\> 2 hoch, 3 runden\n\nerschien mir verdächtig leicht\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1571908716"
+    },
+    {
+      "id": "md-2026-1007-crunch",
+      "date": "2026-10-07",
+      "context": "free",
+      "title": "Crunch",
+      "status": "completed",
+      "notes": "Zählung unsicher. Erschien leicht.",
+      "entries": [
+        {
+          "exerciseId": "crunch",
+          "sets": [
+            {
+              "reps": 12,
+              "uncertain": true
+            }
+          ],
+          "tempo": {
+            "concentric": 2,
+            "eccentric": 3
+          }
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mi, 7.10.",
+        "originalText": "# Mi, 7.10. {#mi,-7.10.}\n\n## Rücken stärken, Hüfte dehnen {#rücken-stärken,-hüfte-dehnen}\n\n[https\\://fitness.apple.com/de/workout/core-mit-gregg/1739168440](https://fitness.apple.com/de/workout/core-mit-gregg/1739168440) \n\n* Crunch 2x (Var)  \n* Reverse Plank\n\n2x\n\n[https\\://fitness.apple.com/de/workout/yoga-mit-jessica/1571908716](https://fitness.apple.com/de/workout/yoga-mit-jessica/1571908716) \n\nbin die Übungen eher locker, teils halbherzig angegangen\n\n## Crunch {#crunch}\n\n[20261007b\\> Crunch](https://docs.google.com/document/d/1T4GYjBAVvHwx67tFOj1ZbNX5NCDKSmU19Ez-ljx8PsE/edit?tab=t.0#heading=h.ehosmz33yug7) \n\n12 Wdh  \n(wenn ich richtig gezählt hab, bin etwas durcheinandergekommen)\n\n* jew 5 s \\=\\> 2 hoch, 3 runden\n\nerschien mir verdächtig leicht\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-1008-yoga",
+      "date": "2026-10-08",
+      "context": "fitness-plus",
+      "title": "Yoga · Mittag",
+      "status": "completed",
+      "notes": "",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Do, 8.10.",
+        "originalText": "# Do, 8.10. {#do,-8.10.}\n\n## Yoga, Core, Grundlagen \\- F2 {#yoga,-core,-grundlagen---f2}\n\nMittag\n\n* Yoga 10 min  \n* Core (Challenge) \\- 5 min\n\nabends dann\n\n* Grundlagen Kraft Training \\- Gregg \\- 10 min  \n  [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \n  * Squat  \n  * Hinge  \n  * Lunge\n\n9 kg\n\n---\n\n## Single \\- Hinge {#single---hinge}\n\nAbend\n\nHinge mit Dumbbells  \nwie hier: [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \noder hier: [01b \\- 10X \\> Exercise Guides \\- Hinge, Row, Press, Lunge](https://docs.google.com/document/d/1o2gUmOInn65cqeOKJU7uGGGINNhNMC2ootzdi4uQaPE/edit?tab=t.0#heading=h.kl958feei9xp) \n\n**12 Wdh \\- 10 kg**\n\ngeht relativ leicht\n\n## Core {#core}\n\nnochmal die Übung von heute Mittag  \n[https\\://fitness.apple.com/de/workout/core-mit-molly/1579923027](https://fitness.apple.com/de/workout/core-mit-molly/1579923027) \n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-yoga-oct08-unidentified"
+    },
+    {
+      "id": "md-2026-1008-core-noon",
+      "date": "2026-10-08",
+      "context": "fitness-plus",
+      "title": "Core · Mittag",
+      "status": "completed",
+      "notes": "Zuordnung zu Molly aus „nochmal die Übung von heute Mittag“ am Abend.",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Do, 8.10.",
+        "originalText": "# Do, 8.10. {#do,-8.10.}\n\n## Yoga, Core, Grundlagen \\- F2 {#yoga,-core,-grundlagen---f2}\n\nMittag\n\n* Yoga 10 min  \n* Core (Challenge) \\- 5 min\n\nabends dann\n\n* Grundlagen Kraft Training \\- Gregg \\- 10 min  \n  [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \n  * Squat  \n  * Hinge  \n  * Lunge\n\n9 kg\n\n---\n\n## Single \\- Hinge {#single---hinge}\n\nAbend\n\nHinge mit Dumbbells  \nwie hier: [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \noder hier: [01b \\- 10X \\> Exercise Guides \\- Hinge, Row, Press, Lunge](https://docs.google.com/document/d/1o2gUmOInn65cqeOKJU7uGGGINNhNMC2ootzdi4uQaPE/edit?tab=t.0#heading=h.kl958feei9xp) \n\n**12 Wdh \\- 10 kg**\n\ngeht relativ leicht\n\n## Core {#core}\n\nnochmal die Übung von heute Mittag  \n[https\\://fitness.apple.com/de/workout/core-mit-molly/1579923027](https://fitness.apple.com/de/workout/core-mit-molly/1579923027) \n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1579923027"
+    },
+    {
+      "id": "md-2026-1008-basics",
+      "date": "2026-10-08",
+      "context": "fitness-plus",
+      "title": "Grundlagen mit Gregg · Abend",
+      "status": "completed",
+      "notes": "",
+      "entries": [
+        {
+          "exerciseId": "db-squat-unspecified",
+          "sets": [],
+          "loadKg": 9,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        },
+        {
+          "exerciseId": "db-hinge",
+          "sets": [],
+          "loadKg": 9,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        },
+        {
+          "exerciseId": "lunge",
+          "sets": [],
+          "loadKg": 9,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Do, 8.10.",
+        "originalText": "# Do, 8.10. {#do,-8.10.}\n\n## Yoga, Core, Grundlagen \\- F2 {#yoga,-core,-grundlagen---f2}\n\nMittag\n\n* Yoga 10 min  \n* Core (Challenge) \\- 5 min\n\nabends dann\n\n* Grundlagen Kraft Training \\- Gregg \\- 10 min  \n  [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \n  * Squat  \n  * Hinge  \n  * Lunge\n\n9 kg\n\n---\n\n## Single \\- Hinge {#single---hinge}\n\nAbend\n\nHinge mit Dumbbells  \nwie hier: [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \noder hier: [01b \\- 10X \\> Exercise Guides \\- Hinge, Row, Press, Lunge](https://docs.google.com/document/d/1o2gUmOInn65cqeOKJU7uGGGINNhNMC2ootzdi4uQaPE/edit?tab=t.0#heading=h.kl958feei9xp) \n\n**12 Wdh \\- 10 kg**\n\ngeht relativ leicht\n\n## Core {#core}\n\nnochmal die Übung von heute Mittag  \n[https\\://fitness.apple.com/de/workout/core-mit-molly/1579923027](https://fitness.apple.com/de/workout/core-mit-molly/1579923027) \n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1859815701"
+    },
+    {
+      "id": "md-2026-1008-hinge",
+      "date": "2026-10-08",
+      "context": "free",
+      "title": "Single Hinge",
+      "status": "completed",
+      "notes": "Geht relativ leicht.",
+      "entries": [
+        {
+          "exerciseId": "db-hinge",
+          "sets": [
+            {
+              "reps": 12
+            }
+          ],
+          "loadKg": 10,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Do, 8.10.",
+        "originalText": "# Do, 8.10. {#do,-8.10.}\n\n## Yoga, Core, Grundlagen \\- F2 {#yoga,-core,-grundlagen---f2}\n\nMittag\n\n* Yoga 10 min  \n* Core (Challenge) \\- 5 min\n\nabends dann\n\n* Grundlagen Kraft Training \\- Gregg \\- 10 min  \n  [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \n  * Squat  \n  * Hinge  \n  * Lunge\n\n9 kg\n\n---\n\n## Single \\- Hinge {#single---hinge}\n\nAbend\n\nHinge mit Dumbbells  \nwie hier: [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \noder hier: [01b \\- 10X \\> Exercise Guides \\- Hinge, Row, Press, Lunge](https://docs.google.com/document/d/1o2gUmOInn65cqeOKJU7uGGGINNhNMC2ootzdi4uQaPE/edit?tab=t.0#heading=h.kl958feei9xp) \n\n**12 Wdh \\- 10 kg**\n\ngeht relativ leicht\n\n## Core {#core}\n\nnochmal die Übung von heute Mittag  \n[https\\://fitness.apple.com/de/workout/core-mit-molly/1579923027](https://fitness.apple.com/de/workout/core-mit-molly/1579923027) \n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-1008-core-evening",
+      "date": "2026-10-08",
+      "context": "fitness-plus",
+      "title": "Core · Abend",
+      "status": "completed",
+      "notes": "",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Do, 8.10.",
+        "originalText": "# Do, 8.10. {#do,-8.10.}\n\n## Yoga, Core, Grundlagen \\- F2 {#yoga,-core,-grundlagen---f2}\n\nMittag\n\n* Yoga 10 min  \n* Core (Challenge) \\- 5 min\n\nabends dann\n\n* Grundlagen Kraft Training \\- Gregg \\- 10 min  \n  [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \n  * Squat  \n  * Hinge  \n  * Lunge\n\n9 kg\n\n---\n\n## Single \\- Hinge {#single---hinge}\n\nAbend\n\nHinge mit Dumbbells  \nwie hier: [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \noder hier: [01b \\- 10X \\> Exercise Guides \\- Hinge, Row, Press, Lunge](https://docs.google.com/document/d/1o2gUmOInn65cqeOKJU7uGGGINNhNMC2ootzdi4uQaPE/edit?tab=t.0#heading=h.kl958feei9xp) \n\n**12 Wdh \\- 10 kg**\n\ngeht relativ leicht\n\n## Core {#core}\n\nnochmal die Übung von heute Mittag  \n[https\\://fitness.apple.com/de/workout/core-mit-molly/1579923027](https://fitness.apple.com/de/workout/core-mit-molly/1579923027) \n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1579923027"
+    },
+    {
+      "id": "md-2026-1009-yoga",
+      "date": "2026-10-09",
+      "context": "fitness-plus",
+      "title": "Yoga · Rücken",
+      "status": "completed",
+      "notes": "",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Fr, 9.10.",
+        "originalText": "# Fr, 9.10. {#fr,-9.10.}\n\n## Yoga \\- Rücken {#yoga---rücken}\n\n[https\\://fitness.apple.com/de/workout/yoga-routine-mit-jessica/1849247451](https://fitness.apple.com/de/workout/yoga-routine-mit-jessica/1849247451) \n\naus Programm “In 4 Wochen zur Yoga Routine”  \n→ 2\\. Woche \\- Rücken\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1849247451"
+    },
+    {
+      "id": "md-2026-undated-jenn",
+      "date": null,
+      "context": "fitness-plus",
+      "title": "Grundlagen mit Jenn",
+      "status": "review",
+      "notes": "Mit Akiko; Anzahl und Datum der Einheiten unbekannt.",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Zwischendrin",
+        "originalText": "# Zwischendrin {#zwischendrin}\n\neinige Übungen mit Akiko\n\n* Grundlagen Krafttraining Jenn  \n* Core Molly  \n* HIIT Bakari (Fitness Comeback)\n\nGehe, Spazieren\n\n",
+        "dateAssumption": "Datum ungeklärt"
+      },
+      "workoutId": "apple-1859815572",
+      "dateLabel": "Zwischendrin"
+    },
+    {
+      "id": "md-2026-undated-molly",
+      "date": null,
+      "context": "fitness-plus",
+      "title": "Core mit Molly",
+      "status": "review",
+      "notes": "Mit Akiko; Anzahl und Datum der Einheiten unbekannt.",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Zwischendrin",
+        "originalText": "# Zwischendrin {#zwischendrin}\n\neinige Übungen mit Akiko\n\n* Grundlagen Krafttraining Jenn  \n* Core Molly  \n* HIIT Bakari (Fitness Comeback)\n\nGehe, Spazieren\n\n",
+        "dateAssumption": "Datum ungeklärt"
+      },
+      "workoutId": "apple-1579923027",
+      "dateLabel": "Zwischendrin"
+    },
+    {
+      "id": "md-2026-undated-hiit",
+      "date": null,
+      "context": "fitness-plus",
+      "title": "HIIT mit Bakari",
+      "status": "review",
+      "notes": "Mit Akiko; Anzahl und Datum der Einheiten unbekannt.",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Zwischendrin",
+        "originalText": "# Zwischendrin {#zwischendrin}\n\neinige Übungen mit Akiko\n\n* Grundlagen Krafttraining Jenn  \n* Core Molly  \n* HIIT Bakari (Fitness Comeback)\n\nGehe, Spazieren\n\n",
+        "dateAssumption": "Datum ungeklärt"
+      },
+      "workoutId": "apple-hiit-bakari-unidentified",
+      "dateLabel": "Zwischendrin"
+    },
+    {
+      "id": "md-2026-undated-walk",
+      "date": null,
+      "context": "free",
+      "title": "Gehen / Spazieren",
+      "status": "review",
+      "notes": "Undatierte Aktivitätsnotiz; keine einzelne Einheit oder Dauer ableitbar.",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Zwischendrin",
+        "originalText": "# Zwischendrin {#zwischendrin}\n\neinige Übungen mit Akiko\n\n* Grundlagen Krafttraining Jenn  \n* Core Molly  \n* HIIT Bakari (Fitness Comeback)\n\nGehe, Spazieren\n\n",
+        "dateAssumption": "Datum ungeklärt"
+      },
+      "dateLabel": "Zwischendrin"
+    },
+    {
+      "id": "md-2026-1014-yoga",
+      "date": "2026-10-14",
+      "context": "fitness-plus",
+      "title": "Yoga mit Dice",
+      "status": "completed",
+      "notes": "",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mi, 14.10.",
+        "originalText": "# Mi, 14.10. {#mi,-14.10.}\n\n* Yoga mit Dice  \n* Krafttraining mit Kyle \\- 11 kg  \n  * aber nur halb dabei \\- teilw. nur 2 Reps\n\n## Single Dumbbell Bench Press {#single-dumbbell-bench-press}\n\n**11 kg**\n\n* auf dem Boden liegen, nach oben drücken  \n* Oberkörper unten lassen  \n  (nicht wie in Übung mit Kyle)\n\nbin mir nicht sicher, ob ich richtig gezählt habe  \nich glaub: 12 Reps\n\nArme werden mächtig heiß  \nkomm an die Grenze\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-yoga-dice-unidentified"
+    },
+    {
+      "id": "md-2026-1014-strength",
+      "date": "2026-10-14",
+      "context": "fitness-plus",
+      "title": "Krafttraining mit Kyle",
+      "status": "completed",
+      "notes": "11 kg (Basis unbekannt). Nur teilweise mitgemacht, teils 2 Reps. Nicht einzelnen Übungen zuordenbar.",
+      "entries": [],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mi, 14.10.",
+        "originalText": "# Mi, 14.10. {#mi,-14.10.}\n\n* Yoga mit Dice  \n* Krafttraining mit Kyle \\- 11 kg  \n  * aber nur halb dabei \\- teilw. nur 2 Reps\n\n## Single Dumbbell Bench Press {#single-dumbbell-bench-press}\n\n**11 kg**\n\n* auf dem Boden liegen, nach oben drücken  \n* Oberkörper unten lassen  \n  (nicht wie in Übung mit Kyle)\n\nbin mir nicht sicher, ob ich richtig gezählt habe  \nich glaub: 12 Reps\n\nArme werden mächtig heiß  \nkomm an die Grenze\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-strength-kyle-unidentified",
+      "loadKg": 11,
+      "loadBasis": "unknown"
+    },
+    {
+      "id": "md-2026-1014-press",
+      "date": "2026-10-14",
+      "context": "free",
+      "title": "Single Dumbbell Floor Press",
+      "status": "completed",
+      "notes": "Oberkörper unten lassen. „Ich glaub: 12 Reps“; Zählung unsicher.",
+      "entries": [
+        {
+          "exerciseId": "floor-press",
+          "sets": [
+            {
+              "reps": 12,
+              "uncertain": true
+            }
+          ],
+          "loadKg": 11,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mi, 14.10.",
+        "originalText": "# Mi, 14.10. {#mi,-14.10.}\n\n* Yoga mit Dice  \n* Krafttraining mit Kyle \\- 11 kg  \n  * aber nur halb dabei \\- teilw. nur 2 Reps\n\n## Single Dumbbell Bench Press {#single-dumbbell-bench-press}\n\n**11 kg**\n\n* auf dem Boden liegen, nach oben drücken  \n* Oberkörper unten lassen  \n  (nicht wie in Übung mit Kyle)\n\nbin mir nicht sicher, ob ich richtig gezählt habe  \nich glaub: 12 Reps\n\nArme werden mächtig heiß  \nkomm an die Grenze\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-1019-strength",
+      "date": "2026-10-19",
+      "context": "fitness-plus",
+      "title": "Woche 1 · Ganzkörper mit Sam",
+      "status": "completed",
+      "notes": "Je Übung 40 Sekunden Videovorgabe. Gegen Ende stark verlangsamt; Wechsel zum Grundlagenprogramm erwogen.",
+      "entries": [
+        {
+          "exerciseId": "db-shoulder-squat",
+          "sets": [
+            {
+              "repsRange": [
+                9,
+                10
+              ],
+              "loadKg": 9,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 8,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 7,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            }
+          ],
+          "slotId": "s1",
+          "loadNote": "Originalgewicht; pro Hantel oder Gesamtlast ungeklärt.",
+          "videoPrescription": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "exerciseId": "hinge-row",
+          "sets": [
+            {
+              "reps": 8,
+              "loadKg": 9,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 6,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            },
+            {
+              "repsRange": [
+                6,
+                7
+              ],
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            }
+          ],
+          "slotId": "s2",
+          "loadNote": "Originalgewicht; pro Hantel oder Gesamtlast ungeklärt.",
+          "videoPrescription": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "exerciseId": "floor-bridge",
+          "sets": [
+            {
+              "reps": 9,
+              "loadKg": 9,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 10,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 10,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            }
+          ],
+          "slotId": "s3",
+          "loadNote": "Originalgewicht; pro Hantel oder Gesamtlast ungeklärt.",
+          "videoPrescription": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "exerciseId": "floor-press",
+          "sets": [
+            {
+              "loadKg": 9,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 7,
+              "uncertain": true,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 5,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            }
+          ],
+          "slotId": "s4",
+          "loadNote": "Originalgewicht; pro Hantel oder Gesamtlast ungeklärt.",
+          "videoPrescription": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "exerciseId": "db-shoulder-squat",
+          "sets": [
+            {
+              "reps": 7,
+              "loadKg": 9,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 7,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 5,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            }
+          ],
+          "slotId": "s5",
+          "loadNote": "Originalgewicht; pro Hantel oder Gesamtlast ungeklärt.",
+          "videoPrescription": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "exerciseId": "hinge-row",
+          "sets": [
+            {
+              "reps": 7,
+              "uncertain": true,
+              "loadKg": 9,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 6,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            },
+            {
+              "reps": 4,
+              "loadKg": 14,
+              "loadBasis": "unknown"
+            }
+          ],
+          "slotId": "s6",
+          "loadNote": "Originalgewicht; pro Hantel oder Gesamtlast ungeklärt.",
+          "videoPrescription": {
+            "durationSeconds": 40
+          }
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mo, 19.10.",
+        "originalText": "# Mo, 19.10. {#mo,-19.10.}\n\nwill neu durchstarten\n\n* 3 Wochen Krafttraining \\- Fitness\n\nheute  \n[https\\://fitness.apple.com/de/workout/woche-1-ganzk%C3%B6rper-krafttraining-mit-sam/1805895783](https://fitness.apple.com/de/workout/woche-1-ganzk%C3%B6rper-krafttraining-mit-sam/1805895783)   \njede Übung 40s\n\n* 9kg  \n  * Squat \\+ Dumbbell (an Schulter) \\- 9-10 Wdh  \n  * Hinge \\+ Row (separat) \\- 8 Wdh  \n* 14 kg  \n  * 2 x:  \n    * Squat \\+ Dumbbell (an Schulter) \\- 8 / 7  \n    * Hinge \\+ Row (separat) \\- 6 / 6-7\n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n* 9kg  \n  * Brücke mit Gewicht auf Bauch \\- 9  \n  * Floor Press (separat) (oben halten, jew 45° runter) \\- ?  \n* 14 kg  \n  * 2 x:  \n    * Brücke mit Gewicht auf Bauch \\- 10 / 10  \n    * Floor Press (separat) (oben halten, jew 45° runter) \\- 7? / **5**  \n      * ( letztes Mal hart)\n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n* 9kg  \n  * Squat \\+ Dumbbell (an Schulter) \\- 7 Wdh  \n  * Hinge \\+ Row (separat) \\- 7?  \n* 14 kg  \n  * 2 x:  \n    * Squat \\+ Dumbbell (an Schulter) \\- 7 / 5  \n    * Hinge \\+ Row (separat) \\- 6 / **4**\n\nwurde echt hart, gegen Ende hin, mit 14 kg  \nich verlangsame stark\n\nentscheide mich:  \nwohl doch erstmal das andere Programm: Grundlagen des Krafttrainings\n\n---\n\nZur Wiederholung hier noch einmal, was der »blutige« untrainierte Anfänger tun und wissen muss: •​Er sollte sich mit den grundlegenden Übungen vertraut machen und sie allmählich beherrschen. •​Er sollte meist eine höhere Zahl von Wiederholungen durchführen, um Bewegungsmuster zu verändern und das Bindegewebe zu stärken.\n\nLow, Steven. Overcoming Gravity \\- Schwerkraft überwinden: Das Handbuch für systematisches Bodyweight-Training und Gymnastik (p. 198). (Function). Kindle Edition. \n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "workoutId": "apple-1805895783"
+    },
+    {
+      "id": "md-2026-1026-press",
+      "date": "2026-10-26",
+      "context": "free",
+      "title": "Single · Press mit angehobener Hüfte",
+      "status": "completed",
+      "notes": "Beide Dumbbells nach oben; auch Rücken / Po nach oben. Wiederholungen nicht dokumentiert. Link zu Kyle dient als Ausführungsreferenz, kein absolviertes Gesamtvideo.",
+      "entries": [
+        {
+          "exerciseId": "bridge-press",
+          "sets": [],
+          "loadKg": 11,
+          "loadBasis": "unknown",
+          "loadNote": "Originalangabe; pro Hantel oder Gesamtlast nicht geklärt."
+        }
+      ],
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mo, 26.10.",
+        "originalText": "# Mo, 26.10. {#mo,-26.10.}\n\n## Single \\- Bench Press {#single---bench-press}\n\nwie in [Training mit Kyle](https://fitness.apple.com/de/workout/krafttraining-mit-kyle/6795243669)\n\n* beide Dumbbell nach oben  \n* auch Rücken / Po nach oben\n\n**11 kg**\n\nUff, wieder an die Grenzen  \ninsofern: Gewicht gut gewählt\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      },
+      "url": "https://fitness.apple.com/de/workout/krafttraining-mit-kyle/6795243669"
+    }
+  ],
   "goals": [],
-  "plannedSessions": []
+  "plannedSessions": [],
+  "workouts": []
 }

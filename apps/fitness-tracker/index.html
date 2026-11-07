@@ -17,7 +17,7 @@
         <aside class="sidebar">
             <p class="eyebrow">DEIN RAUM FÜR FORTSCHRITT</p>
             <nav aria-label="Hauptnavigation"><a href="#overview">◉ <span>Überblick</span></a><a href="#exercises">▦
-                    <span>Übungsbibliothek</span></a><a href="#history">↗ <span>Verlauf & Ziele</span></a><a
+                    <span>Übungsbibliothek</span></a><a href="#workouts">▶ <span>Fitness+ & Vorlagen</span></a><a href="#history">↗ <span>Verlauf & Ziele</span></a><a
                     href="#planning">▤ <span>Trainingsplanung</span></a><a href="#data">⇅ <span>Meine Daten</span></a>
             </nav>
             <div class="sidebar-note"><span class="small-dot"></span> Lokal. Einfach. Deins.<p>Dein Training bleibt in
@@ -30,42 +30,6 @@
         </main>
     </div>
     <div id="notice" role="status" aria-live="polite"></div>
-    <dialog id="entry-dialog">
-        <form id="entry-form">
-            <div class="dialog-heading">
-                <div>
-                    <p class="eyebrow">DEIN NÄCHSTER SCHRITT</p>
-                    <h2>Training erfassen</h2>
-                </div><button type="button" class="icon-button" data-close aria-label="Schließen">×</button>
-            </div><label>Datum<input type="date" name="date" required></label><label>Übung<select name="exerciseId"
-                    required></select></label>
-            <div class="form-row"><label>Trainingskontext<select name="context">
-                        <option value="free">Freies Training</option>
-                        <option value="3xa">3X A</option>
-                        <option value="3xb">3X B</option>
-                        <option value="6x">6X</option>
-                        <option value="amrap">AMRAP-Test</option>
-                    </select></label><label>Last in kg<input name="loadKg" type="number" min="0" max="1000" step="0.25"
-                        value="0" required></label></div>
-            <p class="field-help" id="load-help"></p><label>Lastdetails / Vergleichsbedingung<input name="loadNote"
-                    maxlength="100"
-                    placeholder="z. B. 2 × 8 kg gesamt, Band rot, Bankhöhe 60 cm"></label><label>Wiederholungen je
-                Satz<input name="reps" pattern="[0-9, ]+" placeholder="12, 12, 10" value="12, 12, 12" required></label>
-            <p class="field-help">Mit Komma trennen. Bei einseitigen Übungen je Seite erfassen, z. B. 12, 12. Keine
-                automatische Umrechnung von Körpergewicht oder Bändern in kg.</p><label>Anstrengung<select
-                    name="effort">
-                    <option value="1">1 · leicht</option>
-                    <option value="2">2</option>
-                    <option value="3" selected>3 · mittel</option>
-                    <option value="4">4</option>
-                    <option value="5">5 · sehr schwer</option>
-                </select></label><label>Notizen<textarea name="notes" maxlength="500" rows="2"
-                    placeholder="Technik, Gefühl, Besonderheiten …"></textarea></label>
-            <p class="field-help">Ein Eintrag erfasst eine Übung mit ihren Sätzen. Weitere Übungen separat hinzufügen.
-            </p><button class="button primary full">Im Browser speichern</button>
-            <p class="form-error" role="alert"></p>
-        </form>
-    </dialog>
     <dialog id="goal-dialog">
         <form id="goal-form">
             <div class="dialog-heading">
