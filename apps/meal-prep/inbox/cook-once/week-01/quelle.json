@@ -1,0 +1,21 @@
+{
+  "status": "imported",
+  "bookId": "cook-once",
+  "originalTitle": "Week 01 - Shredded Chicken, Broccoli, and Rice",
+  "pages": null,
+  "documentPages": [
+    55,
+    65
+  ],
+  "originalServings": {
+    "total": 14,
+    "perRecipe": {
+      "BBQ Chicken and Rice Casserole": 6,
+      "White Chicken Chili": 4,
+      "Chicken and Broccoli Fried Rice": 4
+    }
+  },
+  "targetServingsPerMeal": 4,
+  "files": [],
+  "notes": "Zehn Screenshots im aktuellen Chat, nicht lokal archiviert. Dokument-Anzeigeseiten 55 und 65 sind auf zwei Screenshots lesbar, keine bestätigten Buchseiten. Mengen bewusst für eine einfachere Variante neu bemessen."
+}
