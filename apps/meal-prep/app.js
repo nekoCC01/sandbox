@@ -1,0 +1,39 @@
+import { data } from './data.js';
+import { Catalog } from './model.js';
+const catalog = new Catalog(data);
+const app = document.querySelector('#app');
+let query = '', servings = 2;
+let pantry;
+try { pantry = new Set(JSON.parse(localStorage.getItem('vorrat-pantry') || '[]')); } catch { pantry = new Set(); }
+const format = value => new Intl.NumberFormat('de-DE',{maximumFractionDigits:2}).format(value);
+const quantity = (item,scale=1) => `${format(item.amount*scale)} ${catalog.ingredients.get(item.id).unit}`;
+const tags = combo => combo.shoppingList().map(x => `<span class="tag">${x.ingredient.name}</span>`).join('');
+function home() {
+  app.innerHTML = `<section class="hero"><div class="eyebrow">Kleine Vorbereitung, großer Unterschied</div><h1>Einmal kochen.<br><em>Mehrmals gut essen.</em></h1><p>Entdecke Rezept-Kombis, die zusammenpassen.<br>Mit gemeinsamen Zutaten und einem klaren Plan.</p><div class="hero-mark" aria-hidden="true"><b>1 ×</b><span>PREP → MEHR ESSEN</span></div></section><div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="Kombis nach Zutaten suchen" placeholder="Was hast du da? Z. B. Karotten oder Tomaten …"></label><span class="count" id="count" aria-live="polite"></span></div><div class="section-label"><h2>Deine Rezept-Kombis</h2><span>Ein gemeinsamer Anfang. Mehrere Mahlzeiten.</span></div><div class="grid" id="cards"></div><aside class="note">Noch ein kleiner Anfang: Diese Kombis sind frei erstellte Beispiele. Deine Buchrezepte kommen nach und nach dazu.</aside>`;
+  const input = document.querySelector('#search'); input.value = query;
+  input.addEventListener('input', () => {query=input.value;cards();}); cards();
+}
+function cards() {
+  const matches = catalog.combos.filter(combo => combo.matches(query));
+  document.querySelector('#count').textContent = `${matches.length} von ${catalog.combos.length} Kombis`;
+  document.querySelector('#cards').innerHTML = matches.map(combo => `<article class="card ${combo.theme}"><div class="card-art" aria-hidden="true"><span class="art-label">EINMAL VORBEREITEN</span><div class="plate"><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="art-arrow">→</span><div class="plate second"><i></i><i></i><i></i><i></i></div></div><div class="card-body"><div class="meta"><span>◷ ${combo.prepMinutes} Min. Prep</span><span>${combo.meals.length} Mahlzeiten · je ${combo.baseServings} Portionen</span></div><h3>${combo.name}</h3><p>${combo.subtitle}</p><div class="tags">${tags(combo)}</div><div class="card-bottom"><span>Prep Day → ${combo.meals.map(x=>`Tag ${x.day}`).join(' → ')}</span><button class="open" data-open="${combo.id}">Kombi ansehen ↗</button></div></div></article>`).join('') || '<div class="empty">Keine passende Kombi.<br><p>Versuche eine einzelne Zutat oder einen anderen Suchbegriff.</p><button class="primary" id="reset">Suche zurücksetzen</button></div>';
+  document.querySelectorAll('[data-open]').forEach(button=>button.addEventListener('click',()=>{location.hash=button.dataset.open;}));
+  document.querySelector('#reset')?.addEventListener('click',()=>{query='';home();document.querySelector('#search').focus();});
+}
+function detail(combo) {
+  const scale=servings/combo.baseServings;
+  app.innerHTML=`<button class="back" id="back">← Alle Rezept-Kombis</button><div class="eyebrow">Dein Plan · ${combo.prepMinutes} Min. Vorbereitung</div><h1 class="detail-title">${combo.name}</h1><p class="detail-intro">${combo.subtitle}</p><div class="detail-controls"><span>Portionen pro Mahlzeit</span><div class="stepper"><button id="minus" aria-label="Weniger Portionen" ${servings===1?'disabled':''}>−</button><strong aria-live="polite">${servings}</strong><button id="plus" aria-label="Mehr Portionen" ${servings===12?'disabled':''}>+</button></div><span class="count">${combo.meals.length*servings} Portionen insgesamt</span></div><div class="flow"><section class="stage prep"><div class="day">DER GEMEINSAME ANFANG</div><h2>Prep Day</h2><p class="fresh">Diese Bausteine einmal vorbereiten und auf die Mahlzeiten verteilen.</p>${combo.preparations.map(batch=>`<div class="batch"><h3>${batch.name}</h3><p>${batch.ingredients.map(x=>`${quantity(x,scale)} ${catalog.ingredients.get(x.id).name}`).join(' · ')}</p><ol>${batch.steps.map(step=>`<li>${step}</li>`).join('')}</ol></div>`).join('')}</section>${combo.meals.map(recipe=>`<section class="stage"><div class="day">TAG ${recipe.day} · ${servings} PORTIONEN</div><h2>${recipe.name}</h2>${recipe.preparations.map(use=>`<div class="flow-tag ${use.batch.color}">↳ ${format(use.share*100)} % ${use.batch.name}<br><small>${use.batch.ingredients.map(x=>`${quantity(x,scale*use.share)} ${catalog.ingredients.get(x.id).name}`).join(' · ')}</small></div>`).join('')}${recipe.ingredients.length?`<p class="fresh"><strong>Frisch dazu</strong><br>${recipe.ingredients.map(x=>`${quantity(x,scale)} ${catalog.ingredients.get(x.id).name}`).join(' · ')}</p>`:''}<ol>${recipe.steps.map(step=>`<li>${step}</li>`).join('')}</ol></section>`).join('')}</div><section class="shopping"><div class="shopping-head"><div><h2>Das kommt auf die Liste.</h2><p>Für alle Mahlzeiten zusammen. Hake ab, was du schon da hast.</p></div><button class="primary" id="copy">Fehlende Zutaten kopieren</button></div><div class="shopping-list">${combo.shoppingList(servings).map(x=>`<label class="shopping-item"><input type="checkbox" data-pantry="${x.ingredient.id}" ${pantry.has(x.ingredient.id)?'checked':''}><span class="ingredient-name">${x.ingredient.name}</span><span>${format(x.amount)} ${x.ingredient.unit}</span></label>`).join('')}</div><p id="copy-status" class="status" role="status"></p></section><aside class="note">Beispiel-Kombi · Mengen werden proportional skaliert; Garzeiten bleiben Richtwerte. Salz, Pfeffer und Wasser nach Bedarf.<br>Die Häkchen merken sich vorhandene Zutaten, keine Bestandsmengen. Prüfe, ob dein Vorrat für die angegebene Menge reicht.</aside>`;
+  document.querySelector('#back').onclick=()=>{location.hash='';};
+  document.querySelector('#minus').onclick=()=>{if(servings>1){servings--;detail(combo);}};
+  document.querySelector('#plus').onclick=()=>{if(servings<12){servings++;detail(combo);}};
+  document.querySelectorAll('[data-pantry]').forEach(input=>input.onchange=()=>{input.checked?pantry.add(input.dataset.pantry):pantry.delete(input.dataset.pantry);try{localStorage.setItem('vorrat-pantry',JSON.stringify([...pantry]));}catch{document.querySelector('#copy-status').textContent='Vorrat bleibt für diese Sitzung gespeichert.';}});
+  document.querySelector('#copy').onclick=async()=>{
+    const items=combo.shoppingList(servings).filter(x=>!pantry.has(x.ingredient.id));
+    const status=document.querySelector('#copy-status');
+    if(!items.length){status.textContent='Alles vorhanden – deine Einkaufsliste ist leer.';return;}
+    const text=items.map(x=>`${format(x.amount)} ${x.ingredient.unit} ${x.ingredient.name}`).join('\n');
+    try{await navigator.clipboard.writeText(text);status.textContent='Einkaufsliste kopiert.';}catch{status.textContent='Kopieren ist hier nicht verfügbar. Hier kannst du die Liste auswählen:';const area=document.createElement('textarea');area.value=text;area.setAttribute('aria-label','Einkaufsliste zum Kopieren');area.style.width='100%';area.rows=items.length;status.append(area);area.select();}
+  };
+}
+function route(){const combo=catalog.combos.find(x=>x.id===location.hash.slice(1));combo?detail(combo):home();window.scrollTo(0,0);}
+window.addEventListener('hashchange',route);route();
