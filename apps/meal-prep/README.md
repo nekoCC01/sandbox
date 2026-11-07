@@ -28,3 +28,9 @@ Noch offen: Eingabeoberfläche/Import für neue Kombis, mengenbasierte Vorräte,
 ## Übernommene Kombi: Hauptdarsteller Couscous
 
 Aus den bereitgestellten Screenshots vereinfacht, mit Originalmengen: zwei Gerichte à zwei Portionen, 45 Minuten Gesamtvorbereitung. Couscous samt Brühe und die gemeinsam aufgeteilten Zutaten Feta, Zucchini und Tomaten sind Bausteine mit je 50 % Verwendung. Alle übrigen Zutaten stehen beim jeweiligen Gericht. Beide Gerichte werden am Prep Day fertiggestellt; Tagesnummern sind ein Verzehrvorschlag. Buch/Seite sind noch unbekannt. Tomaten werden im gesamten Katalog in Stück geführt; die freie Tomaten-Bohnen-Beispielkombi verwendet jetzt sechs Stück.
+
+## Pute, Kürbis, Schwarzkohl
+
+Drei Hauptgerichte aus den Woche-18-Screenshots, keine Bonusgerichte. Vereinfachungen und gerundete Umrechnungen stehen an der Kombi. Je vier Portionen als Datenbasis (Auflauf ursprünglich fünf); die Oberfläche skaliert auf die ausgewählte Portionszahl. Speck, aufwendiges Topping und Granatapfel entfallen. Karotten: 300 g als bewusste Anpassung wegen widersprüchlicher Angaben im Original. Putenbrust bleibt mit Knochen und Haut; keine implizite Umrechnung in Filet. Fleisch nach dem Garen tatsächlich in Drittel aufteilen; angezeigte Rohmengen sind Einkaufsanteile, keine Garerträge. Temperaturen: 300 °F ≈ 150 °C, 375 °F ≈ 190 °C, 165 °F ≈ 74 °C. Gesamt-Prep-Zeit grob 180 Minuten bei nacheinander belegtem Ofen.
+
+Die Verwendungsübersicht wird für alle Kombis automatisch aus den Baustein-Anteilen erzeugt. Optionale `note`-Felder an Verwendungen erklären den Zustand (gewürfelt, zerzupft, roh).
