@@ -1,3 +1,6 @@
+export class Cookbook {
+  constructor(raw) { Object.assign(this, raw); }
+}
 export class Ingredient {
   constructor(raw) { Object.assign(this, raw); }
 }
@@ -7,6 +10,7 @@ export class Recipe {
 }
 export class Combo {
   constructor(raw, catalog) { Object.assign(this, raw); this.catalog = catalog; }
+  get book() { return this.catalog.cookbooks.get(this.bookId); }
   get meals() { return this.recipes.map(id => this.catalog.recipes.get(id)); }
   get preparations() { return this.batches.map(id => this.catalog.batches.get(id)); }
   shoppingList(servings = this.baseServings) {
@@ -23,6 +27,7 @@ export class Combo {
 }
 export class Catalog {
   constructor(raw) {
+    this.cookbooks = new Map(raw.cookbooks.map(x => [x.id,new Cookbook(x)]));
     this.ingredients = new Map(raw.ingredients.map(x => [x.id,new Ingredient(x)]));
     this.batches = new Map(raw.batches.map(x => [x.id,x]));
     this.recipes = new Map(raw.recipes.map(x => [x.id,new Recipe(x,this)]));
@@ -32,6 +37,7 @@ export class Catalog {
   validate() {
     const check = (map,id) => { if (!map.has(id)) throw new Error(`Unbekannte Referenz: ${id}`); };
     for (const combo of this.combos) {
+      check(this.cookbooks,combo.bookId);
       combo.recipes.forEach(id => check(this.recipes,id));
       combo.batches.forEach(id => check(this.batches,id));
       for (const batch of combo.preparations) {
