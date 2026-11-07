@@ -34,3 +34,14 @@ Aus den bereitgestellten Screenshots vereinfacht, mit Originalmengen: zwei Geric
 Drei Hauptgerichte aus den Woche-18-Screenshots, keine Bonusgerichte. Vereinfachungen und gerundete Umrechnungen stehen an der Kombi. Je vier Portionen als Datenbasis (Auflauf ursprünglich fünf); die Oberfläche skaliert auf die ausgewählte Portionszahl. Speck, aufwendiges Topping und Granatapfel entfallen. Karotten: 300 g als bewusste Anpassung wegen widersprüchlicher Angaben im Original. Putenbrust bleibt mit Knochen und Haut; keine implizite Umrechnung in Filet. Fleisch nach dem Garen tatsächlich in Drittel aufteilen; angezeigte Rohmengen sind Einkaufsanteile, keine Garerträge. Temperaturen: 300 °F ≈ 150 °C, 375 °F ≈ 190 °C, 165 °F ≈ 74 °C. Gesamt-Prep-Zeit grob 180 Minuten bei nacheinander belegtem Ofen.
 
 Die Verwendungsübersicht wird für alle Kombis automatisch aus den Baustein-Anteilen erzeugt. Optionale `note`-Felder an Verwendungen erklären den Zustand (gewürfelt, zerzupft, roh).
+
+## Woche 05: zwei kleine Kombis statt eines Wochenprojekts
+
+Bewusste Neu-Kombination mit angepassten Mengen für je zwei Portionen, keine originalgetreue Rezeptübernahme:
+
+- Tomaten-Paprika-Basis und Feta je halbiert → Shakshuka und Blumenkohl-Pasta. Die ursprünglich getrennten Saucen werden vereinheitlicht.
+- Linsen je halbiert → Rote-Bete-Bowl und Spinat-Reis.
+- Pilz-Karotten-Pfanne je halbiert → Spinat-Reis und Miso-Suppe.
+- Joghurt-Dip je halbiert → Bowl und Reis.
+
+Vorgegarte Rote Bete, frischer Reis am Verzehrtag, Gemüse als Suppeneinlage statt Absieben und Filo-Falten. Kein Bonuskuchen, Bulgur, separates Gewürzöl oder zusätzliche Toppings. Prep-Zeiten sind grobe Schätzungen für die Bausteine, Fertigstellung erfolgt in den Tageskarten.
