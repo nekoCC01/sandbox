@@ -13,6 +13,24 @@ export class Combo {
   get book() { return this.catalog.cookbooks.get(this.bookId); }
   get meals() { return this.recipes.map(id => this.catalog.recipes.get(id)); }
   get preparations() { return this.batches.map(id => this.catalog.batches.get(id)); }
+  get ingredientUses() {
+    const uses = new Map();
+    for (const recipe of this.meals) {
+      // Count distinct meals, not repeated occurrences inside the same meal.
+      const ids = new Set([
+        ...recipe.ingredients.map(item => item.id),
+        ...recipe.preparations.filter(use => use.share > 0).flatMap(use => use.batch.ingredients.map(item => item.id))
+      ]);
+      for (const id of ids) uses.set(id, (uses.get(id) || 0) + 1);
+    }
+    return uses;
+  }
+  get keyIngredients() {
+    return [...this.ingredientUses]
+      .filter(([id, count]) => count > 1 && !this.catalog.ingredients.get(id).supporting)
+      .map(([id, count]) => ({ ingredient: this.catalog.ingredients.get(id), count }))
+      .sort((a, b) => b.count - a.count);
+  }
   shoppingList(servings = this.baseServings) {
     const totals = new Map();
     const add = item => totals.set(item.id, (totals.get(item.id) || 0) + item.amount * servings / this.baseServings);

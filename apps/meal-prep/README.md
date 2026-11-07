@@ -56,3 +56,7 @@ Vorgegarte Rote Bete, frischer Reis am Verzehrtag, Gemüse als Suppeneinlage sta
 Titel und Autorinnen nach den bereitgestellten Covern. Seitenzahlen werden erst mit bestätigter Fundstelle ergänzt. Buchangaben stehen auf den Kombi-Karten, in den Details und in der Kochbuchübersicht. Tagesrezepte gehören über ihre Kombi zur jeweiligen Quelle; gemeinsame Rezeptdatensätze brauchen keine doppelte Buchzuordnung. Die ursprünglichen frei erstellten Kombis und ihre exklusiven Rezepte/Bausteine wurden entfernt.
 
 `combos.originalTitle` bewahrt den Originaltitel bzw. Wochen-Titel unabhängig vom kurzen App-Titel. Er erscheint auf Kombi-Karten, im Buchverweis und in der Kochbuchübersicht und ist über die Suche auffindbar. Beide Sunday-Kombis gehören zum Original „Woche 05“; `bookReference` präzisiert die zugehörigen Gerichte.
+
+## Tragende Zutaten
+
+`Combo.ingredientUses` zählt unterschiedliche Tagesgerichte pro Zutat, über Bausteine und direkte Rezeptzutaten hinweg. `keyIngredients` enthält Zutaten in mindestens zwei Gerichten, absteigend nach Verwendungen. `ingredients.supporting: true` nimmt Öl, Brühe und Gewürze aus dieser Hervorhebung aus; sie bleiben in Mengen und Einkaufsliste enthalten. Die Schlüsselzutaten stehen auf Cards zuerst, mit „↳“ und Anzahl der Gerichte. Details zeigen dieselbe Übersicht und markieren die Zutatennamen in Prep, Tageskarten und Einkaufsliste.
