@@ -1,72 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f5ef"><title>Bewegung · Fitness Tracker</title><link rel="stylesheet" href="style.css"></head>
 <body>
-
-
-
-    <script>
-        class Movement {
-            constructor(part, axis, action) {
-                this.part = part;
-                this.axis = axis;
-                this.action = action;
-            }
-
-            get name() {
-                return [this.part, this.axis, this.action]
-                    .filter(Boolean)
-                    .join(" ");
-            }
-        }
-
-        const movementData = [
-            ["upper-body", "horizontal", "push"],
-            ["upper-body", "horizontal", "pull"],
-            ["upper-body", "vertical", "push"],
-            ["upper-body", "vertical", "pull"],
-            ["lower-body", null, "push"],
-            ["lower-body", null, "pull"],
-        ];
-
-        const basicMovements = movementData.map(
-            ([part, axis, action]) => new Movement(part, axis, action)
-        );
-        const movementsByName = new Map(
-            basicMovements.map(movement => [movement.name, movement])
-        );
-
-
-        class Exercise {
-            constructor(name, movement) {
-                this.name = name;
-                this.movement = movement;
-            }
-        }
-        const trainings = [
-            new Exercise(
-                "Push-up",
-                movementsByName.get("upper-body horizontal push")
-            ),
-            new Exercise(
-                "Squat",
-                movementsByName.get("lower-body push")
-            ),
-        ];
-
-
-
-
-    </script>
-
-
-
-</body>
-
-</html>
+<header class="topbar"><a class="brand" href="#overview"><span class="brand-icon">b.</span> bewegung<span class="brand-tag">DEIN TRAININGSJOURNAL</span></a><button class="button primary" id="log-top">＋ Training erfassen</button></header>
+<div class="app-shell"><aside class="sidebar"><p class="eyebrow">DEIN RAUM FÜR FORTSCHRITT</p><nav aria-label="Hauptnavigation"><a href="#overview">◉ <span>Überblick</span></a><a href="#exercises">▦ <span>Übungsbibliothek</span></a><a href="#history">↗ <span>Verlauf & Ziele</span></a><a href="#planning">▤ <span>Trainingsplanung</span></a><a href="#data">⇅ <span>Meine Daten</span></a></nav><div class="sidebar-note"><span class="small-dot"></span> Lokal. Einfach. Deins.<p>Dein Training bleibt in deinem Browser. Du entscheidest, wann du es ins Repo übernimmst.</p></div><div class="course-badge">10X <span>6 Bewegungen.<br>Eine starke Grundlage.</span></div></aside>
+<main id="main" tabindex="-1"><p>Lade Trainingsjournal …</p></main></div>
+<div id="notice" role="status" aria-live="polite"></div>
+<dialog id="entry-dialog"><form id="entry-form"><div class="dialog-heading"><div><p class="eyebrow">DEIN NÄCHSTER SCHRITT</p><h2>Training erfassen</h2></div><button type="button" class="icon-button" data-close aria-label="Schließen">×</button></div><label>Datum<input type="date" name="date" required></label><label>Übung<select name="exerciseId" required></select></label><div class="form-row"><label>Trainingskontext<select name="context"><option value="free">Freies Training</option><option value="3xa">3X A</option><option value="3xb">3X B</option><option value="6x">6X</option><option value="amrap">AMRAP-Test</option></select></label><label>Last in kg<input name="loadKg" type="number" min="0" max="1000" step="0.25" value="0" required></label></div><p class="field-help" id="load-help"></p><label>Lastdetails / Vergleichsbedingung<input name="loadNote" maxlength="100" placeholder="z. B. 2 × 8 kg gesamt, Band rot, Bankhöhe 60 cm"></label><label>Wiederholungen je Satz<input name="reps" pattern="[0-9, ]+" placeholder="12, 12, 10" value="12, 12, 12" required></label><p class="field-help">Mit Komma trennen. Bei einseitigen Übungen je Seite erfassen, z. B. 12, 12. Keine automatische Umrechnung von Körpergewicht oder Bändern in kg.</p><label>Anstrengung<select name="effort"><option value="1">1 · leicht</option><option value="2">2</option><option value="3" selected>3 · mittel</option><option value="4">4</option><option value="5">5 · sehr schwer</option></select></label><label>Notizen<textarea name="notes" maxlength="500" rows="2" placeholder="Technik, Gefühl, Besonderheiten …"></textarea></label><p class="field-help">Ein Eintrag erfasst eine Übung mit ihren Sätzen. Weitere Übungen separat hinzufügen.</p><button class="button primary full">Im Browser speichern</button><p class="form-error" role="alert"></p></form></dialog>
+<dialog id="goal-dialog"><form id="goal-form"><div class="dialog-heading"><h2>Ein Ziel setzen</h2><button type="button" class="icon-button" data-close aria-label="Schließen">×</button></div><label>Übung<select name="exerciseId"></select></label><div class="form-row"><label>Zielgewicht in kg<input type="number" name="targetKg" min="0" max="1000" step="0.25" value="0" required></label><label>Wiederholungen<input type="number" name="targetReps" min="1" max="1000" value="12" required></label></div><label>Zieldatum<input type="date" name="deadline" required></label><label>Trainingskontext<select name="context"><option value="free">Freies Training</option><option value="3xa">3X A</option><option value="3xb">3X B</option><option value="6x">6X</option><option value="amrap">AMRAP-Test</option></select></label><label>Identische Lastdetails wie im Training<input name="loadNote" maxlength="100" placeholder="Band, Unterstützung, Aufbau …"></label><p class="field-help">Ziel gilt für mindestens einen Satz. Verglichen werden dieselbe Variante, derselbe Kontext und identische Lastdetails.</p><button class="button primary full">Ziel speichern</button><p class="form-error" role="alert"></p></form></dialog>
+<script type="module" src="js/app.mjs"></script>
+</body></html>

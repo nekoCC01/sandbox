@@ -1,0 +1,1613 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "10x-week-1",
+      "file": "01 - 10X _ Week 1_ Exercises, Soreness, AMRAP, Measurements, Capacity Test.docx"
+    },
+    {
+      "id": "10x-guide-a",
+      "file": "01a - 10X _ Exercise Guides - Squat, Pull, Push.docx"
+    },
+    {
+      "id": "10x-guide-b",
+      "file": "01b - 10X _ Exercise Guides - Hinge, Row, Press, Lunge.docx"
+    },
+    {
+      "id": "10x-week-2",
+      "file": "02 - 10X _ Week 2_ The Big 6 Routine, Strength Ripple Effect, Bulky Myth.docx"
+    },
+    {
+      "id": "10x-week-4",
+      "file": "04 - 10X _ Week 4_ Progressive Overload, Protein per Day, Men_Women.docx"
+    },
+    {
+      "id": "10x-guide-5",
+      "file": "05 - 10X _ Exercise Guides_ Leg _ Bicep _ Tricep Curl.docx"
+    },
+    {
+      "id": "10x-guide-6",
+      "file": "06 - 10X _ Exercise Guides_ Hip Thrust, Leg Raise, Leg Extension.docx"
+    },
+    {
+      "id": "10x-guide-7",
+      "file": "07 - 10X _ Exercise Guides_ Back Extension, Lateral Raise, Calf Raise.docx"
+    },
+    {
+      "id": "10x-week-8",
+      "file": "08 - 10X _ Week 8_ Intensity Techniques, Supplements.docx"
+    },
+    {
+      "id": "10x-week-10",
+      "file": "10 - 10X _ Week 10_ Design Your Journey, Deep Sleep, Track Progress.docx"
+    }
+  ],
+  "regions": [
+    {
+      "id": "upper",
+      "name": "Oberkörper"
+    },
+    {
+      "id": "core",
+      "name": "Rumpf"
+    },
+    {
+      "id": "lower",
+      "name": "Unterkörper"
+    }
+  ],
+  "muscleGroups": [
+    {
+      "id": "chest",
+      "name": "Brust",
+      "regionId": "upper"
+    },
+    {
+      "id": "back",
+      "name": "Rücken",
+      "regionId": "upper"
+    },
+    {
+      "id": "shoulders",
+      "name": "Schultern",
+      "regionId": "upper"
+    },
+    {
+      "id": "biceps",
+      "name": "Bizeps",
+      "regionId": "upper"
+    },
+    {
+      "id": "triceps",
+      "name": "Trizeps",
+      "regionId": "upper"
+    },
+    {
+      "id": "abs",
+      "name": "Bauch",
+      "regionId": "core"
+    },
+    {
+      "id": "lower-back",
+      "name": "Unterer Rücken",
+      "regionId": "core"
+    },
+    {
+      "id": "glutes",
+      "name": "Gesäß",
+      "regionId": "lower"
+    },
+    {
+      "id": "quads",
+      "name": "Vordere Oberschenkel",
+      "regionId": "lower"
+    },
+    {
+      "id": "hamstrings",
+      "name": "Hintere Oberschenkel",
+      "regionId": "lower"
+    },
+    {
+      "id": "calves",
+      "name": "Waden",
+      "regionId": "lower"
+    }
+  ],
+  "muscles": [
+    {
+      "id": "pectoralis-major",
+      "name": "Pectoralis major",
+      "groupId": "chest"
+    },
+    {
+      "id": "latissimus",
+      "name": "Latissimus dorsi",
+      "groupId": "back"
+    },
+    {
+      "id": "rhomboids",
+      "name": "Rhomboidei",
+      "groupId": "back"
+    },
+    {
+      "id": "deltoid",
+      "name": "Deltoideus",
+      "groupId": "shoulders"
+    },
+    {
+      "id": "biceps-brachii",
+      "name": "Biceps brachii",
+      "groupId": "biceps"
+    },
+    {
+      "id": "triceps-brachii",
+      "name": "Triceps brachii",
+      "groupId": "triceps"
+    },
+    {
+      "id": "rectus-abdominis",
+      "name": "Rectus abdominis",
+      "groupId": "abs"
+    },
+    {
+      "id": "erector-spinae",
+      "name": "Erector spinae",
+      "groupId": "lower-back"
+    },
+    {
+      "id": "gluteus-maximus",
+      "name": "Gluteus maximus",
+      "groupId": "glutes"
+    },
+    {
+      "id": "quadriceps",
+      "name": "Quadriceps femoris",
+      "groupId": "quads"
+    },
+    {
+      "id": "biceps-femoris",
+      "name": "Biceps femoris",
+      "groupId": "hamstrings"
+    },
+    {
+      "id": "semitendinosus",
+      "name": "Semitendinosus",
+      "groupId": "hamstrings"
+    },
+    {
+      "id": "gastrocnemius",
+      "name": "Gastrocnemius",
+      "groupId": "calves"
+    },
+    {
+      "id": "soleus",
+      "name": "Soleus",
+      "groupId": "calves"
+    }
+  ],
+  "movements": [
+    {
+      "id": "squat",
+      "name": "Squat",
+      "part": "lower-body",
+      "axis": null,
+      "action": "push",
+      "sourceId": "10x-week-1"
+    },
+    {
+      "id": "pull",
+      "name": "Pull",
+      "part": "upper-body",
+      "axis": "vertical",
+      "action": "pull",
+      "sourceId": "10x-week-1"
+    },
+    {
+      "id": "push",
+      "name": "Push",
+      "part": "upper-body",
+      "axis": "horizontal",
+      "action": "push",
+      "sourceId": "10x-week-1"
+    },
+    {
+      "id": "hinge",
+      "name": "Hinge",
+      "part": "lower-body",
+      "axis": null,
+      "action": "pull",
+      "sourceId": "10x-week-1"
+    },
+    {
+      "id": "row",
+      "name": "Row",
+      "part": "upper-body",
+      "axis": "horizontal",
+      "action": "pull",
+      "sourceId": "10x-week-1"
+    },
+    {
+      "id": "press",
+      "name": "Press",
+      "part": "upper-body",
+      "axis": "vertical",
+      "action": "push",
+      "sourceId": "10x-week-1"
+    }
+  ],
+  "families": [
+    {
+      "id": "squat",
+      "name": "Squat",
+      "movementId": "squat",
+      "primaryGroupIds": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryGroupIds": [
+        "abs"
+      ],
+      "kind": "integrated",
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "pull-up",
+      "name": "Pull-up / Pulldown",
+      "movementId": "pull",
+      "primaryGroupIds": [
+        "back"
+      ],
+      "secondaryGroupIds": [
+        "biceps",
+        "shoulders"
+      ],
+      "kind": "integrated",
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "push-up",
+      "name": "Push-up",
+      "movementId": "push",
+      "primaryGroupIds": [
+        "chest"
+      ],
+      "secondaryGroupIds": [
+        "shoulders",
+        "triceps",
+        "abs"
+      ],
+      "kind": "integrated",
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "chest-press",
+      "name": "Chest Press",
+      "movementId": "push",
+      "primaryGroupIds": [
+        "chest"
+      ],
+      "secondaryGroupIds": [
+        "shoulders",
+        "triceps"
+      ],
+      "kind": "integrated",
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "deadlift",
+      "name": "Deadlift",
+      "movementId": "hinge",
+      "primaryGroupIds": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondaryGroupIds": [
+        "lower-back",
+        "back"
+      ],
+      "kind": "integrated",
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "row",
+      "name": "Row",
+      "movementId": "row",
+      "primaryGroupIds": [
+        "back"
+      ],
+      "secondaryGroupIds": [
+        "biceps",
+        "shoulders"
+      ],
+      "kind": "integrated",
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "shoulder-press",
+      "name": "Shoulder Press",
+      "movementId": "press",
+      "primaryGroupIds": [
+        "shoulders"
+      ],
+      "secondaryGroupIds": [
+        "triceps",
+        "chest"
+      ],
+      "kind": "integrated",
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "lunge",
+      "name": "Lunge / Split Squat",
+      "movementId": "squat",
+      "primaryGroupIds": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryGroupIds": [
+        "abs"
+      ],
+      "kind": "integrated",
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "leg-curl",
+      "name": "Leg Curl",
+      "movementId": null,
+      "primaryGroupIds": [
+        "hamstrings"
+      ],
+      "secondaryGroupIds": [
+        "glutes"
+      ],
+      "kind": "isolation",
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "bicep-curl",
+      "name": "Bicep Curl",
+      "movementId": null,
+      "primaryGroupIds": [
+        "biceps"
+      ],
+      "secondaryGroupIds": [],
+      "kind": "isolation",
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "tricep-extension",
+      "name": "Triceps Extension",
+      "movementId": null,
+      "primaryGroupIds": [
+        "triceps"
+      ],
+      "secondaryGroupIds": [],
+      "kind": "isolation",
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "hip-thrust",
+      "name": "Hip Thrust",
+      "movementId": null,
+      "primaryGroupIds": [
+        "glutes"
+      ],
+      "secondaryGroupIds": [
+        "hamstrings"
+      ],
+      "kind": "isolation",
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "leg-raise",
+      "name": "Leg Raise",
+      "movementId": null,
+      "primaryGroupIds": [
+        "abs"
+      ],
+      "secondaryGroupIds": [],
+      "kind": "isolation",
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "leg-extension",
+      "name": "Leg Extension",
+      "movementId": null,
+      "primaryGroupIds": [
+        "quads"
+      ],
+      "secondaryGroupIds": [],
+      "kind": "isolation",
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "back-extension",
+      "name": "Back Extension",
+      "movementId": null,
+      "primaryGroupIds": [
+        "lower-back"
+      ],
+      "secondaryGroupIds": [
+        "glutes",
+        "hamstrings"
+      ],
+      "kind": "isolation",
+      "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "lateral-raise",
+      "name": "Lateral Raise",
+      "movementId": null,
+      "primaryGroupIds": [
+        "shoulders"
+      ],
+      "secondaryGroupIds": [],
+      "kind": "isolation",
+      "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "calf-raise",
+      "name": "Calf Raise",
+      "movementId": null,
+      "primaryGroupIds": [
+        "calves"
+      ],
+      "secondaryGroupIds": [],
+      "kind": "isolation",
+      "sourceId": "10x-guide-7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "air-squat",
+      "name": "Air Squat",
+      "familyId": "squat",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-week-1"
+    },
+    {
+      "id": "wall-ball-squat",
+      "name": "Wall-Ball Squat",
+      "familyId": "squat",
+      "equipment": [
+        "ball"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "db-wall-squat",
+      "name": "Dumbbell Wall-Ball Squat",
+      "familyId": "squat",
+      "equipment": [
+        "ball",
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "goblet-squat",
+      "name": "Goblet Squat",
+      "familyId": "squat",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "leg-press",
+      "name": "Leg Press",
+      "familyId": "squat",
+      "equipment": [
+        "machine"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "band-lat-pulldown",
+      "name": "Banded Lat Pulldown",
+      "familyId": "pull-up",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "band-pull-up",
+      "name": "Banded Pull-Up",
+      "familyId": "pull-up",
+      "equipment": [
+        "band",
+        "bar"
+      ],
+      "loadMode": "assisted",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "pull-up",
+      "name": "Bodyweight Pull-Up",
+      "familyId": "pull-up",
+      "equipment": [
+        "bar"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Lat Pulldown",
+      "familyId": "pull-up",
+      "equipment": [
+        "machine"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "incline-push-up",
+      "name": "Incline Push-Up",
+      "familyId": "push-up",
+      "equipment": [
+        "bench"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "knee-push-up",
+      "name": "Knee Push-Up",
+      "familyId": "push-up",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "push-up",
+      "name": "Full Push-Up",
+      "familyId": "push-up",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "band-push-up",
+      "name": "Banded Push-Up",
+      "familyId": "push-up",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "ring-push-up",
+      "name": "Ring Push-Up",
+      "familyId": "push-up",
+      "equipment": [
+        "rings"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "db-bench-press",
+      "name": "Dumbbell Bench Press",
+      "familyId": "chest-press",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "machine-chest-press",
+      "name": "Machine Chest Press",
+      "familyId": "chest-press",
+      "equipment": [
+        "machine"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-a"
+    },
+    {
+      "id": "db-straight-deadlift",
+      "name": "Dumbbell Straight Leg Deadlift",
+      "familyId": "deadlift",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "band-deadlift",
+      "name": "Banded Straight Leg Deadlift",
+      "familyId": "deadlift",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "staggered-deadlift",
+      "name": "Staggered Dumbbell Straight Leg Deadlift",
+      "familyId": "deadlift",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "db-deadlift",
+      "name": "Dumbbell Deadlift",
+      "familyId": "deadlift",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "db-row",
+      "name": "Dumbbell Bent Over Row",
+      "familyId": "row",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "band-row",
+      "name": "Banded Bent Over Row",
+      "familyId": "row",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "unilateral-row",
+      "name": "Unilateral Dumbbell Bent Over Row",
+      "familyId": "row",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "loadMode": "external",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "inverted-row",
+      "name": "Inverted Row",
+      "familyId": "row",
+      "equipment": [
+        "bar"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "cable-row",
+      "name": "Cable Row",
+      "familyId": "row",
+      "equipment": [
+        "machine"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "db-shoulder-press",
+      "name": "Dumbbell Shoulder Press",
+      "familyId": "shoulder-press",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "band-shoulder-press",
+      "name": "Banded Shoulder Press",
+      "familyId": "shoulder-press",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "pike-push-up",
+      "name": "Pike Push-Up",
+      "familyId": "shoulder-press",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "machine-shoulder-press",
+      "name": "Machine Shoulder Press",
+      "familyId": "shoulder-press",
+      "equipment": [
+        "machine"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "lunge",
+      "name": "Bodyweight Lunge",
+      "familyId": "lunge",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "db-lunge",
+      "name": "Dumbbell Lunge",
+      "familyId": "lunge",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "band-lunge",
+      "name": "Banded Lunge",
+      "familyId": "lunge",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "split-squat",
+      "name": "Bodyweight Split Squat",
+      "familyId": "lunge",
+      "equipment": [
+        "bench"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "db-split-squat",
+      "name": "Dumbbell Split Squat",
+      "familyId": "lunge",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "band-split-squat",
+      "name": "Banded Split Squat",
+      "familyId": "lunge",
+      "equipment": [
+        "band",
+        "bench"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 0
+      },
+      "sourceId": "10x-guide-b"
+    },
+    {
+      "id": "good-morning",
+      "name": "Dumbbell Good Morning",
+      "familyId": "leg-curl",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-5",
+      "movementId": "hinge"
+    },
+    {
+      "id": "heel-pull",
+      "name": "Swiss Ball Heel Pull",
+      "familyId": "leg-curl",
+      "equipment": [
+        "ball"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "band-leg-curl",
+      "name": "Banded Leg Curl",
+      "familyId": "leg-curl",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "unilateral-heel-pull",
+      "name": "Unilateral Banded Heel Pull",
+      "familyId": "leg-curl",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "db-bicep-curl",
+      "name": "Dumbbell Bicep Curl",
+      "familyId": "bicep-curl",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "band-bicep-curl",
+      "name": "Banded Bicep Curl",
+      "familyId": "bicep-curl",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "band-pushdown",
+      "name": "Resistance Band Pushdown",
+      "familyId": "tricep-extension",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "band-tricep-extension",
+      "name": "Banded Tricep Extension",
+      "familyId": "tricep-extension",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "tricep-kickback",
+      "name": "Dumbbell Unilateral Tricep Kickback",
+      "familyId": "tricep-extension",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "skull-crusher",
+      "name": "Dumbbell Skull Crusher",
+      "familyId": "tricep-extension",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-5"
+    },
+    {
+      "id": "glute-bridge",
+      "name": "Elevated Glute Bridge",
+      "familyId": "hip-thrust",
+      "equipment": [
+        "bench"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "unilateral-glute-bridge",
+      "name": "Unilateral Elevated Glute Bridge",
+      "familyId": "hip-thrust",
+      "equipment": [
+        "bench"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "db-hip-thrust",
+      "name": "Dumbbell Hip Thrust",
+      "familyId": "hip-thrust",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "unilateral-hip-thrust",
+      "name": "Unilateral Dumbbell Hip Thrust",
+      "familyId": "hip-thrust",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "loadMode": "external",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "band-hip-thrust",
+      "name": "Banded Hip Thrust",
+      "familyId": "hip-thrust",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "lying-leg-raise",
+      "name": "Lying Leg Raise",
+      "familyId": "leg-raise",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "db-leg-raise",
+      "name": "Dumbbell Lying Leg Raise",
+      "familyId": "leg-raise",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "l-sit",
+      "name": "Bent-leg L-sit",
+      "familyId": "leg-raise",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "hanging-knee-raise",
+      "name": "Hanging Knee Raise",
+      "familyId": "leg-raise",
+      "equipment": [
+        "bar"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "hanging-leg-raise",
+      "name": "Hanging Leg Raise",
+      "familyId": "leg-raise",
+      "equipment": [
+        "bar"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "band-leg-extension",
+      "name": "Unilateral Banded Leg Extension",
+      "familyId": "leg-extension",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "standing-leg-extension",
+      "name": "Standing Unilateral Banded Leg Extension",
+      "familyId": "leg-extension",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "db-leg-extension",
+      "name": "Seated Dumbbell Leg Extension",
+      "familyId": "leg-extension",
+      "equipment": [
+        "dumbbell",
+        "chair"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-6"
+    },
+    {
+      "id": "back-extension",
+      "name": "Back Extension",
+      "familyId": "back-extension",
+      "equipment": [
+        "bench"
+      ],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "db-back-extension",
+      "name": "Dumbbell Back Extension",
+      "familyId": "back-extension",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "db-lateral-raise",
+      "name": "Dumbbell Lateral Raise",
+      "familyId": "lateral-raise",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "band-lateral-raise",
+      "name": "Unilateral Banded Lateral Raise",
+      "familyId": "lateral-raise",
+      "equipment": [
+        "band"
+      ],
+      "loadMode": "band",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "calf-raise",
+      "name": "Standing Calf Raise",
+      "familyId": "calf-raise",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "db-calf-raise",
+      "name": "Dumbbell Standing Calf Raise",
+      "familyId": "calf-raise",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": false,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "unilateral-calf-raise",
+      "name": "Unilateral Standing Calf Raise",
+      "familyId": "calf-raise",
+      "equipment": [],
+      "loadMode": "bodyweight",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-7"
+    },
+    {
+      "id": "db-unilateral-calf-raise",
+      "name": "Dumbbell Unilateral Standing Calf Raise",
+      "familyId": "calf-raise",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "unilateral": true,
+      "tempo": {
+        "eccentric": 3,
+        "concentric": 2,
+        "hold": 2
+      },
+      "sourceId": "10x-guide-7"
+    }
+  ],
+  "units": [
+    {
+      "id": "a",
+      "name": "Unit A · Squat / Pull / Push",
+      "kind": "integrated",
+      "slots": [
+        {
+          "movementId": "squat",
+          "exerciseId": "goblet-squat",
+          "targetReps": 12
+        },
+        {
+          "movementId": "pull",
+          "exerciseId": "band-lat-pulldown",
+          "targetReps": 12
+        },
+        {
+          "movementId": "push",
+          "exerciseId": "push-up",
+          "targetReps": 12
+        }
+      ],
+      "sourceId": "10x-week-2"
+    },
+    {
+      "id": "b",
+      "name": "Unit B · Hinge / Row / Press",
+      "kind": "integrated",
+      "slots": [
+        {
+          "movementId": "hinge",
+          "exerciseId": "db-straight-deadlift",
+          "targetReps": 12
+        },
+        {
+          "movementId": "row",
+          "exerciseId": "db-row",
+          "targetReps": 12
+        },
+        {
+          "movementId": "press",
+          "exerciseId": "db-shoulder-press",
+          "targetReps": 12
+        }
+      ],
+      "sourceId": "10x-week-2"
+    }
+  ],
+  "routines": [
+    {
+      "id": "3xa",
+      "name": "3X A",
+      "unitIds": [
+        "a"
+      ],
+      "rounds": 2
+    },
+    {
+      "id": "3xb",
+      "name": "3X B",
+      "unitIds": [
+        "b"
+      ],
+      "rounds": 2
+    },
+    {
+      "id": "6x",
+      "name": "6X · Big Six",
+      "unitIds": [
+        "a",
+        "b"
+      ],
+      "rounds": 1
+    }
+  ],
+  "schedules": [
+    {
+      "id": "starter",
+      "name": "Zwei Tage · alle sechs Bewegungen",
+      "days": [
+        {
+          "weekday": 1,
+          "routineId": "3xa"
+        },
+        {
+          "weekday": 4,
+          "routineId": "3xb"
+        }
+      ]
+    }
+  ],
+  "journeys": [
+    {
+      "id": "starter",
+      "name": "Mein erster Trainingsblock",
+      "scheduleId": "starter",
+      "weeks": 6,
+      "deloadWeeks": 1,
+      "sourceId": "10x-week-10"
+    }
+  ],
+  "classificationNote": "Muskelzuordnungen und Starter-Auswahl sind redaktionelle, vereinfachte Zuordnungen. Good Morning bleibt zur Quellennachverfolgung in der Kursfamilie Leg Curl; biomechanisch ist es eine Hinge-Übung. Nicht jede Isolation wird in eines der Big Six gezwängt."
+}
