@@ -1,14 +1,18 @@
 {
-  "status": "new",
+  "status": "imported",
   "bookId": "meal-prep",
-  "originalTitle": "Hackfleisch-Festival mit Gnocci und Kürbis",
+  "originalTitle": "Hackfleisch-Festival mit Gnocchi und Kürbis",
   "pages": null,
   "originalServings": {
-    "total": null,
-    "perMeal": null,
-    "meals":null
+    "total": 4,
+    "perMeal": 2,
+    "meals": 2
   },
   "targetServingsPerMeal": null,
-  "files": ["01.png", "02.png", "03.png"],
+  "files": [
+    "01.png",
+    "02.png",
+    "03.png"
+  ],
   "notes": ""
 }
