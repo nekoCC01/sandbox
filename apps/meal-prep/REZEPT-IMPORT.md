@@ -25,6 +25,8 @@ Alle nötigen Rezeptseiten beilegen, nicht nur die Einkaufsliste. Screenshots im
 
 Die kopierbare [leere Vorlage](inbox/quelle.json) enthält `status: "new"`; alle übrigen Angaben sind mit `null` vorbelegt. Nur bekannte Angaben oder eigene Wünsche ergänzen. `null` bedeutet unbekannt bzw. keine Vorgabe: Codex darf Angaben aus den Bildern oder dem Auftrag übernehmen, aber nicht erfinden. Buch und Originaltitel müssen vor dem fertigen Import geklärt sein.
 
+`quelle.json` im angegebenen Quellordner ist Konvention: Codex liest sie beim Import automatisch. Sie muss im Prompt nicht gesondert genannt werden; Buch und Originaltitel werden daraus übernommen. Fehlende oder mit `null` belegte Angaben nach Möglichkeit aus den Bildern ermitteln und kritische Lücken gezielt erfragen.
+
 `quelle.json` ist eine kleine Begleitdatei, kein automatischer Importmechanismus:
 
 | Feld | Bedeutung |
@@ -61,16 +63,13 @@ Eine Zutat hat eine feste Einheit. Keine rohe und gegarte Menge unter derselben 
 
 ## 5. Beispiel-Prompt für eine neue Sitzung
 
-Vom selben Repository aus starten; Pfad und Angaben ersetzen:
+Vom selben Repository aus starten; nur den Quellordner ersetzen. Die dortige `quelle.json` wird automatisch gelesen:
 
 ```text
 Bitte arbeite neue Rezept-Kombis in apps/meal-prep ein.
 
 Lies zuerst apps/meal-prep/AGENTS.md und REZEPT-IMPORT.md.
 Quelle: apps/meal-prep/inbox/sunday-meal-prep/woche-06/
-Metadaten: quelle.json in diesem Ordner.
-Kochbuch: Sunday Meal Prep vegetarisch (bookId: sunday-meal-prep).
-Originaltitel: Woche 06.
 
 Sieh alle dort angegebenen Screenshots an. Vereinfache stark und konzentriere
 Dich auf Zutaten, die mehrere Mahlzeiten tragen. Bonusgerichte ignorieren.

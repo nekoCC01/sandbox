@@ -9,7 +9,7 @@ Die Regeln liegen im Projekt; der alte Chat muss dafür nicht mitgegeben werden.
 1. Einen Quellenordner anlegen, z. B. `apps/meal-prep/inbox/sunday-meal-prep/woche-06/`.
 2. Screenshots vollständig und in Leserichtung ablegen, z. B. `01-uebersicht.jpg`, `02-zutaten.jpg`, `03-vorbereitung.jpg`, `04-gerichte.jpg`.
 3. Die [leere Vorlage](inbox/quelle.json) als `quelle.json` in den neuen Ordner kopieren. Bekannte Angaben oder Wünsche ergänzen; alles Unbekannte bleibt `null`. `status` steht bereits auf `new`. Dateinamen müssen nicht eingetragen werden: Bei `files: null` liest Codex alle Bild- und PDF-Dateien direkt im Quellordner in numerischer Reihenfolge (z. B. `01`, `02`, …, `10`). Buch und Originaltitel können auch im Auftrag genannt oder aus den Bildern ermittelt werden.
-4. Den folgenden Prompt mit angepasstem Ordner und Originaltitel verwenden.
+4. Den folgenden Prompt mit angepasstem Quellordner verwenden. Buch, Originaltitel und weitere Metadaten liest Codex automatisch aus der dortigen `quelle.json`.
 5. Nach dem Import Änderungen und offene Angaben in `import-notizen.md` im Quellordner nachlesen. Das Quellenmaterial bleibt unverändert; neue Kombis erscheinen in der App.
 
 Aktuelle Buch-IDs: `sunday-meal-prep`, `cook-once`, `meal-prep`. Neue Bücher können mit Titel und Autor ergänzt werden.
@@ -21,9 +21,6 @@ Bitte arbeite neue Rezept-Kombis in apps/meal-prep ein.
 Lies zuerst apps/meal-prep/AGENTS.md und apps/meal-prep/REZEPT-IMPORT.md.
 
 Quelle: apps/meal-prep/inbox/sunday-meal-prep/woche-06/
-Metadaten: quelle.json im Quellordner.
-Kochbuch: Sunday Meal Prep vegetarisch (bookId: sunday-meal-prep).
-Originaltitel: Woche 06.
 
 Sieh alle angegebenen Screenshots an. Vereinfache stark, mit Fokus auf
 tragende Zutaten und ihre Wiederverwendung in mehreren Mahlzeiten.
