@@ -1,0 +1,14 @@
+{
+  "status": "imported",
+  "bookId": "sunday-meal-prep",
+  "originalTitle": "Woche 01",
+  "pages": null,
+  "originalServings": {
+    "total": 20,
+    "perMeal": 4,
+    "meals": 5
+  },
+  "targetServingsPerMeal": null,
+  "files": null,
+  "notes": "Originalportionen vom Nutzer bestätigt: jeweils 4 Portionen pro Hauptgericht. Zwei Kombis mit 3 und 2 Gerichten; keine Skalierung."
+}

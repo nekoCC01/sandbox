@@ -1,0 +1,359 @@
+{
+  "ingredients": [
+    {
+      "id": "bulgur",
+      "name": "Bulgur",
+      "unit": "g (trocken)"
+    },
+    {
+      "id": "red-lentils",
+      "name": "Rote Linsen",
+      "unit": "g (trocken)"
+    },
+    {
+      "id": "carrot-whole",
+      "name": "Karotten",
+      "unit": "Stk."
+    },
+    {
+      "id": "savoy-whole",
+      "name": "Wirsing (ganzer Kopf)",
+      "unit": "Stk."
+    },
+    {
+      "id": "garlic",
+      "name": "Knoblauch",
+      "unit": "Zehen",
+      "supporting": true
+    },
+    {
+      "id": "flour",
+      "name": "Mehl",
+      "unit": "g"
+    },
+    {
+      "id": "hard-cheese",
+      "name": "Tomme oder Cantal",
+      "unit": "g"
+    },
+    {
+      "id": "capers",
+      "name": "Kapern",
+      "unit": "EL"
+    },
+    {
+      "id": "tomato-paste",
+      "name": "Tomatenmark",
+      "unit": "EL",
+      "supporting": true
+    }
+  ],
+  "batches": [
+    {
+      "id": "sw01-mushrooms",
+      "name": "Champignons für Pfanne und Suppe",
+      "color": "orange",
+      "ingredients": [
+        {
+          "id": "mushrooms",
+          "amount": 500
+        }
+      ],
+      "steps": [
+        "Putzen und schneiden. Vier Fünftel (400 g) für die Bulgurpfanne, ein Fünftel (100 g) für die Suppe abteilen; roh getrennt kühlen."
+      ]
+    },
+    {
+      "id": "sw01-spinach",
+      "name": "TK-Spinat aufteilen",
+      "color": "green",
+      "ingredients": [
+        {
+          "id": "spinach",
+          "amount": 600
+        }
+      ],
+      "steps": [
+        "Zwei Drittel (400 g) für die Bulgurpfanne, ein Drittel (200 g) für das Dhal abteilen. Bis zur Verwendung tiefgekühlt halten."
+      ]
+    },
+    {
+      "id": "sw01-savoy",
+      "name": "Ein halber Wirsing, zweimal verwenden",
+      "color": "green",
+      "ingredients": [
+        {
+          "id": "savoy-whole",
+          "amount": 0.5
+        }
+      ],
+      "steps": [
+        "Den halben Kopf putzen und in Streifen schneiden. Geputzte Rohmenge halbieren: für Dhal-Beilage und Suppe. Kein Grammgewicht angenommen."
+      ]
+    },
+    {
+      "id": "sw01-cheese",
+      "name": "Ein Käse für Pasta und Tarte",
+      "color": "gold",
+      "ingredients": [
+        {
+          "id": "hard-cheese",
+          "amount": 200
+        }
+      ],
+      "steps": [
+        "Reiben und halbieren. Je 100 g für Pasta und Tarte; ersetzt den Parmesan der Pasta durch den ohnehin benötigten Tomme oder Cantal."
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "sw01-bulgur",
+      "name": "Champignons, Spinat und Bulgur mit Spiegelei",
+      "day": 1,
+      "batches": [
+        {
+          "id": "sw01-mushrooms",
+          "share": 0.8
+        },
+        {
+          "id": "sw01-spinach",
+          "share": 0.6666666666666666
+        }
+      ],
+      "ingredients": [
+        {
+          "id": "bulgur",
+          "amount": 150
+        },
+        {
+          "id": "egg",
+          "amount": 4
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 15
+        }
+      ],
+      "steps": [
+        "Bulgur nach Packungsangabe in Salzwasser garen.",
+        "Pilze in Öl etwa 5 Minuten braten. Zugeteilten TK-Spinat und Butter zugeben und etwa 10 Minuten bzw. nach Packungsangabe vollständig garen. Eier daneben als Spiegeleier braten; mit Bulgur servieren. Salz und Pfeffer nach Geschmack."
+      ]
+    },
+    {
+      "id": "sw01-dhal",
+      "name": "Dhal, Spinat, Wirsing mit Kreuzkümmel und Reis",
+      "day": 2,
+      "batches": [
+        {
+          "id": "sw01-spinach",
+          "share": 0.3333333333333333
+        },
+        {
+          "id": "sw01-savoy",
+          "share": 0.5
+        }
+      ],
+      "ingredients": [
+        {
+          "id": "red-lentils",
+          "amount": 200
+        },
+        {
+          "id": "rice",
+          "amount": 240
+        },
+        {
+          "id": "garlic",
+          "amount": 2
+        },
+        {
+          "id": "oil",
+          "amount": 3
+        },
+        {
+          "id": "cumin",
+          "amount": 1
+        }
+      ],
+      "steps": [
+        "Rote Linsen mit 600 ml Wasser und gehacktem Knoblauch sanft weich kochen; bei Bedarf Wasser ergänzen. Zugeordneten Spinat nach Packungsangabe mitgaren.",
+        "Reis frisch nach Packungsangabe garen. Wirsing in Öl mit Kreuzkümmel einige Minuten braten, bis er gar ist; bei Bedarf etwas Wasser zugeben. Mit Dhal und Reis servieren; salzen und pfeffern."
+      ]
+    },
+    {
+      "id": "sw01-soup",
+      "name": "Linsensuppe mit Gemüse und Miso",
+      "day": 3,
+      "batches": [
+        {
+          "id": "sw01-mushrooms",
+          "share": 0.2
+        },
+        {
+          "id": "sw01-savoy",
+          "share": 0.5
+        }
+      ],
+      "ingredients": [
+        {
+          "id": "carrot-whole",
+          "amount": 5
+        },
+        {
+          "id": "garlic",
+          "amount": 5
+        },
+        {
+          "id": "miso",
+          "amount": 2
+        },
+        {
+          "id": "lentils",
+          "amount": 150
+        }
+      ],
+      "steps": [
+        "Karotten in dünne Scheiben schneiden, Knoblauch hacken. Mit den zugeordneten Pilzen und etwas Wasser etwa 5 Minuten dünsten.",
+        "1,2 l Wasser, gespülte grüne Linsen und Wirsing zugeben. Zugedeckt etwa 30 Minuten bzw. bis Linsen und Gemüse gar sind köcheln. Miso mit heißem Suppenwasser glattrühren und zum Schluss einrühren; abschmecken."
+      ]
+    },
+    {
+      "id": "sw01-pasta",
+      "name": "Pasta puttanesca",
+      "day": 1,
+      "batches": [
+        {
+          "id": "sw01-cheese",
+          "share": 0.5
+        }
+      ],
+      "ingredients": [
+        {
+          "id": "pasta",
+          "amount": 500
+        },
+        {
+          "id": "canned-tomato",
+          "amount": 450
+        },
+        {
+          "id": "olives",
+          "amount": 300
+        },
+        {
+          "id": "capers",
+          "amount": 2
+        },
+        {
+          "id": "tomato-paste",
+          "amount": 2
+        },
+        {
+          "id": "garlic",
+          "amount": 4
+        },
+        {
+          "id": "oil",
+          "amount": 3
+        }
+      ],
+      "steps": [
+        "Knoblauch hacken und in Öl bei milder Hitze 2–3 Minuten garen. Tomaten, abgespülte Kapern, gehackte Oliven und Tomatenmark zugeben und etwa 35 Minuten einkochen. Salz, Pfeffer und Chili nach Geschmack.",
+        "Spaghetti nach Packungsangabe garen, mit der Sauce und bei Bedarf etwas Kochwasser mischen. Zugeordneten Käse dazu servieren."
+      ]
+    },
+    {
+      "id": "sw01-tart",
+      "name": "Zwiebeltarte",
+      "day": 2,
+      "batches": [
+        {
+          "id": "sw01-cheese",
+          "share": 0.5
+        }
+      ],
+      "ingredients": [
+        {
+          "id": "onion",
+          "amount": 10
+        },
+        {
+          "id": "oil",
+          "amount": 4
+        },
+        {
+          "id": "flour",
+          "amount": 200
+        },
+        {
+          "id": "butter",
+          "amount": 165
+        },
+        {
+          "id": "egg",
+          "amount": 1
+        },
+        {
+          "id": "yogurt",
+          "amount": 150
+        }
+      ],
+      "steps": [
+        "Mehl mit kalter geraspelter Butter, 120 ml kaltem Wasser und Salz kurz verkneten. Kalt stellen. Zwiebeln schneiden und in Öl mit Salz etwa 20 Minuten dünsten.",
+        "Teig dünn auf Backpapier ausrollen und bei 180 °C 15 Minuten blindbacken. Zwiebeln und Käse darauf verteilen. Ei mit griechischem Joghurt verrühren, darübergeben und etwa 15 Minuten backen, bis der Guss gestockt ist."
+      ]
+    }
+  ],
+  "combos": [
+    {
+      "bookId": "sunday-meal-prep",
+      "originalTitle": "Woche 01",
+      "baseServings": 4,
+      "source": "Sunday Meal Prep vegetarisch · Keda Black · Woche 01 · inbox/sunday-meal-prep/woche-01 · Screenshots 01.png–15.png; Buchseiten unbekannt.",
+      "theme": "sun",
+      "id": "sunday-week01-gemuese",
+      "name": "Pilze, Spinat, Wirsing. Drei Gerichte.",
+      "subtitle": "Einmal Gemüse aufteilen: Bulgurpfanne, Dhal und Linsensuppe.",
+      "prepMinutes": 40,
+      "recipes": [
+        "sw01-bulgur",
+        "sw01-dhal",
+        "sw01-soup"
+      ],
+      "batches": [
+        "sw01-mushrooms",
+        "sw01-spinach",
+        "sw01-savoy"
+      ],
+      "bookReference": "Woche 01 · Champignons, Spinat und Bulgur mit Spiegelei (11.png) · Dhal, Spinat, Wirsing mit Kreuzkümmel und Reis (14.png) · Linsensuppe mit Gemüse und Miso (15.png); Vorbereitung 07–10.png",
+      "planNote": "Gemüse einmal schneiden und roh zuordnen. Dhal und Suppe können parallel kochen; Reis und Eier frisch zubereiten. Prep-Zeit geschätzt, Tagesnummern bezeichnen Varianten. Je vier Portionen pro Gericht, vom Nutzer bestätigt.",
+      "scalingNote": "Keine Mengenskalierung. 500 g Champignons 400/100 g, 600 g TK-Spinat 400/200 g. Von der Originalalternative ½ oder 1 kleiner Wirsing ist ½ Kopf gewählt und roh halbiert. Karotten bleiben 5 Stück, kein erfundenes Grammgewicht. Grüne Linsen mit bestehender Linsen-ID (hier ausdrücklich grün). Ohne Brot, Käsebeilage, Kräutergarnituren, Ingwer, Kurkuma, Zitrone und Joghurt-Topping. Suppenzwiebeln (2 EL aus der Tartebasis) entfallen zur Trennung der Kombis; Dünsten mit Wasser. Miso erst zum Schluss statt mitbraten. Originalportionen: je vier, vom Nutzer bestätigt; unverändert übernommen."
+    },
+    {
+      "bookId": "sunday-meal-prep",
+      "originalTitle": "Woche 01",
+      "baseServings": 4,
+      "source": "Sunday Meal Prep vegetarisch · Keda Black · Woche 01 · inbox/sunday-meal-prep/woche-01 · Screenshots 01.png–15.png; Buchseiten unbekannt.",
+      "theme": "sun",
+      "id": "sunday-week01-pasta-tarte",
+      "name": "Ein Käse. Pasta und Zwiebeltarte.",
+      "subtitle": "Einmal Käse reiben: für würzige Oliven-Pasta und eine einfache Zwiebeltarte.",
+      "prepMinutes": 45,
+      "recipes": [
+        "sw01-pasta",
+        "sw01-tart"
+      ],
+      "batches": [
+        "sw01-cheese"
+      ],
+      "bookReference": "Woche 01 · Pasta puttanesca (12.png) · Zwiebeltarte, dazu Salat (13.png); Vorbereitung 07–10.png",
+      "planNote": "Sauce kochen und Zwiebeln parallel dünsten, dabei Teig und Käse vorbereiten. Tarte später backen und Pasta frisch kochen. Prep-Zeit geschätzt. Je vier Portionen pro Gericht, vom Nutzer bestätigt.",
+      "scalingNote": "Keine Mengenskalierung. 100 g Tomme/Cantal für die Tarte erhalten; 100 g Parmesan der Pasta durch dieselbe Käsemenge Tomme/Cantal ersetzt. Alle 10 Zwiebeln bleiben in der Tarte statt 2 EL für die Suppe abzuzweigen. Ohne Beilagensalat, Vinaigrette und frische Kräuter. Griechischer Joghurt verwendet die vorhandene Joghurt-ID. Teig unverändert 200 g Mehl, 165 g Butter, 120 ml Wasser; Mehl zum Ausrollen ohne Quellenmenge nicht beziffert. Bonusbrot entfällt vollständig. Originalportionen: je vier, vom Nutzer bestätigt; unverändert übernommen."
+    }
+  ]
+}
