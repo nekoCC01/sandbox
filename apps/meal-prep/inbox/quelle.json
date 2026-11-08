@@ -1,0 +1,14 @@
+{
+  "status": "new",
+  "bookId": null,
+  "originalTitle": null,
+  "pages": null,
+  "originalServings": {
+    "total": null,
+    "perMeal": null,
+    "meals": null
+  },
+  "targetServingsPerMeal": null,
+  "files": null,
+  "notes": null
+}

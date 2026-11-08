@@ -8,7 +8,7 @@ Die Regeln liegen im Projekt; der alte Chat muss dafür nicht mitgegeben werden.
 
 1. Einen Quellenordner anlegen, z. B. `apps/meal-prep/inbox/sunday-meal-prep/woche-06/`.
 2. Screenshots vollständig und in Leserichtung ablegen, z. B. `01-uebersicht.jpg`, `02-zutaten.jpg`, `03-vorbereitung.jpg`, `04-gerichte.jpg`.
-3. Die [Beispiel-Quelldaten](inbox/_beispiel-couscous/quelle.json) als `quelle.json` in den neuen Ordner kopieren. `status` auf `new` setzen, Buch/Titel/Portionen anpassen und echte Dateinamen eintragen. Unbekannte Seiten oder Portionszahlen als `null` belassen.
+3. Die [leere Vorlage](inbox/quelle.json) als `quelle.json` in den neuen Ordner kopieren. Bekannte Angaben oder Wünsche ergänzen; alles Unbekannte bleibt `null`. `status` steht bereits auf `new`. Dateinamen müssen nicht eingetragen werden: Bei `files: null` liest Codex alle Bild- und PDF-Dateien direkt im Quellordner in numerischer Reihenfolge (z. B. `01`, `02`, …, `10`). Buch und Originaltitel können auch im Auftrag genannt oder aus den Bildern ermittelt werden.
 4. Den folgenden Prompt mit angepasstem Ordner und Originaltitel verwenden.
 5. Nach dem Import Änderungen und offene Angaben in `import-notizen.md` im Quellordner nachlesen. Das Quellenmaterial bleibt unverändert; neue Kombis erscheinen in der App.
 

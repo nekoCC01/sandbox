@@ -2,7 +2,7 @@
 
 Ziel: schnell sichtbar machen, wie einmal vorbereitete Zutaten mehrere Mahlzeiten ergeben. KISS: Vanilla HTML/CSS/JS, keine Datenbank, keine Build-Abhängigkeiten.
 
-Bei Rezeptimporten zuerst `REZEPT-IMPORT.md` lesen. Als Formvorlage dienen `inbox/_beispiel-couscous/quelle.json` und `datensatz.json`; sie sind bereits eingearbeitet und dürfen nicht erneut importiert werden. Neue Quellen nur aus dem ausdrücklich genannten Ordner oder den aktuellen Chat-Anhängen übernehmen.
+Bei Rezeptimporten zuerst `REZEPT-IMPORT.md` lesen. Die leere Metadatenvorlage liegt in `inbox/quelle.json`. Bei fehlendem oder `null` gesetztem `files` alle Bild- und PDF-Dateien direkt im genannten Quellordner automatisch numerisch nach Dateinamen sortiert lesen; Details stehen in der Importanleitung. `inbox/_beispiel-couscous/quelle.json` und `datensatz.json` zeigen eine bereits eingearbeitete Quelle und dürfen nicht erneut importiert werden. Neue Quellen nur aus dem ausdrücklich genannten Ordner oder den aktuellen Chat-Anhängen übernehmen.
 
 - Auf das Wesentliche reduzieren: möglichst 2–4 Gerichte je Kombi, umfangreiche Wochenpläne teilen, Bonusgerichte ignorieren. Keine vollständigen Buchtexte abschreiben.
 - Gemeinsame Vorbereitungen als Bausteine erfassen. Pro Gericht Anteile und nur zusätzliche Zutaten angeben. Keine doppelte Erfassung derselben Menge in Baustein und Rezept.

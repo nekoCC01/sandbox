@@ -13,11 +13,17 @@ inbox/<bookId>/<originaltitel-slug>/
   04-gerichte.jpg
 ```
 
-Dateinamen dürfen abweichen; nummerierte Namen erleichtern die Reihenfolge. Alle nötigen Rezeptseiten beilegen, nicht nur die Einkaufsliste. Screenshots im Chat bleiben möglich. Chat-Anhänge sind nicht automatisch als Dateien im Repository archiviert; nur tatsächlich vorhandene Dateien in `files` auflisten. Keine Platzhalterbilder erzeugen.
+Dateinamen dürfen abweichen. Bei fehlendem oder `null` gesetztem `files` liest Codex automatisch alle Bilddateien (`.png`, `.jpg`, `.jpeg`, `.webp`, `.heic`, `.avif`, `.gif`, `.tif`, `.tiff`, `.bmp`) und PDFs direkt im ausdrücklich genannten Quellordner, ohne Unterordner zu durchsuchen; Endungen unabhängig von Groß-/Kleinschreibung erkennen. Dateinamen natürlich numerisch sortieren: `01-…`, `02-…`, …, `10-…` (auch `1`, `2`, `10`); bei gleicher Zahl entscheidet der übrige Dateiname. Bei unklarer Leserichtung anhand der Inhalte prüfen und kritische Unklarheiten erfragen. PDF-Seiten in Dokumentreihenfolge lesen.
+
+Dateinamen müssen nicht noch einmal in JSON eingetragen werden. Eine explizite `files`-Liste bleibt optional: Dann nur die aufgeführten Dateien in der angegebenen Reihenfolge lesen. Eine leere Liste `[]` bedeutet keine lokalen Quelldateien, etwa bei Chat-Anhängen. Fehlende explizit aufgeführte Dateien melden, nicht still durch andere ersetzen.
+
+Alle nötigen Rezeptseiten beilegen, nicht nur die Einkaufsliste. Screenshots im Chat bleiben möglich. Chat-Anhänge sind nicht automatisch als Dateien im Repository archiviert. Keine Platzhalterbilder erzeugen.
 
 `inbox/_beispiel-couscous/` enthält eine ausgefüllte Metadatenvorlage und einen gültigen Datenausschnitt zum Orientieren, keine Bilder und keinen neuen Importauftrag.
 
 ## 2. Metadaten angeben
+
+Die kopierbare [leere Vorlage](inbox/quelle.json) enthält `status: "new"`; alle übrigen Angaben sind mit `null` vorbelegt. Nur bekannte Angaben oder eigene Wünsche ergänzen. `null` bedeutet unbekannt bzw. keine Vorgabe: Codex darf Angaben aus den Bildern oder dem Auftrag übernehmen, aber nicht erfinden. Buch und Originaltitel müssen vor dem fertigen Import geklärt sein.
 
 `quelle.json` ist eine kleine Begleitdatei, kein automatischer Importmechanismus:
 
@@ -28,7 +34,7 @@ Dateinamen dürfen abweichen; nummerierte Namen erleichtern die Reihenfolge. All
 | `pages` | Bestätigte Buchseiten als Liste, sonst `null`. PDF-Anzeigeseiten separat als `documentPages` angeben. |
 | `originalServings` | Bekannte Original-Portionen; bei verschiedenen Gerichten getrennte Angaben. Unbekannt = `null`. |
 | `targetServingsPerMeal` | Optionaler Wunsch; sonst Originalportionen beibehalten. |
-| `files` | Tatsächlich im Ordner liegende Bild-/PDF-Dateien; bei Chat-Anhängen leer lassen. |
+| `files` | `null` oder weggelassen: alle Bilder/PDFs direkt im Quellordner automatisch numerisch sortiert lesen. Optional: Dateinamenliste für eine gezielte Auswahl/Reihenfolge. `[]`: keine lokalen Dateien. |
 | `notes` | Besondere Wünsche, z. B. „vorgegarte Rote Bete verwenden“. |
 | `status` | `new`, `needs-clarification` oder `imported`; Beispiel nutzt `example-already-imported`. |
 
@@ -36,7 +42,7 @@ Standard: Deutsch, metrisch, möglichst 2–4 Gerichte je Kombi, kurze Anleitung
 
 ## 3. Einheitlicher Arbeitsablauf
 
-1. Projektregeln, Metadaten, vorhandene Bücher und Zutaten lesen; alle angegebenen Bilder ansehen. Prüfen, ob die Quelle schon über `bookId` + `originalTitle` + Fundstelle eingearbeitet ist. Wochen können mehrere Kombis ergeben.
+1. Projektregeln, Metadaten, vorhandene Bücher und Zutaten lesen; Quelldateien nach der obigen `files`-Regel ermitteln und vollständig ansehen. Prüfen, ob die Quelle schon über `bookId` + `originalTitle` + Fundstelle eingearbeitet ist. Wochen können mehrere Kombis ergeben.
 2. Originalportionen, Mengen und Verteilung herausarbeiten. Fehlende Angaben kennzeichnen. Bei kritischen Lücken keinen scheinbar fertigen Datensatz veröffentlichen.
 3. Auf wenige Bausteine reduzieren. Wiederverwendung kann gemeinsames Garen oder Aufteilen einer Rohzutat sein; Zustand ausdrücklich beschreiben. Keine Wiederverwendung behaupten, die aus den Daten nicht entsteht.
 4. Vereinfachen: Toppings und separate Saucen reduzieren, Zutaten vereinheitlichen, bei Bedarf Wochenplan teilen. Umstellungen sind erlaubt, müssen als Anpassung erkennbar bleiben. Kein vollständiges Originalrezept kopieren.
