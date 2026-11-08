@@ -116,3 +116,7 @@ Titel und Autorinnen nach den bereitgestellten Covern. Seitenzahlen werden erst 
 ## Tragende Zutaten
 
 `Combo.ingredientUses` zählt unterschiedliche Tagesgerichte pro Zutat, über Bausteine und direkte Rezeptzutaten hinweg. `keyIngredients` enthält Zutaten in mindestens zwei Gerichten, absteigend nach Verwendungen. `ingredients.supporting: true` nimmt Öl, Brühe und Gewürze aus dieser Hervorhebung aus; sie bleiben in Mengen und Einkaufsliste enthalten. Die Schlüsselzutaten stehen auf Cards zuerst, mit „↳“ und Anzahl der Gerichte. Details zeigen dieselbe Übersicht und markieren die Zutatennamen in Prep, Tageskarten und Einkaufsliste.
+
+### Portionsstandards beim Import
+
+`cookbooks.js` enthält Rückfallwerte pro Gericht: Sunday Meal Prep 4, Cook Once 4, Meal Prep 2 (typisch 4 Lunch-Portionen insgesamt). Explizite `originalServings.perRecipe`/`perMeal` in `quelle.json` haben Vorrang vor konkreten Bildangaben und anschließend dem Buchstandard. `null` lässt die nächste Stufe greifen. `targetServingsPerMeal` ist nur der separate Skalierungswunsch. Abweichende Originalportionen und bestehende Kombis bleiben erhalten. Beispiele und Regeln für Gesamtportionen sowie unterschiedliche Gerichtsportionen: [Importanleitung](REZEPT-IMPORT.md#portionsvorgaben-und-vorrang).

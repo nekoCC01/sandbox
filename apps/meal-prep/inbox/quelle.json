@@ -6,7 +6,8 @@
   "originalServings": {
     "total": null,
     "perMeal": null,
-    "meals": null
+    "meals": null,
+    "perRecipe": null
   },
   "targetServingsPerMeal": null,
   "files": null,

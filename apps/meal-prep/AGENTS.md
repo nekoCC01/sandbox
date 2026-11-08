@@ -6,6 +6,7 @@ Bei Rezeptimporten zuerst `REZEPT-IMPORT.md` lesen. Die leere Metadatenvorlage l
 
 - Auf das Wesentliche reduzieren: möglichst 2–4 Gerichte je Kombi, umfangreiche Wochenpläne teilen, Bonusgerichte ignorieren. Keine vollständigen Buchtexte abschreiben.
 - Gemeinsame Vorbereitungen als Bausteine erfassen. Pro Gericht Anteile und nur zusätzliche Zutaten angeben. Keine doppelte Erfassung derselben Menge in Baustein und Rezept.
+- Originalportionen: explizite Metadaten pro Gericht bzw. `perMeal` vor konkreter Bildangabe vor `cookbooks.js/defaultServingsPerMeal`. `null` überspringt die jeweilige Stufe; bei bekanntem Buchstandard keine Rückfrage allein wegen fehlender Portionen. Gesamtportionen nicht mit Portionen je Gericht verwechseln. Zielportionen sind eine separate Skalierung; bestehende Kombis nicht automatisch normieren. Details und Ausnahmen in `REZEPT-IMPORT.md`.
 - Deutsch, metrische Angaben, kurze Schritte. Originalmengen und eigene Anpassungen unterscheiden. Roh-/Garzustand und Abtropfgewicht erhalten. Garzeiten nicht proportional skalieren.
 - Fehlende/unleserliche Mengen, Buchangaben oder Schritte nicht als Fakten erfinden. Kritische Unklarheiten gezielt erfragen; abhängige Daten bis dahin als Entwurf außerhalb von `data.js` behalten. Unabhängige Teile weiterbearbeiten.
 - Kochbücher gesondert in `cookbooks.js`; Kombis mit `bookId`, `originalTitle` und `bookReference` zuordnen. Originaltitel bewahren, App-Kurztitel zusätzlich möglich. Seitenzahlen nur aus bestätigter Quelle.

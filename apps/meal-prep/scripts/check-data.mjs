@@ -37,7 +37,16 @@ function validate(raw, Catalog) {
     assert(Array.isArray(list) && list.length, `${context}: Schritte fehlen`);
     list.forEach(step => text(step, context));
   };
-  raw.cookbooks.forEach(book => { text(book.title, book.id); text(book.author, book.id); });
+  raw.cookbooks.forEach(book => {
+    text(book.title, book.id); text(book.author, book.id);
+    // Optional für ältere externe Datensätze und Bücher ohne bekannten Standard.
+    // Ein konkreter Standard darf abweichende Rezeptportionen nicht überschreiben.
+    for (const field of ['defaultServingsPerMeal', 'defaultTotalServings']) {
+      if (book[field] !== undefined && book[field] !== null) {
+        assert(Number.isInteger(book[field]) && book[field] > 0, `${book.id}/${field}: positive ganze Portionszahl erwartet`);
+      }
+    }
+  });
   raw.ingredients.forEach(ingredient => {
     text(ingredient.name, ingredient.id); text(ingredient.unit, ingredient.id);
     assert(ingredient.supporting === undefined || typeof ingredient.supporting === 'boolean', `${ingredient.id}: supporting muss boolesch sein`);
@@ -105,6 +114,9 @@ try {
   const catalog = validate(raw, Catalog);
   if (selfTest) {
     const cases = [
+      ['ungültiger Buchstandard', copy => { copy.cookbooks[0].defaultServingsPerMeal = 0; }],
+      ['gebrochener Buchstandard', copy => { copy.cookbooks[0].defaultServingsPerMeal = 2.5; }],
+      ['ungültige Gesamtportionen', copy => { copy.cookbooks[0].defaultTotalServings = -4; }],
       ['doppelte ID', copy => copy.ingredients.push({ ...copy.ingredients[0] })],
       ['fehlendes Buch', copy => { copy.combos[0].bookId = 'missing'; }],
       ['fehlender Originaltitel', copy => { copy.combos[0].originalTitle = ''; }],

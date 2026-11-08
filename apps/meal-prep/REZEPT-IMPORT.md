@@ -25,7 +25,7 @@ Alle nötigen Rezeptseiten beilegen, nicht nur die Einkaufsliste. Screenshots im
 
 Die kopierbare [leere Vorlage](inbox/quelle.json) enthält `status: "new"`; alle übrigen Angaben sind mit `null` vorbelegt. Nur bekannte Angaben oder eigene Wünsche ergänzen. `null` bedeutet unbekannt bzw. keine Vorgabe: Codex darf Angaben aus den Bildern oder dem Auftrag übernehmen, aber nicht erfinden. Buch und Originaltitel müssen vor dem fertigen Import geklärt sein.
 
-`quelle.json` im angegebenen Quellordner ist Konvention: Codex liest sie beim Import automatisch. Sie muss im Prompt nicht gesondert genannt werden; Buch und Originaltitel werden daraus übernommen. Fehlende oder mit `null` belegte Angaben nach Möglichkeit aus den Bildern ermitteln und kritische Lücken gezielt erfragen.
+`quelle.json` im angegebenen Quellordner ist Konvention: Codex liest sie beim Import automatisch. Sie muss im Prompt nicht gesondert genannt werden; Buch und Originaltitel werden daraus übernommen. Fehlende oder mit `null` belegte Angaben nach Möglichkeit aus den Bildern ermitteln. Für Portionen gilt die folgende Vorrangregel; nur danach verbleibende kritische Lücken gezielt erfragen.
 
 `quelle.json` ist eine kleine Begleitdatei, kein automatischer Importmechanismus:
 
@@ -34,7 +34,7 @@ Die kopierbare [leere Vorlage](inbox/quelle.json) enthält `status: "new"`; alle
 | `bookId` | Bestehende ID aus `cookbooks.js`; bei neuem Buch zunächst Titel und Autor ergänzen lassen. |
 | `originalTitle` | Titel/Woche exakt wie im Buch, unabhängig vom App-Titel. |
 | `pages` | Bestätigte Buchseiten als Liste, sonst `null`. PDF-Anzeigeseiten separat als `documentPages` angeben. |
-| `originalServings` | Bekannte Original-Portionen; bei verschiedenen Gerichten getrennte Angaben. Unbekannt = `null`. |
+| `originalServings` | Original-Portionen: `perMeal` für eine einheitliche Zahl je Gericht; `perRecipe` für abweichende Zahlen nach Original-Gerichtstitel; `total` für alle Portionen zusammen; `meals` für die Anzahl Gerichte. Unbekannte Felder = `null`. |
 | `targetServingsPerMeal` | Optionaler Wunsch; sonst Originalportionen beibehalten. |
 | `files` | `null` oder weggelassen: alle Bilder/PDFs direkt im Quellordner automatisch numerisch sortiert lesen. Optional: Dateinamenliste für eine gezielte Auswahl/Reihenfolge. `[]`: keine lokalen Dateien. |
 | `notes` | Besondere Wünsche, z. B. „vorgegarte Rote Bete verwenden“. |
@@ -42,10 +42,48 @@ Die kopierbare [leere Vorlage](inbox/quelle.json) enthält `status: "new"`; alle
 
 Standard: Deutsch, metrisch, möglichst 2–4 Gerichte je Kombi, kurze Anleitung, Bonusgerichte auslassen, Fokus auf gemeinsame Zutaten. Dafür keine zusätzlichen Parameter nötig.
 
+### Portionsvorgaben und Vorrang
+
+In `cookbooks.js` stehen Rückfallwerte pro Gericht in `defaultServingsPerMeal`:
+
+| Buch-ID | Portionen je Gericht | Bedeutung |
+| --- | --- | --- |
+| `sunday-meal-prep` | 4 | Standard pro Hauptgericht |
+| `cook-once` | 4 | Standard pro Hauptgericht; konkrete 5 oder 6 haben Vorrang |
+| `meal-prep` | 2 | Üblicherweise zwei Gerichte mit je zwei Lunch-Portionen; `defaultTotalServings: 4` beschreibt die Gesamtmenge |
+
+Originalportionen für jedes Gericht in dieser Reihenfolge bestimmen:
+
+1. Explizite Vorgabe/Korrektur im aktuellen Auftrag bzw. `quelle.json`: zuerst `originalServings.perRecipe[Originaltitel]`, dann `originalServings.perMeal`.
+2. Konkrete Portionsangabe beim betreffenden Originalrezept in den Screenshots.
+3. `defaultServingsPerMeal` des Buchs.
+
+`null` oder ein fehlendes Feld überspringt nur diese Stufe. Bei bekanntem Buchstandard nicht allein wegen fehlender Portionsangabe nachfragen. Widersprüche zwischen Metadaten und Bildern dokumentieren und bei unklarer Absicht klären. Ein Buchstandard ist eine dokumentierte Annahme, keine auf dem Screenshot bestätigte Angabe. Die Herkunft der verwendeten Portionszahl in `import-notizen.md` und `scalingNote` festhalten.
+
+Beispiel einer Ausnahme bei Cook Once:
+
+```json
+"originalServings": {
+  "total": null,
+  "perMeal": null,
+  "meals": 3,
+  "perRecipe": { "White Chicken Chili": 6 }
+},
+"targetServingsPerMeal": null
+```
+
+Hier ergeben sich für Chili sechs Originalportionen; für die anderen Gerichte gelten konkrete Bildangaben oder andernfalls der Buchstandard vier. `perRecipe` verwendet die Originaltitel der Gerichte, nicht den Wochentitel. Alle angegebenen Portionszahlen müssen positive ganze Zahlen sein.
+
+`total` ist niemals gleichbedeutend mit Portionen pro Gericht. Insbesondere die vier Lunch-Portionen von „Meal Prep“ nicht jedem Gericht zuweisen. Gesamtportionen nicht ungeprüft durch die Anzahl Gerichte teilen: etwa vier Varianten mit je einer Portion müssen als solche erfasst werden. Bekannte Gesamtmengen gegen die Summe der einzelnen Gerichte prüfen; bei Widerspruch nicht still den Buchstandard anwenden. Bonusgerichte zählen nicht zu den importierten Hauptgerichten; den Bezugsumfang einer Gesamtzahl dokumentieren.
+
+`targetServingsPerMeal` bleibt separat: Bei `null` die so ermittelten Originalportionen beibehalten; bei einer Zahl Zutaten bewusst darauf skalieren und Umrechnung dokumentieren. Unterschiedliche Originalportionen nicht automatisch auf den Buchstandard normieren. Da `baseServings` im bestehenden Modell für jedes Gericht einer Kombi gilt, Gerichte mit unterschiedlichen Portionszahlen in passende Kombis teilen oder eine explizite Zielportionenzahl klären. Keine falsche einheitliche Zahl über unveränderte Mengen schreiben.
+
+Die App erhält weiterhin eine konkrete `baseServings` je Kombi. Der Buchstandard ergänzt beim Import fehlendes Wissen; er ersetzt keine fehlende `baseServings` im fertigen Datensatz. Das Prüfskript prüft die Buchstandards auf positive ganze Zahlen, verlangt aber keine Gleichheit zwischen Buchstandard und Kombi.
+
 ## 3. Einheitlicher Arbeitsablauf
 
 1. Projektregeln, Metadaten, vorhandene Bücher und Zutaten lesen; Quelldateien nach der obigen `files`-Regel ermitteln und vollständig ansehen. Prüfen, ob die Quelle schon über `bookId` + `originalTitle` + Fundstelle eingearbeitet ist. Wochen können mehrere Kombis ergeben.
-2. Originalportionen, Mengen und Verteilung herausarbeiten. Fehlende Angaben kennzeichnen. Bei kritischen Lücken keinen scheinbar fertigen Datensatz veröffentlichen.
+2. Originalportionen gemäß Vorrangregel (Metadaten → konkrete Rezeptangabe → Buchstandard), Mengen und Verteilung herausarbeiten. Fehlende Angaben kennzeichnen. Bei kritischen Lücken keinen scheinbar fertigen Datensatz veröffentlichen.
 3. Auf wenige Bausteine reduzieren. Wiederverwendung kann gemeinsames Garen oder Aufteilen einer Rohzutat sein; Zustand ausdrücklich beschreiben. Keine Wiederverwendung behaupten, die aus den Daten nicht entsteht.
 4. Vereinfachen: Toppings und separate Saucen reduzieren, Zutaten vereinheitlichen, bei Bedarf Wochenplan teilen. Umstellungen sind erlaubt, müssen als Anpassung erkennbar bleiben. Kein vollständiges Originalrezept kopieren.
 5. Daten in `data.js` einfügen. Neue Bücher in `cookbooks.js`. Quelle und Änderungen in der Kombi erhalten. Pro vorbereiteter Gesamtmenge müssen die Rezeptanteile genau 100 % ergeben. `baseServings` gilt für jedes Gericht, nicht für die gesamte Kombi.
