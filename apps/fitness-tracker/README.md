@@ -24,11 +24,11 @@ ES-Module und JSON-Fetch benötigen HTTP. Für gleichbleibende Browserdaten dens
 
 Zeitbasierte Wiederholungen sind grobe Schätzungen, auf eine Dezimalstelle gerundet und mit ≈ markiert. Manuelle Werte haben Vorrang. Die Herkunft bleibt als `repsSource: manual|estimated|prescribed` erhalten. Bei einseitigen Übungsphasen enthält die Zeit beide Seiten insgesamt; simultane Bewegungen zählen als ein Bewegungszyklus.
 
-Die eine übernommene Fitness+-Vorlage enthält sechs dokumentierte Slots; ihre ursprüngliche Warnung auf möglicherweise unvollständige Übungsfolge bleibt sichtbar. Es werden keine fehlenden Videophasen oder Gewichte erfunden.
+Das Fitness+-Training vom 19.10. ist mit 18 dokumentierten Phasen à 40 Sekunden wiederhergestellt. Die frühere Kurzvorlage mit sechs Phasen bleibt für bestehende Verweise erhalten. Es werden keine weiteren Videophasen oder Gewichtsbezüge erfunden.
 
 ## Datenmodell v2
 
-`data/catalog.json`: Quellen, Anatomie, sechs Grundbewegungen, Übungsfamilien, 29 Übungen und Workouts. Ausschließlich Körpergewicht und Kurzhanteln; keine Bank, Bänder oder Geräte. Vertikales Ziehen bleibt ohne passende Übung, bis sich die Gerätebeschränkung ändert. Nicht sinnvoll zugeordnete Übungen erscheinen als ergänzend.
+`data/catalog.json`: Quellen, Anatomie, sechs Grundbewegungen, Übungsfamilien, 30 Übungen und Workouts. Ausschließlich Körpergewicht und Kurzhanteln; keine Bank, Bänder oder Geräte. Vertikales Ziehen bleibt ohne passende Übung, bis sich die Gerätebeschränkung ändert. Nicht sinnvoll zugeordnete Übungen erscheinen als ergänzend.
 
 `data/user.json`: ausschließlich `schemaVersion: 2` und `sessions`.
 
@@ -68,7 +68,7 @@ Die sechs Grundbewegungen und ergänzende Übungen teilen sich die gesamte aktiv
 
 ## Bereinigung vom 15. November 2026
 
-Unveränderte v1-Dateien liegen in `data/archive/2026-11-15/` (83 Übungen, 15 Vorlagen, 29 Sessions). Das Import-Quelldokument liegt weiterhin unter `data/imports/`. Die aktive Sessionliste wurde geleert. Nur die Fitness+-Vorlage mit Zeitangaben für alle dokumentierten Slots blieb erhalten; dazu kommen Einzelübungs-Vorlagen.
+Unveränderte v1-Dateien liegen in `data/archive/2026-11-15/` (83 Übungen, 15 Vorlagen, 29 Sessions). Das Import-Quelldokument liegt weiterhin unter `data/imports/`. Sieben belegte Sessions wurden anschließend wiederhergestellt: Wall-Pushups am 28.9. (60 Wdh.) und 1.10. (100), Schulterdrücken am 28.9. (12) und 30.9. (24 insgesamt), Rudern am 30.9. (24 insgesamt), Hinge am 8.10. (12) sowie Fitness+ mit Sam am 19.10. (18 Phasen). Die ursprünglichen Datumsannahmen und Originalnotizen bleiben an den Einträgen sichtbar. Ungefähre, undatierte und nicht ausreichend dokumentierte Trainings bleiben im Archiv. Bereiche und unsichere Wiederholungen im Fitness+-Training werden anhand der belegten 40 Sekunden geschätzt; fünf solche Werte sind ausdrücklich mit ≈ markiert.
 
 Der neue Browser-Speicherschlüssel lautet `fitness-tracker.user.v2`. `fitness-tracker.user.v1` wird weder geladen noch überschrieben. Unter „Meine Daten → Alten Browserstand sichern“ lässt er sich separat exportieren. Alte v1-Exporte werden nicht importiert; damit kehren bereinigte Einträge nicht still zurück.
 
@@ -94,3 +94,9 @@ node --check apps/fitness-tracker/js/models.mjs
 ```
 
 Die Tests prüfen Archivtrennung, Schätzwerte, manuelle Angaben, Halteübungen, Gewichtspflicht, Referenzen, ungültige Daten, Vorgaben-Snapshots, zeitbasierte Statistik, idempotente Imports, Speicherfehler, konkurrierende Tabs und das Persistenzskript.
+
+### Historische Gewichtsangaben
+
+Bei übernommenen Hanteltrainings bleibt ein ungeklärter Gewichtsbezug als `loadUnresolvedKg` erhalten und wird als „Originalangabe, Bezug ungeklärt“ angezeigt. Dieses Feld ist nur mit Originalquelle zulässig, wird nicht als kg pro Hantel behandelt und erscheint nicht als zusätzliche Auswahl im Erfassungsformular. Beim Bearbeiten muss das Gewicht pro Hantel bestätigt werden. Die Originalnotizen bleiben erhalten. Die Brückenphase mit Gewicht auf dem Bauch ist eindeutig eine einzelne Last.
+
+Die Übersicht filtert nach 14/30/90 Tagen; das Trainingslog zeigt alle Sessions unabhängig vom Zeitraum.

@@ -10,10 +10,10 @@ const session=e=>({id:'test',date:'2026-11-15',workoutId:'single-'+e.exerciseId,
 const user=e=>({...emptyUser(),sessions:[session(e)]});
 test('clean catalog and archived source remain separate',async()=>{
  const old=JSON.parse(await readFile(new URL('../data/archive/2026-11-15/user.json',import.meta.url)));
- assert.equal(old.sessions.length,29);assert.equal(raw.exercises.length,29);
- assert.equal(raw.workouts.filter(w=>w.type==='fitness-plus').length,1);
+ assert.equal(old.sessions.length,29);assert.equal(raw.exercises.length,30);
+ assert.equal(raw.workouts.filter(w=>w.type==='fitness-plus').length,2);
  assert.ok(raw.exercises.every(e=>e.equipment.every(k=>k==='dumbbell')));
- assert.equal(validateUser(JSON.parse(await readFile(new URL('../data/user.json',import.meta.url))),catalog).sessions.length,0);
+ assert.equal(validateUser(JSON.parse(await readFile(new URL('../data/user.json',import.meta.url))),catalog).sessions.length,7);
  assert.throws(()=>validateUser(old,catalog),/Datenformat/);
 });
 test('time estimates, manual repetitions and hold duration follow distinct rules',()=>{
@@ -50,4 +50,21 @@ test('storage isolates v1, merges idempotently, and preserves state on quota and
 });
 test('corrupt new browser data blocks writes and remains untouched',()=>{
  const storage={getItem:()=>'{broken',setItem:()=>assert.fail('must not write')};const store=new UserStore(emptyUser(),catalog,storage);assert.equal(store.readOnly,true);assert.throws(()=>store.save(emptyUser()));
+});
+
+test('restored logs retain proven reps, full Fitness+ rounds and unresolved loads',async()=>{
+ const data=validateUser(JSON.parse(await readFile(new URL('../data/user.json',import.meta.url))),catalog);
+ const get=id=>data.sessions.find(s=>s.id===id);
+ assert.equal(get('md-2026-0928-wall').entries[0].reps,60);
+ assert.equal(get('md-2026-1001-wall').entries[0].reps,100);
+ assert.equal(get('md-2026-0930-single-db-shoulder-press').entries[0].reps,24);
+ assert.equal(get('md-2026-0930-single-db-row').entries[0].reps,24);
+ const single=get('md-2026-1008-hinge').entries[0];assert.equal(single.reps,12);assert.equal(single.loadKg,undefined);assert.equal(single.loadUnresolvedKg,10);
+ const fitness=get('md-2026-1019-strength');assert.equal(fitness.entries.length,18);
+ assert.equal(fitness.entries.filter(e=>e.repsSource==='estimated').length,5);
+ assert.equal(fitness.entries.at(-1).reps,4);
+ assert.equal(fitness.entries.filter(e=>e.exerciseId==='floor-bridge').reduce((sum,e)=>sum+e.reps,0),29);
+ assert.equal(fitness.entries.reduce((sum,e)=>sum+e.durationSeconds,0),720);
+ assert.ok(data.sessions.every(s=>s.source.originalText));
+ const broken=structuredClone(data);delete broken.sessions[0].source;assert.throws(()=>validateUser(broken,catalog));
 });

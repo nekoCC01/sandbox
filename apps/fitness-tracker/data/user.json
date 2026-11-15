@@ -1,4 +1,347 @@
 {
   "schemaVersion": 2,
-  "sessions": []
+  "sessions": [
+    {
+      "id": "md-2026-1019-strength",
+      "date": "2026-10-19",
+      "workoutId": "apple-1805895783-documented",
+      "entries": [
+        {
+          "slotId": "s1",
+          "exerciseId": "db-shoulder-squat",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 8,
+          "repsSource": "estimated",
+          "loadUnresolvedKg": 9
+        },
+        {
+          "slotId": "s2",
+          "exerciseId": "hinge-row",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 8,
+          "repsSource": "manual",
+          "loadUnresolvedKg": 9
+        },
+        {
+          "slotId": "s3",
+          "exerciseId": "db-shoulder-squat",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 8,
+          "repsSource": "manual",
+          "loadUnresolvedKg": 14
+        },
+        {
+          "slotId": "s4",
+          "exerciseId": "hinge-row",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 6,
+          "repsSource": "manual",
+          "loadUnresolvedKg": 14
+        },
+        {
+          "slotId": "s5",
+          "exerciseId": "db-shoulder-squat",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 7,
+          "repsSource": "manual",
+          "loadUnresolvedKg": 14
+        },
+        {
+          "slotId": "s6",
+          "exerciseId": "hinge-row",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 8,
+          "repsSource": "estimated",
+          "loadUnresolvedKg": 14
+        },
+        {
+          "slotId": "s7",
+          "exerciseId": "floor-bridge",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 9,
+          "repsSource": "manual",
+          "loadKg": 9
+        },
+        {
+          "slotId": "s8",
+          "exerciseId": "floor-press",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 8,
+          "repsSource": "estimated",
+          "loadUnresolvedKg": 9
+        },
+        {
+          "slotId": "s9",
+          "exerciseId": "floor-bridge",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 10,
+          "repsSource": "manual",
+          "loadKg": 14
+        },
+        {
+          "slotId": "s10",
+          "exerciseId": "floor-press",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 8,
+          "repsSource": "estimated",
+          "loadUnresolvedKg": 14
+        },
+        {
+          "slotId": "s11",
+          "exerciseId": "floor-bridge",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 10,
+          "repsSource": "manual",
+          "loadKg": 14
+        },
+        {
+          "slotId": "s12",
+          "exerciseId": "floor-press",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 5,
+          "repsSource": "manual",
+          "loadUnresolvedKg": 14
+        },
+        {
+          "slotId": "s13",
+          "exerciseId": "db-shoulder-squat",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 7,
+          "repsSource": "manual",
+          "loadUnresolvedKg": 9
+        },
+        {
+          "slotId": "s14",
+          "exerciseId": "hinge-row",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 8,
+          "repsSource": "estimated",
+          "loadUnresolvedKg": 9
+        },
+        {
+          "slotId": "s15",
+          "exerciseId": "db-shoulder-squat",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 7,
+          "repsSource": "manual",
+          "loadUnresolvedKg": 14
+        },
+        {
+          "slotId": "s16",
+          "exerciseId": "hinge-row",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 6,
+          "repsSource": "manual",
+          "loadUnresolvedKg": 14
+        },
+        {
+          "slotId": "s17",
+          "exerciseId": "db-shoulder-squat",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 5,
+          "repsSource": "manual",
+          "loadUnresolvedKg": 14
+        },
+        {
+          "slotId": "s18",
+          "exerciseId": "hinge-row",
+          "prescription": {
+            "durationSeconds": 40
+          },
+          "durationSeconds": 40,
+          "reps": 4,
+          "repsSource": "manual",
+          "loadUnresolvedKg": 14
+        }
+      ],
+      "notes": "Je Übung 40 Sekunden Videovorgabe. Gegen Ende stark verlangsamt; Wechsel zum Grundlagenprogramm erwogen.\n\nWiederhergestellt aus Originalnotizen. Bereiche (9–10, 6–7), unsichere Angaben (7?) und fehlende Wiederholungen werden als ≈ 8 aus 40 Sekunden geführt; die ursprünglichen Angaben stehen in den Originalnotizen. Ungeklärte Gewichte sind nicht als kg pro Hantel interpretiert.\n\nSeptember/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007.\n\nQuelle: data/imports/00 Training erfassen.md / Mo, 19.10.",
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mo, 19.10.",
+        "originalText": "# Mo, 19.10. {#mo,-19.10.}\n\nwill neu durchstarten\n\n* 3 Wochen Krafttraining \\- Fitness\n\nheute  \n[https\\://fitness.apple.com/de/workout/woche-1-ganzk%C3%B6rper-krafttraining-mit-sam/1805895783](https://fitness.apple.com/de/workout/woche-1-ganzk%C3%B6rper-krafttraining-mit-sam/1805895783)   \njede Übung 40s\n\n* 9kg  \n  * Squat \\+ Dumbbell (an Schulter) \\- 9-10 Wdh  \n  * Hinge \\+ Row (separat) \\- 8 Wdh  \n* 14 kg  \n  * 2 x:  \n    * Squat \\+ Dumbbell (an Schulter) \\- 8 / 7  \n    * Hinge \\+ Row (separat) \\- 6 / 6-7\n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n* 9kg  \n  * Brücke mit Gewicht auf Bauch \\- 9  \n  * Floor Press (separat) (oben halten, jew 45° runter) \\- ?  \n* 14 kg  \n  * 2 x:  \n    * Brücke mit Gewicht auf Bauch \\- 10 / 10  \n    * Floor Press (separat) (oben halten, jew 45° runter) \\- 7? / **5**  \n      * ( letztes Mal hart)\n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n* 9kg  \n  * Squat \\+ Dumbbell (an Schulter) \\- 7 Wdh  \n  * Hinge \\+ Row (separat) \\- 7?  \n* 14 kg  \n  * 2 x:  \n    * Squat \\+ Dumbbell (an Schulter) \\- 7 / 5  \n    * Hinge \\+ Row (separat) \\- 6 / **4**\n\nwurde echt hart, gegen Ende hin, mit 14 kg  \nich verlangsame stark\n\nentscheide mich:  \nwohl doch erstmal das andere Programm: Grundlagen des Krafttrainings\n\n---\n\nZur Wiederholung hier noch einmal, was der »blutige« untrainierte Anfänger tun und wissen muss: •​Er sollte sich mit den grundlegenden Übungen vertraut machen und sie allmählich beherrschen. •​Er sollte meist eine höhere Zahl von Wiederholungen durchführen, um Bewegungsmuster zu verändern und das Bindegewebe zu stärken.\n\nLow, Steven. Overcoming Gravity \\- Schwerkraft überwinden: Das Handbuch für systematisches Bodyweight-Training und Gymnastik (p. 198). (Function). Kindle Edition. \n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-0928-wall",
+      "date": "2026-09-28",
+      "workoutId": "single-wall-push-up",
+      "entries": [
+        {
+          "slotId": "s1",
+          "exerciseId": "wall-push-up",
+          "reps": 60,
+          "repsSource": "manual",
+          "prescription": {}
+        }
+      ],
+      "notes": "LEVEL 1: 2 Sets of 30 – geschafft. 2:30 min rechnerisch je Satz.\n\nWiederholungen aller dokumentierten Sätze/Seiten addiert. \n\nSeptember/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007.\n\nQuelle: data/imports/00 Training erfassen.md / Mo, 28.9.",
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mo, 28.9.",
+        "originalText": "# Mo, 28.9. {#mo,-28.9.}\n\n## Core (MB) {#core-(mb)}\n\n[https\\://fitness.apple.com/de/workout/core-mit-kyle/1661892258](https://fitness.apple.com/de/workout/core-mit-kyle/1661892258) \n\naus Sammlung “Mehr Balance”\n\n* Set 1 \\- 2x  \n  * Side Plank, Knie gebeugt \\- Arm Bein zueinander  \n  * …   \n* Set 2 \\- 2x  \n  * …   \n  * Crunch \\- Tip Richtung Fuß\n\n## Wall Pushup {#wall-pushup-1}\n\nerstmal Ziel  \nLEVEL 1: 2 Sets of 30\n\n30 \\=\\> 2x12 (24) \\+ 6 \\=\\> 2,5 min (2min30s)\n\nGeschafft\n\ngeht vor allem in die Arme\n\n## Core 5min {#core-5min}\n\n[https\\://fitness.apple.com/de/workout/core-mit-gregg/1589513785](https://fitness.apple.com/de/workout/core-mit-gregg/1589513785)   \nCore Challenge \\- Nr 1\n\nPrep: Cat/Cow\n\n* Reverse Plank  \n* Bicycle Crunch\n\n## Single Exercise \\- Shoulder Press {#single-exercise---shoulder-press}\n\naus dem gestrigen Grundlagen Training\n\n* **Shoulder Press \\- rechter Arm**\n\n12 Rep Gewicht finden  \nVgl. [01 \\- 10X \\> Week 1: Exercises, Soreness, AMRAP, Measurements, Capacity Test](https://docs.google.com/document/d/1MpU4bNbV70wqvNwi88wIp2dMALjtVWInb_sqT8uSmB8/edit?tab=t.0#heading=h.q6fq1jg4ewt0)\n\n* Trial:   \n  * biomechanics (first set) \\- \\- easy  \n  * breathing pattern \\- \\- couple of reps  \n  * mind-muscle connection \\- rep with specific tempo \\- \\- contract/length  \n  * FIND MAXIMUM (4th set)  \n    * add weight  \n    * up to: 12 standard reps to failure\n\n→ ich mach jetzt nur den letzten Schritt  \nmit vorheriger kurzer Wdh\n\n|  7kg \\- 12 Reps  |\n| :---- |\n\n→ am Ende: es brennt, schmerzt schon\n\n* Gefühl: reicht, aber ich hätte evtl auch mehr Gewicht geschafft  \n* vielleicht sogar mehr, “trying my best”?\n\n→ also nächstes Mal mehr probieren  \n→ oder mit beiden Armen?\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-1001-wall",
+      "date": "2026-10-01",
+      "workoutId": "single-wall-push-up",
+      "entries": [
+        {
+          "slotId": "s1",
+          "exerciseId": "wall-push-up",
+          "reps": 100,
+          "repsSource": "manual",
+          "prescription": {}
+        }
+      ],
+      "notes": "Original: „4 min 10 s“; unklar, ob pro Satz. Nicht als gemessene Gesamtdauer übernommen. Puls am Ende 127.\n\nWiederholungen aller dokumentierten Sätze/Seiten addiert. \n\nSeptember/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007.\n\nQuelle: data/imports/00 Training erfassen.md / Do, 1.10.",
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Do, 1.10.",
+        "originalText": "# Do, 1.10. {#do,-1.10.}\n\nIdee:  \nMehr Balance\n\n* Kraft 10  \n* Core 10\n\ndann nochmal Wall-Pushup  \n2 x 50\n\n## MB \\- Kraft & Core {#mb---kraft-&-core}\n\ndie ersten beiden aus “Mehr Balance”\n\n* Kraft \\- **9 kg**  \n  [https\\://fitness.apple.com/de/workout/krafttraining-mit-sam/1660439951](https://fitness.apple.com/de/workout/krafttraining-mit-sam/1660439951)   \n  * Hinge \\+ Lunge (mit DB (Dumbbell)) \\- 5-6x  \n  * Squat (DB) 11-14x  \n  * Hinge Curl Lat Lange \\- 5x\n\n\\>\\> Puls bis hoch zu 155\n\njew 10min  \n2 Durchgänge\n\n* Core (Kyle)   \n  * siehe oben\n\n\\>\\> Puls hoch zu 138\n\n## Wall Pushup \\- 2 x 50 {#wall-pushup---2-x-50}\n\nUff, **2 x 50**  \n4 min 10 s\n\n* 2.Runde, am Ende spüre ich ein Zittern in den Armen  \n* auch Beine (unten) tun weh, Zittern\n\nim Moment genügt das voll\n\nIch bemerke:\n\n* ich will aufhören \\> aber Konzentration auf Form lässt weiter machen  \n  * Schultern nach unten \\- und **entspannen**\\!  \n  * Arme nicht zu weit nach außen  \n  * Atem Rhythmus  \n  * Kopf aus\n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \nvergessen, zu tracken  \naber kurz am Ende Watch auf Krafttraining \\> Puls abwarten \\- \\- war auf 127\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-0928-press",
+      "date": "2026-09-28",
+      "workoutId": "single-db-shoulder-press",
+      "entries": [
+        {
+          "slotId": "s1",
+          "exerciseId": "db-shoulder-press",
+          "reps": 12,
+          "repsSource": "manual",
+          "prescription": {},
+          "loadUnresolvedKg": 7
+        }
+      ],
+      "notes": "Am Ende brennt/schmerzt es; eventuell mehr Gewicht möglich.\n\nWiederholungen aller dokumentierten Sätze/Seiten addiert. Originalgewicht unverändert; Gewichtsbezug nicht als kg pro Hantel bestätigt.\n\nSeptember/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007.\n\nQuelle: data/imports/00 Training erfassen.md / Mo, 28.9.",
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mo, 28.9.",
+        "originalText": "# Mo, 28.9. {#mo,-28.9.}\n\n## Core (MB) {#core-(mb)}\n\n[https\\://fitness.apple.com/de/workout/core-mit-kyle/1661892258](https://fitness.apple.com/de/workout/core-mit-kyle/1661892258) \n\naus Sammlung “Mehr Balance”\n\n* Set 1 \\- 2x  \n  * Side Plank, Knie gebeugt \\- Arm Bein zueinander  \n  * …   \n* Set 2 \\- 2x  \n  * …   \n  * Crunch \\- Tip Richtung Fuß\n\n## Wall Pushup {#wall-pushup-1}\n\nerstmal Ziel  \nLEVEL 1: 2 Sets of 30\n\n30 \\=\\> 2x12 (24) \\+ 6 \\=\\> 2,5 min (2min30s)\n\nGeschafft\n\ngeht vor allem in die Arme\n\n## Core 5min {#core-5min}\n\n[https\\://fitness.apple.com/de/workout/core-mit-gregg/1589513785](https://fitness.apple.com/de/workout/core-mit-gregg/1589513785)   \nCore Challenge \\- Nr 1\n\nPrep: Cat/Cow\n\n* Reverse Plank  \n* Bicycle Crunch\n\n## Single Exercise \\- Shoulder Press {#single-exercise---shoulder-press}\n\naus dem gestrigen Grundlagen Training\n\n* **Shoulder Press \\- rechter Arm**\n\n12 Rep Gewicht finden  \nVgl. [01 \\- 10X \\> Week 1: Exercises, Soreness, AMRAP, Measurements, Capacity Test](https://docs.google.com/document/d/1MpU4bNbV70wqvNwi88wIp2dMALjtVWInb_sqT8uSmB8/edit?tab=t.0#heading=h.q6fq1jg4ewt0)\n\n* Trial:   \n  * biomechanics (first set) \\- \\- easy  \n  * breathing pattern \\- \\- couple of reps  \n  * mind-muscle connection \\- rep with specific tempo \\- \\- contract/length  \n  * FIND MAXIMUM (4th set)  \n    * add weight  \n    * up to: 12 standard reps to failure\n\n→ ich mach jetzt nur den letzten Schritt  \nmit vorheriger kurzer Wdh\n\n|  7kg \\- 12 Reps  |\n| :---- |\n\n→ am Ende: es brennt, schmerzt schon\n\n* Gefühl: reicht, aber ich hätte evtl auch mehr Gewicht geschafft  \n* vielleicht sogar mehr, “trying my best”?\n\n→ also nächstes Mal mehr probieren  \n→ oder mit beiden Armen?\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-0930-single-db-shoulder-press",
+      "date": "2026-09-30",
+      "workoutId": "single-db-shoulder-press",
+      "entries": [
+        {
+          "slotId": "s1",
+          "exerciseId": "db-shoulder-press",
+          "reps": 24,
+          "repsSource": "manual",
+          "prescription": {},
+          "loadUnresolvedKg": 8
+        }
+      ],
+      "notes": "Ergebnis 8 kg übernommen; die vorangestellte Planung nennt abweichend 9 bzw. 7 kg.\n\nWiederholungen aller dokumentierten Sätze/Seiten addiert. Originalgewicht unverändert; Gewichtsbezug nicht als kg pro Hantel bestätigt.\n\nSeptember/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007.\n\nQuelle: data/imports/00 Training erfassen.md / Mi, 30.9.",
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mi, 30.9.",
+        "originalText": "# Mi, 30.9. {#mi,-30.9.}\n\nnochmal Single Exercise?\n\noder\n\n* 5 min Core  \n* Start Grundlagen \\- Aufwärmen\n\ndann:\n\n* Shoulder Press \\- mit 9 kg (8 gibt es nicht) \\- 12 rep \\- beide Seiten\\!  \n* Pause  \n* weiter mit Grundlagen \\> Row  \n  → Single Row \\- 12 rep 7 kg\n\nklingt gut\n\n## 5 min Core {#5-min-core}\n\n[https\\://fitness.apple.com/de/workout/core-mit-molly/1579923027](https://fitness.apple.com/de/workout/core-mit-molly/1579923027) \n\n* Plank \\- 30s  \n* Back Extension  \n* Combined \\- Plank \\- Lower Down \\- Back Extension  \n  * → sehr gute Pushup-Vorbereitung\n\nUff, got me\\!  \nPuls geht hoch auf \\> 120\n\nMuss manchmal innehalten  \nbin noch weit entfernt\n\n## Grundlagen \\- Single {#grundlagen---single}\n\n### Shoulder Press {#shoulder-press}\n\n* 12 reps \\- **8 kg**  \n  * links \\- Uff, tatsächlich bis Failure, gefühlt  \n  * rechts \\- leichter, am Ende hart, aber fühlt sich ausbaufähig an\n\n### Bent Over Row {#bent-over-row}\n\n* 12 reps \\- **8 kg**  \n  * links, rechts \\- ging relativ leicht\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-0930-single-db-row",
+      "date": "2026-09-30",
+      "workoutId": "single-db-row",
+      "entries": [
+        {
+          "slotId": "s1",
+          "exerciseId": "db-row",
+          "reps": 24,
+          "repsSource": "manual",
+          "prescription": {},
+          "loadUnresolvedKg": 8
+        }
+      ],
+      "notes": "Ergebnis 8 kg übernommen; die vorangestellte Planung nennt abweichend 9 bzw. 7 kg.\n\nWiederholungen aller dokumentierten Sätze/Seiten addiert. Originalgewicht unverändert; Gewichtsbezug nicht als kg pro Hantel bestätigt.\n\nSeptember/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007.\n\nQuelle: data/imports/00 Training erfassen.md / Mi, 30.9.",
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Mi, 30.9.",
+        "originalText": "# Mi, 30.9. {#mi,-30.9.}\n\nnochmal Single Exercise?\n\noder\n\n* 5 min Core  \n* Start Grundlagen \\- Aufwärmen\n\ndann:\n\n* Shoulder Press \\- mit 9 kg (8 gibt es nicht) \\- 12 rep \\- beide Seiten\\!  \n* Pause  \n* weiter mit Grundlagen \\> Row  \n  → Single Row \\- 12 rep 7 kg\n\nklingt gut\n\n## 5 min Core {#5-min-core}\n\n[https\\://fitness.apple.com/de/workout/core-mit-molly/1579923027](https://fitness.apple.com/de/workout/core-mit-molly/1579923027) \n\n* Plank \\- 30s  \n* Back Extension  \n* Combined \\- Plank \\- Lower Down \\- Back Extension  \n  * → sehr gute Pushup-Vorbereitung\n\nUff, got me\\!  \nPuls geht hoch auf \\> 120\n\nMuss manchmal innehalten  \nbin noch weit entfernt\n\n## Grundlagen \\- Single {#grundlagen---single}\n\n### Shoulder Press {#shoulder-press}\n\n* 12 reps \\- **8 kg**  \n  * links \\- Uff, tatsächlich bis Failure, gefühlt  \n  * rechts \\- leichter, am Ende hart, aber fühlt sich ausbaufähig an\n\n### Bent Over Row {#bent-over-row}\n\n* 12 reps \\- **8 kg**  \n  * links, rechts \\- ging relativ leicht\n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    },
+    {
+      "id": "md-2026-1008-hinge",
+      "date": "2026-10-08",
+      "workoutId": "single-db-hinge",
+      "entries": [
+        {
+          "slotId": "s1",
+          "exerciseId": "db-hinge",
+          "reps": 12,
+          "repsSource": "manual",
+          "prescription": {},
+          "loadUnresolvedKg": 10
+        }
+      ],
+      "notes": "Geht relativ leicht.\n\nWiederholungen aller dokumentierten Sätze/Seiten addiert. Originalgewicht unverändert; Gewichtsbezug nicht als kg pro Hantel bestätigt.\n\nSeptember/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007.\n\nQuelle: data/imports/00 Training erfassen.md / Do, 8.10.",
+      "source": {
+        "file": "data/imports/00 Training erfassen.md",
+        "section": "Do, 8.10.",
+        "originalText": "# Do, 8.10. {#do,-8.10.}\n\n## Yoga, Core, Grundlagen \\- F2 {#yoga,-core,-grundlagen---f2}\n\nMittag\n\n* Yoga 10 min  \n* Core (Challenge) \\- 5 min\n\nabends dann\n\n* Grundlagen Kraft Training \\- Gregg \\- 10 min  \n  [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \n  * Squat  \n  * Hinge  \n  * Lunge\n\n9 kg\n\n---\n\n## Single \\- Hinge {#single---hinge}\n\nAbend\n\nHinge mit Dumbbells  \nwie hier: [https\\://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701](https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701)   \noder hier: [01b \\- 10X \\> Exercise Guides \\- Hinge, Row, Press, Lunge](https://docs.google.com/document/d/1o2gUmOInn65cqeOKJU7uGGGINNhNMC2ootzdi4uQaPE/edit?tab=t.0#heading=h.kl958feei9xp) \n\n**12 Wdh \\- 10 kg**\n\ngeht relativ leicht\n\n## Core {#core}\n\nnochmal die Übung von heute Mittag  \n[https\\://fitness.apple.com/de/workout/core-mit-molly/1579923027](https://fitness.apple.com/de/workout/core-mit-molly/1579923027) \n\n",
+        "dateAssumption": "September/Oktober als 2026 interpretiert: Wochentage und Dokumentlink 20261007."
+      }
+    }
+  ]
 }

@@ -62,9 +62,10 @@ export function validateUser(data,catalog) {
     for(const e of s.entries) {
       const slot=w.slots.find(slot=>slot.id===e.slotId), ex=catalog.exercises.get(e.exerciseId);
       if(!slot || slot.exerciseId!==e.exerciseId || ids.has(e.slotId)) fail('Ungültige Übungszuordnung.'); ids.add(e.slotId);
-      if(Object.keys(e).some(k=>!['slotId','exerciseId','loadKg','reps','repsSource','durationSeconds','prescription'].includes(k))) fail('Unbekannte Messwerte.');
+      if(Object.keys(e).some(k=>!['slotId','exerciseId','loadKg','loadUnresolvedKg','reps','repsSource','durationSeconds','prescription'].includes(k))) fail('Unbekannte Messwerte.');
       defaults(e.prescription);
-      if(ex.equipment.includes('dumbbell') ? !weight(e.loadKg) : e.loadKg!=null) fail('Ungültiges Gewicht.');
+      if (e.loadUnresolvedKg != null && (!s.source?.originalText || !weight(e.loadUnresolvedKg) || e.loadKg != null)) fail('Ungeklärtes Gewicht benötigt eine Originalquelle.');
+      if(ex.equipment.includes('dumbbell') ? !weight(e.loadKg) && !weight(e.loadUnresolvedKg) : e.loadKg!=null || e.loadUnresolvedKg!=null) fail('Ungültiges Gewicht.');
       if(e.durationSeconds!=null && !positive(e.durationSeconds)) fail('Ungültige Dauer.');
       if(ex.measurement==='duration') { if(!positive(e.durationSeconds)||e.reps!=null||e.repsSource!=null) fail('Halteübungen benötigen eine Dauer.'); }
       else {

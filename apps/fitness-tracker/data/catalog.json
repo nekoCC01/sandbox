@@ -740,6 +740,19 @@
       "sourceId": "training-notes-2026",
       "measurement": "reps",
       "dumbbells": 2
+    },
+    {
+      "id": "db-hinge",
+      "name": "Hüftbeuge mit Hanteln (Variante offen)",
+      "familyId": "deadlift",
+      "equipment": [
+        "dumbbell"
+      ],
+      "loadMode": "external",
+      "sourceId": "training-notes-2026",
+      "notes": "Hinge laut Trainingsnotizen; Kniebeugung und genaue Deadlift-Variante nicht dokumentiert.",
+      "measurement": "reps",
+      "dumbbells": 2
     }
   ],
   "classificationNote": "Muskelzuordnungen und Starter-Auswahl sind redaktionelle, vereinfachte Zuordnungen. Good Morning bleibt zur Quellennachverfolgung in der Kursfamilie Leg Curl; biomechanisch ist es eine Hinge-Übung. Nicht jede Isolation wird in eines der Big Six gezwängt.",
@@ -792,7 +805,7 @@
           }
         }
       ],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
+      "notes": "Kurzfolge mit sechs Phasen; die Originalnotiz vom 19.10. dokumentiert zusätzlich Wiederholungsrunden (separate Vorlage mit 18 Phasen).",
       "url": "https://fitness.apple.com/de/workout/woche-1-ganzk%C3%B6rper-krafttraining-mit-sam/1805895783",
       "trainer": "Sam"
     },
@@ -1112,6 +1125,153 @@
         {
           "id": "s1",
           "exerciseId": "db-shoulder-squat"
+        }
+      ]
+    },
+    {
+      "id": "apple-1805895783-documented",
+      "name": "Woche 1: Ganzkörper-Krafttraining mit Sam · dokumentierte 18 Phasen",
+      "type": "fitness-plus",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-shoulder-squat",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s2",
+          "exerciseId": "hinge-row",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s3",
+          "exerciseId": "db-shoulder-squat",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s4",
+          "exerciseId": "hinge-row",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s5",
+          "exerciseId": "db-shoulder-squat",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s6",
+          "exerciseId": "hinge-row",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s7",
+          "exerciseId": "floor-bridge",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s8",
+          "exerciseId": "floor-press",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s9",
+          "exerciseId": "floor-bridge",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s10",
+          "exerciseId": "floor-press",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s11",
+          "exerciseId": "floor-bridge",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s12",
+          "exerciseId": "floor-press",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s13",
+          "exerciseId": "db-shoulder-squat",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s14",
+          "exerciseId": "hinge-row",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s15",
+          "exerciseId": "db-shoulder-squat",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s16",
+          "exerciseId": "hinge-row",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s17",
+          "exerciseId": "db-shoulder-squat",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        },
+        {
+          "id": "s18",
+          "exerciseId": "hinge-row",
+          "defaults": {
+            "durationSeconds": 40
+          }
+        }
+      ],
+      "notes": "18 aktive Phasen à 40 Sekunden gemäß Originalnotiz vom 19.10.2026, einschließlich der jeweils zwei Wiederholungsrunden. Keine Aussage über weitere Videophasen.",
+      "url": "https://fitness.apple.com/de/workout/woche-1-ganzk%C3%B6rper-krafttraining-mit-sam/1805895783",
+      "trainer": "Sam"
+    },
+    {
+      "id": "single-db-hinge",
+      "name": "Hüftbeuge mit Hanteln (Variante offen)",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-hinge"
         }
       ]
     }
