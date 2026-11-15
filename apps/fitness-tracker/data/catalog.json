@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "sources": [
     {
       "id": "10x-week-1",
@@ -256,20 +256,6 @@
       "sourceId": "10x-guide-a"
     },
     {
-      "id": "pull-up",
-      "name": "Pull-up / Pulldown",
-      "movementId": "pull",
-      "primaryGroupIds": [
-        "back"
-      ],
-      "secondaryGroupIds": [
-        "biceps",
-        "shoulders"
-      ],
-      "kind": "integrated",
-      "sourceId": "10x-guide-a"
-    },
-    {
       "id": "push-up",
       "name": "Push-up",
       "movementId": "push",
@@ -356,19 +342,6 @@
       "sourceId": "10x-guide-b"
     },
     {
-      "id": "leg-curl",
-      "name": "Leg Curl",
-      "movementId": null,
-      "primaryGroupIds": [
-        "hamstrings"
-      ],
-      "secondaryGroupIds": [
-        "glutes"
-      ],
-      "kind": "isolation",
-      "sourceId": "10x-guide-5"
-    },
-    {
       "id": "bicep-curl",
       "name": "Bicep Curl",
       "movementId": null,
@@ -413,31 +386,6 @@
       "secondaryGroupIds": [],
       "kind": "isolation",
       "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "leg-extension",
-      "name": "Leg Extension",
-      "movementId": null,
-      "primaryGroupIds": [
-        "quads"
-      ],
-      "secondaryGroupIds": [],
-      "kind": "isolation",
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "back-extension",
-      "name": "Back Extension",
-      "movementId": null,
-      "primaryGroupIds": [
-        "lower-back"
-      ],
-      "secondaryGroupIds": [
-        "glutes",
-        "hamstrings"
-      ],
-      "kind": "isolation",
-      "sourceId": "10x-guide-7"
     },
     {
       "id": "lateral-raise",
@@ -485,1550 +433,317 @@
   "exercises": [
     {
       "id": "air-squat",
-      "name": "Air Squat",
+      "name": "Kniebeuge ohne Gewicht",
       "familyId": "squat",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-week-1"
-    },
-    {
-      "id": "wall-ball-squat",
-      "name": "Wall-Ball Squat",
-      "familyId": "squat",
-      "equipment": [
-        "ball"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "db-wall-squat",
-      "name": "Dumbbell Wall-Ball Squat",
-      "familyId": "squat",
-      "equipment": [
-        "ball",
-        "dumbbell"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
+      "sourceId": "10x-week-1",
+      "measurement": "reps"
     },
     {
       "id": "goblet-squat",
-      "name": "Goblet Squat",
+      "name": "Kniebeuge mit einer Hantel (Goblet Squat)",
       "familyId": "squat",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "leg-press",
-      "name": "Leg Press",
-      "familyId": "squat",
-      "equipment": [
-        "machine"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "band-lat-pulldown",
-      "name": "Banded Lat Pulldown",
-      "familyId": "pull-up",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "band-pull-up",
-      "name": "Banded Pull-Up",
-      "familyId": "pull-up",
-      "equipment": [
-        "band",
-        "bar"
-      ],
-      "loadMode": "assisted",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "pull-up",
-      "name": "Bodyweight Pull-Up",
-      "familyId": "pull-up",
-      "equipment": [
-        "bar"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "lat-pulldown",
-      "name": "Lat Pulldown",
-      "familyId": "pull-up",
-      "equipment": [
-        "machine"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "incline-push-up",
-      "name": "Incline Push-Up",
-      "familyId": "push-up",
-      "equipment": [
-        "bench"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
+      "sourceId": "10x-guide-a",
+      "measurement": "reps",
+      "dumbbells": 1
     },
     {
       "id": "knee-push-up",
-      "name": "Knee Push-Up",
+      "name": "Liegestütz auf Knien",
       "familyId": "push-up",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
+      "sourceId": "10x-guide-a",
+      "measurement": "reps"
     },
     {
       "id": "push-up",
-      "name": "Full Push-Up",
+      "name": "Liegestütz",
       "familyId": "push-up",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "band-push-up",
-      "name": "Banded Push-Up",
-      "familyId": "push-up",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "ring-push-up",
-      "name": "Ring Push-Up",
-      "familyId": "push-up",
-      "equipment": [
-        "rings"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "db-bench-press",
-      "name": "Dumbbell Bench Press",
-      "familyId": "chest-press",
-      "equipment": [
-        "dumbbell",
-        "bench"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
-    },
-    {
-      "id": "machine-chest-press",
-      "name": "Machine Chest Press",
-      "familyId": "chest-press",
-      "equipment": [
-        "machine"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-a"
+      "sourceId": "10x-guide-a",
+      "measurement": "reps"
     },
     {
       "id": "db-straight-deadlift",
-      "name": "Dumbbell Straight Leg Deadlift",
+      "name": "Kreuzheben mit fast gestreckten Beinen",
       "familyId": "deadlift",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "band-deadlift",
-      "name": "Banded Straight Leg Deadlift",
-      "familyId": "deadlift",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "staggered-deadlift",
-      "name": "Staggered Dumbbell Straight Leg Deadlift",
-      "familyId": "deadlift",
-      "equipment": [
-        "dumbbell"
-      ],
-      "loadMode": "external",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "db-deadlift",
-      "name": "Dumbbell Deadlift",
-      "familyId": "deadlift",
-      "equipment": [
-        "dumbbell"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
+      "sourceId": "10x-guide-b",
+      "measurement": "reps",
+      "dumbbells": 2
     },
     {
       "id": "db-row",
-      "name": "Dumbbell Bent Over Row",
+      "name": "Vorgebeugtes Rudern",
       "familyId": "row",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "band-row",
-      "name": "Banded Bent Over Row",
-      "familyId": "row",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "unilateral-row",
-      "name": "Unilateral Dumbbell Bent Over Row",
-      "familyId": "row",
-      "equipment": [
-        "dumbbell",
-        "bench"
-      ],
-      "loadMode": "external",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "inverted-row",
-      "name": "Inverted Row",
-      "familyId": "row",
-      "equipment": [
-        "bar"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "cable-row",
-      "name": "Cable Row",
-      "familyId": "row",
-      "equipment": [
-        "machine"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
+      "sourceId": "10x-guide-b",
+      "measurement": "reps",
+      "dumbbells": 2
     },
     {
       "id": "db-shoulder-press",
-      "name": "Dumbbell Shoulder Press",
+      "name": "Schulterdrücken",
       "familyId": "shoulder-press",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "band-shoulder-press",
-      "name": "Banded Shoulder Press",
-      "familyId": "shoulder-press",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
+      "sourceId": "10x-guide-b",
+      "measurement": "reps",
+      "dumbbells": 2
     },
     {
       "id": "pike-push-up",
-      "name": "Pike Push-Up",
+      "name": "Liegestütz mit angehobener Hüfte (Pike)",
       "familyId": "shoulder-press",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "machine-shoulder-press",
-      "name": "Machine Shoulder Press",
-      "familyId": "shoulder-press",
-      "equipment": [
-        "machine"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
+      "sourceId": "10x-guide-b",
+      "measurement": "reps"
     },
     {
       "id": "lunge",
-      "name": "Bodyweight Lunge",
+      "name": "Ausfallschritt",
       "familyId": "lunge",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
+      "sourceId": "10x-guide-b",
+      "measurement": "reps"
     },
     {
       "id": "db-lunge",
-      "name": "Dumbbell Lunge",
+      "name": "Ausfallschritt mit Hanteln",
       "familyId": "lunge",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "band-lunge",
-      "name": "Banded Lunge",
-      "familyId": "lunge",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "split-squat",
-      "name": "Bodyweight Split Squat",
-      "familyId": "lunge",
-      "equipment": [
-        "bench"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "db-split-squat",
-      "name": "Dumbbell Split Squat",
-      "familyId": "lunge",
-      "equipment": [
-        "dumbbell",
-        "bench"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "band-split-squat",
-      "name": "Banded Split Squat",
-      "familyId": "lunge",
-      "equipment": [
-        "band",
-        "bench"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 0
-      },
-      "sourceId": "10x-guide-b"
-    },
-    {
-      "id": "good-morning",
-      "name": "Dumbbell Good Morning",
-      "familyId": "leg-curl",
-      "equipment": [
-        "dumbbell"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-5",
-      "movementId": "hinge"
-    },
-    {
-      "id": "heel-pull",
-      "name": "Swiss Ball Heel Pull",
-      "familyId": "leg-curl",
-      "equipment": [
-        "ball"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-5"
-    },
-    {
-      "id": "band-leg-curl",
-      "name": "Banded Leg Curl",
-      "familyId": "leg-curl",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-5"
-    },
-    {
-      "id": "unilateral-heel-pull",
-      "name": "Unilateral Banded Heel Pull",
-      "familyId": "leg-curl",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-5"
+      "sourceId": "10x-guide-b",
+      "measurement": "reps",
+      "dumbbells": 2
     },
     {
       "id": "db-bicep-curl",
-      "name": "Dumbbell Bicep Curl",
+      "name": "Bizepscurl",
       "familyId": "bicep-curl",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-5"
-    },
-    {
-      "id": "band-bicep-curl",
-      "name": "Banded Bicep Curl",
-      "familyId": "bicep-curl",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-5"
-    },
-    {
-      "id": "band-pushdown",
-      "name": "Resistance Band Pushdown",
-      "familyId": "tricep-extension",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-5"
-    },
-    {
-      "id": "band-tricep-extension",
-      "name": "Banded Tricep Extension",
-      "familyId": "tricep-extension",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-5"
+      "sourceId": "10x-guide-5",
+      "measurement": "reps",
+      "dumbbells": 2
     },
     {
       "id": "tricep-kickback",
-      "name": "Dumbbell Unilateral Tricep Kickback",
+      "name": "Trizepsstrecken nach hinten",
       "familyId": "tricep-extension",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-5"
+      "sourceId": "10x-guide-5",
+      "measurement": "reps",
+      "dumbbells": 1
     },
     {
       "id": "skull-crusher",
-      "name": "Dumbbell Skull Crusher",
+      "name": "Trizepsstrecken im Liegen",
       "familyId": "tricep-extension",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-5"
-    },
-    {
-      "id": "glute-bridge",
-      "name": "Elevated Glute Bridge",
-      "familyId": "hip-thrust",
-      "equipment": [
-        "bench"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "unilateral-glute-bridge",
-      "name": "Unilateral Elevated Glute Bridge",
-      "familyId": "hip-thrust",
-      "equipment": [
-        "bench"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "db-hip-thrust",
-      "name": "Dumbbell Hip Thrust",
-      "familyId": "hip-thrust",
-      "equipment": [
-        "dumbbell",
-        "bench"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "unilateral-hip-thrust",
-      "name": "Unilateral Dumbbell Hip Thrust",
-      "familyId": "hip-thrust",
-      "equipment": [
-        "dumbbell",
-        "bench"
-      ],
-      "loadMode": "external",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "band-hip-thrust",
-      "name": "Banded Hip Thrust",
-      "familyId": "hip-thrust",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
+      "sourceId": "10x-guide-5",
+      "measurement": "reps",
+      "dumbbells": 1
     },
     {
       "id": "lying-leg-raise",
-      "name": "Lying Leg Raise",
+      "name": "Beinheben im Liegen",
       "familyId": "leg-raise",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "db-leg-raise",
-      "name": "Dumbbell Lying Leg Raise",
-      "familyId": "leg-raise",
-      "equipment": [
-        "dumbbell"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "l-sit",
-      "name": "Bent-leg L-sit",
-      "familyId": "leg-raise",
-      "equipment": [],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "hanging-knee-raise",
-      "name": "Hanging Knee Raise",
-      "familyId": "leg-raise",
-      "equipment": [
-        "bar"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "hanging-leg-raise",
-      "name": "Hanging Leg Raise",
-      "familyId": "leg-raise",
-      "equipment": [
-        "bar"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "band-leg-extension",
-      "name": "Unilateral Banded Leg Extension",
-      "familyId": "leg-extension",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "standing-leg-extension",
-      "name": "Standing Unilateral Banded Leg Extension",
-      "familyId": "leg-extension",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "db-leg-extension",
-      "name": "Seated Dumbbell Leg Extension",
-      "familyId": "leg-extension",
-      "equipment": [
-        "dumbbell",
-        "chair"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-6"
-    },
-    {
-      "id": "back-extension",
-      "name": "Back Extension",
-      "familyId": "back-extension",
-      "equipment": [
-        "bench"
-      ],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-7"
-    },
-    {
-      "id": "db-back-extension",
-      "name": "Dumbbell Back Extension",
-      "familyId": "back-extension",
-      "equipment": [
-        "dumbbell",
-        "bench"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-7"
+      "sourceId": "10x-guide-6",
+      "measurement": "reps"
     },
     {
       "id": "db-lateral-raise",
-      "name": "Dumbbell Lateral Raise",
+      "name": "Seitheben",
       "familyId": "lateral-raise",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-7"
-    },
-    {
-      "id": "band-lateral-raise",
-      "name": "Unilateral Banded Lateral Raise",
-      "familyId": "lateral-raise",
-      "equipment": [
-        "band"
-      ],
-      "loadMode": "band",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-7"
+      "sourceId": "10x-guide-7",
+      "measurement": "reps",
+      "dumbbells": 2
     },
     {
       "id": "calf-raise",
-      "name": "Standing Calf Raise",
+      "name": "Wadenheben",
       "familyId": "calf-raise",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-7"
+      "sourceId": "10x-guide-7",
+      "measurement": "reps"
     },
     {
       "id": "db-calf-raise",
-      "name": "Dumbbell Standing Calf Raise",
+      "name": "Wadenheben mit Hanteln",
       "familyId": "calf-raise",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-7"
-    },
-    {
-      "id": "unilateral-calf-raise",
-      "name": "Unilateral Standing Calf Raise",
-      "familyId": "calf-raise",
-      "equipment": [],
-      "loadMode": "bodyweight",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-7"
-    },
-    {
-      "id": "db-unilateral-calf-raise",
-      "name": "Dumbbell Unilateral Standing Calf Raise",
-      "familyId": "calf-raise",
-      "equipment": [
-        "dumbbell"
-      ],
-      "loadMode": "external",
-      "unilateral": true,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2,
-        "hold": 2
-      },
-      "sourceId": "10x-guide-7"
+      "sourceId": "10x-guide-7",
+      "measurement": "reps",
+      "dumbbells": 2
     },
     {
       "id": "wall-push-up",
-      "name": "Wall Pushup",
+      "name": "Liegestütz an der Wand",
       "familyId": "push-up",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {
-        "eccentric": 3,
-        "concentric": 2
-      },
       "sourceId": "training-notes-2026",
-      "notes": "Liegestütz an der Wand."
+      "notes": "Liegestütz an der Wand.",
+      "measurement": "reps"
     },
     {
       "id": "floor-press",
-      "name": "Dumbbell Floor Press",
+      "name": "Brustdrücken am Boden",
       "familyId": "chest-press",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {},
       "sourceId": "training-notes-2026",
-      "notes": "Am Boden liegend, Oberkörper unten lassen."
+      "notes": "Am Boden liegend, Oberkörper unten lassen.",
+      "measurement": "reps",
+      "dumbbells": 2
     },
     {
       "id": "bridge-press",
-      "name": "Dumbbell Press mit angehobener Hüfte",
+      "name": "Brustdrücken mit angehobener Hüfte",
       "familyId": "combined-notes",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {},
       "sourceId": "training-notes-2026",
-      "notes": "Beide Hanteln nach oben; Rücken / Po angehoben. Ausführung aus den persönlichen Notizen, noch nicht genauer bestimmt."
+      "notes": "Beide Hanteln nach oben; Rücken / Po angehoben. Ausführung aus den persönlichen Notizen, noch nicht genauer bestimmt.",
+      "measurement": "reps",
+      "dumbbells": 2
     },
     {
       "id": "crunch",
-      "name": "Crunch",
+      "name": "Bauchbeuge (Crunch)",
       "familyId": "core-notes",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
+      "sourceId": "training-notes-2026",
+      "measurement": "reps"
     },
     {
       "id": "reverse-plank",
-      "name": "Reverse Plank",
+      "name": "Rückwärtsstütz (Reverse Plank)",
       "familyId": "core-notes",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
+      "sourceId": "training-notes-2026",
+      "measurement": "duration"
     },
     {
       "id": "bicycle-crunch",
-      "name": "Bicycle Crunch",
+      "name": "Bauchbeuge über Kreuz (Bicycle Crunch)",
       "familyId": "core-notes",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
+      "sourceId": "training-notes-2026",
+      "measurement": "reps"
     },
     {
       "id": "plank",
-      "name": "Plank",
+      "name": "Unterarmstütz (Plank)",
       "familyId": "core-notes",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
+      "sourceId": "training-notes-2026",
+      "measurement": "duration"
     },
     {
       "id": "side-plank-knee",
-      "name": "Side Plank mit gebeugtem Knie",
+      "name": "Seitstütz mit gebeugtem Knie",
       "familyId": "core-notes",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
+      "sourceId": "training-notes-2026",
+      "measurement": "duration"
     },
     {
       "id": "cat-cow",
-      "name": "Cat/Cow",
+      "name": "Katze–Kuh",
       "familyId": "core-notes",
       "equipment": [],
       "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
+      "sourceId": "training-notes-2026",
+      "measurement": "reps"
     },
     {
       "id": "floor-bridge",
-      "name": "Glute Bridge am Boden",
+      "name": "Hüftheben am Boden mit Hantel",
       "familyId": "hip-thrust",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {},
       "sourceId": "training-notes-2026",
-      "notes": "Gewicht auf dem Bauch."
+      "notes": "Gewicht auf dem Bauch.",
+      "measurement": "reps",
+      "dumbbells": 1
     },
     {
       "id": "hinge-row",
-      "name": "Hinge + Row (separat)",
+      "name": "Hüftbeuge und Rudern",
       "familyId": "combined-notes",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
-    },
-    {
-      "id": "hinge-lunge",
-      "name": "Hinge + Lunge",
-      "familyId": "combined-notes",
-      "equipment": [
-        "dumbbell"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
-    },
-    {
-      "id": "hinge-curl-lateral-lunge",
-      "name": "Hinge Curl Lat Lunge",
-      "familyId": "combined-notes",
-      "equipment": [
-        "dumbbell"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {},
       "sourceId": "training-notes-2026",
-      "notes": "Bezeichnung aus der Quelle; genaue Kombination unklar."
+      "measurement": "reps",
+      "dumbbells": 2
     },
     {
       "id": "db-shoulder-squat",
-      "name": "Squat mit Dumbbells an den Schultern",
+      "name": "Kniebeuge mit Hanteln an den Schultern",
       "familyId": "squat",
       "equipment": [
         "dumbbell"
       ],
       "loadMode": "external",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
-    },
-    {
-      "id": "plank-lower-back-extension",
-      "name": "Plank → Lower Down → Back Extension",
-      "familyId": "combined-notes",
-      "equipment": [],
-      "loadMode": "bodyweight",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
-    },
-    {
-      "id": "db-hinge",
-      "name": "Dumbbell Hinge (Variante nicht genauer bestimmt)",
-      "familyId": "deadlift",
-      "equipment": [
-        "dumbbell"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {},
       "sourceId": "training-notes-2026",
-      "notes": "Hinge laut Trainingsnotizen; Kniebeugung und genaue Deadlift-Variante nicht dokumentiert."
-    },
-    {
-      "id": "db-squat-unspecified",
-      "name": "Dumbbell Squat (Hantelposition unbekannt)",
-      "familyId": "squat",
-      "equipment": [
-        "dumbbell"
-      ],
-      "loadMode": "external",
-      "unilateral": false,
-      "tempo": {},
-      "sourceId": "training-notes-2026"
-    }
-  ],
-  "units": [
-    {
-      "id": "a",
-      "name": "Unit A · Squat / Pull / Push",
-      "kind": "integrated",
-      "slots": [
-        {
-          "movementId": "squat",
-          "exerciseId": "goblet-squat",
-          "targetReps": 12
-        },
-        {
-          "movementId": "pull",
-          "exerciseId": "band-lat-pulldown",
-          "targetReps": 12
-        },
-        {
-          "movementId": "push",
-          "exerciseId": "push-up",
-          "targetReps": 12
-        }
-      ],
-      "sourceId": "10x-week-2"
-    },
-    {
-      "id": "b",
-      "name": "Unit B · Hinge / Row / Press",
-      "kind": "integrated",
-      "slots": [
-        {
-          "movementId": "hinge",
-          "exerciseId": "db-straight-deadlift",
-          "targetReps": 12
-        },
-        {
-          "movementId": "row",
-          "exerciseId": "db-row",
-          "targetReps": 12
-        },
-        {
-          "movementId": "press",
-          "exerciseId": "db-shoulder-press",
-          "targetReps": 12
-        }
-      ],
-      "sourceId": "10x-week-2"
-    }
-  ],
-  "routines": [
-    {
-      "id": "3xa",
-      "name": "3X A",
-      "unitIds": [
-        "a"
-      ],
-      "rounds": 2
-    },
-    {
-      "id": "3xb",
-      "name": "3X B",
-      "unitIds": [
-        "b"
-      ],
-      "rounds": 2
-    },
-    {
-      "id": "6x",
-      "name": "6X · Big Six",
-      "unitIds": [
-        "a",
-        "b"
-      ],
-      "rounds": 1
-    }
-  ],
-  "schedules": [
-    {
-      "id": "starter",
-      "name": "Zwei Tage · alle sechs Bewegungen",
-      "days": [
-        {
-          "weekday": 1,
-          "routineId": "3xa"
-        },
-        {
-          "weekday": 4,
-          "routineId": "3xb"
-        }
-      ]
-    }
-  ],
-  "journeys": [
-    {
-      "id": "starter",
-      "name": "Mein erster Trainingsblock",
-      "scheduleId": "starter",
-      "weeks": 6,
-      "deloadWeeks": 1,
-      "sourceId": "10x-week-10"
+      "measurement": "reps",
+      "dumbbells": 2
     }
   ],
   "classificationNote": "Muskelzuordnungen und Starter-Auswahl sind redaktionelle, vereinfachte Zuordnungen. Good Morning bleibt zur Quellennachverfolgung in der Kursfamilie Leg Curl; biomechanisch ist es eine Hinge-Übung. Nicht jede Isolation wird in eines der Big Six gezwängt.",
   "workouts": [
-    {
-      "id": "apple-1859815572",
-      "name": "Grundlagen des Krafttrainings mit Jenn",
-      "type": "fitness-plus",
-      "slots": [
-        {
-          "id": "s1",
-          "exerciseId": "db-shoulder-press"
-        },
-        {
-          "id": "s2",
-          "exerciseId": "db-row"
-        },
-        {
-          "id": "s3",
-          "exerciseId": "db-bicep-curl"
-        }
-      ],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "url": "https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-jenn/1859815572",
-      "trainer": "Jenn"
-    },
-    {
-      "id": "apple-1661892258",
-      "name": "Core mit Kyle · Mehr Balance",
-      "type": "fitness-plus",
-      "slots": [
-        {
-          "id": "s1",
-          "exerciseId": "side-plank-knee"
-        },
-        {
-          "id": "s2",
-          "exerciseId": "crunch"
-        }
-      ],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "url": "https://fitness.apple.com/de/workout/core-mit-kyle/1661892258",
-      "trainer": "Kyle",
-      "durationSeconds": 600
-    },
-    {
-      "id": "apple-1589513785",
-      "name": "Core mit Gregg · Core Challenge Nr. 1",
-      "type": "fitness-plus",
-      "slots": [
-        {
-          "id": "s1",
-          "exerciseId": "cat-cow"
-        },
-        {
-          "id": "s2",
-          "exerciseId": "reverse-plank"
-        },
-        {
-          "id": "s3",
-          "exerciseId": "bicycle-crunch"
-        }
-      ],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "url": "https://fitness.apple.com/de/workout/core-mit-gregg/1589513785",
-      "trainer": "Gregg",
-      "durationSeconds": 300
-    },
-    {
-      "id": "apple-1579923027",
-      "name": "Core mit Molly",
-      "type": "fitness-plus",
-      "slots": [
-        {
-          "id": "s1",
-          "exerciseId": "plank",
-          "defaults": {
-            "durationSeconds": 30
-          }
-        },
-        {
-          "id": "s2",
-          "exerciseId": "back-extension"
-        },
-        {
-          "id": "s3",
-          "exerciseId": "plank-lower-back-extension"
-        }
-      ],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "url": "https://fitness.apple.com/de/workout/core-mit-molly/1579923027",
-      "trainer": "Molly",
-      "durationSeconds": 300
-    },
-    {
-      "id": "apple-1660439951",
-      "name": "Krafttraining mit Sam · Mehr Balance",
-      "type": "fitness-plus",
-      "slots": [
-        {
-          "id": "s1",
-          "exerciseId": "hinge-lunge"
-        },
-        {
-          "id": "s2",
-          "exerciseId": "db-squat-unspecified"
-        },
-        {
-          "id": "s3",
-          "exerciseId": "hinge-curl-lateral-lunge"
-        }
-      ],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "url": "https://fitness.apple.com/de/workout/krafttraining-mit-sam/1660439951",
-      "trainer": "Sam",
-      "durationSeconds": 600
-    },
-    {
-      "id": "apple-1739168440",
-      "name": "Core mit Gregg · Rücken stärken",
-      "type": "fitness-plus",
-      "slots": [
-        {
-          "id": "s1",
-          "exerciseId": "crunch"
-        },
-        {
-          "id": "s2",
-          "exerciseId": "reverse-plank"
-        }
-      ],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "url": "https://fitness.apple.com/de/workout/core-mit-gregg/1739168440",
-      "trainer": "Gregg"
-    },
-    {
-      "id": "apple-1571908716",
-      "name": "Yoga mit Jessica",
-      "type": "fitness-plus",
-      "slots": [],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "url": "https://fitness.apple.com/de/workout/yoga-mit-jessica/1571908716",
-      "trainer": "Jessica"
-    },
-    {
-      "id": "apple-1859815701",
-      "name": "Grundlagen des Krafttrainings mit Gregg",
-      "type": "fitness-plus",
-      "slots": [
-        {
-          "id": "s1",
-          "exerciseId": "db-squat-unspecified"
-        },
-        {
-          "id": "s2",
-          "exerciseId": "db-hinge"
-        },
-        {
-          "id": "s3",
-          "exerciseId": "lunge"
-        }
-      ],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "url": "https://fitness.apple.com/de/workout/grundlagen-des-krafttrainings-mit-gregg/1859815701",
-      "trainer": "Gregg",
-      "durationSeconds": 600
-    },
-    {
-      "id": "apple-1849247451",
-      "name": "Yoga-Routine mit Jessica · Woche 2 Rücken",
-      "type": "fitness-plus",
-      "slots": [],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "url": "https://fitness.apple.com/de/workout/yoga-routine-mit-jessica/1849247451",
-      "trainer": "Jessica"
-    },
-    {
-      "id": "apple-yoga-dice-unidentified",
-      "name": "Yoga mit Dice · Video unbekannt",
-      "type": "fitness-plus",
-      "slots": [],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "trainer": "Dice"
-    },
-    {
-      "id": "apple-strength-kyle-unidentified",
-      "name": "Krafttraining mit Kyle · Video unbekannt",
-      "type": "fitness-plus",
-      "slots": [],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "trainer": "Kyle"
-    },
-    {
-      "id": "apple-hiit-bakari-unidentified",
-      "name": "HIIT mit Bakari · Fitness Comeback",
-      "type": "fitness-plus",
-      "slots": [],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "trainer": "Bakari"
-    },
     {
       "id": "apple-1805895783",
       "name": "Woche 1: Ganzkörper-Krafttraining mit Sam",
@@ -2082,26 +797,323 @@
       "trainer": "Sam"
     },
     {
-      "id": "apple-6795243669",
-      "name": "Krafttraining mit Kyle",
-      "type": "fitness-plus",
+      "id": "single-air-squat",
+      "name": "Kniebeuge ohne Gewicht",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "air-squat"
+        }
+      ]
+    },
+    {
+      "id": "single-goblet-squat",
+      "name": "Kniebeuge mit einer Hantel (Goblet Squat)",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "goblet-squat"
+        }
+      ]
+    },
+    {
+      "id": "single-knee-push-up",
+      "name": "Liegestütz auf Knien",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "knee-push-up"
+        }
+      ]
+    },
+    {
+      "id": "single-push-up",
+      "name": "Liegestütz",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "push-up"
+        }
+      ]
+    },
+    {
+      "id": "single-db-straight-deadlift",
+      "name": "Kreuzheben mit fast gestreckten Beinen",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-straight-deadlift"
+        }
+      ]
+    },
+    {
+      "id": "single-db-row",
+      "name": "Vorgebeugtes Rudern",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-row"
+        }
+      ]
+    },
+    {
+      "id": "single-db-shoulder-press",
+      "name": "Schulterdrücken",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-shoulder-press"
+        }
+      ]
+    },
+    {
+      "id": "single-pike-push-up",
+      "name": "Liegestütz mit angehobener Hüfte (Pike)",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "pike-push-up"
+        }
+      ]
+    },
+    {
+      "id": "single-lunge",
+      "name": "Ausfallschritt",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "lunge"
+        }
+      ]
+    },
+    {
+      "id": "single-db-lunge",
+      "name": "Ausfallschritt mit Hanteln",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-lunge"
+        }
+      ]
+    },
+    {
+      "id": "single-db-bicep-curl",
+      "name": "Bizepscurl",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-bicep-curl"
+        }
+      ]
+    },
+    {
+      "id": "single-tricep-kickback",
+      "name": "Trizepsstrecken nach hinten",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "tricep-kickback"
+        }
+      ]
+    },
+    {
+      "id": "single-skull-crusher",
+      "name": "Trizepsstrecken im Liegen",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "skull-crusher"
+        }
+      ]
+    },
+    {
+      "id": "single-lying-leg-raise",
+      "name": "Beinheben im Liegen",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "lying-leg-raise"
+        }
+      ]
+    },
+    {
+      "id": "single-db-lateral-raise",
+      "name": "Seitheben",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-lateral-raise"
+        }
+      ]
+    },
+    {
+      "id": "single-calf-raise",
+      "name": "Wadenheben",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "calf-raise"
+        }
+      ]
+    },
+    {
+      "id": "single-db-calf-raise",
+      "name": "Wadenheben mit Hanteln",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-calf-raise"
+        }
+      ]
+    },
+    {
+      "id": "single-wall-push-up",
+      "name": "Liegestütz an der Wand",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "wall-push-up"
+        }
+      ]
+    },
+    {
+      "id": "single-floor-press",
+      "name": "Brustdrücken am Boden",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "floor-press"
+        }
+      ]
+    },
+    {
+      "id": "single-bridge-press",
+      "name": "Brustdrücken mit angehobener Hüfte",
+      "type": "single",
       "slots": [
         {
           "id": "s1",
           "exerciseId": "bridge-press"
         }
-      ],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "url": "https://fitness.apple.com/de/workout/krafttraining-mit-kyle/6795243669",
-      "trainer": "Kyle"
+      ]
     },
     {
-      "id": "apple-yoga-oct08-unidentified",
-      "name": "Yoga · 8.10. · Video unbekannt",
-      "type": "fitness-plus",
-      "slots": [],
-      "notes": "Übungsfolge nur soweit im Trainingsdokument beschrieben; möglicherweise unvollständig. Trainergewichte sind nicht dokumentiert.",
-      "durationSeconds": 600
+      "id": "single-crunch",
+      "name": "Bauchbeuge (Crunch)",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "crunch"
+        }
+      ]
+    },
+    {
+      "id": "single-reverse-plank",
+      "name": "Rückwärtsstütz (Reverse Plank)",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "reverse-plank"
+        }
+      ]
+    },
+    {
+      "id": "single-bicycle-crunch",
+      "name": "Bauchbeuge über Kreuz (Bicycle Crunch)",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "bicycle-crunch"
+        }
+      ]
+    },
+    {
+      "id": "single-plank",
+      "name": "Unterarmstütz (Plank)",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "plank"
+        }
+      ]
+    },
+    {
+      "id": "single-side-plank-knee",
+      "name": "Seitstütz mit gebeugtem Knie",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "side-plank-knee"
+        }
+      ]
+    },
+    {
+      "id": "single-cat-cow",
+      "name": "Katze–Kuh",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "cat-cow"
+        }
+      ]
+    },
+    {
+      "id": "single-floor-bridge",
+      "name": "Hüftheben am Boden mit Hantel",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "floor-bridge"
+        }
+      ]
+    },
+    {
+      "id": "single-hinge-row",
+      "name": "Hüftbeuge und Rudern",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "hinge-row"
+        }
+      ]
+    },
+    {
+      "id": "single-db-shoulder-squat",
+      "name": "Kniebeuge mit Hanteln an den Schultern",
+      "type": "single",
+      "slots": [
+        {
+          "id": "s1",
+          "exerciseId": "db-shoulder-squat"
+        }
+      ]
     }
   ]
 }

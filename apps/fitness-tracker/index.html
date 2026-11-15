@@ -16,10 +16,7 @@
     <div class="app-shell">
         <aside class="sidebar">
             <p class="eyebrow">DEIN RAUM FÜR FORTSCHRITT</p>
-            <nav aria-label="Hauptnavigation"><a href="#overview">◉ <span>Überblick</span></a><a href="#exercises">▦
-                    <span>Übungsbibliothek</span></a><a href="#workouts">▶ <span>Fitness+ & Vorlagen</span></a><a href="#history">↗ <span>Verlauf & Ziele</span></a><a
-                    href="#planning">▤ <span>Trainingsplanung</span></a><a href="#data">⇅ <span>Meine Daten</span></a>
-            </nav>
+            <nav aria-label="Hauptnavigation"><a href="#overview">◉ Überblick</a><a href="#history">↗ Trainingslog</a><a href="#exercises">▦ Bibliothek</a><a href="#data">⇅ Meine Daten</a></nav>
             <div class="sidebar-note"><span class="small-dot"></span> Lokal. Einfach. Deins.<p>Dein Training bleibt in
                     deinem Browser. Du entscheidest, wann du es ins Repo übernimmst.</p>
             </div>
@@ -30,28 +27,15 @@
         </main>
     </div>
     <div id="notice" role="status" aria-live="polite"></div>
-    <dialog id="goal-dialog">
-        <form id="goal-form">
-            <div class="dialog-heading">
-                <h2>Ein Ziel setzen</h2><button type="button" class="icon-button" data-close
-                    aria-label="Schließen">×</button>
-            </div><label>Übung<select name="exerciseId"></select></label>
-            <div class="form-row"><label>Zielgewicht in kg<input type="number" name="targetKg" min="0" max="1000"
-                        step="0.25" value="0" required></label><label>Wiederholungen<input type="number"
-                        name="targetReps" min="1" max="1000" value="12" required></label></div><label>Zieldatum<input
-                    type="date" name="deadline" required></label><label>Trainingskontext<select name="context">
-                    <option value="free">Freies Training</option>
-                    <option value="3xa">3X A</option>
-                    <option value="3xb">3X B</option>
-                    <option value="6x">6X</option>
-                    <option value="amrap">AMRAP-Test</option>
-                </select></label><label>Identische Lastdetails wie im Training<input name="loadNote" maxlength="100"
-                    placeholder="Band, Unterstützung, Aufbau …"></label>
-            <p class="field-help">Ziel gilt für mindestens einen Satz. Verglichen werden dieselbe Variante, derselbe
-                Kontext und identische Lastdetails.</p><button class="button primary full">Ziel speichern</button>
-            <p class="form-error" role="alert"></p>
-        </form>
-    </dialog>
+    <dialog id="session-dialog"><form id="session-form">
+      <div class="dialog-heading"><h2 id="session-title">Workout erfassen</h2><button type="button" id="close-session" class="icon-button" aria-label="Schließen">×</button></div>
+      <label>Workout<select name="workoutId" required></select></label><p id="workout-note" class="field-help"></p>
+      <label>Datum<input type="date" name="date" required></label>
+      <label id="shared-weight-label">Gemeinsames Gewicht (kg pro Hantel)<input name="sharedWeight" type="number" min="0" max="1000" step="any"><span class="field-help">Für alle Hantelübungen übernehmen; Abweichungen unten eintragen.</span></label>
+      <div id="session-slots"></div><label>Notizen<textarea name="notes" maxlength="20000"></textarea></label>
+      <p class="field-help">Wiederholungen insgesamt, ohne Seitenaufteilung. Leer lassen, um Zeit ÷ 5 oder eine Wiederholungsvorgabe zu übernehmen. Gewichte bitte prüfen.</p>
+      <p class="form-error" role="alert" id="session-error"></p><button class="button primary full">Training speichern</button>
+    </form></dialog>
     <script type="module" src="js/app.mjs"></script>
 </body>
 

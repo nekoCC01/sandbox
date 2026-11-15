@@ -13,7 +13,7 @@ try {
     const next = validateUser(mergeUser(before, incoming), catalog);
     await writeFile(temp, JSON.stringify(next, null, 2) + '\n', { flag: 'wx' });
     await rename(temp, target);
-    console.log(`Gespeichert: ${fileURLToPath(target)}\n${next.sessions.length} Trainings · ${next.goals.length} Ziele · ${next.plannedSessions.length} Termine\nGleiche IDs: Importstand gewinnt. Bitte git diff prüfen und selbst committen.`);
+    console.log(`Gespeichert: ${fileURLToPath(target)}\n${next.sessions.length} Trainings\nGleiche IDs: Importstand gewinnt. Bitte git diff prüfen und selbst committen.`);
 } catch (error) {
     await unlink(temp).catch(() => { });
     console.error(`Nicht übernommen: ${error.message}`); process.exitCode = 1;

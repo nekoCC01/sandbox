@@ -1,5 +1,5 @@
 import { emptyUser, validateUser, mergeUser } from './models.mjs';
-export const STORAGE_KEY = 'fitness-tracker.user.v1';
+export const STORAGE_KEY = 'fitness-tracker.user.v2';
 export class UserStore {
   constructor(base, catalog, storage = globalThis.localStorage) {
     this.catalog = catalog; this.storage = storage; this.base = validateUser(base, catalog); this.warning = '';

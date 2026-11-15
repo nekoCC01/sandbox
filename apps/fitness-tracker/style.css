@@ -7,3 +7,5 @@
 .flexible-dialog fieldset { border: 1px solid var(--line); border-radius: 10px; margin: 18px 0; padding: 16px; min-width: 0; }
 .flexible-dialog textarea { width: 100%; }
 .original-notes { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 400px; overflow: auto; font-size: 12px; }
+fieldset{border:1px solid var(--line);border-radius:10px;padding:16px;margin:16px 0}legend{font-weight:650;padding:0 6px}.session-entries{padding-left:24px}.session-entries li{padding:8px 0;border-bottom:1px solid var(--line)}.session-entries li span{display:block;color:var(--muted);margin-top:4px}.notes{white-space:pre-wrap}.exercise-row{border-top:1px solid var(--line);padding:18px 0}.exercise-row summary{cursor:pointer;font-weight:600}.exercise-row .tag{margin-left:8px}#session-dialog{width:min(720px,calc(100vw - 24px));max-height:90vh;overflow:auto}#session-slots input{width:100%}[hidden]{display:none!important}.stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:600px){.stats{grid-template-columns:1fr}.session-entries{padding-left:18px}}

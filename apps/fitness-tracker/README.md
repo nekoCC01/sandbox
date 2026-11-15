@@ -1,6 +1,6 @@
-# Bewegung – Fitness Tracker
+# Bewegung – Fitnessjournal
 
-Lokale Fitness-App mit Vanilla HTML, CSS und JavaScript-Modulen. Kein Build, keine Abhängigkeiten, keine DB, kein Backend. Trainingsjournal, Ziele, Meilensteine, einzelne Planungstermine und schematische Muskelkarte. Keine PWA in dieser Version.
+Lokale App mit Vanilla HTML, CSS und JavaScript-Modulen. Kein Build und keine Abhängigkeiten. Retrospektives Erfassen absolvierter Workouts, Trainingslog, Körperkarte und Übungsbibliothek.
 
 ## Start
 
@@ -12,144 +12,85 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 Öffnen: http://127.0.0.1:8080/apps/fitness-tracker/
 
-ES-Module und JSON-Fetch brauchen HTTP; `file://` genügt nicht. Für gleichbleibende Browserdaten immer denselben Host und Port verwenden. `localhost` und `127.0.0.1` sind verschiedene Origins.
+ES-Module und JSON-Fetch benötigen HTTP. Für gleichbleibende Browserdaten denselben Host und Port verwenden.
 
-## Was bereits geht
+## Erfassen
 
-- 83 Übungsvarianten, 19 Familien, Filter nach Grundbewegung, Muskelgruppe und Widerstandsart.
-- Training mit Variante, Datum, Kontext, kg, Lastdetails, Wiederholungen je Satz, Anstrengung und Notizen erfassen. Auch Trainings mit mehreren Übungen und Sätzen bearbeiten. Alle Leistungswerte sind optional.
-- Persönliche Wiederholungsbestwerte je Variante, Kontext, Last, Gewichtsbezug und Seite. Unsichere Werte und ungeklärte Lasten zählen nicht. Der erste Eintrag gilt als Ausgangs-Meilenstein.
-- Ziele für mindestens einen Satz mit kg und Wiederholungen. Vergleich nur bei gleicher Variante, gleichem Kontext und identischen Lastdetails.
-- Verlauf nach Gewicht oder Wiederholungen, mit Ziellinie und zugänglicher Werteliste.
-- Körperkarte für 14, 30 oder 90 Tage; auswählbare Muskelgruppen führen zu passenden Übungen. Relatives Satzaufkommen statt behauptetem Muskelwachstum oder Erholungszustand.
-- Hinweise auf wenig erfasste Muskelgruppen und auf zweimal erreichte 12 Wiederholungen in allen Sätzen einer integrierten Übung. Kein automatisch verordnetes Gewicht.
-- Routinen als einzelne Termine planen; Vorlage Mo A / Do B für noch kommende Tage dieser Woche. Ein Planungstermin zählt nicht als absolviertes Training. „Erfassen“ öffnet die erste Übung; weitere Übungen separat erfassen.
-- JSON-Export und geprüfter Import; Browser mit File System Access API können die gewählte JSON-Datei direkt schreiben.
+1. „Workout erfassen“ öffnen, Workout oder Einzelübung und Datum auswählen.
+2. Bei Hantelübungen Gewicht in **kg pro Hantel** prüfen/eintragen. Das gemeinsame Gewicht füllt die Hantelfelder; manuell angepasste Felder bleiben erhalten. Die Anzahl der Hanteln steht im Übungskatalog.
+3. Wiederholungen insgesamt eintragen, ohne Seitenaufteilung. Ein leeres Feld übernimmt aktive Zeit ÷ 5 (3 Sekunden exzentrisch, 2 konzentrisch), ersatzweise eine feste Wiederholungsvorgabe. Ohne Vorgabe ist eine Eingabe erforderlich.
+4. Bei Halteübungen stattdessen die aktive Dauer eintragen.
+5. Speichern; Einträge können im Trainingslog bearbeitet werden.
 
-## Datenmodell
+Zeitbasierte Wiederholungen sind grobe Schätzungen, auf eine Dezimalstelle gerundet und mit ≈ markiert. Manuelle Werte haben Vorrang. Die Herkunft bleibt als `repsSource: manual|estimated|prescribed` erhalten. Bei einseitigen Übungsphasen enthält die Zeit beide Seiten insgesamt; simultane Bewegungen zählen als ein Bewegungszyklus.
 
-`data/catalog.json` enthält die veränderbaren Basisdaten, `data/user.json` ausschließlich persönliche Einträge. Beide sind JSON mit `schemaVersion: 1` und stabilen IDs. Eine ID bleibt auch bei einer Umbenennung gleich. Neue Basisdaten können schrittweise ergänzt werden.
+Die eine übernommene Fitness+-Vorlage enthält sechs dokumentierte Slots; ihre ursprüngliche Warnung auf möglicherweise unvollständige Übungsfolge bleibt sichtbar. Es werden keine fehlenden Videophasen oder Gewichte erfunden.
+
+## Datenmodell v2
+
+`data/catalog.json`: Quellen, Anatomie, sechs Grundbewegungen, Übungsfamilien, 29 Übungen und Workouts. Ausschließlich Körpergewicht und Kurzhanteln; keine Bank, Bänder oder Geräte. Vertikales Ziehen bleibt ohne passende Übung, bis sich die Gerätebeschränkung ändert. Nicht sinnvoll zugeordnete Übungen erscheinen als ergänzend.
+
+`data/user.json`: ausschließlich `schemaVersion: 2` und `sessions`.
 
 ```text
-Region ← Muskelgruppe ← Muskel
-Grundbewegung ← Übungsfamilie ← Übungsvariante
-Unit → Slots mit Übungs-ID, Bewegungs-ID und Zielwiederholungen
-Routine → Unit-IDs und Standardrunden
-Schedule → Wochentage mit Routine-ID
-Journey → Schedule-ID, Wochenzahl und Deload-Wochen
-Training → Datum, Kontext, Übungseinträge → Lastdetails und Sätze
-Ziel → Variante, Kontext, Lastdetails, Zielgewicht, Zielwiederholungen, Datum
-Planungstermin → Datum, Routine-ID, Runden
+Grundbewegung ← Familie ← Übung → Muskelgruppen → Körperregion
+Workout → geordnete Slots → Übungs-ID + Vorgaben
+Session → Workout-ID + Datum + Einträge je Slot + Notizen
+Eintrag → Slot-ID + Übungs-ID + tatsächliche Werte + Vorgaben-Snapshot
 ```
 
-`js/models.mjs` lädt Rohdaten in `Entity`-Unterklassen. `Object.assign` übernimmt skalare Rohdaten; Maps lösen IDs zu Objekten auf. `Exercise` verknüpft Familie, Grundbewegung, Muskelgruppen und Quelle und bietet `variants()` sowie Tempo- und Lastinformationen. `Unit` und `Routine` lösen ihre Beziehungen auf. `TrainingLog` berechnet Verlauf, Muskelbelastung, Zielstatus, Meilensteine und den einfachen Fortschrittshinweis. Muskeln sind bereits als eigene Entitäten angelegt; die Karte arbeitet zunächst auf Gruppenebene. Schedule und Journey sind im Modell vorbereitet; eine Oberfläche für mehrwöchige Blöcke fehlt noch.
+Workouts werden direkt in `catalog.json` gepflegt. Typen: `fitness-plus`, `custom`, `single`. Jeder Slot besitzt eine stabile ID, auch wenn dieselbe Übung mehrfach vorkommt. Das Array bestimmt die Reihenfolge. Beim Umordnen IDs beibehalten; Übungen bestehender Slot-IDs nicht austauschen. Bei inhaltlich neuen oder entfernten Slots eine neue Workout-ID verwenden, damit historische Logs gültig bleiben.
 
-Beispiel Training (ein Eintrag pro Übung ist der aktuelle Eingabefluss; das Modell unterstützt mehrere Übungen pro Training):
+Vorgaben auf Workout-Ebene werden von Slot-Vorgaben überschrieben:
 
 ```json
 {
-  "id": "stabile-uuid",
-  "date": "2026-11-07",
-  "createdAt": "2026-11-07T10:00:00.000Z",
-  "context": "3xa",
-  "notes": "Technik kontrolliert",
-  "entries": [{
-    "exerciseId": "goblet-squat",
-    "loadKg": 16,
-    "loadNote": "eine 16-kg-Hantel",
-    "sets": [{ "reps": 12, "effort": 3 }, { "reps": 10, "effort": 4 }]
-  }]
+  "id": "custom-example",
+  "name": "Mein Workout",
+  "type": "custom",
+  "defaults": { "loadKg": 7 },
+  "slots": [
+    { "id": "s1", "exerciseId": "goblet-squat", "defaults": { "reps": 10 } },
+    { "id": "s2", "exerciseId": "db-row", "defaults": { "durationSeconds": 40, "loadKg": 5 } }
+  ]
 }
 ```
 
-`loadKg` ist externe Last, kein berechnetes Körpergewicht. Bei zwei Hanteln Gesamtlast eintragen und in `loadNote` erläutern. Bänder und Unterstützung nicht in kg schätzen: `loadKg: 0`, Aufbau und Bandstärke im Detailfeld dokumentieren. Bandfarbe allein ist nur innerhalb desselben Bandsystems vergleichbar. Einseitige Varianten je Seite dokumentieren und die Konvention konstant halten. Das Eingabeformular erlaubt einen eigenen optionalen Anstrengungswert je Satz.
+Mehrteilige Workouts benötigen pro Slot Zeit oder Wiederholungen. Einzelübungs-Workouts dürfen ohne Vorgabe angelegt werden; dann sind tatsächliche Werte Pflicht. Zeit meint die aktive Phase, ohne Pausen. Bei Halteübungen ist eine Dauer erforderlich. Hantelgewichte müssen beim Erfassen bestätigt werden; fehlend bedeutet nicht null kg.
 
-Varianten sind Geschwister derselben Familie, keine automatische Schwierigkeitsrangfolge. Alternative Familien derselben Bewegung sind über `movementId` verbunden. Isolationsübungen müssen nicht zwanghaft einer der Big Six zugeordnet sein. Eine Variante kann `movementId` gezielt überschreiben, z. B. Good Morning.
+Sessions speichern die tatsächlichen Werte und eine Kopie der verwendeten Vorgaben (`prescription`). Spätere Änderungen von Vorgaben berechnen alte Sessions nicht neu. Keine Satzhierarchie, Wiederholungsbereiche, Seitenangaben, Tempoauswahl, Ziele oder Trainingsplanung.
 
-### Auswertung und Grenzen
+## Auswertung
 
-- Muskelbelastung: pro Satz 1 für primäre Gruppen, 0,5 für unterstützende Gruppen. Mehrere beteiligte Gruppen bekommen jeweils ihre Zuordnung; keine auf 100 % normierte Muskelverteilung.
-- Einfärbung relativ zum höchsten Gruppenwert im Zeitraum. Kein wissenschaftliches Aktivierungsmodell und keine automatische Erholungsberechnung.
-- Verlauf vergleicht Variante + Kontext + identische Lastdetails. Satzanzahl, Technik, Bewegungsumfang, tatsächliches Tempo und Erholung müssen zusätzlich berücksichtigt werden. Katalogtempo ist eine Vorgabe; abweichendes tatsächliches Tempo kann im Log als optionales `tempo` erhalten bleiben.
-- Meilensteine beziehen sich auf Wiederholungsbestwerte bei identischer kg-Last, Variante, Lastdetail und Kontext; keine Hochrechnung auf 1RM.
-- Ziele gelten als erreicht, sobald ein passender Eintrag mindestens einen Satz mit Zielwiederholungen und mindestens Zielgewicht enthält. Datum ist ein persönlicher Termin, keine Frist für die Anerkennung.
-- Kein Löschen, kein automatisches Sync, kein Git-Commit aus dem Browser. Importierte Trainings mit mehreren Übungen lassen sich vollständig im Formular bearbeiten.
+Körperkarte und Bewegungsverteilung verwenden aktive Übungszeit. Fehlt die Dauer, wird `reps × 5 Sekunden` verwendet. Primäre Muskelgruppen erhalten die volle Zeit, unterstützende die halbe Zeit. Die Körperkarte färbt relativ zum höchsten Gruppenwert im ausgewählten Zeitraum ein. Mehrere Muskelgruppen können dieselbe Zeit erhalten; ihre Werte werden nicht auf 100 % normiert.
 
-## Vom Browser in Git
+Die sechs Grundbewegungen und ergänzende Übungen teilen sich die gesamte aktive Zeit. Gewichte und Wiederholungen bleiben im Log sichtbar. Dies beschreibt dokumentierten Bewegungsumfang, keine wissenschaftlich gemessene Intensität, Muskelaktivierung oder Erholung.
 
-localStorage ist ein Zwischenspeicher für kleine strukturierte Einträge. Der Store ist separat gekapselt, damit später IndexedDB möglich bleibt. Kein Bild-/Dateispeicher. Privater Modus, gelöschte Browserdaten und Speicherlimits sind Gründe für regelmäßige Exporte. Alle Daten sind unverschlüsselt.
+## Bereinigung vom 15. November 2026
 
-1. Unter **Meine Daten** JSON exportieren. Der Export enthält den zusammengeführten Stand aus Repo und Browser.
-2. Datei übernehmen (Pfad mit Leerzeichen in Anführungszeichen):
+Unveränderte v1-Dateien liegen in `data/archive/2026-11-15/` (83 Übungen, 15 Vorlagen, 29 Sessions). Das Import-Quelldokument liegt weiterhin unter `data/imports/`. Die aktive Sessionliste wurde geleert. Nur die Fitness+-Vorlage mit Zeitangaben für alle dokumentierten Slots blieb erhalten; dazu kommen Einzelübungs-Vorlagen.
 
-```sh
-node apps/fitness-tracker/scripts/persist.mjs ~/Downloads/fitness-user.json
-```
+Der neue Browser-Speicherschlüssel lautet `fitness-tracker.user.v2`. `fitness-tracker.user.v1` wird weder geladen noch überschrieben. Unter „Meine Daten → Alten Browserstand sichern“ lässt er sich separat exportieren. Alte v1-Exporte werden nicht importiert; damit kehren bereinigte Einträge nicht still zurück.
 
-Das Skript validiert gegen den aktuellen Katalog, führt anhand IDs zusammen und schreibt `data/user.json` über eine temporäre Datei mit anschließendem Rename. Gleiche IDs: Import gewinnt. Neue IDs werden ergänzt, fehlende IDs bleiben erhalten. Erneuter Import erzeugt keine Duplikate.
+## Sichern und ins Repo übernehmen
 
-Alternativ **In Datei speichern …** nutzen und bewusst die Repo-Datei `apps/fitness-tracker/data/user.json` auswählen. Diese Aktion schreibt den vollständigen App-Stand direkt in die gewählte Datei; vorher extern geänderte Repo-Daten gegebenenfalls zuerst laden/importieren.
-
-3. Diff prüfen und selbst committen:
+Unter „Meine Daten“ JSON exportieren oder, in unterstützten Browsern, über „In Datei speichern …“ bewusst `data/user.json` auswählen. Direktspeichern schreibt den vollständigen App-Stand in die ausgewählte Datei.
 
 ```sh
+node apps/fitness-tracker/scripts/persist.mjs /pfad/fitness-user.json
 git diff -- apps/fitness-tracker/data/user.json
-git add apps/fitness-tracker/data/user.json
-git commit -m "Update fitness journal"
 ```
 
-4. App neu laden. Repo und Browser werden beim Start anhand IDs zusammengeführt; bei gleicher ID gewinnt der Browser. Um einen extern geänderten Stand zu übernehmen, die neue Repo-JSON explizit über **Meine Daten** importieren. Kein stilles Zusammenführen konkurrierender Änderungen innerhalb desselben Datensatzes.
+Das Skript validiert, führt anhand stabiler IDs zusammen und schreibt atomar. Gleiche IDs: Import gewinnt. Fehlende IDs bleiben erhalten. Kein automatischer Commit.
 
-Speicherfehler ändern den App-Stand nicht. Beschädigte lokale Daten werden nicht überschrieben; neue Schreibaktionen sind dann gesperrt. Zur Wiederherstellung zunächst den Wert `fitness-tracker.user.v1` in den Browser-Entwicklerwerkzeugen sichern, dann reparieren oder den Schlüssel nach Sicherung entfernen und eine gültige JSON importieren. Bei Änderungen in einem zweiten Tab vor weiterem Speichern neu laden.
-
-## Quellen und initiale Zuordnungen
-
-Alle zehn vom Nutzer gelieferten 10X-DOCX sind in `catalog.sources` mit Dateinamen erfasst. Es werden kuratierte Fakten gespeichert, nicht die vollständigen Unterlagen.
-
-- Woche 1: sechs Bewegungsmuster; 3s exzentrisch und 2s konzentrisch; AMRAP-Kontext und gleiche Testbedingungen.
-- Guides 01a/01b: integrierte Übungen und Varianten. Lunge gehört zu Lower Body Push / Squat.
-- Woche 2: Unit A = Squat / Pull / Push, Unit B = Hinge / Row / Press; zwei Units bilden die Big Six.
-- Woche 4 und 10: Fortschritt je Übung und vergleichbarer Variante/Kontext; Last und Volumen unterscheiden. Die Starter-Routinen, gewählten Varianten, zwei Wochentage und sechswöchige Journey sind editierbare Beispielentscheidungen, keine vollständige Kurswoche.
-- Guides 05–07: zusätzliche Übungsfamilien. 3/2/2-Sekunden-Tempo ist als Standard der isolierenden Übungsart hinterlegt, nicht als vollständig geprüfte Einzelaussage für jedes Video. Rein bildlich dargestellte, unbenannte „Gym only“-Varianten wurden nicht erfunden.
-- Good Morning wird in der Quelle unter Leg Curl geführt. Die Quellfamilie bleibt erhalten; die biomechanische Zusatzzuordnung ist Hinge. Auch nicht streng isolierende Kursübungen behalten ihre Kursfamilie.
-- Muskelgruppen, einzelne Muskeln und Zuordnungen sind vereinfachte redaktionelle Ergänzungen und keine aus den Dokumenten abgeleiteten Aktivierungsprozente. Anatomiefigur ist ein eigenes schematisches SVG.
-- Woche 8 und die nicht trainingsbezogenen Passagen wurden gesichtet. Supplement-, Schmerz-, Medikamenten- und sonstige Gesundheitsbehauptungen werden nicht zu automatischen App-Empfehlungen. Intensitätstechniken, Messwerte und Work-Capacity-Protokolle sind mögliche spätere Erweiterungen, noch kein Eingabefluss.
-
-Bei neuen Buchquellen: zuerst Quelle mit eigener ID ergänzen, dann passende Familie/Muskelgruppe referenzieren oder neue Familie definieren, schließlich Varianten hinzufügen. Bestehende IDs nicht wiederverwenden. Optional können später spezifische Muskel-IDs, Quellen pro Muskelzuordnung und explizite Variantenrelationen hinzukommen.
+Beim Start gewinnt bei gleicher ID der Browserstand gegenüber der Repo-Datei. Externe Änderungen daher explizit importieren. Speicherfehler ändern den App-Stand nicht; beschädigte Browserdaten sperren Schreibaktionen. Bei Änderungen aus einem anderen Tab vor weiterem Speichern neu laden. Browserdaten sind unverschlüsselt und an Browser und Origin gebunden; regelmäßig exportieren.
 
 ## Prüfen
 
 ```sh
 node --test apps/fitness-tracker/tests/*.test.mjs
 node --check apps/fitness-tracker/js/app.mjs
+node --check apps/fitness-tracker/js/models.mjs
 ```
 
-Tests prüfen Beziehungen, Referenzen, Kalenderdaten, Wertebereiche, idempotentes Zusammenführen, Belastungsberechnung, kontextspezifische Ziele/Bestwerte, Speicherfehler und Änderungen aus konkurrierenden Tabs.
-
-## Flexible Trainings und Fitness+ (November 2026)
-
-Unter **Fitness+ & Vorlagen** lassen sich Videos oder eigene Trainings mit optionaler URL, Trainer, Videolänge und einer geordneten Liste von Übungsslots anlegen und bearbeiten. Unbekannte Übungen dürfen als unaufgelöste Slots mit Bezeichnung stehen bleiben. Eine mehrfach vorkommende Übung erhält mehrere Slots mit stabilen IDs.
-
-`catalog.workouts` enthält die importierten Vorlagen. Persönliche neue Vorlagen und Änderungen an vorhandenen Vorlagen stehen in `user.workouts`; bei gleicher ID überschreibt die persönliche Vorlage die Katalogvorgabe. Beide werden mit exportiert bzw. beim Start geladen. Historische Slot-IDs bleiben auch nach Änderungen einer Vorlage gültig.
-
-Jede Vorlage kann `defaults` definieren, und jeder Slot eigene `defaults`, die einzelne Videostandardwerte überschreiben. Dazu gehören `durationSeconds`, `loadKg`, `loadBasis` und optional `reps`. Beispielsweise können Squats 14 kg, seitliches Heben 4 kg und beide jeweils 40 Sekunden vorgeben. Diese Daten beschreiben ausschließlich das Video. Bekannte Slotvorgaben werden beim Start eines neuen Logeintrags als `videoPrescription` festgehalten und separat angezeigt; sie werden niemals als tatsächlich geleistete Wiederholungen, Dauer oder Last gespeichert.
-
-Trainingseinträge können eine `workoutId` referenzieren oder unabhängig davon einzelne Übungen erfassen. Ein absolviertes Video darf ohne bekannte Übungsdetails geloggt werden. Übungseinträge dürfen eine leere `sets`-Liste haben, wenn keine Sätze dokumentiert sind. Alle tatsächlichen Leistungsfelder sind optional, sowohl auf Übungs- als auch auf Satzebene; Satzwerte überschreiben Übungswerte. Gewicht und Dauer dürfen je Satz wechseln. Fehlende Angaben werden nicht als 0 oder als Videovorgabe interpretiert.
-
-Zusätzliche Felder: `durationSeconds`, `repsRange: [8,9]`, `uncertain`, `side: left|right|both|alternating`, `loadBasis: total|perDumbbell|unknown`, `tempo` und Notizen. Im Formular lassen sich Wiederholungen als `12`, `8-9` oder `12?` eingeben. Bei Satzangaben bedeutet ein leerer Gewichtsbezug: wie die übergeordnete Übung. Die Gewichtsangabe wird nicht automatisch umgerechnet.
-
-Ein Training mit `status: review` darf `date: null` haben. Es erscheint mit seinem ursprünglichen Datumslabel im Journal, geht aber nicht in zeitliche Auswertungen ein. Auch datierte Prüfeinträge bleiben aus diesen Auswertungen ausgeschlossen. Bestwerte und Ziele verwenden nur sichere Wiederholungen mit bekanntem Gewichtsbezug; unbekannte Gewichte, Bereiche und unsichere Zählungen werden nicht zu Bestwerten. Zeitbasierte Sätze zählen als dokumentierte Sätze, ohne in Wiederholungen umgerechnet zu werden. Trainings ohne Satzdetails erzeugen keine Muskelbelastungswerte. Kurven trennen zusätzlich Gesamtlast/pro Hantel sowie die Seite.
-
-Die Erweiterung bleibt additiv zu `schemaVersion: 1`; alte Exporte ohne `workouts` bleiben lesbar. Browserstände, neue Vorlagen und Repo-Einträge werden anhand stabiler IDs zusammengeführt.
-
-### Import aus „00 Training erfassen.md“
-
-- 23 datierte Trainings und 6 Prüfeinträge (zwei mit widersprüchlichem Juni-Datum und vier undatierte Aktivitätsnotizen).
-- 15 Fitness+ Vorlagen, zum Teil ohne eindeutig bestimmtes Video. Trainergewichte fehlen im Dokument und bleiben leer. Die persönlichen Gewichte wurden nicht als Videostandards übernommen.
-- September/Oktober werden als 2026 interpretiert, gestützt durch Wochentage und den Dokumentlink `20261007`. Die Annahme ist in jedem datierten Import sichtbar.
-- Die Quelle liegt unverändert in `data/imports/00 Training erfassen.md`. Jeder Eintrag enthält unter `source` die Originalnotizen des betreffenden Tages und die Datumsannahme.
-- Geplante, aber nicht als absolviert dokumentierte Leistungen sind keine zusätzlichen Logeinträge. Unbekannte Wiederholungen bleiben leer. Bestätigte Ergebnisse haben Vorrang vor vorangestellten Plänen (30.9.: tatsächlich 8 kg).
-- Bei 2 × 50 Wall Pushups ist die notierte Dauer 4:10 nicht als Gesamtdauer übernommen. Pro Hantel vs. Gesamtlast ist bei den importierten Hantelgewichten ungeklärt.
-- Bent Over Row war bereits vorhanden. Neu sind unter anderem Wall Pushup, Core-Übungen, Floor Press, Press mit angehobener Hüfte und einige nicht genauer bestimmte bzw. kombinierte Bewegungen. Unklare Kombinationen haben keine erfundenen Muskelzuordnungen.
-
-Neue Übungen werden weiterhin im Katalog angelegt; die Oberfläche erstellt und bearbeitet Trainingsvorlagen und Logeinträge. Es wurde kein Git-Commit erstellt.
+Die Tests prüfen Archivtrennung, Schätzwerte, manuelle Angaben, Halteübungen, Gewichtspflicht, Referenzen, ungültige Daten, Vorgaben-Snapshots, zeitbasierte Statistik, idempotente Imports, Speicherfehler, konkurrierende Tabs und das Persistenzskript.
